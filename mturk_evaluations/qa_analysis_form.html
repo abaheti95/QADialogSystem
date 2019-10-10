@@ -1,0 +1,475 @@
+<p>​<!-- HIT template: Sentiment-v3.1 --><!-- The following snippet enables the 'responsive' behavior on smaller screens --></p>
+<meta content="width=device-width,initial-scale=1" name="viewport" />
+<section class="container" id="Sentiment"><!-- Instructions (collapsible) -->
+	<div class="row">
+		<div class="col-xs-12 col-md-12">
+			<div class="panel panel-primary"><!-- WARNING: the ids "collapseTrigger" and "instructionBody" are being used to enable expand/collapse feature -->
+				<a class="panel-heading" href="javascript:void(1);" id="collapseTrigger" style="font-size: 25px"><strong>Response Analysis Instructions</strong> <span class="collapse-text">(Click to expand)</span> </a>
+				<div class="panel-body" id="instructionBody">
+					<strong style="font-size: 20px;">We are creating an Artificially Intelligent(AI) system that can generate Conversational-Responses for Questions. We expect the Response to be a complete, grammatical sentence which correctly answers the Question.
+					<br>
+					For each instance we show you a "Question" and its correct "Answer" along with the generated "Response" from one of the AI systems. Your goal is to evaluate the generated Response's quality and select the most suitable option. We describe the options with some of the examples in the Guidance column of the table below:</strong>
+					<!-- By explaining the sentiment scale, the accuracy of the answers may increase. -->
+					<table class="table table-condensed table-striped table-responsive table-bordered">
+						
+						<colgroup>
+							<col class="col-xs-3 col-md-3" />
+							<col class="col-xs-9 col-md-9" />
+						</colgroup>
+
+						<tbody>
+							<tr>
+								<th>Options</th>
+								<th>Guidance</th>
+							</tr>
+							<tr>
+								<td>correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></td>
+								<td>Mark this option if, the Response doesn't answer the Question and is a sentence fragment instead of the whole(cannot be considered a complete sentence when looked at independently or in context of the question). A sentence which is not complete is by-default considered to be grammatically incorrect.<br> <strong>Example:</strong> <br>Question:"what does the mother wasp provide for her eggs when they hatch ?"<br>Answer:"caterpillars" <br><br> Response:"centipede for eggs"<br> OR <br>Response:"egg shells"</td>
+							</tr>
+							<tr>
+								<td>correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></td>
+								<td>The Response answers the Question correctly but it is a sentence fragment instead of the whole(cannot be considered a complete sentence when looked at independently or in context of the question).<br><strong>Example:</strong> <br>Question:"what does the mother wasp provide for her eggs when they hatch ?"<br>Answer:"caterpillars" <br><br> Response:"caterpillars for eggs"<br> OR <br>Response:"caterpillars"</td>
+							<!-- Response:"provides caterpillars for her eggs"</td> -->
+							</tr>
+							<tr>
+								<td>correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;font-weight: bold;"> ?</span></td>
+								<td>The Response doesn't directly or indirectly answer the Question but is a complete-sentence. This Response seems like it is on the right topic but doesn't quite answer the Question. It may or may not be grammatically correct.<br><strong>Example:</strong> <br>Question:"what does the mother wasp provide for her eggs when they hatch ?"<br>Answer:"caterpillars" <br><br>Response:"Some insects display a rudimentary sense of numbers, such as the solitary wasps that prey upon a single species."</td>
+							</tr>
+							<tr>
+								<td>correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:red"> &#10008;</span></td>
+								<td>The Response might contain the answer and is also a complete-sentence but isn't a viable response because of too many grammatical or semantic mistakes. <br><strong>Example:</strong> <br>Question:"what does the mother wasp provide for her eggs when they hatch ?"<br>Answer:"caterpillars" <br><br>Response:"it provides to caterpillars" <br> OR <br> Response:"caterpillars , it provides as"</td>
+							</tr>
+							<tr>
+								<td>correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:green">&#10004;</span></td>
+								<td>The Response answers the question correctly and is fluent, natural and human-like. <br><strong>Example:</strong> <br>Question:"what does the mother wasp provide for her eggs when they hatch ?"<br>Answer:"caterpillars" <br><br> Response:"she provides caterpillars for her eggs" <br> OR <br> Response:"provides caterpillars for her eggs" </td>
+							</tr>
+						</tbody>
+					</table>
+
+					<br/>
+					<p><span style="font-weight: 711; font-size: 14px;">Disclaimer:&nbsp;</span><br style="font-size: 14px;" />
+					<span style="font-size: 12px; background-color: rgb(245, 245, 245);">Your judgments will be used by researchers worldwide to help advance research on Computational Linguistics. We will be able to apply machine learning techniques for dialog generation with your judgments.&nbsp;</span><br style="font-size: 12px;" />
+					<span style="font-size: 12px; background-color: rgb(245, 245, 245);">This task will take you 15 - 20&nbsp;minutes. Participation is voluntary and you are free to complete as much or as little work as you choose. You are free to stop participating at any point. A computer program will compare your answers against a native English speaker and other people&rsquo;s answers. It is OK to have different answers from other people and make some mistakes; however if you make too many mistakes we will have to rejected your answers. You will be payed US $0.15&nbsp;per hit you complete. After the study is complete, we will retain your judgments on the data, but replace your Mechanical Turk IDs with anonymized versions. We will work to make sure that no one sees your survey responses without approval. But, because we are using the Internet, there is a chance that someone could access your online responses without permission. In some cases, this information could be used to identify you.&nbsp;</span><br style="font-size: 12px;" />
+					<span style="font-size: 12px; background-color: rgb(245, 245, 245);">This research is being funded by the National Science Foundation and conducted at Ohio State. If you have any questions or concerns about the study, please contact me (Alan Ritter) at&nbsp;</span><a data-mt-detrack-inspected="true" href="mailto:ritter.1492@osu.edu?subject=Concerns+about+the+MTurk+study" style="font-size: 12px;" target="_blank">ritter.1492@osu.edu</a><span style="font-size: 14px; background-color: rgb(245, 245, 245);">. For questions about your rights as a participant in this study or to discuss other study-related concerns or complaints with someone who is not part of the research team, you may contact Ms. Sandra Meadows in the Office of Responsible Research Practices at&nbsp;<a data-mt-detrack-inspected="true" href="tel:(811)%21678-6251" style="color: rgb(17, 85, 214);" target="_blank" value="+18116786251">1-800-678-6251</a>.</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- End instructions --><!-- Categorization Layout -->
+
+	<div class="row" id="workContent">
+		<h4>
+			<strong>Note: The question, answer and response are all lowercased and the full stop(.) is removed from the response. Refer to instructions above for examples on how to do the annotation.</strong>
+		</h4>
+
+		<div class="col-xs-12 col-sm-12 content">
+			<hr />
+		</div>
+
+		<div class="col-xs-12 col-sm-12">
+			<strong>1.</strong>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Question:</strong> ${question0}</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 content">
+				<p class="well"><strong>Answer:</strong> ${answer0}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Response:</strong> ${response0}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 fields">
+				<div class="form-group"><!-- Input from the Worker -->
+					<fieldset>
+						<label class="group-label">An AI system generated a conversational "Response" to the given "Question" and its correct "Answer". We expect the "Response" to be a complete, grammatical sentence which correctly answers the Question. Analyze the "Response" and identify the option from below that describes its quality:</label>
+						<div class="btn-group-vertical col-xs-offset-3 col-sm-offset-3 col-xs-6 col-sm-6 question1" data-toggle="buttons" id="pre-Inputs">
+							<label class="btn btn-default"><input id="QAa0" name="QA0" required="required" type="radio" value="a" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAb0" name="QA0" required="required" type="radio" value="b" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAc0" name="QA0" required="required" type="radio" value="c" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;font-weight: bold;"> ?</span></label>
+							<label class="btn btn-default"><input id="QAd0" name="QA0" required="required" type="radio" value="d" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAe0" name="QA0" required="required" type="radio" value="e" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:green">&#10004;</span></label>
+						</div>	
+					</fieldset>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 content">
+			<hr />
+		</div>
+		<!-- Question 1 -->
+		<div class="col-xs-12 col-sm-12">
+			<strong>2.</strong>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Question:</strong> ${question1}</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 content">
+				<p class="well"><strong>Answer:</strong> ${answer1}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Response:</strong> ${response1}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 fields">
+				<div class="form-group"><!-- Input from the Worker -->
+					<fieldset>
+						<label class="group-label">An AI system generated a conversational "Response" to the given "Question" and its correct "Answer". We expect the "Response" to be a complete, grammatical sentence which correctly answers the Question. Analyze the "Response" and identify the option from below that describes its quality:</label>
+						<div class="btn-group-vertical col-xs-offset-3 col-sm-offset-3 col-xs-6 col-sm-6 question1" data-toggle="buttons" id="pre-Inputs">
+							<label class="btn btn-default"><input id="QAa1" name="QA1" required="required" type="radio" value="a" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAb1" name="QA1" required="required" type="radio" value="b" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAc1" name="QA1" required="required" type="radio" value="c" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;font-weight: bold;"> ?</span></label>
+							<label class="btn btn-default"><input id="QAd1" name="QA1" required="required" type="radio" value="d" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAe1" name="QA1" required="required" type="radio" value="e" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:green">&#10004;</span></label>
+						</div>	
+					</fieldset>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 content">
+			<hr />
+		</div>
+		<!-- Question 2 -->
+		<div class="col-xs-12 col-sm-12">
+			<strong>3.</strong>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Question:</strong> ${question2}</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 content">
+				<p class="well"><strong>Answer:</strong> ${answer2}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Response:</strong> ${response2}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 fields">
+				<div class="form-group"><!-- Input from the Worker -->
+					<fieldset>
+						<label class="group-label">An AI system generated a conversational "Response" to the given "Question" and its correct "Answer". We expect the "Response" to be a complete, grammatical sentence which correctly answers the Question. Analyze the "Response" and identify the option from below that describes its quality:</label>
+						<div class="btn-group-vertical col-xs-offset-3 col-sm-offset-3 col-xs-6 col-sm-6 question1" data-toggle="buttons" id="pre-Inputs">
+							<label class="btn btn-default"><input id="QAa2" name="QA2" required="required" type="radio" value="a" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAb2" name="QA2" required="required" type="radio" value="b" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAc2" name="QA2" required="required" type="radio" value="c" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;font-weight: bold;"> ?</span></label>
+							<label class="btn btn-default"><input id="QAd2" name="QA2" required="required" type="radio" value="d" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAe2" name="QA2" required="required" type="radio" value="e" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:green">&#10004;</span></label>
+						</div>	
+					</fieldset>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 content">
+			<hr />
+		</div>
+		<!-- Question 3 -->
+		<div class="col-xs-12 col-sm-12">
+			<strong>4.</strong>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Question:</strong> ${question3}</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 content">
+				<p class="well"><strong>Answer:</strong> ${answer3}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Response:</strong> ${response3}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 fields">
+				<div class="form-group"><!-- Input from the Worker -->
+					<fieldset>
+						<label class="group-label">An AI system generated a conversational "Response" to the given "Question" and its correct "Answer". We expect the "Response" to be a complete, grammatical sentence which correctly answers the Question. Analyze the "Response" and identify the option from below that describes its quality:</label>
+						<div class="btn-group-vertical col-xs-offset-3 col-sm-offset-3 col-xs-6 col-sm-6 question1" data-toggle="buttons" id="pre-Inputs">
+							<label class="btn btn-default"><input id="QAa3" name="QA3" required="required" type="radio" value="a" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAb3" name="QA3" required="required" type="radio" value="b" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAc3" name="QA3" required="required" type="radio" value="c" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;font-weight: bold;"> ?</span></label>
+							<label class="btn btn-default"><input id="QAd3" name="QA3" required="required" type="radio" value="d" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAe3" name="QA3" required="required" type="radio" value="e" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:green">&#10004;</span></label>
+						</div>	
+					</fieldset>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 content">
+			<hr />
+		</div>
+		<!-- Question 4 -->
+		<div class="col-xs-12 col-sm-12">
+			<strong>5.</strong>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Question:</strong> ${question4}</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 content">
+				<p class="well"><strong>Answer:</strong> ${answer4}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Response:</strong> ${response4}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 fields">
+				<div class="form-group"><!-- Input from the Worker -->
+					<fieldset>
+						<label class="group-label">An AI system generated a conversational "Response" to the given "Question" and its correct "Answer". We expect the "Response" to be a complete, grammatical sentence which correctly answers the Question. Analyze the "Response" and identify the option from below that describes its quality:</label>
+						<div class="btn-group-vertical col-xs-offset-3 col-sm-offset-3 col-xs-6 col-sm-6 question1" data-toggle="buttons" id="pre-Inputs">
+							<label class="btn btn-default"><input id="QAa4" name="QA4" required="required" type="radio" value="a" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAb4" name="QA4" required="required" type="radio" value="b" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAc4" name="QA4" required="required" type="radio" value="c" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;font-weight: bold;"> ?</span></label>
+							<label class="btn btn-default"><input id="QAd4" name="QA4" required="required" type="radio" value="d" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAe4" name="QA4" required="required" type="radio" value="e" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:green">&#10004;</span></label>
+						</div>	
+					</fieldset>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 content">
+			<hr />
+		</div>
+		<!-- Question 5 -->
+		<div class="col-xs-12 col-sm-12">
+			<strong>6.</strong>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Question:</strong> ${question5}</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 content">
+				<p class="well"><strong>Answer:</strong> ${answer5}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Response:</strong> ${response5}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 fields">
+				<div class="form-group"><!-- Input from the Worker -->
+					<fieldset>
+						<label class="group-label">An AI system generated a conversational "Response" to the given "Question" and its correct "Answer". We expect the "Response" to be a complete, grammatical sentence which correctly answers the Question. Analyze the "Response" and identify the option from below that describes its quality:</label>
+						<div class="btn-group-vertical col-xs-offset-3 col-sm-offset-3 col-xs-6 col-sm-6 question1" data-toggle="buttons" id="pre-Inputs">
+							<label class="btn btn-default"><input id="QAa5" name="QA5" required="required" type="radio" value="a" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAb5" name="QA5" required="required" type="radio" value="b" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAc5" name="QA5" required="required" type="radio" value="c" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;font-weight: bold;"> ?</span></label>
+							<label class="btn btn-default"><input id="QAd5" name="QA5" required="required" type="radio" value="d" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAe5" name="QA5" required="required" type="radio" value="e" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:green">&#10004;</span></label>
+						</div>	
+					</fieldset>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 content">
+			<hr />
+		</div>
+		<!-- Question 6 -->
+		<div class="col-xs-12 col-sm-12">
+			<strong>7.</strong>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Question:</strong> ${question6}</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 content">
+				<p class="well"><strong>Answer:</strong> ${answer6}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Response:</strong> ${response6}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 fields">
+				<div class="form-group"><!-- Input from the Worker -->
+					<fieldset>
+						<label class="group-label">An AI system generated a conversational "Response" to the given "Question" and its correct "Answer". We expect the "Response" to be a complete, grammatical sentence which correctly answers the Question. Analyze the "Response" and identify the option from below that describes its quality:</label>
+						<div class="btn-group-vertical col-xs-offset-3 col-sm-offset-3 col-xs-6 col-sm-6 question1" data-toggle="buttons" id="pre-Inputs">
+							<label class="btn btn-default"><input id="QAa6" name="QA6" required="required" type="radio" value="a" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAb6" name="QA6" required="required" type="radio" value="b" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAc6" name="QA6" required="required" type="radio" value="c" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;font-weight: bold;"> ?</span></label>
+							<label class="btn btn-default"><input id="QAd6" name="QA6" required="required" type="radio" value="d" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAe6" name="QA6" required="required" type="radio" value="e" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:green">&#10004;</span></label>
+						</div>	
+					</fieldset>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 content">
+			<hr />
+		</div>
+		<!-- Question 7 -->
+		<div class="col-xs-12 col-sm-12">
+			<strong>8.</strong>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Question:</strong> ${question7}</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 content">
+				<p class="well"><strong>Answer:</strong> ${answer7}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Response:</strong> ${response7}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 fields">
+				<div class="form-group"><!-- Input from the Worker -->
+					<fieldset>
+						<label class="group-label">An AI system generated a conversational "Response" to the given "Question" and its correct "Answer". We expect the "Response" to be a complete, grammatical sentence which correctly answers the Question. Analyze the "Response" and identify the option from below that describes its quality:</label>
+						<div class="btn-group-vertical col-xs-offset-3 col-sm-offset-3 col-xs-6 col-sm-6 question1" data-toggle="buttons" id="pre-Inputs">
+							<label class="btn btn-default"><input id="QAa7" name="QA7" required="required" type="radio" value="a" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAb7" name="QA7" required="required" type="radio" value="b" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAc7" name="QA7" required="required" type="radio" value="c" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;font-weight: bold;"> ?</span></label>
+							<label class="btn btn-default"><input id="QAd7" name="QA7" required="required" type="radio" value="d" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAe7" name="QA7" required="required" type="radio" value="e" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:green">&#10004;</span></label>
+						</div>	
+					</fieldset>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 content">
+			<hr />
+		</div>
+		<!-- Question 8 -->
+		<div class="col-xs-12 col-sm-12">
+			<strong>9.</strong>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Question:</strong> ${question8}</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 content">
+				<p class="well"><strong>Answer:</strong> ${answer8}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Response:</strong> ${response8}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 fields">
+				<div class="form-group"><!-- Input from the Worker -->
+					<fieldset>
+						<label class="group-label">An AI system generated a conversational "Response" to the given "Question" and its correct "Answer". We expect the "Response" to be a complete, grammatical sentence which correctly answers the Question. Analyze the "Response" and identify the option from below that describes its quality:</label>
+						<div class="btn-group-vertical col-xs-offset-3 col-sm-offset-3 col-xs-6 col-sm-6 question1" data-toggle="buttons" id="pre-Inputs">
+							<label class="btn btn-default"><input id="QAa8" name="QA8" required="required" type="radio" value="a" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAb8" name="QA8" required="required" type="radio" value="b" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAc8" name="QA8" required="required" type="radio" value="c" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;font-weight: bold;"> ?</span></label>
+							<label class="btn btn-default"><input id="QAd8" name="QA8" required="required" type="radio" value="d" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAe8" name="QA8" required="required" type="radio" value="e" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:green">&#10004;</span></label>
+						</div>	
+					</fieldset>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 content">
+			<hr />
+		</div>
+		<!-- Question 9 -->
+		<div class="col-xs-12 col-sm-12">
+			<strong>10.</strong>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Question:</strong> ${question9}</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 content">
+				<p class="well"><strong>Answer:</strong> ${answer9}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 content"><!-- Place the content (in this case a block of text) below. If content is not text then replace with the relevant html element (image, url, video) below. -->
+				<p class="well"><strong>Response:</strong> ${response9}</p>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 fields">
+				<div class="form-group"><!-- Input from the Worker -->
+					<fieldset>
+						<label class="group-label">An AI system generated a conversational "Response" to the given "Question" and its correct "Answer". We expect the "Response" to be a complete, grammatical sentence which correctly answers the Question. Analyze the "Response" and identify the option from below that describes its quality:</label>
+						<div class="btn-group-vertical col-xs-offset-3 col-sm-offset-3 col-xs-6 col-sm-6 question1" data-toggle="buttons" id="pre-Inputs">
+							<label class="btn btn-default"><input id="QAa9" name="QA9" required="required" type="radio" value="a" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAb9" name="QA9" required="required" type="radio" value="b" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAc9" name="QA9" required="required" type="radio" value="c" />correct answer <span style="font-size:20px;color:red"> &#10008;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;font-weight: bold;"> ?</span></label>
+							<label class="btn btn-default"><input id="QAd9" name="QA9" required="required" type="radio" value="d" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:red"> &#10008;</span></label>
+							<label class="btn btn-default"><input id="QAe9" name="QA9" required="required" type="radio" value="e" />correct answer <span style="font-size:20px;color:green">&#10004;</span>; complete-sentence <span style="font-size:20px;color:green">&#10004;</span>; grammaticality <span style="font-size:20px;color:green">&#10004;</span></label>
+						</div>	
+					</fieldset>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-sm-12 content">
+			<hr />
+		</div>
+	</div>
+</section>
+<!-- End Categorization Layout --><!-- Please note that Bootstrap CSS/JS and JQuery are 3rd party libraries that may update their url/code at any time. Amazon Mechanical Turk (MTurk) is including these libraries as a default option for you, but is not responsible for any changes to the external libraries --><!-- External CSS references -->
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet" /><!-- Open internal style sheet -->
+
+<style type="text/css">#collapseTrigger{
+    color:#fff;
+    display: block;
+    text-decoration: none;
+  }
+  #submitButton{
+    white-space: normal;
+  }
+  #instructionBody table{
+    font-size: 14px;
+    margin-top: 11px;
+  }
+  #instructionBody table caption{
+    text-align: left;
+    padding: 1 1 5px 1;
+  }
+  #Inputs{
+    display: block;
+    margin-top: 11px;
+  }
+  .content{
+    margin-bottom: 15px;
+  }
+  .radio:first-of-type{
+    margin-top: -5px;
+  }
+</style>
+<!-- Close internal style sheet --><!-- External JS references --><script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="" crossorigin="anonymous"></script>
+<!-- Open internal javascript --><script>
+    $(document).ready(function() {
+      // Instructions expand/collapse
+      var content = $('#instructionBody');
+      var trigger = $('#collapseTrigger');
+      content.hide();
+      $('.collapse-text').text('(Click to expand)');
+      trigger.click(function(){
+        content.toggle();
+        var isVisible = content.is(':visible');
+        if(isVisible){
+          $('.collapse-text').text('(Click to collapse)');
+        }else{
+          $('.collapse-text').text('(Click to expand)');
+        }
+      });
+      // end expand/collapse
+
+      // highlight selected category
+      // $('.btn-group-vertical button').attr('disabled','disabled');
+      // $('.btn-group-vertical button').removeAttr('disabled');
+      // inputs.change(function(){
+      //   inputs.parent().removeClass("btn-success");
+      //   inputs.parent().addClass("btn-default");
+      //   if($(this).is(":checked")){
+      //     $(this).parent().removeClass("btn-default");
+      //     $(this).parent().addClass("btn-success");
+      //   }else{
+      //     $(this).parent().removeClass("btn-success");
+      //     $(this).parent().addClass("btn-default");
+      //   }
+      // });
+      // end highlight
+    });
+  </script><!-- Close internal javascript -->

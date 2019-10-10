@@ -1,0 +1,12 @@
+# We will specify all the evaluation settings in this file
+
+Test set:
+Sampled dev set from Squad 2.0v
+
+- Rulebased system reranked with the Decomposable attention pretrained with Elmo
+- CoQA
+- OpenNMT copy-attention basic model trained on seq2seq predicted responses from squad train (basic)
+- basic + opensub_qa pretraining
+- basic + opensub_qa pretraining + glove
+- basic + opensub_qa pretraining + glove + language model
+- basic + opensub_qa pretraining + glove + alternate model

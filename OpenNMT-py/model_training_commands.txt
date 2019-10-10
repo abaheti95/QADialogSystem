@@ -1,0 +1,388 @@
+########################################################
+Past failed or useless experiments
+########################################################
+
+# Squad Predicted Responses Seq2Seq experiments 1.0
+
+## Preprocessing
+python preprocess.py -train_src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/src_squad_seq2seq_predicted_responses_train.txt -train_tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/tgt_squad_seq2seq_predicted_responses_train.txt -valid_src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/src_squad_seq2seq_predicted_responses_val.txt -valid_tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/tgt_squad_seq2seq_predicted_responses_val.txt -save_data data/squad_predicted_responses_try1
+
+### need dynamic dict for copyattention
+python preprocess.py -train_src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/src_squad_seq2seq_predicted_responses_train.txt -train_tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/tgt_squad_seq2seq_predicted_responses_train.txt -valid_src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/src_squad_seq2seq_predicted_responses_val.txt -valid_tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/tgt_squad_seq2seq_predicted_responses_val.txt -save_data data/squad_predicted_responses_try2 -dynamic_dict
+
+## Training
+export CUDA_VISIBLE_DEVICES=3
+python train.py -data data/squad_predicted_responses_try1 -save_model models/squad_predicted_responses_try1/squad_predicted_responses_try1_model -world_size 1 -gpu_ranks 0 --encoder_type brnn -valid_steps 500 -save_checkpoint_steps 1000 -train_steps 10000
+#### with copy attention and force copy attention
+python train.py -data data/squad_predicted_responses_try2 -save_model models/squad_predicted_responses_try2/squad_predicted_responses_try2_model -copy_attn -copy_attn_force -world_size 1 -gpu_ranks 0 --encoder_type brnn -valid_steps 500 -save_checkpoint_steps 1000 -train_steps 10000
+#### with just copy attention, no force copy attention
+python train.py -data data/squad_predicted_responses_try2 -save_model models/squad_predicted_responses_try3/squad_predicted_responses_try3_model -copy_attn -world_size 1 -gpu_ranks 0 --encoder_type brnn -valid_steps 500 -save_checkpoint_steps 1000 -train_steps 10000
+
+## Testing
+python translate.py -model models/squad_predicted_responses_try1/squad_predicted_responses_try1_model_step_1000.pt -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/src_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/tgt_squad_seq2seq_predicted_responses_test.txt -output pred.txt -replace_unk -verbose
+
+python translate.py -model models/squad_predicted_responses_try2/squad_predicted_responses_try2_model_step_1000.pt -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/src_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/tgt_squad_seq2seq_predicted_responses_test.txt -output pred_try2.txt -replace_unk -verbose
+
+python translate.py -model models/squad_predicted_responses_try3/squad_predicted_responses_try3_model_step_2000.pt -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/src_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/tgt_squad_seq2seq_predicted_responses_test.txt -output pred_try3.txt -replace_unk -verbose
+
+
+# Pretraining on qas extracted from Jiwei's Opensubtitles data for Squad Predicted Responses Seq2Seq
+python preprocess.py -train_src /home/baheti/Data/Jiwei/OpenSubData/opensubtitles_questions/src_t_given_s_train_questions_length2_6.txt -train_tgt /home/baheti/Data/Jiwei/OpenSubData/opensubtitles_questions/tgt_t_given_s_train_questions_length2_6.txt -valid_src /home/baheti/Data/Jiwei/OpenSubData/opensubtitles_questions/src_t_given_s_val_questions_length2_6.txt -valid_tgt /home/baheti/Data/Jiwei/OpenSubData/opensubtitles_questions/tgt_t_given_s_val_questions_length2_6.txt -save_data data/jiwei_opensubtitles_qa_subset -dynamic_dict
+
+## Training
+export CUDA_VISIBLE_DEVICES=3
+python train.py -data data/jiwei_opensubtitles_qa_subset -save_model models/jiwei_opensubtitles_qa_subset/jiwei_opensubtitles_qa_subset_model -copy_attn -world_size 1 -gpu_ranks 0 --encoder_type brnn -batch_size 128 -valid_steps 5000 -save_checkpoint_steps 10300 -train_steps 103000
+
+## Re-train the model on moses tokenized squad seq2seq predicted data
+export CUDA_VISIBLE_DEVICES=2
+python train.py -data data/squad_predicted_responses_moses_try1 -train_from models/jiwei_opensubtitles_qa_subset/jiwei_opensubtitles_qa_subset_model_step_103000.pt -save_model models/pretrained_on_jiwei_opensubtitles_qa_subset/squad_predicted_responses_moses_pretrained_with_jiwei_opensubtitles_qa_subset_model -copy_attn -world_size 1 -gpu_ranks 0 -valid_steps 500 -save_checkpoint_steps 1000 -train_steps 113000 -reset_optim keep_states -learning_rate 1.0 -start_decay_steps 108000 -decay_steps 1000
+
+## Testing retrained model
+python translate.py -model models/pretrained_on_jiwei_opensubtitles_qa_subset/squad_predicted_responses_pretrained_with_jiwei_opensubtitles_qa_subset_model_step_113000.pt -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/tgt_squad_seq2seq_predicted_responses_test.txt -output pred_moses_try1.txt -replace_unk -verbose -n_best 5 > retrained_on_jewei_opensubtitles_qa_subset_output.txt
+
+
+
+
+# Squad Predicted Responses Seq2Seq experiments 2.0: Moses tokenized the 1.0 and then retokenized using bpe
+
+## Preprocessing
+python preprocess.py -train_src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/src_moses_bpe_tokenized_squad_seq2seq_predicted_responses_train.txt -train_tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/tgt_moses_bpe_tokenized_squad_seq2seq_predicted_responses_train.txt -valid_src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/src_moses_bpe_tokenized_squad_seq2seq_predicted_responses_val.txt -valid_tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/tgt_moses_bpe_tokenized_squad_seq2seq_predicted_responses_val.txt -save_data data/squad_predicted_responses_moses_bpe_try1 -dynamic_dict
+
+
+## Training
+export CUDA_VISIBLE_DEVICES=3
+#### with just copy attention, no force copy attention
+python train.py -data data/squad_predicted_responses_moses_bpe_try1 -save_model models/squad_predicted_responses_moses_bpe_try1/squad_predicted_responses_moses_bpe_try1_model -copy_attn -world_size 1 -gpu_ranks 0 --encoder_type brnn -valid_steps 500 -save_checkpoint_steps 1000 -train_steps 10000
+
+## Testing
+python translate.py -model models/squad_predicted_responses_moses_bpe_try1/squad_predicted_responses_moses_bpe_try1_model_step_10000.pt -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/src_moses_bpe_tokenized_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/tgt_moses_bpe_tokenized_squad_seq2seq_predicted_responses_test.txt -output pred_moses_bpe_try1.txt -replace_unk -verbose > moses_bpe_try1_output.txt
+
+########################################################
+Past failed or useless experiments
+########################################################
+
+
+
+
+########################################################
+FINAL SQuAD Synthetic data generation experiments
+########################################################
+
+# Squad Predicted Responses Seq2Seq experiments 3.0: Created the Train and test data with moses tokenized inputs
+
+########################################################
+
+## Preprocessing: need dynamic dict for copyattention
+python preprocess.py -train_src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_responses_train.txt -train_tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/tgt_squad_seq2seq_predicted_responses_train.txt -valid_src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_responses_val.txt -valid_tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/tgt_squad_seq2seq_predicted_responses_val.txt -save_data data/squad_predicted_responses_moses_try1 -dynamic_dict
+
+########################################################
+
+## Training
+export CUDA_VISIBLE_DEVICES=2
+python train.py -data data/squad_predicted_responses_moses_try1 -save_model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_try1_model -copy_attn -world_size 1 -gpu_ranks 0 --encoder_type brnn -valid_steps 500 -save_checkpoint_steps 1000 -train_steps 10000 -start_decay_steps 5000 -decay_steps 1000
+[2019-08-21 14:23:33,880 INFO] Validation perplexity: 1.71584
+[2019-08-21 14:23:33,881 INFO] Validation accuracy: 86.2239
+
+###### FAILED #################
+### Training on transformer
+export CUDA_VISIBLE_DEVICES=2
+python train.py -data data/squad_predicted_responses_moses_try1 -save_model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_transformer_try1_model -copy_attn -world_size 1 -gpu_ranks 0 --encoder_type transformer --decoder_type transformer -enc_rnn_size 512 -dec_rnn_size 512 -src_word_vec_size 512 -tgt_word_vec_size 512 -valid_steps 500 -save_checkpoint_steps 1000 -train_steps 10000 -start_decay_steps 5000 -decay_steps 1000
+###### FAILED #################
+
+## Testing
+python translate.py -model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_try1_model_step_10000.pt -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/tgt_squad_seq2seq_predicted_responses_test.txt -output pred_moses_try1.txt -replace_unk -verbose -n_best 5 > moses_try1_output.txt
+Val perplexity: 2.4
+Val Accuracy: 81.8
+
+python translate.py -model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_try1_model_step_10000.pt -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/tgt_squad_seq2seq_predicted_responses_test.txt -output pred_moses_try1.txt -replace_unk -verbose -n_best 5 > moses_try1_adadelta_output.txt
+Val perplexity: 2.73
+Val Accuracy: 80.93
+
+python translate.py -model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_try1_model_step_10000.pt -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/tgt_squad_seq2seq_predicted_responses_test.txt -output pred_moses_try1.txt -replace_unk -verbose -n_best 5 > moses_try1_sgd_4_decay_per_epoch_output.txt
+Val Perplexity: 2.15
+Val Accuracy: 83.13
+
+python translate.py -model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_try1_model_step_10000.pt -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/tgt_squad_seq2seq_predicted_responses_test.txt -output pred_moses_try1.txt -replace_unk -verbose -n_best 5 > moses_try1_sgd_5_decay_per_epoch_output.txt
+Val Perplexity: 2.17318
+Val accuracy: 83.2445
+
+
+########################################################
+## Testing SS-PGN model on final squad dev test set
+########################################################
+python translate.py -model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_try1_model_step_10000.pt -src /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/src_squad_seq2seq_dev_moses_test.txt -output squad_seq2seq_dev_predictions/moses_try1_on_squad_dev_test.txt -replace_unk -verbose -n_best 5 > squad_seq2seq_dev_predictions/moses_try1_on_squad_dev_test_output.txt
+
+########################################################
+## Testing SS-PGN model on final squad dev test with squad model predictions
+########################################################
+python translate.py -model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_try1_model_step_10000.pt -src /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt -output squad_seq2seq_dev_predictions/moses_try1_on_squad_model_predictions_squad_dev_test.txt -batch_size 1 -min_length 2 -replace_unk -verbose -n_best 5 > squad_seq2seq_dev_predictions/moses_try1_on_squad_model_predictions_squad_dev_test_output.txt
+
+
+########################################################
+## Testing SS-PGN model 
+### Fine-tuning with LM model on the Squad predicted responses moses
+######################################################## 
+python translate.py -model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_try1_model_step_10000.pt -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/tgt_squad_seq2seq_predicted_responses_test.txt -output pred_moses_try1_lm_reranked.txt -replace_unk -verbose -beam_size 20 -min_length 2 -n_best 10 -lm_model /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/LMs/lm_giga_64k_vp_3gram/lm_giga_64k_vp_3gram.arpa -batch_size 1 -lm_rerank_score_demultiplier 1.2 > moses_try1_lm_reranking_output.txt
+
+########################################################
+## Testing SS-PGN model 
+## Final testing on Squad dev set with LM reranking
+######################################################## 
+python translate.py -model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_try1_model_step_10000.pt -src /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/src_squad_seq2seq_dev_moses_test.txt -output squad_seq2seq_dev_predictions/moses_try1_on_squad_dev_test_lm_reranked.txt -replace_unk -verbose -beam_size 20 -min_length 2 -n_best 10 -lm_model /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/LMs/lm_giga_64k_vp_3gram/lm_giga_64k_vp_3gram.arpa -lm_rerank_score_demultiplier 1.2 -batch_size 1 > squad_seq2seq_dev_predictions/moses_try1_on_squad_dev_test_output_lm_reranked.txt
+
+
+########################################################
+## Testing SS-PGN model 
+## Final testing with Squad Model predicted answers and LM reranking
+######################################################## 
+python translate.py -model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_try1_model_step_10000.pt -src /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt -output squad_seq2seq_dev_predictions/pred_moses_try1_on_squad_model_predictions_of_dev_test_lm_reranked.txt -replace_unk -verbose -beam_size 20 -min_length 2 -n_best 10 -lm_model /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/LMs/lm_giga_64k_vp_3gram/lm_giga_64k_vp_3gram.arpa -lm_rerank_score_demultiplier 1.2 -batch_size 1 > squad_seq2seq_dev_predictions/moses_try1_output_on_squad_model_predictions_of_dev_test_lm_reranked.txt
+
+########################################################
+########################################################
+## Experiments with pretrained Glove embeddings
+########################################################
+######################################################## 
+export PYTHONPATH="${PYTHONPATH}:/home/baheti/QADialogueSystem/OpenNMT-py/:"
+python embeddings_to_torch.py -emb_file_both "/home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/data/glove/glove.840B.300d.txt" \
+-dict_file "data/squad_predicted_responses_moses_try1.vocab.pt" \
+-output_file "data/squad_predicted_responses_moses_try1_embeddings"
+
+######################################################## 
+## Training
+######################################################## 
+python train.py -data data/squad_predicted_responses_moses_try1 -save_model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_glove_try1_model -word_vec_size 300 -pre_word_vecs_enc "data/squad_predicted_responses_moses_try1_embeddings.enc.pt" -pre_word_vecs_dec "data/squad_predicted_responses_moses_try1_embeddings.dec.pt" -copy_attn -world_size 1 -gpu_ranks 0 --encoder_type brnn -valid_steps 500 -save_checkpoint_steps 1000 -train_steps 10000 -start_decay_steps 5000 -decay_steps 1000
+[2019-08-01 14:41:15,061 INFO] Validation perplexity: 2.01043
+[2019-08-01 14:41:15,062 INFO] Validation accuracy: 84.9665
+# When I tokenized the answer phrase with moses tokenizer
+[2019-08-01 15:55:07,059 INFO] Validation perplexity: 1.5968
+[2019-08-01 15:55:07,060 INFO] Validation accuracy: 87.7409
+# Adding the bit in question and responses .replace("`", "'").replace("''", '"') [Should add this to answers as well probably]
+[2019-08-01 16:44:20,825 INFO] Validation perplexity: 1.62308
+[2019-08-01 16:44:20,826 INFO] Validation accuracy: 87.1259
+[2019-08-01 17:21:53,038 INFO] Validation perplexity: 1.6309
+[2019-08-01 17:21:53,039 INFO] Validation accuracy: 87.1259
+
+######################################################## 
+## Testing SS-PGN (+ GloVe) on Squad predicted seq2seq test set
+######################################################## 
+python translate.py -model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_glove_try1_model_step_10000.pt -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/tgt_squad_seq2seq_predicted_responses_test.txt -output pred_moses_glove_try1.txt -replace_unk -verbose -n_best 5 > moses_glove_try1_output.txt
+
+######################################################## 
+## Testing SS-PGN (+ GloVe)
+## Fine-tuning LM reranking with Squad predicted seq2seq test set
+######################################################## 
+python translate.py -model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_glove_try1_model_step_10000.pt -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/tgt_squad_seq2seq_predicted_responses_test.txt -output pred_moses_glove_try1_lm_reranked.txt -replace_unk -verbose -beam_size 20 -min_length 2 -n_best 10 -lm_model /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/LMs/lm_giga_64k_vp_3gram/lm_giga_64k_vp_3gram.arpa -lm_rerank_score_demultiplier 0.75 -batch_size 1 > moses_glove_try1_output_lm_reranked.txt
+
+######################################################## 
+## Testing SS-PGN (+ GloVe)
+## Testing on Squad model predictions of final test set
+######################################################## 
+python translate.py -model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_glove_try1_model_step_10000.pt -src /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt -output squad_seq2seq_dev_predictions/moses_glove_try1_on_squad_model_predictions_of_dev_test.txt -replace_unk -verbose -n_best 5 > squad_seq2seq_dev_predictions/moses_glove_try1_on_squad_model_predictions_of_dev_test_output.txt
+
+
+######################################################## 
+######################################################## 
+# Pretraining on moses tokenized Opensub_QA dataset
+######################################################## 
+######################################################## 
+python preprocess.py -train_src /home/baheti/QADialogueSystem/Data/Opensubtitles_qa/opensub_qa_en/src_train_moses_opensub_qa.txt -train_tgt /home/baheti/QADialogueSystem/Data/Opensubtitles_qa/opensub_qa_en/tgt_train_moses_opensub_qa.txt -valid_src /home/baheti/QADialogueSystem/Data/Opensubtitles_qa/opensub_qa_en/src_val_moses_opensub_qa.txt -valid_tgt /home/baheti/QADialogueSystem/Data/Opensubtitles_qa/opensub_qa_en/tgt_val_moses_opensub_qa.txt -save_data data/opensub_qa_moses_try1 -dynamic_dict
+
+######################################################## 
+## Training
+######################################################## 
+export CUDA_VISIBLE_DEVICES=3
+python train.py -data data/opensub_qa_moses_try1 -save_model models/opensub_qa_moses_try1/opensub_qa_moses_try1_model -copy_attn -world_size 1 -gpu_ranks 0 --encoder_type brnn -batch_size 128 -valid_steps 27375 -save_checkpoint_steps 109500 -train_steps 1095000 --report_every 5000 -start_decay_steps 547500 -decay_steps 109500
+
+######################################################## 
+## Re-training on moses tokenized squad_seq2seq_predicted dataset
+######################################################## 
+python train.py -data data/squad_predicted_responses_moses_try1 -train_from models/opensub_qa_moses_try1/opensub_qa_moses_try1_model_step_1095000.pt -save_model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_pretrained_with_opensub_qa_model -copy_attn -world_size 1 -gpu_ranks 0 -valid_steps 500 -save_checkpoint_steps 1000 -train_steps 1105000 -reset_optim keep_states -learning_rate 1.0 -start_decay_steps 1100000 -decay_steps 1000
+[2019-07-17 12:13:10,958 INFO] Validation perplexity: 2.00351
+[2019-07-17 12:13:10,959 INFO] Validation accuracy: 84.3242
+# After fixing the answer tokenization
+[2019-08-02 16:41:58,199 INFO] Validation perplexity: 1.66572
+[2019-08-02 16:41:58,200 INFO] Validation accuracy: 86.8115
+
+######################################################## 
+## Testing on moses tokenized squad_seq2seq_predicted or SS test data
+######################################################## 
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_pretrained_with_opensub_qa_model_step_1105000.pt -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/tgt_squad_seq2seq_predicted_responses_test.txt -output pred_pretrained_on_opensub_qa_try1.txt -replace_unk -verbose -n_best 5 > pretrained_on_opensub_qa_moses_try1_output.txt
+
+######################################################## 
+## Testing SS-PGN (+ pretraining)
+## Fine-tuning the LM score demultiplier on a SS test data
+######################################################## 
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_pretrained_with_opensub_qa_model_step_1105000.pt -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/tgt_squad_seq2seq_predicted_responses_test.txt -output pred_pretrained_on_opensub_qa_try1_lm_reranked.txt -replace_unk -verbose -beam_size 20 -min_length 2 -n_best 10 -lm_model /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/LMs/lm_giga_64k_vp_3gram/lm_giga_64k_vp_3gram.arpa -lm_rerank_score_demultiplier 0.75 -batch_size 1 > pretrained_on_opensub_qa_moses_try1_output_lm_reranked.txt
+
+######################################################## 
+## Testing SS-PGN (+ pretraining)
+### Testing on CoQA questions
+######################################################## 
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_pretrained_with_opensub_qa_model_step_1105000.pt -src /home/baheti/QADialogueSystem/coqa_baseline/src_coqa_dev_data_predictions.txt -output /home/baheti/QADialogueSystem/coqa_baseline/pred_on_coqa_dev_with_coqa_model_answers.txt -replace_unk -verbose -n_best 5 > /home/baheti/QADialogueSystem/coqa_baseline/pred_on_coqa_dev_with_coqa_model_answers_output.txt
+
+######################################################## 
+## Testing SS-PGN (+ pretraining)
+### Testing on CoQA filtered questions
+######################################################## 
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_pretrained_with_opensub_qa_model_step_1105000.pt -src /home/baheti/QADialogueSystem/coqa_baseline/src_coqa_dev_data_predictions_filtered.txt -output /home/baheti/QADialogueSystem/coqa_baseline/pred_on_coqa_dev_filtered_with_coqa_model_answers.txt -replace_unk -verbose -n_best 5 > /home/baheti/QADialogueSystem/coqa_baseline/pred_on_coqa_dev_filtered_with_coqa_model_answers_output.txt
+
+######################################################## 
+## Testing SS-PGN (+ pretraining)
+## Testing on final squad dev test set
+########################################################
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_pretrained_with_opensub_qa_model_step_1105000.pt -src /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/src_squad_seq2seq_dev_moses_test.txt -output squad_seq2seq_dev_predictions/pred_pretrained_on_opensub_qa_try1_on_squad_dev_test.txt -replace_unk -verbose -n_best 5 > squad_seq2seq_dev_predictions/pretrained_on_opensub_qa_moses_try1_output_on_squad_dev_test.txt
+
+######################################################## 
+## Testing SS-PGN (+ pretraining)
+## Testing on final squad dev test with squad model predictions
+########################################################
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_pretrained_with_opensub_qa_model_step_1105000.pt -src /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt -output squad_seq2seq_dev_predictions/pred_pretrained_on_opensub_qa_moses_try1_on_squad_model_predictions_squad_dev_test.txt -batch_size 1 -min_length 2 -replace_unk -verbose -n_best 5 > squad_seq2seq_dev_predictions/pretrained_on_opensub_qa_moses_try1_on_squad_model_predictions_squad_dev_test_output.txt
+
+######################################################## 
+## Testing SS-PGN (+ pretraining)
+## Testing on Squad dev test with lm reranking
+########################################################
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_pretrained_with_opensub_qa_model_step_1105000.pt -src /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/src_squad_seq2seq_dev_moses_test.txt -output squad_seq2seq_dev_predictions/pred_pretrained_on_opensub_qa_try1_on_squad_dev_test_lm_reranked.txt -replace_unk -verbose -beam_size 20 -min_length 2 -n_best 10 -lm_model /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/LMs/lm_giga_64k_vp_3gram/lm_giga_64k_vp_3gram.arpa -lm_rerank_score_demultiplier 0.75 -batch_size 1 > squad_seq2seq_dev_predictions/pretrained_on_opensub_qa_moses_try1_output_on_squad_dev_test_lm_reranked.txt
+
+######################################################## 
+## Testing SS-PGN (+ pretraining)
+## Testing on Squad model predictions of final test set with lm reranking
+########################################################
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_pretrained_with_opensub_qa_model_step_1105000.pt -src /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt -output squad_seq2seq_dev_predictions/pred_pretrained_on_opensub_qa_try1_on_squad_model_predictions_of_dev_test_lm_reranked.txt -replace_unk -verbose -beam_size 20 -min_length 2 -n_best 10 -lm_model /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/LMs/lm_giga_64k_vp_3gram/lm_giga_64k_vp_3gram.arpa -lm_rerank_score_demultiplier 0.75 -batch_size 1 > squad_seq2seq_dev_predictions/pretrained_on_opensub_qa_moses_try1_output_on_squad_model_predictions_of_dev_test_lm_reranked.txt
+
+
+########################################################
+########################################################
+## Experiments with pretrained Glove embeddings on Pretrained on moses tokenzied Opensub_QA dataset
+########################################################
+########################################################
+python embeddings_to_torch.py -emb_file_both "/home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/data/glove/glove.840B.300d.txt" \
+-dict_file "data/opensub_qa_moses_try1.vocab.pt" \
+-output_file "data/opensub_qa_moses_try1_embeddings"
+
+########################################################
+## Training
+########################################################
+export CUDA_VISIBLE_DEVICES=3
+python train.py -data data/opensub_qa_moses_try1 -save_model models/opensub_qa_moses_try1/opensub_qa_moses_glove_try1_model -word_vec_size 300 -pre_word_vecs_enc "data/opensub_qa_moses_try1_embeddings.enc.pt" -pre_word_vecs_dec "data/opensub_qa_moses_try1_embeddings.dec.pt" -copy_attn -world_size 1 -gpu_ranks 0 --encoder_type brnn -batch_size 128 -valid_steps 27375 -save_checkpoint_steps 109500 -train_steps 1095000 --report_every 5000 -start_decay_steps 547500 -decay_steps 109500
+[2019-08-04 00:35:01,511 INFO] Validation perplexity: 25.0908
+[2019-08-04 00:35:01,522 INFO] Validation accuracy: 40.319
+### Training without copy attn so that we can use it as alternate model scorer
+python train.py -data data/opensub_qa_moses_try1 -save_model models/opensub_qa_moses_try1/opensub_qa_moses_glove_no_copy_try1_model -word_vec_size 300 -pre_word_vecs_enc "data/opensub_qa_moses_try1_embeddings.enc.pt" -pre_word_vecs_dec "data/opensub_qa_moses_try1_embeddings.dec.pt" -world_size 1 -gpu_ranks 0 --encoder_type brnn -batch_size 128 -valid_steps 27375 -save_checkpoint_steps 109500 -train_steps 1095000 --report_every 5000 -start_decay_steps 547500 -decay_steps 109500
+
+########################################################
+## Re-training on moses tokenized squad_seq2seq_predicted dataset
+########################################################
+python train.py -data data/squad_predicted_responses_moses_try1 -train_from models/opensub_qa_moses_try1/opensub_qa_moses_glove_try1_model_step_1095000.pt -save_model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_glove_pretrained_with_opensub_qa_model -copy_attn -world_size 1 -gpu_ranks 0 -valid_steps 500 -save_checkpoint_steps 1000 -train_steps 1105000 -reset_optim keep_states -learning_rate 1.0 -start_decay_steps 1100000 -decay_steps 1000
+[2019-08-05 11:38:35,166 INFO] Validation perplexity: 1.5607
+[2019-08-05 11:38:35,169 INFO] Validation accuracy: 87.5632
+
+########################################################
+## Testing SS-PGN (+ GloVe + pretraining) on moses tokenized squad_seq2seq_predicted_responses or SS test data
+########################################################
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_glove_pretrained_with_opensub_qa_model_step_1105000.pt -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/tgt_squad_seq2seq_predicted_responses_test.txt -output pred_pretrained_on_opensub_qa_moses_glove_try1.txt -replace_unk -verbose -n_best 5 > pretrained_on_opensub_qa_moses_glove_try1_output.txt
+
+########################################################
+## Testing SS-PGN (+ GloVe + pretraining)
+## Testing on final squad dev test
+########################################################
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_glove_pretrained_with_opensub_qa_model_step_1105000.pt -src /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/src_squad_seq2seq_dev_moses_test.txt -output squad_seq2seq_dev_predictions/pred_pretrained_on_opensub_qa_moses_glove_try1_on_squad_dev_test.txt -replace_unk -verbose -n_best 5 > squad_seq2seq_dev_predictions/pretrained_on_opensub_qa_moses_glove_try1_on_squad_dev_test_output.txt
+
+########################################################
+## Testing SS-PGN (+ GloVe + pretraining)
+## Testing on final squad dev test with squad model predictions
+########################################################
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_glove_pretrained_with_opensub_qa_model_step_1105000.pt -src /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt -output squad_seq2seq_dev_predictions/pred_pretrained_on_opensub_qa_moses_glove_try1_on_squad_model_predictions_squad_dev_test.txt -batch_size 1 -min_length 2 -replace_unk -verbose -n_best 5 > squad_seq2seq_dev_predictions/pretrained_on_opensub_qa_moses_glove_try1_on_squad_model_predictions_squad_dev_test_output.txt
+
+########################################################
+## Testing SS-PGN (+ GloVe + pretraining)
+## Fine-tuning the LM score demultiplier on a different data
+########################################################
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_glove_pretrained_with_opensub_qa_model_step_1105000.pt -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/tgt_squad_seq2seq_predicted_responses_test.txt -output pred_pretrained_on_opensub_qa_moses_glove_try1_lm_reranked.txt -replace_unk -verbose -beam_size 20 -min_length 2 -n_best 10 -lm_model /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/LMs/lm_giga_64k_vp_3gram/lm_giga_64k_vp_3gram.arpa -lm_rerank_score_demultiplier 1.5 -batch_size 1 > pretrained_on_opensub_qa_moses_glove_try1_output_lm_reranked.txt
+
+########################################################
+## Testing SS-PGN (+ GloVe + pretraining)
+## Final testing LM score demultiplier on the squad dev test
+########################################################
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_glove_pretrained_with_opensub_qa_model_step_1105000.pt -src /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/src_squad_seq2seq_dev_moses_test.txt -output squad_seq2seq_dev_predictions/pred_pretrained_on_opensub_qa_moses_glove_try1_on_squad_dev_test_lm_reranked.txt -replace_unk -verbose -beam_size 20 -min_length 2 -n_best 10 -lm_model /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/LMs/lm_giga_64k_vp_3gram/lm_giga_64k_vp_3gram.arpa -lm_rerank_score_demultiplier 1.5 -batch_size 1 > squad_seq2seq_dev_predictions/pretrained_on_opensub_qa_moses_glove_try1_output_on_squad_dev_test_lm_reranked.txt
+
+
+########################################################
+## Testing SS-PGN (+ GloVe + pretraining)
+## Fine-tuning lm scorer of squad seq2seq predicted responses squad model predictions
+########################################################
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_glove_pretrained_with_opensub_qa_model_step_1105000.pt -lm_model /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/LMs/lm_giga_64k_vp_3gram/lm_giga_64k_vp_3gram.arpa -lm_rerank_score_demultiplier 1.5 -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_test_moses_squad_model_predictions_20_missing_predictions.txt -output pred_pretrained_on_opensub_qa_moses_glove_try1_squad_model_predictions_lm_reranked.txt -replace_unk -verbose -beam_size 20 -min_length 2 -n_best 10 -batch_size 1 > pretrained_on_opensub_qa_moses_glove_try1_squad_model_predictions_output_lm_reranked.txt
+
+########################################################
+## Testing SS-PGN (+ GloVe + pretraining)
+## Final testing of lm scorer on squad dev set squad model predictions
+########################################################
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_glove_pretrained_with_opensub_qa_model_step_1105000.pt -lm_model /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/LMs/lm_giga_64k_vp_3gram/lm_giga_64k_vp_3gram.arpa -lm_rerank_score_demultiplier 1.5 -src /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt -output squad_seq2seq_dev_predictions/pred_pretrained_on_opensub_qa_moses_glove_try1_on_squad_dev_test_squad_model_predictions_lm_reranked.txt -replace_unk -verbose -beam_size 20 -min_length 2 -n_best 10 -batch_size 1 > squad_seq2seq_dev_predictions/pretrained_on_opensub_qa_moses_glove_try1_on_squad_dev_test_squad_model_predictions_output_lm_reranked.txt
+
+
+
+########################################################
+## Testing SS-PGN (+ GloVe + pretraining)
+## Fine-tuning alternate model scorer on squad seq2seq predicted responses
+########################################################
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_glove_pretrained_with_opensub_qa_model_step_1105000.pt -alternate_model models/opensub_qa_moses_try1/opensub_qa_moses_glove_no_copy_try1_model_step_1095000.pt -final_prediction_score_multiper 0.2 -alternate_model_score_multiplier 1.0 -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/tgt_squad_seq2seq_predicted_responses_test.txt -output pred_pretrained_on_opensub_qa_moses_glove_try1_alternate_model_reranked.txt -replace_unk -verbose -beam_size 20 -min_length 2 -n_best 10 -batch_size 1 > pretrained_on_opensub_qa_moses_glove_try1_output_alternate_model_reranked.txt
+
+########################################################
+## Testing SS-PGN (+ GloVe + pretraining)
+## Final testing of alternate model scorer on squad dev test
+########################################################
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_glove_pretrained_with_opensub_qa_model_step_1105000.pt -alternate_model models/opensub_qa_moses_try1/opensub_qa_moses_glove_no_copy_try1_model_step_1095000.pt -final_prediction_score_multiper 0.2 -alternate_model_score_multiplier 1.0 -src /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/src_squad_seq2seq_dev_moses_test.txt -output squad_seq2seq_dev_predictions/pred_pretrained_on_opensub_qa_moses_glove_try1_on_squad_dev_test_alternate_model_reranked.txt -replace_unk -verbose -beam_size 20 -min_length 2 -n_best 10 -batch_size 1 > squad_seq2seq_dev_predictions/pretrained_on_opensub_qa_moses_glove_try1_on_squad_dev_test_output_alternate_model_reranked.txt
+
+
+########################################################
+## Testing SS-PGN (+ GloVe + pretraining)
+## Fine-tuning alternate model scorer on squad seq2seq predicted responses squad model predictions
+########################################################
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_glove_pretrained_with_opensub_qa_model_step_1105000.pt -alternate_model models/opensub_qa_moses_try1/opensub_qa_moses_glove_no_copy_try1_model_step_1095000.pt -final_prediction_score_multiper 0.29 -alternate_model_score_multiplier 1.0 -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_test_moses_squad_model_predictions_20_missing_predictions.txt -output pred_pretrained_on_opensub_qa_moses_glove_try1_squad_model_predictions_alternate_model_reranked.txt -replace_unk -verbose -beam_size 20 -min_length 2 -n_best 10 -batch_size 1 > pretrained_on_opensub_qa_moses_glove_try1_squad_model_predictions_output_alternate_model_reranked.txt
+
+########################################################
+## Testing SS-PGN (+ GloVe + pretraining)
+## Final testing of alternate model scorer on squad dev set squad model predictions
+########################################################
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_glove_pretrained_with_opensub_qa_model_step_1105000.pt -alternate_model models/opensub_qa_moses_try1/opensub_qa_moses_glove_no_copy_try1_model_step_1095000.pt -final_prediction_score_multiper 0.29 -alternate_model_score_multiplier 1.0 -src /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt -output squad_seq2seq_dev_predictions/pred_pretrained_on_opensub_qa_moses_glove_try1_on_squad_dev_test_squad_model_predictions_alternate_model_reranked.txt -replace_unk -verbose -beam_size 20 -min_length 2 -n_best 10 -batch_size 1 > squad_seq2seq_dev_predictions/pretrained_on_opensub_qa_moses_glove_try1_on_squad_dev_test_squad_model_predictions_output_alternate_model_reranked.txt
+
+
+
+########################################################
+## Testing SS-PGN (+ GloVe + pretraining)
+## Final testing of alternate model scorer on CoQA Dev set CoQA model predictions mturk sample
+########################################################
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_glove_pretrained_with_opensub_qa_model_step_1105000.pt -alternate_model models/opensub_qa_moses_try1/opensub_qa_moses_glove_no_copy_try1_model_step_1095000.pt -final_prediction_score_multiper 0.29 -alternate_model_score_multiplier 1.0 -src /home/baheti/QADialogueSystem/coqa_baseline/src_coqa_dev_data_predictions_filtered_mturk_sample.txt -output /home/baheti/QADialogueSystem/coqa_baseline/predictions_on_coqa_dev_data_predictions_filtered_mturk_sample.txt -replace_unk -verbose -beam_size 20 -min_length 2 -n_best 10 -batch_size 1 > /home/baheti/QADialogueSystem/coqa_baseline/predictions_on_coqa_dev_data_predictions_filtered_mturk_sample_output_alternate_model_reranked.txt
+
+########################################################
+## Testing SS-PGN (+ GloVe + pretraining)
+## Final testing of alternate model scorer on CoQA Dev set mturk sample
+########################################################
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_glove_pretrained_with_opensub_qa_model_step_1105000.pt -alternate_model models/opensub_qa_moses_try1/opensub_qa_moses_glove_no_copy_try1_model_step_1095000.pt -final_prediction_score_multiper 0.29 -alternate_model_score_multiplier 1.0 -src /home/baheti/QADialogueSystem/coqa_baseline/src_coqa_dev_data_filtered_mturk_sample.txt -output /home/baheti/QADialogueSystem/coqa_baseline/predictions_on_coqa_dev_data_filtered_mturk_sample.txt -replace_unk -verbose -beam_size 20 -min_length 2 -n_best 10 -batch_size 1 > /home/baheti/QADialogueSystem/coqa_baseline/predictions_on_coqa_dev_data_filtered_mturk_sample_output_alternate_model_reranked.txt
+
+
+
+
+
+########################################################
+FAILED LM + Alternate model reranking
+########################################################
+# LM reranking + Alternate model
+## Fine-tuning alternate model + LM scorer on squad seq2seq predicted responses
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_glove_pretrained_with_opensub_qa_model_step_1105000.pt -alternate_model models/opensub_qa_moses_try1/opensub_qa_moses_glove_no_copy_try1_model_step_1095000.pt -final_prediction_score_multiper 2.2 -alternate_model_score_multiplier 3.5 -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/tgt_squad_seq2seq_predicted_responses_test.txt -lm_model /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/LMs/lm_giga_64k_vp_3gram/lm_giga_64k_vp_3gram.arpa -output pred_pretrained_on_opensub_qa_moses_glove_try1_alternate_model_lm_reranked.txt -replace_unk -verbose -beam_size 20 -min_length 2 -n_best 10 -batch_size 1 > pretrained_on_opensub_qa_moses_glove_try1_alternate_model_lm_reranked_output.txt
+
+# Maybe alternate reranking model and LM model are not complementary
+########################################################
+END: FAILED LM + Alternate model reranking
+########################################################
+
+
+
+
+
+
+
+
+
+
+

@@ -9,7 +9,7 @@ Rule based baseline which uses Tregex and SimpleNLG. Given a question and the an
 # Setup for feature based baselines `logistic_regression_baseline.py` and `softmax_baseline.py`:
 - Create a directory `"LMs"` inside `"RuleBasedQuestionsToAnswer"` directory.
 - Download [`lm_giga_64k_nvp_2gram`](https://www.keithv.com/software/giga/lm_giga_64k_nvp_2gram.zip), [`lm_giga_64k_nvp_3gram`](https://www.keithv.com/software/giga/lm_giga_64k_nvp_3gram.zip), [`lm_giga_64k_vp_2gram`](https://www.keithv.com/software/giga/lm_giga_64k_vp_2gram.zip) and [`lm_giga_64k_vp_3gram`](https://www.keithv.com/software/giga/lm_giga_64k_vp_3gram.zip) and extract all the LM models within the `"LMs"` folder
-
+- Download and extract [preprocessed train test and val data files](https://mega.nz/#!wQR0jI7D!_mZo7vSQvwNvCjd9RMMbhuU77EPSRshwhCYLFWpOaKI) in `"train_data"` folder within the `"RuleBasedQeustionToAnswer"` parent directory.
 ## Dependencies:
 
 ### Feature extractor:

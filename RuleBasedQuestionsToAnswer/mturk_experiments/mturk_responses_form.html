@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Chosen: A jQuery Plugin by Harvest to Tame Unwieldy Select Boxes</title>
+
+</head>
+<body>
+	<section class="container" id="QA-annotation">
+		<div class="row" id="workContent">
+			<div class="row">
+				<div class="col-xs-12 col-md-12">
+					<div class="panel panel-primary"><!-- WARNING: the ids "collapseTrigger" and "instructionBody" are being used to enable expand/collapse feature --><a class="panel-heading" href="javascript:void(1);" id="collapseTrigger"><strong>Disclaimer</strong> <span class="collapse-text">(Click to expand)</span> </a>
+						<div class="panel-body" id="instructionBody">
+							<!-- <p><span style="font-weight: 711; font-size: 14px;">Disclaimer:&nbsp;</span><br/> -->
+								
+								This task will take you 15 - 20&nbsp;minutes. Participation is voluntary and you are free to complete as much or as little work as you choose. You are free to stop participating at any point. A computer program will compare your answers against a native English speaker and other people&rsquo;s answers. It is OK to have different answers from other people and make some mistakes; however if you make too many mistakes we will have to rejected your answers. You will be payed US $0.4&nbsp;per hit you complete. After the study is complete, we will retain your judgments on the data, but replace your Mechanical Turk IDs with anonymized versions. We will work to make sure that no one sees your survey responses without approval. But, because we are using the Internet, there is a chance that someone could access your online responses without permission. In some cases, this information could be used to identify you.&nbsp;
+								<br/>
+								This research is being funded by the National Science Foundation and conducted at Ohio State. If you have any questions or concerns about the study, please contact me (Alan Ritter) at&nbsp;<a data-mt-detrack-inspected="true" href="mailto:ritter.1492@osu.edu?subject=Concerns+about+the+MTurk+study" style="font-size: 14px;" target="_blank">ritter.1492@osu.edu</a>. For questions about your rights as a participant in this study or to discuss other study-related concerns or complaints with someone who is not part of the research team, you may contact Ms. Sandra Meadows in the Office of Responsible Research Practices at&nbsp;<a data-mt-detrack-inspected="true" href="tel:(811)%21678-6251" style="color: rgb(17, 85, 214);" target="_blank" value="+18116786251">1-800-678-6251</a>.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p>
+				<strong style="font-size: 20px">Instructions: Assume a dialogue is happening between 2 people(/Person1/ and /Person2/). /Person1/ asks a <i>"Question"</i> and /Person2/ knows the <i>"Answer"</i>. Your job is to choose a response for /Person2/ from the list of <i>"Conversational Answers"</i> which seems conversational/humanlike.</strong> <br>
+				The list of candidate <i>"Conversational Answers"</i> can be large. Hence, we have provided a search within the selection where annotators can narrow-down the possibilities by typing in partial response. If you are not able to find your desired response, pick one from the list which is closest to it.
+			</p>
+			<div class="row">
+				<div class="col-xs-12 col-md-12">
+					<div class="panel panel-primary"><!-- WARNING: the ids "collapseTrigger" and "instructionBody" are being used to enable expand/collapse feature --><a class="panel-heading" href="javascript:void(1);" id="collapseTrigger2"><strong>Detailed Instructions with Images</strong> <span class="collapse-text2">(Click to expand)</span> </a>
+						<div class="panel-body" id="instructionBody2">
+							<!-- <p><span style="font-weight: 711; font-size: 14px;">Disclaimer:&nbsp;</span><br/> -->
+							<strong>We are developing a Conversational Agent which can handle Questions. Your judgments will be used by Computational Linguistics researchers to develop such an agent which will help improve the communication between human and computers.</strong>
+							<br/>
+							In this task you will be given scenarios where /Person1/ asks question and /Person2/ knows the answer. There could be more an one possible way to respond to a question hence we provide you with a list of options to choose from.
+							<ul>
+								<li>
+									 For every scenario there will be a dropdown with the list of candidate "Conversational Answers". Something like this:<br>
+									<img src="https://i.ibb.co/NS25ycM/question1.png">
+								</li>
+								<li>
+									The list can be long so you can type partial answers to narrow down the options as follows:<br>
+									<img src="https://i.ibb.co/tBXKvzy/search.png">
+								</li>
+								<li>
+									There could be more than one possible answers so choose the one which feels best to you:<br>
+									<img src="https://i.ibb.co/GVxzjgf/question2.png">
+									<img src="https://i.ibb.co/tc7LnXF/pronoun-it.png"><br>
+									In this case one can write "it" instead of the entire phrase "the most spoken langauge"
+								</li>
+								<li>
+									Sometimes even personal pronouns such as "he" or "she" might be applicable:<br>
+									<img src="https://i.ibb.co/25gxwYF/question3.png">
+									<img src="https://i.ibb.co/MhRBcVN/pronoun-he.png">
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="col-xs-12 col-sm-12 content"><hr /></div>
+				<div class="col-xs-12 col-sm-12">
+					<label>Scenario 1)</label><br>
+					<label>Question:</label> ${question1}<br>
+					<label>Answer:</label> ${answer1}<br>
+					<label>Conversational Answer:</label>
+					<select id="response-selector1" name="response-selector1" data-placeholder="Choose a Response..." class="chosen-select" required>
+						<option value=""></option>
+					</select>
+				</div>
+				<div class="col-xs-12 col-sm-12 content"><hr /></div>
+				<div class="col-xs-12 col-sm-12">
+					<label>Scenario 2)</label><br>
+					<label>Question:</label> ${question2}<br>
+					<label>Answer:</label> ${answer2}<br>
+					<label>Conversational Answer:</label>
+					<select id="response-selector2" name="response-selector2" data-placeholder="Choose a Response..." class="chosen-select" required>
+						<option value=""></option>
+					</select>
+				</div>
+				<div class="col-xs-12 col-sm-12 content"><hr /></div>
+				<div class="col-xs-12 col-sm-12">
+					<label>Scenario 3)</label><br>
+					<label>Question:</label> ${question3}<br>
+					<label>Answer:</label> ${answer3}<br>
+					<label>Conversational Answer:</label>
+					<select id="response-selector3" name="response-selector3" data-placeholder="Choose a Response..." class="chosen-select" required>
+						<option value=""></option>
+					</select>
+				</div>
+				<div class="col-xs-12 col-sm-12 content"><hr /></div>
+				<div class="col-xs-12 col-sm-12">
+					<label>Scenario 4)</label><br>
+					<label>Question:</label> ${question4}<br>
+					<label>Answer:</label> ${answer4}<br>
+					<label>Conversational Answer:</label>
+					<select id="response-selector4" name="response-selector4" data-placeholder="Choose a Response..." class="chosen-select" required>
+						<option value=""></option>
+					</select>
+				</div>
+				<div class="col-xs-12 col-sm-12 content"><hr /></div>
+				<div class="col-xs-12 col-sm-12">
+					<label>Scenario 5)</label><br>
+					<label>Question:</label> ${question5}<br>
+					<label>Answer:</label> ${answer5}<br>
+					<label>Conversational Answer:</label>
+					<select id="response-selector5" name="response-selector5" data-placeholder="Choose a Response..." class="chosen-select" required>
+						<option value=""></option>
+					</select>
+				</div>
+				<div class="col-xs-12 col-sm-12 content"><hr /></div>
+				<div class="col-xs-12 col-sm-12">
+					<label>Scenario 6)</label><br>
+					<label>Question:</label> ${question6}<br>
+					<label>Answer:</label> ${answer6}<br>
+					<label>Conversational Answer:</label>
+					<select id="response-selector6" name="response-selector6" data-placeholder="Choose a Response..." class="chosen-select" required>
+						<option value=""></option>
+					</select>
+				</div>
+				<div class="col-xs-12 col-sm-12 content"><hr /></div>
+				<div class="col-xs-12 col-sm-12">
+					<label>Scenario 7)</label><br>
+					<label>Question:</label> ${question7}<br>
+					<label>Answer:</label> ${answer7}<br>
+					<label>Conversational Answer:</label>
+					<select id="response-selector7" name="response-selector7" data-placeholder="Choose a Response..." class="chosen-select" required>
+						<option value=""></option>
+					</select>
+				</div>
+				<div class="col-xs-12 col-sm-12 content"><hr /></div>
+				<div class="col-xs-12 col-sm-12">
+					<label>Scenario 8)</label><br>
+					<label>Question:</label> ${question8}<br>
+					<label>Answer:</label> ${answer8}<br>
+					<label>Conversational Answer:</label>
+					<select id="response-selector8" name="response-selector8" data-placeholder="Choose a Response..." class="chosen-select" required>
+						<option value=""></option>
+					</select>
+				</div>
+				<div class="col-xs-12 col-sm-12 content"><hr /></div>
+				<div class="col-xs-12 col-sm-12">
+					<label>Scenario 9)</label><br>
+					<label>Question:</label> ${question9}<br>
+					<label>Answer:</label> ${answer9}<br>
+					<label>Conversational Answer:</label>
+					<select id="response-selector9" name="response-selector9" data-placeholder="Choose a Response..." class="chosen-select" required>
+						<option value=""></option>
+					</select>
+				</div>
+				<div class="col-xs-12 col-sm-12 content"><hr /></div>
+				<div class="col-xs-12 col-sm-12">
+					<label>Scenario 10)</label><br>
+					<label>Question:</label> ${question10}<br>
+					<label>Answer:</label> ${answer10}<br>
+					<label>Conversational Answer:</label>
+					<select id="response-selector10" name="response-selector10" data-placeholder="Choose a Response..." class="chosen-select" required>
+						<option value=""></option>
+					</select>
+				</div>
+				<div class="col-xs-12 col-sm-12 content"><hr /></div>
+		</div>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<style type="text/css">
+		#collapseTrigger, #collapseTrigger2{
+			color:#fff;
+			display: block;
+			text-decoration: none;
+		}
+		#submitButton{
+			white-space: normal;
+		}
+		#instructionBody table{
+			font-size: 14px;
+			margin-top: 11px;
+		}
+		#instructionBody table caption{
+			text-align: left;
+			padding: 1 1 5px 1;
+		}
+		#instructionBody2 img{
+			width:40%;
+			border: 1px solid black;
+		}
+		#instructionBody2 li{
+			margin-bottom: 20px;
+		}
+		#Inputs{
+			display: block;
+			margin-top: 11px;
+		}
+		.content{
+			margin-bottom: 15px;
+		}
+		.radio:first-of-type{
+			margin-top: -5px;
+		}
+	</style>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		// Instructions expand/collapse
+		$(document).ready(function() {
+			var content = $('#instructionBody');
+			var trigger = $('#collapseTrigger');
+			content.hide();
+			$('.collapse-text').text('(Click to expand)');
+			trigger.click(function(){
+				content.toggle();
+				var isVisible = content.is(':visible');
+				if(isVisible){
+					$('.collapse-text').text('(Click to collapse)');
+				}else{
+					$('.collapse-text').text('(Click to expand)');
+				}
+			});
+			var content2 = $('#instructionBody2');
+			var trigger2 = $('#collapseTrigger2');
+			content2.hide();
+			$('.collapse-text2').text('(Click to expand)');
+			trigger2.click(function(){
+				content2.toggle();
+				var isVisible2 = content2.is(':visible');
+				if(isVisible2){
+					$('.collapse-text2').text('(Click to collapse)');
+				}else{
+					$('.collapse-text2').text('(Click to expand)');
+				}
+			});
+			// end expand/collapse
+
+			// highlight selected category
+			//var inputs = $("#Inputs input:radio");
+			var inputs = $(".btn-group-vertical input:radio");
+			inputs.parent().removeClass("btn-success");
+			inputs.parent().addClass("btn-default");
+			// inputs.change(function(){
+			//   inputs.parent().removeClass("btn-success");
+			//   inputs.parent().addClass("btn-default");
+			//   if($(this).is(":checked")){
+			//     $(this).parent().removeClass("btn-default");
+			//     $(this).parent().addClass("btn-success");
+			//   }else{
+			//     $(this).parent().removeClass("btn-success");
+			//     $(this).parent().addClass("btn-default");
+			//   }
+			// });
+			// end highlight
+		});
+
+		function shuffle(array) {
+			var currentIndex = array.length, temporaryValue, randomIndex;
+
+			// While there remain elements to shuffle...
+			while (0 !== currentIndex) {
+
+				// Pick a remaining element...
+				randomIndex = Math.floor(Math.random() * currentIndex);
+				currentIndex -= 1;
+
+				// And swap it with the current element.
+				temporaryValue = array[currentIndex];
+				array[currentIndex] = array[randomIndex];
+				array[randomIndex] = temporaryValue;
+			}
+			return array;
+		}
+
+		var response1 = [${responses1}];
+		var response2 = [${responses2}];
+		var response3 = [${responses3}];
+		var response4 = [${responses4}];
+		var response5 = [${responses5}];
+		var response6 = [${responses6}];
+		var response7 = [${responses7}];
+		var response8 = [${responses8}];
+		var response9 = [${responses9}];
+		var response10 = [${responses10}];
+		var responses = [response1, response2, response3, response4, response5, response6, response7, response8, response9, response10];
+		
+	
+		for(var i = 1; i <= 10; i++) {
+			var $el = $("#response-selector" + i.toString());
+			$('#response-selector' + i.toString() + ' option:gt(0)').remove();
+			// shuffle the responses
+			// TODO: might have to comment this later
+			// responses[i-1] = shuffle(responses[i-1]);
+			responses[i-1].sort(function(a, b){
+				// ASC  -> a.length - b.length
+				// DESC -> b.length - a.length
+				return a.split(" ").length - b.split(" ").length;
+			});
+			// $el.empty(); // remove old options
+			$.each(responses[i-1], function(id, value) {
+				$el.append($("<option></option>").attr("value", value).text(value));
+			});
+		}
+
+		var config = {
+			'.chosen-select'           : {},
+			'.chosen-select-deselect'  : { allow_single_deselect: true },
+			'.chosen-select-no-single' : { disable_search_threshold: 10 },
+			'.chosen-select-no-results': { no_results_text: 'Oops, nothing found!' },
+			'.chosen-select-rtl'       : { rtl: true },
+			'.chosen-select-width'     : { width: '90%' }
+		}
+		for (var selector in config) {
+			$(selector).chosen(config[selector]);
+		}
+	</script>
+	
+	</section>
+</body>
+</html>

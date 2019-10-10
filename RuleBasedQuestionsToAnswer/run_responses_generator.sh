@@ -1,0 +1,2 @@
+javac -cp ".:stanford-corenlp-full-2018-02-27/stanford-corenlp-3.9.1.jar:stanford-corenlp-full-2018-02-27/stanford-corenlp-3.9.1-models.jar:simplenlg-v4.4.8/SimpleNLG-4.4.8.jar:lexAccess2016lite/lib/lexAccess2016api.jar:lexAccess2016lite/lib/lexAccess2016dist.jar"  QuestionsToAnswer.java
+java -Xmx16000m -cp ".:stanford-corenlp-full-2018-02-27/stanford-corenlp-3.9.1.jar:stanford-corenlp-full-2018-02-27/stanford-corenlp-3.9.1-models.jar:simplenlg-v4.4.8/SimpleNLG-4.4.8.jar:lexAccess2016lite/lib/lexAccess2016api.jar:lexAccess2016lite/lib/lexAccess2016dist.jar" QuestionsToAnswer

@@ -1,0 +1,61 @@
+export SQUAD_DIR=data/squad_1.1
+export BERT_BASE_DIR=/home/baheti/QADialogueSystem/coqa_baseline/uncased_L-12_H-768_A-12
+
+# Squad v1.1
+export CUDA_VISIBLE_DEVICES=2
+python run_squad.py \
+  --vocab_file=$BERT_BASE_DIR/vocab.txt \
+  --bert_config_file=$BERT_BASE_DIR/bert_config.json \
+  --init_checkpoint=$BERT_BASE_DIR/bert_model.ckpt \
+  --do_train=True \
+  --train_file=$SQUAD_DIR/train-v1.1.json \
+  --do_predict=True \
+  --predict_file=$SQUAD_DIR/dev-v1.1.json \
+  --train_batch_size=12 \
+  --learning_rate=3e-5 \
+  --num_train_epochs=2.0 \
+  --max_seq_length=384 \
+  --doc_stride=128 \
+  --output_dir=models/squad_base/
+
+# Squad v2.0
+export SQUAD_DIR="/home/baheti/QADialogueSystem/Data/QA_datasets/SQuAD dataset"
+export BERT_BASE_DIR=/home/baheti/QADialogueSystem/coqa_baseline/uncased_L-12_H-768_A-12
+python run_squad.py \
+  --vocab_file=$BERT_BASE_DIR/vocab.txt \
+  --bert_config_file=$BERT_BASE_DIR/bert_config.json \
+  --init_checkpoint=$BERT_BASE_DIR/bert_model.ckpt \
+  --do_train=True \
+  --train_file="$SQUAD_DIR/train-v2.0.json" \
+  --do_predict=True \
+  --predict_file="$SQUAD_DIR/dev-v2.0.json" \
+  --train_batch_size=12 \
+  --learning_rate=3e-5 \
+  --num_train_epochs=2.0 \
+  --max_seq_length=384 \
+  --doc_stride=128 \
+  --output_dir=models/squad_2_base/ \
+  --version_2_with_negative=True
+
+# Testing Squad v2.0 model on the subset of dev set we gathered
+python run_squad.py \
+  --vocab_file=$BERT_BASE_DIR/vocab.txt \
+  --bert_config_file=$BERT_BASE_DIR/bert_config.json \
+  --init_checkpoint=models/squad_2_base/model.ckpt-21719 \
+  --do_predict=True \
+  --predict_file=/home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/squad_dev_moses_test_for_squad_model.json \
+  --max_seq_length=384 \
+  --doc_stride=128 \
+  --output_dir=.
+
+# Testing Squad v2.0 model on squad seq2seq predicted test set for fine-tuning
+python run_squad.py \
+  --vocab_file=$BERT_BASE_DIR/vocab.txt \
+  --bert_config_file=$BERT_BASE_DIR/bert_config.json \
+  --init_checkpoint=models/squad_2_base/model.ckpt-21719 \
+  --do_predict=True \
+  --predict_file=/home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/squad_seq2seq_predicted_moses_test_for_squad_model.json \
+  --max_seq_length=384 \
+  --doc_stride=128 \
+  --output_dir=.
+

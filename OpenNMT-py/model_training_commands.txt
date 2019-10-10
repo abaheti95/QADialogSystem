@@ -58,7 +58,7 @@ python train.py -data data/squad_predicted_responses_moses_bpe_try1 -save_model 
 python translate.py -model models/squad_predicted_responses_moses_bpe_try1/squad_predicted_responses_moses_bpe_try1_model_step_10000.pt -src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/src_moses_bpe_tokenized_squad_seq2seq_predicted_responses_test.txt -tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train2/tgt_moses_bpe_tokenized_squad_seq2seq_predicted_responses_test.txt -output pred_moses_bpe_try1.txt -replace_unk -verbose > moses_bpe_try1_output.txt
 
 ########################################################
-Past failed or useless experiments
+END: Past failed or useless experiments
 ########################################################
 
 

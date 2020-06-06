@@ -1,0 +1,126 @@
+########################################################
+FINAL SQuAD Synthetic data experiments on PGN
+########################################################
+# Change the current working directory to OpenNMT-py before running the future commands
+cd OpenNMT-py
+
+
+
+## Preprocessing: need dynamic dict for copyattention
+python preprocess.py -train_src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_responses_train.txt -train_tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/tgt_squad_seq2seq_predicted_responses_train.txt -valid_src ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/src_squad_seq2seq_predicted_responses_val.txt -valid_tgt ../RuleBasedQuestionsToAnswer/squad_seq2seq_train_moses_tokenized/tgt_squad_seq2seq_predicted_responses_val.txt -save_data data/squad_predicted_responses_moses_try1 -dynamic_dict
+
+## Training
+export CUDA_VISIBLE_DEVICES=2
+python train.py -data data/squad_predicted_responses_moses_try1 -save_model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_try1_model -copy_attn -world_size 1 -gpu_ranks 0 --encoder_type brnn -valid_steps 500 -save_checkpoint_steps 1000 -train_steps 10000 -start_decay_steps 5000 -decay_steps 1000
+[2019-08-21 14:23:33,880 INFO] Validation perplexity: 1.71584
+[2019-08-21 14:23:33,881 INFO] Validation accuracy: 86.2239
+
+########################################################
+## Testing SS-PGN model on final squad dev test with squad model predictions
+########################################################
+python translate.py -model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_try1_model_step_10000.pt -src /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt -output squad_seq2seq_dev_predictions/moses_try1_on_squad_model_predictions_squad_dev_test.txt -batch_size 1 -min_length 2 -replace_unk -verbose -n_best 5 > squad_seq2seq_dev_predictions/moses_try1_on_squad_model_predictions_squad_dev_test_output.txt
+
+########################################################################################################################################################################
+
+########################################################
+## Experiments with pretrained Glove embeddings
+########################################################
+export PYTHONPATH="${PYTHONPATH}:/home/baheti/QADialogueSystem/OpenNMT-py/:"
+python embeddings_to_torch.py -emb_file_both "/home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/data/glove/glove.840B.300d.txt" \
+-dict_file "data/squad_predicted_responses_moses_try1.vocab.pt" \
+-output_file "data/squad_predicted_responses_moses_try1_embeddings"
+
+## Training
+python train.py -data data/squad_predicted_responses_moses_try1 -save_model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_glove_try1_model -word_vec_size 300 -pre_word_vecs_enc "data/squad_predicted_responses_moses_try1_embeddings.enc.pt" -pre_word_vecs_dec "data/squad_predicted_responses_moses_try1_embeddings.dec.pt" -copy_attn -world_size 1 -gpu_ranks 0 --encoder_type brnn -valid_steps 500 -save_checkpoint_steps 1000 -train_steps 10000 -start_decay_steps 5000 -decay_steps 1000
+[2019-08-01 17:21:53,038 INFO] Validation perplexity: 1.6309
+[2019-08-01 17:21:53,039 INFO] Validation accuracy: 87.1259
+
+######################################################## 
+## Testing SS-PGN (+ GloVe)
+## Testing on final squad dev test with squad model predictions
+######################################################## 
+python translate.py -model models/squad_predicted_responses_moses_try1/squad_predicted_responses_moses_glove_try1_model_step_10000.pt -src /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt -output squad_seq2seq_dev_predictions/moses_glove_try1_on_squad_model_predictions_of_dev_test.txt -replace_unk -verbose -n_best 5 > squad_seq2seq_dev_predictions/moses_glove_try1_on_squad_model_predictions_of_dev_test_output.txt
+
+########################################################################################################################################################################
+
+########################################################
+## Experiments with pretrained Glove embeddings on Pretrained on moses tokenzied Opensub_QA dataset
+########################################################
+python embeddings_to_torch.py -emb_file_both "/home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/data/glove/glove.840B.300d.txt" \
+-dict_file "data/opensub_qa_moses_try1.vocab.pt" \
+-output_file "data/opensub_qa_moses_try1_embeddings"
+
+########################################################
+## Pre-Training
+########################################################
+export CUDA_VISIBLE_DEVICES=3
+python train.py -data data/opensub_qa_moses_try1 -save_model models/opensub_qa_moses_try1/opensub_qa_moses_glove_try1_model -word_vec_size 300 -pre_word_vecs_enc "data/opensub_qa_moses_try1_embeddings.enc.pt" -pre_word_vecs_dec "data/opensub_qa_moses_try1_embeddings.dec.pt" -copy_attn -world_size 1 -gpu_ranks 0 --encoder_type brnn -batch_size 128 -valid_steps 27375 -save_checkpoint_steps 109500 -train_steps 1095000 --report_every 5000 -start_decay_steps 547500 -decay_steps 109500
+[2019-08-04 00:35:01,511 INFO] Validation perplexity: 25.0908
+[2019-08-04 00:35:01,522 INFO] Validation accuracy: 40.319
+
+########################################################
+## Re-training on moses tokenized squad_seq2seq_predicted dataset
+########################################################
+python train.py -data data/squad_predicted_responses_moses_try1 -train_from models/opensub_qa_moses_try1/opensub_qa_moses_glove_try1_model_step_1095000.pt -save_model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_glove_pretrained_with_opensub_qa_model -copy_attn -world_size 1 -gpu_ranks 0 -valid_steps 500 -save_checkpoint_steps 1000 -train_steps 1105000 -reset_optim keep_states -learning_rate 1.0 -start_decay_steps 1100000 -decay_steps 1000
+[2019-08-05 11:38:35,166 INFO] Validation perplexity: 1.5607
+[2019-08-05 11:38:35,169 INFO] Validation accuracy: 87.5632
+
+########################################################
+## Testing SS-PGN (+ GloVe + pretraining)
+## Testing on final squad dev test with squad model predictions
+########################################################
+python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_responses_moses_glove_pretrained_with_opensub_qa_model_step_1105000.pt -src /home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/squad_seq2seq_dev_moses_tokenized/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt -output squad_seq2seq_dev_predictions/pred_pretrained_on_opensub_qa_moses_glove_try1_on_squad_model_predictions_squad_dev_test.txt -batch_size 1 -min_length 2 -replace_unk -verbose -n_best 5 > squad_seq2seq_dev_predictions/pretrained_on_opensub_qa_moses_glove_try1_on_squad_model_predictions_squad_dev_test_output.txt
+
+
+
+
+########################################################################################################################################################################
+########################################################################################################################################################################
+########################################################################################################################################################################
+
+
+
+
+
+########################################################
+FINAL SQuAD Synthetic data experiments on GPT-2 and DGPT
+########################################################
+# Change the current working directory to OpenNMT-py before running the future commands
+cd DialoGPT
+
+##########################################################
+################### SS Experiments #######################
+##########################################################
+
+##########################################################
+############# Preprocess the data ########################
+##########################################################
+less data/ss_train.tsv| awk -F '\t' '{print "0.0 "$1"\t1.0 "$2}' > data/ss_train_dialogpt.tsv
+python prepro.py --corpus data/ss_train_dialogpt.tsv --max_seq_len 128
+# data_path = data/ss_train_dialogpt.129len.db
+
+##########################################################
+############# DialoGPT small on SS from scratch: Essentially GPT-2 ##########
+##########################################################
+python LSP_train.py --model_name_or_path ./models/small --init_checkpoint None --init_weights true --train_input_file ./data/ss_train_dialogpt.128len.db --eval_input_file ./data/ss_val.tsv --output_dir ./models/ss/ --seed 42 --max_seq_length 128 --train_batch_size 512 --gradient_accumulation_steps 16 --eval_batch_size 32 --learning_rate 5e-5 --num_optim_steps 3000 --valid_step 60 --warmup_steps 600 --normalize_data true --fp16 false --lr_schedule noam --loss_scale 0.0 --no_token_id true --pbar true
+
+##########################################################
+############# Testing DialoGPT small on SS ##########
+##########################################################
+export CUDA_VISIBLE_DEVICES=6
+python LSP_test2.py --model_type gpt2 --model_name_or_path ./models/small --state_dict ./models/ss/GPT2.5e-05.32.1gpu.2019-11-09173601/GP2-pretrain-step-2220.pkl --test_file ./data/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt --length 25 --n_best 5 --beam_size 20 --stop_token "<|endoftext|>" --out_file predictions/ss/dialoGPT_ss_scratch_predictions_on_squad_dev_test_with_squad_model_length_normalized.txt
+
+########################################################################################################################################################################
+
+##########################################################
+############# Fine-tune DialoGPT small on SS: DGPT small #############
+##########################################################
+python LSP_train.py --model_name_or_path ./models/small --init_checkpoint ./models/small/pytorch_model.bin --train_input_file ./data/ss_train_dialogpt.128len.db --eval_input_file ./data/ss_val.tsv --output_dir ./models/ss_finetune/ --seed 42 --max_seq_length 128 --train_batch_size 512 --gradient_accumulation_steps 16 --eval_batch_size 32 --learning_rate 1e-5 --num_optim_steps 2000 --valid_step 60 --warmup_steps 600 --normalize_data true --fp16 false --lr_schedule noam --loss_scale 0.0 --no_token_id true --pbar true
+
+##########################################################
+############# Testing DialoGPT small on SS finetuned #####
+##########################################################
+export CUDA_VISIBLE_DEVICES=3
+python LSP_test2.py --model_type gpt2 --model_name_or_path ./models/small --state_dict ./models/ss_finetune/GPT2.1e-05.32.1gpu.2019-11-08165243/GP2-pretrain-step-420.pkl --test_file ./data/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt --length 25 --n_best 5 --beam_size 20 --stop_token "<|endoftext|>" --out_file predictions/ss_finetuned/dialoGPT_ss_finetuned_predictions_on_squad_dev_test_with_squad_model_length_normalized.txt
+
+########################################################################################################################################################################

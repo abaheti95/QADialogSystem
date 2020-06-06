@@ -6,7 +6,6 @@ We design models that generate conversational responses for factual questions us
 - checkout to specific commit by running `git checkout 7f1fc81da864c465862f23e048802107ada714a8` from within the `"OpenNMT-py"` folder
 - Extract [`opensub_qa_en`](https://s3.amazonaws.com/opennmt-trainingdata/opensub_qa_en.tgz) data in `"Data/Opensubtitles_qa"`
 - run `preprocess_opensubtitles_qa.py` in `"Data/Opensubtitles_qa"` folder to moses tokenize the `opensub_qa_en` data.
-- Refer to `model_training_commands.txt` for running instructions
 
 ## Setup for CoQA baseline
 - Install [`SMRCToolkit`](https://github.com/sogou/SMRCToolkit) for model code
@@ -21,3 +20,5 @@ We design models that generate conversational responses for factual questions us
 - Clone [`bert`](https://github.com/google-research/bert) within `"squad_baseline"` folder.
 - Checkout to specific commit by running `git checkout 88a817c37f788702a363ff935fd173b6dc6ac0d6`
 - Refer to `model_training_commands.txt` inside `"bert"` folder for running instructions
+
+## DialoGPT, GPT-2 and PGN 

@@ -1,0 +1,4000 @@
+Q 1		:how much of the greenhouse effect is due to carbon dioxide ?
+Gold		:over half
+Coqa Pred	:over half
+
+Q 2		:the average contractor hired how many employees ?
+Gold		:fewer than 10 employees
+Coqa Pred	:fewer than 10
+
+Q 3		:what is the turbine entry temperature of a steam turbine , in degrees celsius ?
+Gold		:565
+Coqa Pred	:565 °C
+
+Q 4		:who was appointed as second in command to lor loudoun in 1756 ?
+Gold		:major general james abercrombie
+Coqa Pred	:James Abercrombie
+
+Q 5		:what do oxygen tanks , cryogenics , and chemical compounds serve as for oxygen ?
+Gold		:storage
+Coqa Pred	:high pressure
+
+Q 6		:how many khitan tumens were there ?
+Gold		:3
+Coqa Pred	:3
+
+Q 7		:which sea was oil discovered in ?
+Gold		:north
+Coqa Pred	:North Sea
+
+Q 8		:what are internet pharmacies also called ?
+Gold		:online pharmacies
+Coqa Pred	:online pharmacies
+
+Q 9		:which florida city has the biggest population ?
+Gold		:jacksonville
+Coqa Pred	:Jacksonville
+
+Q 10		:who opened the new parliament building on october 9 , 2004 ?
+Gold		:queen elizabeth ii
+Coqa Pred	:Queen Elizabeth II
+
+Q 11		:where did kublai move the mongol capital to ?
+Gold		:khanbaliq
+Coqa Pred	:Khanbaliq
+
+Q 12		:semen contains what in order to kill pathogens ?
+Gold		:defensins and zinc
+Coqa Pred	:defensins and zinc
+
+Q 13		:what city has the largest inland port in europe ?
+Gold		:duisburg
+Coqa Pred	:Duisburg
+
+Q 14		:what did electromagnetic theory finally lead to ?
+Gold		:quantum electrodynamics
+Coqa Pred	:quantum electrodynamics
+
+Q 15		:how many companies were listed on the wse on august 2009 ?
+Gold		:374
+Coqa Pred	:374
+
+Q 16		:how many representatives does each electorate have ?
+Gold		:five
+Coqa Pred	:five
+
+Q 17		:who did the snp obtain 16 seats from ?
+Gold		:labour
+Coqa Pred	:Labour
+
+Q 18		:what nationality was arthur woolf ?
+Gold		:british
+Coqa Pred	:British
+
+Q 19		:what is an example of an article of uniform clothing typically present in australian private schools ?
+Gold		:blazer
+Coqa Pred	:compulsory blazer
+
+Q 20		:what is the name of the student improvisational theater troupe ?
+Gold		:off-off campus
+Coqa Pred	:Recognized Student Organizations (RSOs
+
+Q 21		:what is the escape of the steam unlikely to accomplish in all but the smallest boilers ?
+Gold		:dampening the fire
+Coqa Pred	:dampening the fire
+
+Q 22		:what is raghuram rajan 's career ?
+Gold		:economist
+Coqa Pred	:Central Banking economist
+
+Q 23		:what is the kilogram-force sometimes reffered to as ?
+Gold		:kilopond
+Coqa Pred	:kilopond
+
+Q 24		:what german poet was descended from huguenots ?
+Gold		:theodor fontane
+Coqa Pred	:Lothar de Maizière
+
+Q 25		:what fixed set of factors determine the actions of a deterministic turing machine
+Gold		:rules
+Coqa Pred	:fixed set of rules
+
+Q 26		:what virus did walter reed discover ?
+Gold		:yellow fever virus
+Coqa Pred	:yellow fever virus
+
+Q 27		:what did smedley butler call us foreign policy ?
+Gold		:a " racket "
+Coqa Pred	:racket
+
+Q 28		:what did the zuider zee brackish lagoon change into ?
+Gold		:freshwater lake
+Coqa Pred	:freshwater lake
+
+Q 29		:where was friedrich ratzel born ?
+Gold		:germany
+Coqa Pred	:Germany
+
+Q 30		:who receives higher salaries at private schools that charge higher tuition ?
+Gold		:teachers
+Coqa Pred	:best teachers
+
+Q 31		:what south african law recognized two types of schools ?
+Gold		:south african schools act
+Coqa Pred	:South African Schools Act of 1996
+
+Q 32		:what conflicts did the ozone mitigation reduce ?
+Gold		:regional burden sharing conflicts
+Coqa Pred	:regional burden sharing conflicts
+
+Q 33		:what chess grandmaster is also a university alumni ?
+Gold		:samuel reshevsky
+Coqa Pred	:Samuel Reshevsky
+
+Q 34		:how many items is the university library home to ?
+Gold		:over two million
+Coqa Pred	:over two million
+
+Q 35		:why are newly discovered oil sold at a higher price ?
+Gold		:encourage investment
+Coqa Pred	:to encourage investment
+
+Q 36		:who did edward make archbishop of canterbury ?
+Gold		:robert of jumièges
+Coqa Pred	:Robert of Jumièges
+
+Q 37		:what civilization did the pottery belong to ?
+Gold		:timucua
+Coqa Pred	:Mocama
+
+Q 38		:what does the w and z boson exchange create ?
+Gold		:weak force
+Coqa Pred	:weak force
+
+Q 39		:southern californian communities are well known to be large , spread - out , and what other characteristic ?
+Gold		:suburban
+Coqa Pred	:suburban communities and use of automobiles and highways
+
+Q 40		:what does critically tapered mean ?
+Gold		:all angles remain the same
+Coqa Pred	:orogenic wedge
+
+Q 41		:who created the nation 's first aviation community ?
+Gold		:william smilie
+Coqa Pred	:William Smilie
+
+Q 42		:what device is used to recycle the boiler water in most steam engines ?
+Gold		:water pump
+Coqa Pred	:water pump
+
+Q 43		:what is an example of an enzyme that can transform skin cells into tumors when expressed at high levels ?
+Gold		:tyrosinase
+Coqa Pred	:tyrosinase
+
+Q 44		:what division offers more then one branch of studies that don 't fit in with the other four ?
+Gold		:the new collegiate division
+Coqa Pred	:New Collegiate Division
+
+Q 45		:what was the name of the eastern half of the colony of 1788 ?
+Gold		:new south wales
+Coqa Pred	:New South Wales
+
+Q 46		:who took up the path of violence ?
+Gold		:egyptian islamic jihad organization
+Coqa Pred	:Egyptian Islamic Jihad organization
+
+Q 47		:where did british resettle many acadians ?
+Gold		:throughout its north american provinces
+Coqa Pred	:throughout its North American provinces
+
+Q 48		:what does increasing inequality harm ?
+Gold		:economic growth
+Coqa Pred	:economic growth
+
+Q 49		:how sure did the statement say scientists were that temperatures would keep rising ?
+Gold		:at least 90 %
+Coqa Pred	:90
+
+Q 50		:what is the name of the area that the main campus is centered in cambridge ?
+Gold		:harvard yard
+Coqa Pred	:Harvard Yard
+
+Q 51		:how many times less is the strenght of the weak field compared to the strong ?
+Gold		:1013
+Coqa Pred	:1013 times
+
+Q 52		:what is the name of harvard 's primary recreational sports facility ?
+Gold		:malkin athletic center
+Coqa Pred	:Malkin Athletic Center
+
+Q 53		:if parliament agrees in a vote to the general principle of a bill , what does it then proceed to ?
+Gold		:stage 2
+Coqa Pred	:Stage 2
+
+Q 54		:what commonality do alternate machine models , such as random access machines , share with turing machines ?
+Gold		:the machines operate deterministically
+Coqa Pred	:that the machines operate deterministically
+
+Q 55		:what did standard & poor recommend to speed economy recovery ?
+Gold		:increasing access to education
+Coqa Pred	:increasing access to education
+
+Q 56		:what can often be predicted beforehand ?
+Gold		:votes
+Coqa Pred	:outcome of most votes
+
+Q 57		:when were theories developed suggesting inequality may have some positive effect on economic development ?
+Gold		:the 1970s
+Coqa Pred	:1970s
+
+Q 58		:if polynomial time can be utilized within an np-complete problem , what does the imply p is equal to ?
+Gold		:np
+Coqa Pred	:Π2
+
+Q 59		:what did the kyoto protocol try to address ?
+Gold		:climate change
+Coqa Pred	:climate change
+
+Q 60		:does bskyb carry any control over the picture quality of a channel ?
+Gold		:not
+Coqa Pred	:no
+
+Q 61		:what did aristotle refer to forced motion as ?
+Gold		:unnatural
+Coqa Pred	:unnatural
+
+Q 62		:how long may the amazon rainforest be threatened , according to some computer models ?
+Gold		:though the 21st century
+Coqa Pred	:though the 21st century
+
+Q 63		:what is the expression used to denote a worst case complexity as expressed by time taken ?
+Gold		:o ( n2 )
+Coqa Pred	:O(n2
+
+Q 64		:what alumni was also an attorney general and a federal judge ?
+Gold		:robert bork
+Coqa Pred	:Robert Bork
+
+Q 65		:what country was under the control of norman barons ?
+Gold		:wales
+Coqa Pred	:Marches
+
+Q 66		:what has the united nations designed isil ?
+Gold		:a terrorist organisation
+Coqa Pred	:terrorist organisation
+
+Q 67		:where is the highest point of the rhine basin ?
+Gold		:finsteraarhorn
+Coqa Pred	:Finsteraarhorn
+
+Q 68		:what does oxygen the basis for in combustion ?
+Gold		:chemical energy
+Coqa Pred	:source of most of the chemical energy
+
+Q 69		:what are the antimicrobial peptides that are the main form of invertebrate systemic immunity called ?
+Gold		:defensins
+Coqa Pred	:defensins
+
+Q 70		:the ottoman empire controlled territory on three continents , africa , asia and which other ?
+Gold		:europe
+Coqa Pred	:Western Asia
+
+Q 71		:when did the wahhabi seized the grand mosque in mecca ?
+Gold		:november 1979
+Coqa Pred	:November 1979
+
+Q 72		:what was compounding seen as being in the locomotive construction industry ?
+Gold		:complicated
+Coqa Pred	:complicated
+
+Q 73		:the central pacific railroad established a station for its new line in what year ?
+Gold		:1872
+Coqa Pred	:1872
+
+Q 74		:how many combinatory and graph theoretical problems , formerly believed to be plagued by intractability , did karp 's paper address ?
+Gold		:21
+Coqa Pred	:21
+
+Q 75		:when did bskyb announce it 's intention to replace it 's free-to-air digital channels ?
+Gold		:8 february 2007
+Coqa Pred	:8 February 2007
+
+Q 76		:william would eventually gain what throne ?
+Gold		:king of england
+Coqa Pred	:King of England
+
+Q 77		:what country uses the bowl of hygieia as a symbol of pharmacy ?
+Gold		:the netherlands
+Coqa Pred	:Netherlands
+
+Q 78		:what modern formations do geologists study ?
+Gold		:modern soils
+Coqa Pred	:soils
+
+Q 79		:what magnitude of earthquake can many faults produce ?
+Gold		:6.7
+Coqa Pred	:magnitude 6.7+ earthquake
+
+Q 80		:what tends to lead to more money ?
+Gold		:larger fortunes
+Coqa Pred	:wealth condensation
+
+Q 81		:what bridge did the germans fail to demolish ?
+Gold		:ludendorff bridge
+Coqa Pred	:Rhine bridge at Arnhem
+
+Q 82		:since what year did the university offer a doctorate in cinema & media studies ?
+Gold		:2000
+Coqa Pred	:1996
+
+Q 83		:what do closed rivers serve as after they close ?
+Gold		:drainage channels
+Coqa Pred	:drainage channels
+
+Q 84		:when did syria and egypt launch a surprise attack on israel ?
+Gold		:on october 6 , 1973
+Coqa Pred	:October 6, 1973
+
+Q 85		:in sept 1760 who negotiated a capitulation from montreal ?
+Gold		:governor vaudreuil
+Coqa Pred	:Governor Vaudreuil
+
+Q 86		:what causes pauli repulsion ?
+Gold		:fermionic nature of electrons
+Coqa Pred	:fermionic nature of electrons
+
+Q 87		:though turabi proclaimed his support for the democratic process , he strictly applied what after coming into power ?
+Gold		:sharia law
+Coqa Pred	:sharia law
+
+Q 88		:how many research centers does the university run on campus ?
+Gold		:113
+Coqa Pred	:113
+
+Q 89		:in what conditions were forces first measured historically ?
+Gold		:static equilibrium
+Coqa Pred	:static equilibrium
+
+Q 90		:what is the dispensary subject to in a majority of countries ?
+Gold		:pharmacy legislation
+Coqa Pred	:pharmacy legislation
+
+Q 91		:why was polonia relegated from the country 's top flight in 2013 ?
+Gold		:disastrous financial situation
+Coqa Pred	:because of their disastrous financial situation
+
+Q 92		:how many people did hamas kill between 2000 to 2007 ?
+Gold		:542
+Coqa Pred	:542
+
+Q 93		:what is inequality associated with higher levels of ?
+Gold		:redistributive taxation
+Coqa Pred	:redistributive taxation
+
+Q 94		:which timeline is further expanded in the fourth scale ?
+Gold		:quaternary
+Coqa Pred	:Quaternary
+
+Q 95		:what was the ratio of british settler to french ?
+Gold		:20 to 1
+Coqa Pred	:20 to 1
+
+Q 96		:what is the name of the border to the south ?
+Gold		:mexico – united states border
+Coqa Pred	:Mexico–United States border
+
+Q 97		:when do bathyctena chuni , euplokamis stationis and eurhamphaea vexilligera excrete secretions ?
+Gold		:are disturbed ,
+Coqa Pred	:are disturbed
+
+Q 98		:who is the chair of the ipcc ?
+Gold		:hoesung lee
+Coqa Pred	:Hoesung Lee
+
+Q 99		:changes in rainfall reduced what kind of vegetation cover in the amazon basin ?
+Gold		:moist tropical vegetation cover
+Coqa Pred	:moist tropical
+
+Q 100		:who was the most influential researcher among those grappling with the deficit of work surrounding the complexity posed by algorithmic problems ?
+Gold		:alan turing
+Coqa Pred	:Alan Turing
+
+Q 101		:a complete loss of rainforest cover may be caused by what type of emissions ?
+Gold		:greenhouse gas emissions
+Coqa Pred	:greenhouse gas
+
+Q 102		:how was sadat rewarded by the islamists for his attempts to bring egypt into modern times and civilization ?
+Gold		:assassinated
+Coqa Pred	:released Islamists from prison
+
+Q 103		:what university alumni member was known for his work on portfolio theory ?
+Gold		:eugene fama
+Coqa Pred	:Eugene Fama
+
+Q 104		:what was zia-ul-haq 's official state ideology ?
+Gold		:islamism
+Coqa Pred	:Islamism
+
+Q 105		:what is the major tributary of the rhine ?
+Gold		:river aare
+Coqa Pred	:river Aare
+
+Q 106		:southern california 's economy can be described as one of the largest in the united states and what other characteristic ?
+Gold		:diverse
+Coqa Pred	:diverse
+
+Q 107		:who wrote that it is difficult to produce an all inclusive definition of civil disobedience ?
+Gold		:legrande
+Coqa Pred	:LeGrande
+
+Q 108		:who was one prominent huguenot-descended arms manufacturer ?
+Gold		:e.i. du pont
+Coqa Pred	:E.I. du Pont
+
+Q 109		:how many courses must undergraduates maintain for full time status ?
+Gold		:four-course rate average
+Coqa Pred	:four
+
+Q 110		:what is preserved in a closed system of forces when acted upon ?
+Gold		:net mechanical energy
+Coqa Pred	:net mechanical energy
+
+Q 111		:what would need to remain constant in a multiplication algorithm to produce the same outcome whether multiplying or squaring two integers ?
+Gold		:input
+Coqa Pred	:to square an integer
+
+Q 112		:what was the topic of the error ?
+Gold		:himalayan glaciers
+Coqa Pred	:over Himalayan glaciers
+
+Q 113		:what is the bond order of dioxygen molecules ?
+Gold		:two
+Coqa Pred	:two
+
+Q 114		:in what year did the amazon experience its worst drought of recent history ?
+Gold		:2005
+Coqa Pred	:2005
+
+Q 115		:the two aaa clubs divided the state into a northern and southern california as opposed to what point of view ?
+Gold		:three-region
+Coqa Pred	:three-region point of view
+
+Q 116		:when did the last glacial end ?
+Gold		:11,600 bp
+Coqa Pred	:~74,000
+
+Q 117		:what jacksonville community is known for having heavy ties to the navy ?
+Gold		:filipino
+Coqa Pred	:Filipino community
+
+Q 118		:what type of assistance to out of town students is the muslim brotherhood known for ?
+Gold		:housing
+Coqa Pred	:shelters, educational assistance, free or low cost medical clinics, housing
+
+Q 119		:what was temur khan 's chinese-style name ?
+Gold		:emperor chengzong
+Coqa Pred	:Emperor Chengzong
+
+Q 120		:what percentage of new zealand students attended private schools in april 2014 ?
+Gold		:3.7
+Coqa Pred	:88
+
+Q 121		:who formulated the idea of clonal selection theory of immunity ?
+Gold		:frank burnet
+Coqa Pred	:Frank Burnet
+
+Q 122		:even in large firms , architects , interior designers , engineers , developers , construction managers , and general contractors were more likely to be what ?
+Gold		:entirely separate companies
+Coqa Pred	:entirely separate companies
+
+Q 123		:what type of amendments might members opposed to a bill put on the table ?
+Gold		:wrecking
+Coqa Pred	:wrecking amendments
+
+Q 124		:who responded to lindzen 's criticisms ?
+Gold		:john houghton
+Coqa Pred	:John Houghton
+
+Q 125		:what is the theory that this king 's name is the origin of " huguenot " called ?
+Gold		:the " hugues hypothesis "
+Coqa Pred	:Hugues Capet
+
+Q 126		:what name is given to any prime number larger than 2 ?
+Gold		:odd prime
+Coqa Pred	:odd prime
+
+Q 127		:what suffered considerably for warsaw when it had an eastern bloc economy ?
+Gold		:infrastructure
+Coqa Pred	:infrastructure
+
+Q 128		:where is bielany forest located ?
+Gold		:within the borders of warsaw
+Coqa Pred	:within the borders of Warsaw
+
+Q 129		:when was the parental leave directive created ?
+Gold		:1996
+Coqa Pred	:1996
+
+Q 130		:what contributed to water pollution in the rhine ?
+Gold		:plants and factories
+Coqa Pred	:industry
+
+Q 131		:some theories argue that civil disobedience is justified in regard to ?
+Gold		:governmental entities
+Coqa Pred	:governmental entities
+
+Q 132		:which oil producer is a close ally of the united states ?
+Gold		:iran
+Coqa Pred	:Iran
+
+Q 133		:what issues may prevent women from working outside the home or receiving education ?
+Gold		:gender roles and customs
+Coqa Pred	:gender roles and customs
+
+Q 134		:when was the jacksonville town charter approved ?
+Gold		:february 9 , 1832
+Coqa Pred	:February 9, 1832
+
+Q 135		:what is the concrete choice typically assumed by most complexity-theoretic theorems ?
+Gold		:input encoding
+Coqa Pred	:input encoding
+
+Q 136		:why would rampant violence prevent people from going to work ?
+Gold		:for fear of their lives
+Coqa Pred	:for fear of their lives
+
+Q 137		:what is another piece created by olivier messiaen ?
+Gold		:quatre études de rythme
+Coqa Pred	:La Nativité du Seigneur
+
+Q 138		:which genus is considered the " aunt " of ctenophores ?
+Gold		:stromatoveris
+Coqa Pred	:Stromatoveris
+
+Q 139		:who had established the russian empire to its former glory prior to 1921 ?
+Gold		:bolshevik leaders
+Coqa Pred	:Bolshevik leaders
+
+Q 140		:what campaign did the communist regime initiate after wwii ?
+Gold		:" bricks for warsaw "
+Coqa Pred	:Bricks for Warsaw
+
+Q 141		:a problem set that that is hard for the expression np can also be stated how ?
+Gold		:np-hard
+Coqa Pred	:every problem in C can be reduced to X.
+
+Q 142		:what characteristic best describes the agricultural regions that could be found ?
+Gold		:richest
+Coqa Pred	:cattle and citrus were major industries until farmlands were turned into suburbs
+
+Q 143		:where were persians more successful compared to chinese in the yuan ?
+Gold		:ilkhanate
+Coqa Pred	:Ilkhanate
+
+Q 144		:what was the seat of former party leader david mcletchie ?
+Gold		:edinburgh pentlands
+Coqa Pred	:Edinburgh Pentlands
+
+Q 145		:when was the scale to measure the rhine introduced ?
+Gold		:1939
+Coqa Pred	:1939
+
+Q 146		:what articles state that unless conferred , powers remain with member states ?
+Gold		:teu articles 4 and 5
+Coqa Pred	:TEU articles 4 and 5
+
+Q 147		:what is the chemical that mediates type 1 hypersensitivity ?
+Gold		:ige
+Coqa Pred	:IgE
+
+Q 148		:what alumni wrote " the good war " ?
+Gold		:studs terkel
+Coqa Pred	:Allan Bloom
+
+Q 149		:when rich countries trade with poor countries , whose wages increase ?
+Gold		:workers in the poor countries
+Coqa Pred	:low-skilled workers
+
+Q 150		:what modern city did khanbaliq become ?
+Gold		:beijing
+Coqa Pred	:Beijing
+
+Q 151		:of what were materials that left little residue thought to contain ?
+Gold		:phlogiston
+Coqa Pred	:wood or coal
+
+Q 152		:what forest is by warsaw 's southern border ?
+Gold		:kabaty
+Coqa Pred	:Kabaty Forest
+
+Q 153		:which company did mrs foster work for ?
+Gold		:british gas plc
+Coqa Pred	:Swedex GmbH & Co KG
+
+Q 154		:what makes static friction go up or down in responce to contact characteristics between an object and the surface it is on ?
+Gold		:applied force
+Coqa Pred	:applied force is opposed by static friction
+
+Q 155		:analysis of what kind of deposits from the amazon fan indicates a change in rainfall in the amazon basin ?
+Gold		:sediment deposits
+Coqa Pred	:sediment deposits from Amazon basin paleolakes
+
+Q 156		:what tool do stratigraphers use to see their data in three dimensions ?
+Gold		:computer programs
+Coqa Pred	:computer programs
+
+Q 157		:in what decade was seafloor spreading discovered ?
+Gold		:the 1960s
+Coqa Pred	:1960s
+
+Q 158		:what is the force equivalent of torque compared to angular momentum ?
+Gold		:rotational equivalent for position
+Coqa Pred	:Torque
+
+Q 159		:how long did the 5th president 's tenure last ?
+Gold		:24-year tenure
+Coqa Pred	:24-year
+
+Q 160		:when did mongke khan become great khan ?
+Gold		:1251
+Coqa Pred	:1206
+
+Q 161		:when did bskyb discontinue the sky + box ?
+Gold		:january 2010
+Coqa Pred	:January 2010
+
+Q 162		:what is the axis of warsaw which divides it into two parts ?
+Gold		:vistula river
+Coqa Pred	:Vistula River
+
+Q 163		:who won the ekstraklasa championship in 2000 ?
+Gold		:polonia warsaw
+Coqa Pred	:Polonia Warsaw
+
+Q 164		:what caused the us public to condemn the occupation of the philippines ?
+Gold		:a war erupted
+Coqa Pred	:war
+
+Q 165		:what is almost identical across all nations and jurisdictions ?
+Gold		:homicides
+Coqa Pred	:homicides
+
+Q 166		:whose role is to design the works , prepare the specifications and produce construction drawings , administer the contract , tender the works , and manage the works from inception to completion
+Gold		:the project coordinator
+Coqa Pred	:architect or engineer
+
+Q 167		:what percentage of german students attended private schools in 2008 ?
+Gold		:7.8
+Coqa Pred	:11.1
+
+Q 168		:outside of national recognition , what other kind of recognition do some of the cities get ?
+Gold		:global
+Coqa Pred	:global
+
+Q 169		:when did hitler order the annihilation of the warsaw ghetto ?
+Gold		:april 1943
+Coqa Pred	:19 April 1943
+
+Q 170		:after the rhine emerges from lake constance , what direction does it flow ?
+Gold		:westward
+Coqa Pred	:westward
+
+Q 171		:who set up what became the second polish republic ?
+Gold		:underground leader piłsudski
+Coqa Pred	:Piłsudski
+
+Q 172		:when was the special report on managing risks of extreme events and disasters to advance climate change adaptation ( srex ) issued ?
+Gold		:2011
+Coqa Pred	:2011
+
+Q 173		:what coalition rose up to oppose louis xiv 's france ?
+Gold		:league of augsburg
+Coqa Pred	:League of Augsburg
+
+Q 174		:who first proved bertrand 's postulate ?
+Gold		:chebyshev
+Coqa Pred	:Chebyshev
+
+Q 175		:what was the italian title of polo 's book ?
+Gold		:il milione
+Coqa Pred	:Il milione
+
+Q 176		:what institution does robert barro hail from ?
+Gold		:harvard
+Coqa Pred	:Harvard
+
+Q 177		:who presents different ideas about how to accomplish goals ?
+Gold		:d & b contractors
+Coqa Pred	:Several D&B contractors
+
+Q 178		:what introduces inequality to a country ?
+Gold		:more capital
+Coqa Pred	:it acquires more capital
+
+Q 179		:who was the uighur king of qocho ranked above ?
+Gold		:the karluk kara-khanid ruler
+Coqa Pred	:Karluk Kara-Khanid ruler
+
+Q 180		:what is the name of another type of modern primality test ?
+Gold		:deterministic
+Coqa Pred	:probabilistic
+
+Q 181		:what is the name of the water body that is found to the east ?
+Gold		:colorado river
+Coqa Pred	:Colorado Desert
+
+Q 182		:what prohibition agent was also an alumni at the university ?
+Gold		:eliot ness
+Coqa Pred	:Eliot Ness
+
+Q 183		:when did menich serve as president ?
+Gold		:1695 – 1696
+Coqa Pred	:1695–1696
+
+Q 184		:in what two age groups is the strength of the immune system reduced ?
+Gold		:the young and the elderly
+Coqa Pred	:young and the elderly
+
+Q 185		:what did the ipcc say was mistaken ?
+Gold		:the date
+Coqa Pred	:date
+
+Q 186		:what is the basic unit of territorial division in poland ?
+Gold		:a commune
+Coqa Pred	:commune
+
+Q 187		:how many huguenots were killed in toulouse ?
+Gold		:nearly 3,000
+Coqa Pred	:Nearly 3,000
+
+Q 188		:how much did saudi arabia spend on spreading wahhabism ?
+Gold		:over 100 billion dollars
+Coqa Pred	:over 100 billion dollars
+
+Q 189		:what is the general term used to describe the output to any given input in a problem instance ?
+Gold		:solution
+Coqa Pred	:input string
+
+Q 190		:who moved his court from kraków to warsaw in 1596 ?
+Gold		:king sigismund iii vasa
+Coqa Pred	:King Sigismund III Vasa
+
+Q 191		:what does ozone 's characteristic to cause damage effect ?
+Gold		:lung tissue
+Coqa Pred	:lung tissue
+
+Q 192		:how many people does the greater los angeles area have ?
+Gold		:17.5 million
+Coqa Pred	:over 12 million
+
+Q 193		:in what year did pierre de fermat declare fermat 's little theorem ?
+Gold		:in 1640
+Coqa Pred	:1640
+
+Q 194		:what was ghandi 's work called ?
+Gold		:doctrine of satyagraha
+Coqa Pred	:Mask of Anarchy
+
+Q 195		:what is set aside for question periods in the debating chamber ?
+Gold		:parliamentary time
+Coqa Pred	:Parliamentary time
+
+Q 196		:who was the chairman of the house committee on energy and commerce ?
+Gold		:rep. joe barton
+Coqa Pred	:Rep. Joe Barton
+
+Q 197		:what was the concept of force an integral part of ?
+Gold		:aristotelian cosmology
+Coqa Pred	:Aristotelian cosmology
+
+Q 198		:who took isaacs place as provost in 2016 ?
+Gold		:robert zimmer
+Coqa Pred	:Daniel Diermeier
+
+Q 199		:where are the streams the rhine captured ?
+Gold		:vosges mountains
+Coqa Pred	:Vosges Mountains
+
+Q 200		:what were the two huguenot neighborhoods created in berlin ?
+Gold		:dorotheenstadt and friedrichstadt
+Coqa Pred	:Dorotheenstadt and Friedrichstadt
+
+Q 201		:name one country that banned boating , driving and flying on sundays .
+Gold		:germany
+Coqa Pred	:UK, Germany, Italy, Switzerland and Norway
+
+Q 202		:what is the most well-known algorithm associated with the integer factorization problem ?
+Gold		:the general number field sieve
+Coqa Pred	:general number field sieve
+
+Q 203		:what were chao made out of ?
+Gold		:bark of mulberry trees
+Coqa Pred	:bark of mulberry trees
+
+Q 204		:who did the ottoman empire ally with in ww i ?
+Gold		:germany
+Coqa Pred	:Germany
+
+Q 205		:despite being traditionall described as " eight counties " , how many counties does this region actually have ?
+Gold		:10 counties
+Coqa Pred	:10
+
+Q 206		:how are the combs spaced ?
+Gold		:evenly round the body
+Coqa Pred	:evenly round the body
+
+Q 207		:how many days does the council have to override the mayor 's veto ?
+Gold		:30 days
+Coqa Pred	:30 days
+
+Q 208		:high pressure steam engines were small enough that they could be used in what application ?
+Gold		:transport
+Coqa Pred	:transport applications
+
+Q 209		:what type of skills does the market bid up compensation for ?
+Gold		:rare and desired
+Coqa Pred	:rare and desired skills
+
+Q 210		:how many biomolecules contain no oxygen ?
+Gold		:only a few
+Coqa Pred	:few
+
+Q 211		:downtown burbank is an example of what kind of district ?
+Gold		:business
+Coqa Pred	:major business districts
+
+Q 212		:king sigimund 's column is an example of what kind of attraction in warsaw ?
+Gold		:architectural
+Coqa Pred	:iconic King Sigismund's Column
+
+Q 213		:what khitan leader defected to the mongols ?
+Gold		:xiao zhala
+Coqa Pred	:Han Chinese and Khitan
+
+Q 214		:how many days does the parliament have to nominate a first minister after a general election ?
+Gold		:28
+Coqa Pred	:28
+
+Q 215		:what is the term for the set of all connected graphs related to this decision problem ?
+Gold		:formal language
+Coqa Pred	:formal language
+
+Q 216		:what type of medicine did otachi focus on ?
+Gold		:herbal remedies
+Coqa Pred	:herbal remedies
+
+Q 217		:for what railroad did stephenson build a locomotive in 1825 ?
+Gold		:stockton and darlington
+Coqa Pred	:Stockton and Darlington Railway
+
+Q 218		:what will a pharmacist who passes the ambulatory pharmacist exam be called ?
+Gold		:board certified ambulatory care pharmacist
+Coqa Pred	:Board Certified Ambulatory Care Pharmacist
+
+Q 219		:who was given land by british goovernment for development of ohio country ?
+Gold		:ohio company of virginia
+Coqa Pred	:Ohio Company of Virginia
+
+Q 220		:who does the presiding officer submit the final bill to ?
+Gold		:the monarch
+Coqa Pred	:Monarch
+
+Q 221		:what was warsaw ranked the 7th greatest of ?
+Gold		:emerging market
+Coqa Pred	:emerging market
+
+Q 222		:who makes formal appointment or dismissal decisions ?
+Gold		:the sovereign
+Coqa Pred	:Sovereign
+
+Q 223		:which conjecture holds that for any positive integer n , there is an infinite amount of pairs of consecutive primes differing by 2n ?
+Gold		:polignac 's conjecture
+Coqa Pred	:Polignac's conjecture
+
+Q 224		:the term " southern " california usually refers to how many of the southern-most counties of the state ?
+Gold		:ten
+Coqa Pred	:ten
+
+Q 225		:what co-receptor on the t cell helps in recognizing the mhc-antigen complex ?
+Gold		:cd8
+Coqa Pred	:CD8
+
+Q 226		:who was guy 's rival ?
+Gold		:conrad of montferrat
+Coqa Pred	:Conrad of Montferrat
+
+Q 227		:how many types of movements do euplokamis tentilla have ?
+Gold		:three types of movement
+Coqa Pred	:three
+
+Q 228		:for how long did the plague stick around ?
+Gold		:until the 19th century
+Coqa Pred	:until the 19th century
+
+Q 229		:where are jersey and guernsey
+Gold		:channel islands
+Coqa Pred	:Channel Islands
+
+Q 230		:what was warsaw the most diverse of in poland ?
+Gold		:city
+Coqa Pred	:foreign-born inhabitants
+
+Q 231		:who is videoguard owned by ?
+Gold		:nds
+Coqa Pred	:NDS
+
+Q 232		:how many protestants live in france today ?
+Gold		:one million
+Coqa Pred	:Approximately one million
+
+Q 233		:how are ergänzungsschulen funded ?
+Gold		:tuition
+Coqa Pred	:by charging their students tuition fees
+
+Q 234		:who had toghtogha tried to defeat ?
+Gold		:the red turban rebels
+Coqa Pred	:Red Turban rebels
+
+Q 235		:what institute did the university announced to everyone in 2008 ?
+Gold		:milton friedman institute
+Coqa Pred	:Milton Friedman Institute
+
+Q 236		:what type of steam engines produced most power up to the early 20th century ?
+Gold		:reciprocating piston
+Coqa Pred	:Reciprocating piston type steam engines
+
+Q 237		:what food bacteria is an example of intracellular pathogenesis ?
+Gold		:salmonella
+Coqa Pred	:viruses
+
+Q 238		:in what kind of fluid are pressure differences caused by direction of forces over gradients ?
+Gold		:extended
+Coqa Pred	:extended fluids
+
+Q 239		:what ends at this bend in the rhine ?
+Gold		:high rhine
+Coqa Pred	:High Rhine
+
+Q 240		:what type of value would the zeta function have if there were finite primes ?
+Gold		:a finite value
+Coqa Pred	:ζ(1
+
+Q 241		:what type of microscope is used by petrologists ?
+Gold		:petrographic microscope
+Coqa Pred	:optical
+
+Q 242		:what archdiocese is warsaw the seat of ?
+Gold		:roman catholic
+Coqa Pred	:Roman Catholic
+
+Q 243		:what is the name of the european union agency for external border security ?
+Gold		:frontex
+Coqa Pred	:Frontex
+
+Q 244		:what type of steam engine doesn 't need valves to direct steam ?
+Gold		:oscillating cylinder
+Coqa Pred	:oscillating cylinder steam engine
+
+Q 245		:what was abu hamaz al-masri charged with when he was arrested ?
+Gold		:incitement to terrorism
+Coqa Pred	:incitement to terrorism
+
+Q 246		:what was the name of the other hd channel virgin media could carry in the future ?
+Gold		:channel 4 hd
+Coqa Pred	:Channel 4 HD
+
+Q 247		:what was the proportion of huguenots to catholics at their peak ?
+Gold		:about one-eighth the number
+Coqa Pred	:estimated two million
+
+Q 248		:who may change the date by up to a month , on the proposal of the po ?
+Gold		:the monarch
+Coqa Pred	:Monarch
+
+Q 249		:according to the princeton review where has harvard ranked as a " dream college " in 2013
+Gold		:second most commonly
+Coqa Pred	:yes
+
+Q 250		:what type of sentences were the protesters given ?
+Gold		:suspended sentences
+Coqa Pred	:suspended
+
+Q 251		:what long term agenda was the acts of plundering muslim lands by the west ?
+Gold		:conspiracy
+Coqa Pred	:long-term conspiracy against Islam
+
+Q 252		:how many people belong to the university 's board of trustees ?
+Gold		:50
+Coqa Pred	:50
+
+Q 253		:what part do events in victoria 's economy play ?
+Gold		:tourism
+Coqa Pred	:big part in tourism
+
+Q 254		:other than surf , what other culture is southern california home to ?
+Gold		:skateboard
+Coqa Pred	:home grown surf and skateboard culture
+
+Q 255		:how much did the population of victoria increase in ten years after the discovery of gold ?
+Gold		:sevenfold
+Coqa Pred	:sevenfold from 76,000 to 540,000
+
+Q 256		:what are the weakly filled higher orbitals of oxygen ?
+Gold		:antibonding
+Coqa Pred	:antibonding
+
+Q 257		:what major conquest did tancred play a roll in ?
+Gold		:jerusalem
+Coqa Pred	:Jerusalem
+
+Q 258		:what civil rights movement in the us was known for it 's disobedience ?
+Gold		:american civil rights movement
+Coqa Pred	:American Civil Rights Movement
+
+Q 259		:what were blank spaces used for on nineteenth-century maps ?
+Gold		:unexplored territory
+Coqa Pred	:unknown or unexplored territory
+
+Q 260		:ctenophora are less complex than which other phylum ?
+Gold		:bilaterians
+Coqa Pred	:sponges
+
+Q 261		:what un secretary went to harvard ?
+Gold		:general ban ki-moon
+Coqa Pred	:unknown
+
+Q 262		:who is one prominent advocate of this theory ?
+Gold		:janet gray
+Coqa Pred	:Janet Gray
+
+Q 263		:what does salafism in its harshest form encourage its followers to view the religion of others with ?
+Gold		:hate
+Coqa Pred	:hate them for their religion
+
+Q 264		:what event was the worst example of huguenot persecution ?
+Gold		:st. bartholomew 's day massacre
+Coqa Pred	:St. Bartholomew's Day massacre
+
+Q 265		:ip and am are most commonly defined by what type of proof system ?
+Gold		:interactive
+Coqa Pred	:Interactive
+
+Q 266		:when was rem sleep discovered ?
+Gold		:1953
+Coqa Pred	:1953
+
+Q 267		:which country 's arms purchase from the us became 5 times more than israel ?
+Gold		:saudi arabia
+Coqa Pred	:Saudi
+
+Q 268		:by what name were the " supposedly reformed " known ?
+Gold		:prétendus réformés
+Coqa Pred	:prétendus réformés
+
+Q 269		:which set of countries have higher economic mobility than the united states ?
+Gold		:continental european countries
+Coqa Pred	:U.S. economy
+
+Q 270		:what amount of bird species on earth are found in the amazon rainforest ?
+Gold		:one in five
+Coqa Pred	:One in five
+
+Q 271		:how much of a difference in homicide rates are related to inequality ?
+Gold		:tenfold
+Coqa Pred	:tenfold
+
+Q 272		:around roughly how many students enroll yearly in creative and performing arts classes ?
+Gold		:several thousand
+Coqa Pred	:Several thousand
+
+Q 273		:rocks that are a depth where they are ductilely stretched are also often what ?
+Gold		:metamorphosed
+Coqa Pred	:metamorphosed
+
+Q 274		:how many did this epidemic in china kill ?
+Gold		:an estimated 25 million
+Coqa Pred	:25 million
+
+Q 275		:the atomic number of the periodic table for oxygen ?
+Gold		:8
+Coqa Pred	:8
+
+Q 276		:what tax rate has a direct relationship with income inequality ?
+Gold		:top tax rate
+Coqa Pred	:level of the top tax rate
+
+Q 277		:what are associated with normal forces ?
+Gold		:pressure terms
+Coqa Pred	:shear terms
+
+Q 278		:when did tugh temur die ?
+Gold		:1332
+Coqa Pred	:1332
+
+Q 279		:who was one of the earliest examples of civil disobedience against ?
+Gold		:the british
+Coqa Pred	:Egyptians
+
+Q 280		:when was the fis founded ?
+Gold		:1989
+Coqa Pred	:1989
+
+Q 281		:what was the chinese name for the central secretariat ?
+Gold		:zhongshu sheng
+Coqa Pred	:Zhongshu Sheng
+
+Q 282		:what allows customers to get sky + functions if they do not subscribe to bskyb 's channels ?
+Gold		:monthly fee
+Coqa Pred	:monthly fee
+
+Q 283		:who is given credit for discovering geoglyphs along the amazon river ?
+Gold		:ondemar dias
+Coqa Pred	:Ondemar Dias
+
+Q 284		:in south africa , along with privately governed schools , what schools are classified as independent ?
+Gold		:traditional private
+Coqa Pred	:traditional private schools
+
+Q 285		:what consortium was bskyb excluded from ?
+Gold		:ondigital
+Coqa Pred	:ONdigital consortium
+
+Q 286		:who was ralph in charge of being at war with ?
+Gold		:the welsh
+Coqa Pred	:Welsh
+
+Q 287		:what part is added to the uniflow engine to resolve the issue in the counterflow cycle ?
+Gold		:port
+Coqa Pred	:port and the cylinder walls will be cooled by the passing exhaust steam
+
+Q 288		:how many species of bird and mammals are there in the amazon region ?
+Gold		:2,000
+Coqa Pred	:2,000
+
+Q 289		:during what period did the tower theatre re-open ?
+Gold		:late 1970s
+Coqa Pred	:late 1970s
+
+Q 290		:what work from around 300 bc has significant theorems about prime numbers ?
+Gold		:euclid 's elements
+Coqa Pred	:Euclid's Elements
+
+Q 291		:when violence is used , what is civil disobedience sometimes called ?
+Gold		:civil rebellion
+Coqa Pred	:civil rebellion
+
+Q 292		:who decides who gets to speak in the chamber debates ?
+Gold		:the presiding officer
+Coqa Pred	:Presiding Officer
+
+Q 293		:huguenots in killeshandra and county cavan expanded what agricultural industry ?
+Gold		:flax cultivation
+Coqa Pred	:flax cultivation
+
+Q 294		:what tradition were the saint-evroul monks known for ?
+Gold		:singing
+Coqa Pred	:singing
+
+Q 295		:which american show changed the views of romanians during the cold war ?
+Gold		:dallas
+Coqa Pred	:Dallas
+
+Q 296		:how much did the gross agricultural product increase from 2003-04 ?
+Gold		:$ 8.7 billion
+Coqa Pred	:8.7 billion
+
+Q 297		:above what horsepower are steam turbines usually more efficient than steam engines that use reciprocating pistons ?
+Gold		:several hundred
+Coqa Pred	:above several hundred horsepower
+
+Q 298		:what type of fossils were found in china ?
+Gold		:cambrian sessile frond-like fossil stromatoveris
+Coqa Pred	:sessile frond-like
+
+Q 299		:where did ht fail to pull off a bloodless coup in 1974 ?
+Gold		:egypt
+Coqa Pred	:Egypt
+
+Q 300		:what was fresno 's population in 2010 ?
+Gold		:494,665
+Coqa Pred	:494,665
+
+Q 301		:how does inequality prevent growth ?
+Gold		:by limiting aggregate demand
+Coqa Pred	:by limiting aggregate demand
+
+Q 302		:who did the mongols send to bukhara as administrators ?
+Gold		:han chinese and khitans
+Coqa Pred	:Han Chinese and Khitans
+
+Q 303		:of what form do fermat numbers take ?
+Gold		:22n + 1
+Coqa Pred	:22n + 1
+
+Q 304		:what town is surrounded by jacksonville ?
+Gold		:baldwin
+Coqa Pred	:Baldwin
+
+Q 305		:what network was designed by the french
+Gold		:cyclades packet switching network
+Coqa Pred	:CYCLADES packet switching network
+
+Q 306		:what is another term for excessive compression ?
+Gold		:kick back
+Coqa Pred	:kick back").[citation
+
+Q 307		:what are the most abundant kind of phagocyte ?
+Gold		:neutrophils
+Coqa Pred	:Neutrophils
+
+Q 308		:what army was pushing deep into polish territory to pursue the germans in 1944 ?
+Gold		:the red army
+Coqa Pred	:Red Army
+
+Q 309		:sky movies and sky box office also include what optional soundtracks ?
+Gold		:dolby digital
+Coqa Pred	:Dolby Digital
+
+Q 310		:what area has become attractive for restaurants ?
+Gold		:tower district
+Coqa Pred	:Tower District
+
+Q 311		:who developed the lithium-ion battery ?
+Gold		:john b. goodenough
+Coqa Pred	:John B. Goodenough
+
+Q 312		:how long as the u.s. government been actively engaged in efforts to counter islamism ?
+Gold		:since 2001
+Coqa Pred	:since 2001
+
+Q 313		:how did the better jacksonville plan generate money ?
+Gold		:authorized a half-penny sales tax
+Coqa Pred	:authorized a half-penny sales tax
+
+Q 314		:what could be attributed to gravity acceleration around the earth ?
+Gold		:the moon
+Coqa Pred	:same force of gravity
+
+Q 315		:in what year did fresno experience the most rainfall ?
+Gold		:1885
+Coqa Pred	:1885
+
+Q 316		:who has limited productive potential when faced with less access to education ?
+Gold		:poor
+Coqa Pred	:individuals
+
+Q 317		:when did hamas drive the plo out of gaza ?
+Gold		:2007
+Coqa Pred	:in 2007
+
+Q 318		:what did olivier roy state underwent a remarkable shift in the second half of the 20th century ?
+Gold		:sunni pan-islamism
+Coqa Pred	:Sunni pan-Islamism
+
+Q 319		:what did hamas win in the january 2006 legislative election ?
+Gold		:majority of the seats ,
+Coqa Pred	:majority of the seats
+
+Q 320		:what was the name given to a section of kearney boulevard in efforts to change the areas image ?
+Gold		:brookhaven
+Coqa Pred	:Brookhaven
+
+Q 321		:what are the exchanged particles predicted by the standard model ?
+Gold		:gauge bosons
+Coqa Pred	:gauge bosons
+
+Q 322		:what is the first major bend in the rhine called ?
+Gold		:rhine knee
+Coqa Pred	:Rhine knee
+
+Q 323		:when a pathogen has been eaten by a phagocyte it becomes trapped in what vesicle ?
+Gold		:phagosome
+Coqa Pred	:phagosome
+
+Q 324		:when were the wars of religion fought ?
+Gold		:from 1562 to 1598
+Coqa Pred	:1562 to 1598
+
+Q 325		:what type of housing was erected in warsaw as part of the bricks for warsaw process ?
+Gold		:prefabricated
+Coqa Pred	:prefabricated housing projects
+
+Q 326		:how many bodies of water makes up lake constance ?
+Gold		:three
+Coqa Pred	:three
+
+Q 327		:what year saw the earliest recorded use of the steam engine indicator ?
+Gold		:1851
+Coqa Pred	:1851
+
+Q 328		:what is the major tributary for the rhine ?
+Gold		:aare
+Coqa Pred	:river Aare
+
+Q 329		:what countries use a red stylized a to signify pharmacy ?
+Gold		:germany and austria
+Coqa Pred	:Germany and Austria
+
+Q 330		:what skin-related symptom appears from the pneumonic plague ?
+Gold		:purple skin patches
+Coqa Pred	:fever, cough, and blood-tinged sputum
+
+Q 331		:what does not constitute as civil disobedience ?
+Gold		:refuse to enforce a decision
+Coqa Pred	:pertaining to a citizen's relation to the state and its laws
+
+Q 332		:how was the school able to bring aboard the best talented students ?
+Gold		:identify , recruit
+Coqa Pred	:reinvigorated creative scholarship
+
+Q 333		:in the layered model of the earth , the outermost layer is what ?
+Gold		:crust
+Coqa Pred	:crust and lithosphere
+
+Q 334		:debates about civil disobedience include or exclude what major practice ?
+Gold		:violence
+Coqa Pred	:non-violent. Black's Law Dictionary includes non-violence
+
+Q 335		:what is the chinese name for the yuan dynasty ?
+Gold		:yuán cháo
+Coqa Pred	:Great Yuan
+
+Q 336		:what law connects relative velocities with inertia ?
+Gold		:newton 's first
+Coqa Pred	:Newton's First Law
+
+Q 337		:of what did da vinci think a part was consumed during combustion ?
+Gold		:air
+Coqa Pred	:air
+
+Q 338		:time and space are both examples of what type of resource ?
+Gold		:complexity resources
+Coqa Pred	:computational
+
+Q 339		:what river separates jacksonville ?
+Gold		:the st. johns river
+Coqa Pred	:St. Johns River
+
+Q 340		:how many pounds of steam per kilowatt hour does the energiprojekt ab engine use ?
+Gold		:8.8
+Coqa Pred	:27-30
+
+Q 341		:how do regimes fight against cultural imperialism ?
+Gold		:bans
+Coqa Pred	:bans on foreign popular culture
+
+Q 342		:for what nation did ribault initially claim what is now jacksonville ?
+Gold		:france
+Coqa Pred	:France
+
+Q 343		:why are some forces due to that are impossible to model ?
+Gold		:gradient of potentials
+Coqa Pred	:gradient of potentials
+
+Q 344		:how many scalar equations were formed into a set by james maxwell ?
+Gold		:20
+Coqa Pred	:20
+
+Q 345		:what is the seating arrangement of the debating chamber ?
+Gold		:hemicycle
+Coqa Pred	:hemicycle
+
+Q 346		:who described kublai 's china to europe ?
+Gold		:marco polo
+Coqa Pred	:Marco Polo
+
+Q 347		:what do weak labor movement correlate with ?
+Gold		:high inequality
+Coqa Pred	:high inequality
+
+Q 348		:what was sadat seeking by releasing islamists from prison ?
+Gold		:political support
+Coqa Pred	:political support in his struggle against leftists
+
+Q 349		:what can the non-elected members from the scottish government not do ?
+Gold		:vote
+Coqa Pred	:vote
+
+Q 350		:what chinese era name did kublai adopt ?
+Gold		:zhongtong
+Coqa Pred	:Zhongtong
+
+Q 351		:along with private individuals and organizations , what groups sometimes runs ergänzungsschulen ?
+Gold		:religious
+Coqa Pred	:religious groups
+
+Q 352		:what is polish for " mermaid " ?
+Gold		:syrenka
+Coqa Pred	:syrenka
+
+Q 353		:what type of climate does jacksonville have ?
+Gold		:subtropical
+Coqa Pred	:humid subtropical
+
+Q 354		:how many species of trees can be found in the amazon rainforest ?
+Gold		:16,000
+Coqa Pred	:390 billion
+
+Q 355		:what persons were not allowed to settle in new france ?
+Gold		:non-catholics
+Coqa Pred	:non-Catholics
+
+Q 356		:where was the famous artist tamara de lempicka born ?
+Gold		:warsaw
+Coqa Pred	:Warsaw
+
+Q 357		:what are free-to-air encrypted broadcasts known as ?
+Gold		:free-to-view
+Coqa Pred	:free-to-view
+
+Q 358		:what district of warsaw chose the president between 1994 and 1999 ?
+Gold		:centrum
+Coqa Pred	:district Centrum
+
+Q 359		:who did the geographic scholars work for ?
+Gold		:colonizing empires
+Coqa Pred	:colonizing empires
+
+Q 360		:what part the composition of the earth 's atmosphere is comprised of oxygen ?
+Gold		:major
+Coqa Pred	:major
+
+Q 361		:how many people per square mile lived in fresno in 2010 ?
+Gold		:4,404.5 people
+Coqa Pred	:494,665
+
+Q 362		:what is the minimum distance between a patient 's home and the nearest pharmacy that allows a physician in austria to give out medicine ?
+Gold		:more than 4 kilometers
+Coqa Pred	:1.6 kilometres
+
+Q 363		:what were the annual carriage fees for the channels ?
+Gold		:£ 30m
+Coqa Pred	:£30m
+
+Q 364		:what effect did breathing priestley 's discovered gas have on the experiment 's mouse ?
+Gold		:active
+Coqa Pred	:was more active
+
+Q 365		:on what show did bill aiken make is television debut ?
+Gold		:the fresno barn
+Coqa Pred	:WWVA Jamboree
+
+Q 366		:what prohibits atoms from passing through each other ?
+Gold		:pauli exclusion principle
+Coqa Pred	:Pauli exclusion principle
+
+Q 367		:what are two examples of nonself entities in accordance with frank burnet 's theory ?
+Gold		:pathogens , an allograft
+Coqa Pred	:pathogens
+
+Q 368		:what was the anglo-norman language 's final form ?
+Gold		:modern english
+Coqa Pred	:Middle English. It in turn evolved into Modern English
+
+Q 369		:what is one variable on which the running time may be contingent ?
+Gold		:the instance
+Coqa Pred	:on the instance
+
+Q 370		:what ideal thermodynamic cycle analyzes the process by which steam engines work ?
+Gold		:rankine
+Coqa Pred	:Rankine cycle
+
+Q 371		:what is the number of plant species in economics and social interest ?
+Gold		:438,000
+Coqa Pred	:438,000
+
+Q 372		:which country does the rhine encounter it 's main tributaries ?
+Gold		:germany
+Coqa Pred	:Germany
+
+Q 373		:who governed the central region in the yuan ?
+Gold		:the central secretariat
+Coqa Pred	:Central Secretariat
+
+Q 374		:when was ambulatory care pharmacy approved as its own certification ?
+Gold		:2011
+Coqa Pred	:In 2011
+
+Q 375		:in what dynasty did tianze live ?
+Gold		:jin dynasty
+Coqa Pred	:Jin dynasty
+
+Q 376		:when were shimer college students allowed to transfer to the university of chicago ?
+Gold		:after their second year
+Coqa Pred	:after their second year
+
+Q 377		:in what country was a full-scale working railway steam locomotive first invented ?
+Gold		:united kingdom
+Coqa Pred	:United Kingdom
+
+Q 378		:how are pharmacists regulated in most jurisdictions ?
+Gold		:separately from physicians
+Coqa Pred	:separately from physicians
+
+Q 379		:what types of programs help to redistribute wealth ?
+Gold		:social welfare
+Coqa Pred	:social welfare programs
+
+Q 380		:when was the regime in pakistan overthrown by general zia-ul-haq ?
+Gold		:july 1977
+Coqa Pred	:July 1977
+
+Q 381		:which country 's imports became the de facto mass market leaders ?
+Gold		:japan
+Coqa Pred	:Japanese
+
+Q 382		:what is victoria 's highest monthly temperature ?
+Gold		:48.8 ° c
+Coqa Pred	:48.8 °C
+
+Q 383		:other than the steamboat , what modern form of travel brought visitors to florida ?
+Gold		:railroad
+Coqa Pred	:extension of the Florida East Coast Railway
+
+Q 384		:on an international level , which industry 's competitive positions is affected ?
+Gold		:automobiles
+Coqa Pred	:automobiles
+
+Q 385		:what kinds of sciences were social darwinism and theories of race ?
+Gold		:pseudo-sciences
+Coqa Pred	:pseudo-sciences
+
+Q 386		:what type of revolution did maududi advocate ?
+Gold		:gradual
+Coqa Pred	:Islamic revolution
+
+Q 387		:what type of practices did the yuan reintroduce in government ?
+Gold		:confucian
+Coqa Pred	:Confucian
+
+Q 388		:does bskyb carry any control over a channels content ?
+Gold		:not
+Coqa Pred	:no
+
+Q 389		:which central european country had a calvinist ruler ?
+Gold		:prussia
+Coqa Pred	:England, the Netherlands, Switzerland, Norway, Denmark, and Prussia
+
+Q 390		:what were the saxon palace and brühl palace in prewar warsaw ?
+Gold		:the most distinctive buildings
+Coqa Pred	:most distinctive buildings
+
+Q 391		:what was the incident over taxes at ballarat called ?
+Gold		:eureka stockade
+Coqa Pred	:Eureka Stockade
+
+Q 392		:secular arab nationalism was blamed for both the defeat of arab troops as well as what type of stagnation ?
+Gold		:economic
+Coqa Pred	:economic
+
+Q 393		:what does paul krugmen think has had an observable effect on inequality in the u.s. ?
+Gold		:trade liberalisation
+Coqa Pred	:trade liberalisation
+
+Q 394		:what was considered responsible for the black death as well as the epidemic in southern china ?
+Gold		:yersinia pestis
+Coqa Pred	:Yersinia pestis
+
+Q 395		:which belgian footballer claimed that he should be allowed to transfer from one football club to another when his contract was fulfilled ?
+Gold		:jean-marc bosman
+Coqa Pred	:Jean-Marc Bosman
+
+Q 396		:where did france win a war in the 1950 's
+Gold		:algeria
+Coqa Pred	:Algeria
+
+Q 397		:where is samuel marsden collegiate school located ?
+Gold		:wellington
+Coqa Pred	:Wellington
+
+Q 398		:what organization is devoted to jihad against israel ?
+Gold		:hamas
+Coqa Pred	:HAMAS
+
+Q 399		:who are debates and meetings open to ?
+Gold		:the public
+Coqa Pred	:public
+
+Q 400		:why did saudi arabia try to increase production , and reduce profits for high cost producers ?
+Gold		:recover market share
+Coqa Pred	:to recover market share
+
+Q 401		:oxygen is released in cellular respiration by ?
+Gold		:photosynthesis
+Coqa Pred	:photosynthesis
+
+Q 402		:what plateau has groups of clay pits ?
+Gold		:moraine
+Coqa Pred	:plain moraine plateau
+
+Q 403		:near chur , which direction does the rhine turn ?
+Gold		:north
+Coqa Pred	:north
+
+Q 404		:which is older the british empire or the ethiopian empire ?
+Gold		:ethiopian empire
+Coqa Pred	:Ethiopian
+
+Q 405		:sleep hormones shift the cytokine balance to which cytokine ?
+Gold		:th1
+Coqa Pred	:Th1/Th2
+
+Q 406		:after 1945 , what challenged the french empire ?
+Gold		:anti-colonial movements
+Coqa Pred	:anti-colonial movements
+
+Q 407		:what do nuclear power plants heat to create electricity ?
+Gold		:water
+Coqa Pred	:water
+
+Q 408		:what mechanism moves coal from a bunker to the firebox ?
+Gold		:stoking
+Coqa Pred	:chain or screw stoking mechanism
+
+Q 409		:the rhine forms the border between austria and what other country ?
+Gold		:switzerland
+Coqa Pred	:Switzerland to the West and Liechtenstein
+
+Q 410		:what jewish practice did the yuan ban ?
+Gold		:kosher butchering
+Coqa Pred	:Kosher butchering
+
+Q 411		:killer t cells can only recognize antigens coupled to what kind of molecules ?
+Gold		:class i mhc molecules
+Coqa Pred	:Class I MHC molecules
+
+Q 412		:the transportation law allows personal aircraft to share the roadways with what ?
+Gold		:automobiles
+Coqa Pred	:automobiles
+
+Q 413		:what kind of contract is given when the contractor is given a performance specification and must undertake the project from design to construction , while adhering to the performance specifications ?
+Gold		:" design build " contract
+Coqa Pred	:design build" contract
+
+Q 414		:when did arpnet and sita become operational
+Gold		:1969
+Coqa Pred	:1969
+
+Q 415		:which problem consists of both inflationary and deflationary impacts ?
+Gold		:macroeconomic problems
+Coqa Pred	:Macroeconomic problems
+
+Q 416		:what does the steam generated by a nuclear power plant drive ?
+Gold		:turbine
+Coqa Pred	:turbine
+
+Q 417		:how far does one pharmacy in croatia date back to ?
+Gold		:1317
+Coqa Pred	:15th century
+
+Q 418		:in what year did savery patent his steam pump ?
+Gold		:1698
+Coqa Pred	:1698
+
+Q 419		:when did europe slowly begin to warm up from the last ice age ?
+Gold		:22,000 years ago
+Coqa Pred	:22,000 years ago onward
+
+Q 420		:what are the agents the immune system detects known as ?
+Gold		:pathogens
+Coqa Pred	:pathogens
+
+Q 421		:why was there a depreciation of the industrialized nations dollars ?
+Gold		:industrialized nations increased their reserves
+Coqa Pred	:Because oil was priced in dollars
+
+Q 422		:what did the development of this fertile soil provide in hostile environment ?
+Gold		:agriculture and silviculture
+Coqa Pred	:agriculture and silviculture
+
+Q 423		:who refused to act until loudoun approved plans ?
+Gold		:abercrombie
+Coqa Pred	:Abercrombie
+
+Q 424		:how much percentage of victoria 's land is taken up by farms ?
+Gold		:60 %
+Coqa Pred	:more than 60
+
+Q 425		:what is the name of matters outside the legislative ability of the scottish parliament ?
+Gold		:reserved
+Coqa Pred	:Reserved matters
+
+Q 426		:what is the time rate of change of electric charge ?
+Gold		:electric current
+Coqa Pred	:electric current
+
+Q 427		:in which case did the court state that austria was not allowed to hold places in austrian schools exclusively for austrian students ?
+Gold		:commission v austria
+Coqa Pred	:Commission v Austria
+
+Q 428		:any number larger than 1 can be represented as a product of what ?
+Gold		:a product of primes
+Coqa Pred	:primes
+
+Q 429		:what are the secretions commonly called ?
+Gold		:ink
+Coqa Pred	:ink
+
+Q 430		:what did france offer that was rare by imperial standards ?
+Gold		:assimilation
+Coqa Pred	:Christianity and French culture
+
+Q 431		:what does lack of education lead directly to ?
+Gold		:lower incomes
+Coqa Pred	:lower incomes
+
+Q 432		:how much of the water flow does the waal get from the rhine ?
+Gold		:two thirds
+Coqa Pred	:Two thirds
+
+Q 433		:what was the theorized maximum population density per square kilometre for the amazon rainforest ?
+Gold		:0.2 inhabitants per square kilometre
+Coqa Pred	:0.2
+
+Q 434		:on what type of exponentiation does the diffie – hellman key exchange depend on ?
+Gold		:modular exponentiation
+Coqa Pred	:modular exponentiation
+
+Q 435		:complement proteins bind to what kind of molecules on the surface of microbes in order to elicit an immune response ?
+Gold		:carbohydrates
+Coqa Pred	:carbohydrates
+
+Q 436		:what do all but one platycenida species lack ?
+Gold		:comb-rows
+Coqa Pred	:comb-rows
+
+Q 437		:where by mass is oxygen a major part ?
+Gold		:world 's oceans
+Coqa Pred	:world's oceans
+
+Q 438		:what was the total number of homes sky announced that had sky + hd in march of 2012 ?
+Gold		:4,222,000
+Coqa Pred	:4,222,000
+
+Q 439		:what was the belief that maintaining motion required force ?
+Gold		:fundamental error
+Coqa Pred	:fundamental error
+
+Q 440		:what set is a seat added to after being allocated ?
+Gold		:constituency seats
+Coqa Pred	:constituency seats
+
+Q 441		:when is the oldest recorded incident of civil disobedience ?
+Gold		:during the roman empire
+Coqa Pred	:during the Roman Empire[citation
+
+Q 442		:inflammation occurs during sleep times because of the presence of what molecule ?
+Gold		:melatonin
+Coqa Pred	:melatonin
+
+Q 443		:what is the edge of the moraine plateau called ?
+Gold		:warsaw escarpment
+Coqa Pred	:Warsaw Escarpment
+
+Q 444		:friedrich ratzel thought what was needed for a state to survive ?
+Gold		:imperialism
+Coqa Pred	:imperialism
+
+Q 445		:what previous work did lavoisier experiments discredit ?
+Gold		:phlogiston theory
+Coqa Pred	:phlogiston theory of combustion and corrosion
+
+Q 446		:why has the rhine been shortened ?
+Gold		:canalisation projects
+Coqa Pred	:canalisation projects completed in the 19th and 20th century.[note
+
+Q 447		:policies which reduce the inequality associated effects of unemployment support what type of growth ?
+Gold		:economic
+Coqa Pred	:economic growth
+
+Q 448		:what is the name of the bridge that joins parts of the campus of the charles river ?
+Gold		:the john w. weeks bridge
+Coqa Pred	:John W. Weeks Bridge
+
+Q 449		:what is the name of one impressive continuation of the fermat primality test ?
+Gold		:baillie-psw
+Coqa Pred	:Baillie-PSW
+
+Q 450		:when was the current parliament of scotland convened ?
+Gold		:following a referendum in 1997
+Coqa Pred	:1998
+
+Q 451		:what is the process of adding structure to real property or construction of buildings ?
+Gold		:building construction
+Coqa Pred	:Building construction
+
+Q 452		:who thought the world could be split into climatic zones ?
+Gold		:geographic scholars
+Coqa Pred	:geographic scholars
+
+Q 453		:who increased british military resources in colonies ?
+Gold		:william pitt
+Coqa Pred	:William Pitt
+
+Q 454		:in what year was the joe and rika mansueto library constructed ?
+Gold		:2011
+Coqa Pred	:2011
+
+Q 455		:microplates squeezing and rotating created the features of what ?
+Gold		:mediterranean geography
+Coqa Pred	:Mediterranean geography
+
+Q 456		:in what year did enr compile data in nine market segments ?
+Gold		:2014
+Coqa Pred	:2014
+
+Q 457		:most imperialism was carried out using which method of transport ?
+Gold		:seaborne
+Coqa Pred	:overland
+
+Q 458		:what is another word for the earth 's upper mantle ?
+Gold		:asthenosphere
+Coqa Pred	:asthenosphere
+
+Q 459		:what can be seen between hadrons ?
+Gold		:residual of the force
+Coqa Pred	:residual of the force
+
+Q 460		:compared to smeaton 's improvement on newcomen 's engine , how much coal did watt 's engine use ?
+Gold		:half
+Coqa Pred	:half as much coal
+
+Q 461		:what are those with lower incomes less likely to have in order to prepare for the future ?
+Gold		:savings and investment
+Coqa Pred	:education
+
+Q 462		:the los angeles clippers are a team belonging to which sport ?
+Gold		:nba
+Coqa Pred	:NFL
+
+Q 463		:other than l.a. which other county do many people commute to ?
+Gold		:orange
+Coqa Pred	:Orange
+
+Q 464		:how do academic results in former model c schools compare to other schools ?
+Gold		:better
+Coqa Pred	:better
+
+Q 465		:what is the name of the latin translation of dioscorides ' book ?
+Gold		:de materia medica
+Coqa Pred	:De Materia Medica
+
+Q 466		:what was the first true engine that was commercially successful ?
+Gold		:atmospheric engine
+Coqa Pred	:atmospheric engine
+
+Q 467		:the maroons are apart of what association ?
+Gold		:the university athletic association
+Coqa Pred	:University Athletic Association
+
+Q 468		:how many bodies did public health england exhume ?
+Gold		:25
+Coqa Pred	:25
+
+Q 469		:what is the population of the greater los angeles area ?
+Gold		:17,786,419
+Coqa Pred	:17,786,419
+
+Q 470		:what london neighborhood attracted huguenot refugees ?
+Gold		:shoreditch
+Coqa Pred	:Shoreditch
+
+Q 471		:large predators of the amazon rainforest include the jaguar , cougar , and anaconda , what is one other example ?
+Gold		:black caiman
+Coqa Pred	:black caiman
+
+Q 472		:which canal was dug in france to carry rhine 's water ?
+Gold		:grand canal d 'alsace
+Coqa Pred	:Grand Canal d'Alsace
+
+Q 473		:what fortification was built in the 19th century after the defeat of the november uprising ?
+Gold		:the warsaw citadel
+Coqa Pred	:Warsaw Citadel
+
+Q 474		:what is the approximate turbine entry temperature of a gas turbine ?
+Gold		:1500 ° c
+Coqa Pred	:1500 °C.
+
+Q 475		:where do juvenile platyctenids live ?
+Gold		:among the plankton
+Coqa Pred	:among the plankton
+
+Q 476		:in may 2002 , where would you go to address the parliament ?
+Gold		:university of aberdeen
+Coqa Pred	:University of Aberdeen
+
+Q 477		:jellyfish and sea anemones belong to which group /
+Gold		:cnidarians
+Coqa Pred	:cnidarians
+
+Q 478		:what distinction does the bank of america tower hold ?
+Gold		:tallest building in downtown jacksonville
+Coqa Pred	:tallest building in Downtown Jacksonville's skyline
+
+Q 479		:what makes the tentilla of euplokamis different from other cysippids ?
+Gold		:they contain striated muscle ,
+Coqa Pred	:they contain striated muscle
+
+Q 480		:which country is not badly hit by the embargo ?
+Gold		:uk
+Coqa Pred	:UK
+
+Q 481		:which country 's invasion show the insecurity of the middle east ?
+Gold		:ussr 's invasion
+Coqa Pred	:USSR
+
+Q 482		:how many botanical gardens does warsaw have ?
+Gold		:two
+Coqa Pred	:two
+
+Q 483		:how many frenchman won battle of carillon ?
+Gold		:3,600
+Coqa Pred	:3,600
+
+Q 484		:in considering turing machines and alternate variables , what measurement left unaffected by conversion between machine models ?
+Gold		:computational power
+Coqa Pred	:time and memory consumption
+
+Q 485		:hobson argued that imperialism was an international what ?
+Gold		:disease
+Coqa Pred	:international disease of imperialism by removing its economic foundation
+
+Q 486		:what form of poetry was developed in the yuan ?
+Gold		:the qu
+Coqa Pred	:qu
+
+Q 487		:what carries a significant amount of the rhine flow through france ?
+Gold		:grand canal d 'alsace
+Coqa Pred	:Grand Canal d'Alsace
+
+Q 488		:scientists disagree with how the amazon rainforest changed over time with some arguing that it was reduced to isolated refugia seperated by what ?
+Gold		:open forest and grassland
+Coqa Pred	:open forest and grassland
+
+Q 489		:what nobel memorial prize in economic sciences winner is also a university alumni member ?
+Gold		:milton friedman
+Coqa Pred	:Thomas Sowell
+
+Q 490		:what had bhutto planned on banning within six months , before he was overthrown ?
+Gold		:alcohol and nightclubs
+Coqa Pred	:alcohol and nightclubs
+
+Q 491		:what does photosynthesis release into the earth 's atmosphere ?
+Gold		:oxygen
+Coqa Pred	:oxygen
+
+Q 492		:in 1890 , who did the university decide to team up with ?
+Gold		:several regional colleges and universities
+Coqa Pred	:Shimer College
+
+Q 493		:who ranked warsaw as the 32nd most liveable city in the world ?
+Gold		:economist intelligence unit
+Coqa Pred	:Economist Intelligence Unit
+
+Q 494		:who was the first american to win the nobel memorial prize in economic sciences ?
+Gold		:paul samuelson
+Coqa Pred	:Paul Samuelson
+
+Q 495		:what is sky + hd material broadcast using ?
+Gold		:mpeg-4
+Coqa Pred	:MPEG-4
+
+Q 496		:from what type of materials must liquid oxygen be separated ?
+Gold		:combustible materials
+Coqa Pred	:combustible materials
+
+Q 497		:antigen specificity allows responses that are specific to certain types of what ?
+Gold		:pathogens or pathogen-infected cells
+Coqa Pred	:specific pathogens or pathogen-infected cells
+
+Q 498		:what political group began to gain support following the corruption scandal ?
+Gold		:jacksonville consolidation
+Coqa Pred	:Jacksonville Consolidation
+
+Q 499		:what is the first major city in the course of the rhine ?
+Gold		:basel
+Coqa Pred	:Basel
+
+Q 500		:what ethnic neighborhood in fresno had primarily japanese residents in 1940 ?
+Gold		:chinatown
+Coqa Pred	:Chinatown
+
+Q 501		:what did kllbrandon 's report in 1973 recommend establishing ?
+Gold		:directly elected scottish assembly
+Coqa Pred	:directly elected Scottish Assembly
+
+Q 502		:what was the name of the storm that hit jacksonville in may of 2012 ?
+Gold		:tropical storm beryl
+Coqa Pred	:Beryl
+
+Q 503		:who was emma 's brother ?
+Gold		:duke richard ii
+Coqa Pred	:Duke Richard II
+
+Q 504		:in latin america what is the most revered skin color ?
+Gold		:whiteness
+Coqa Pred	:whiteness
+
+Q 505		:during what year were citizens or corporations said to not be able to bring claims against other non state parties ?
+Gold		:1986
+Coqa Pred	:1986
+
+Q 506		:the rhine first formed a boundary between gaul and what else ?
+Gold		:germania
+Coqa Pred	:Germania
+
+Q 507		:what did john paul ii 's visits in 1979 and 1983 encourage ?
+Gold		:growing anti-communist fervor
+Coqa Pred	:anti-communist fervor there
+
+Q 508		:who explained that inertial reference frames equaled reference frames subject to constant acceleration ?
+Gold		:albert einstein
+Coqa Pred	:Albert Einstein
+
+Q 509		:what type of prime distribution does the riemann hypothesis propose is also true for short intervals near x ?
+Gold		:asymptotic distribution
+Coqa Pred	:asymptotic distribution of primes
+
+Q 510		:how are the forces derived from fields treated similarly to ?
+Gold		:classical position variables
+Coqa Pred	:classical position variables
+
+Q 511		:how many receptors on a helper t cell must be bound to a mhc : antigen complex in order for the cell to be activated ?
+Gold		:around 200 – 300
+Coqa Pred	:around 200–300
+
+Q 512		:building printing is making it possible to flexibly construct small commercial buildings and private habitations in what amount of time ?
+Gold		:around 20 hours
+Coqa Pred	:20 hours
+
+Q 513		:what type of compounds such as acetone , contain oxygen ?
+Gold		:organic solvents
+Coqa Pred	:organic
+
+Q 514		:in which case were french vigilantes sabotaging shipments of spanish strawberries ?
+Gold		:commission v france
+Coqa Pred	:unknown
+
+Q 515		:how can function problems typically be restated ?
+Gold		:decision problems
+Coqa Pred	:as decision problems
+
+Q 516		:under elie metchnikoff 's cellular theory , what cells were responsible for immune response ?
+Gold		:phagocytes
+Coqa Pred	:phagocytes
+
+Q 517		:bedau notes that illegal protests towards public policy may serve as what purpose ?
+Gold		:propaganda
+Coqa Pred	:propaganda purpose
+
+Q 518		:what is the steam engine 's thermodynamic basis ?
+Gold		:rankine cycle
+Coqa Pred	:Rankine cycle
+
+Q 519		:how many general principles does the social charter declare ?
+Gold		:30
+Coqa Pred	:30
+
+Q 520		:to what gauge have some lines been changed in the west of victoria ?
+Gold		:1,435 mm
+Coqa Pred	:1,435 mm
+
+Q 521		:vaginal secretions serve as a chemical protective barrier following what ?
+Gold		:menarche
+Coqa Pred	:menarche
+
+Q 522		:if a and q are coprime , which theorem holds that an arithmetic progression has an infinite number of primes ?
+Gold		:dirichlet 's theorem
+Coqa Pred	:Dirichlet's theorem
+
+Q 523		:which river joins the rhine in duisburg ?
+Gold		:ruhr
+Coqa Pred	:Ruhr
+
+Q 524		:who gained control of florida after the conclusion of the revolutionary war ?
+Gold		:spain
+Coqa Pred	:Spain
+
+Q 525		:in what type of water does oxygen dissolve more slowly ?
+Gold		:seawater
+Coqa Pred	:water
+
+Q 526		:how many seats did the snp take from the liberal democrats ?
+Gold		:eight
+Coqa Pred	:eight
+
+Q 527		:which articles of the free movement of workers regulation set out the primary provisions on equal treatment of workers ?
+Gold		:articles 1 to 7
+Coqa Pred	:articles 1 to 7
+
+Q 528		:what can the exhaust steam not fully do when the exhaust event is insufficiently long ?
+Gold		:evacuate the cylinder
+Coqa Pred	:evacuate the cylinder
+
+Q 529		:what type of issues are members typically allowed to vote as they please ?
+Gold		:moral
+Coqa Pred	:moral issues
+
+Q 530		:when was the colony destroyed ?
+Gold		:1565
+Coqa Pred	:1565
+
+Q 531		:when did polonia warsaw win the country 's championship prior to 2000 ?
+Gold		:1946
+Coqa Pred	:1946
+
+Q 532		:besides africa , where did germany have imperial interests ?
+Gold		:the south pacific
+Coqa Pred	:South Pacific
+
+Q 533		:other than scotland 's chief law officer , from whence are most ministers drawn from amongst ?
+Gold		:elected msps
+Coqa Pred	:elected MSPs
+
+Q 534		:the region was a leader in what event between 2001 - 2007 ?
+Gold		:the housing bubble
+Coqa Pred	:housing bubble
+
+Q 535		:how much victorian farmland is farmed in grains ?
+Gold		:26,000 square kilometres
+Coqa Pred	:More than 26,000 square kilometres
+
+Q 536		:where do ctenophora live ?
+Gold		:marine waters
+Coqa Pred	:marine waters
+
+Q 537		:the immune systems of bacteria have enzymes that protect against infection by what kind of cells ?
+Gold		:bacteriophage
+Coqa Pred	:bacteriophage
+
+Q 538		:which theorem states that all large odd integers can be expressed as a sum of three primes ?
+Gold		:vinogradov 's theorem
+Coqa Pred	:Chen's theorem
+
+Q 539		:what nationality are researchers richard g. wilkinson and kate pickett ?
+Gold		:british
+Coqa Pred	:British
+
+Q 540		:what is one general concept that applies to elements of commutative rings ?
+Gold		:prime elements
+Coqa Pred	:Prime numbers
+
+Q 541		:when was the ottoman caliphate abolished ?
+Gold		:1924
+Coqa Pred	:1924
+
+Q 542		:when did germanic tribes cross the rhine to migrate ?
+Gold		:5th century
+Coqa Pred	:5th century
+
+Q 543		:what is the high end of the temperature range in winter ?
+Gold		:70
+Coqa Pred	:90-60's
+
+Q 544		:where did mongke khan attack the song dynasty ?
+Gold		:southern china
+Coqa Pred	:southern China
+
+Q 545		:what type of district is southern california home to many of ?
+Gold		:business
+Coqa Pred	:major business districts
+
+Q 546		:in the effort of maintaining a level of abstraction , what choice is typically left independent ?
+Gold		:encoding
+Coqa Pred	:discussion
+
+Q 547		:when was the special report on renewable energy sources and climate change mitigation ( srren ) issued ?
+Gold		:2011
+Coqa Pred	:2011
+
+Q 548		:who is the governor of india 's central bank ?
+Gold		:raghuram rajan
+Coqa Pred	:Raghuram Rajan
+
+Q 549		:whwn forces are at right ngles to each other what can they be broken down to ?
+Gold		:independent components
+Coqa Pred	:independent components
+
+Q 550		:in addition to the traveling salesman problem , what is another example of a function problem ?
+Gold		:the integer factorization problem
+Coqa Pred	:integer factorization problem
+
+Q 551		:what changed the rhine 's delta ?
+Gold		:construction of delta works
+Coqa Pred	:construction of Delta Works
+
+Q 552		:hutchinson hall was designed to look like what oxford hall ?
+Gold		:christ church hall
+Coqa Pred	:Christ Church Hall
+
+Q 553		:why did al-qaeda tell isil to take a hike ?
+Gold		:notorious intransigence
+Coqa Pred	:failure to consult and "notorious intransigence
+
+Q 554		:colonial rule , or physical occupation of a territory is an example of what kind of imperialism ?
+Gold		:" formal "
+Coqa Pred	:physical control
+
+Q 555		:where was the measurment for the standard gravity on earth taken ?
+Gold		:sea level
+Coqa Pred	:unknown
+
+Q 556		:what is the name of the state that the megaregion expands to in the east ?
+Gold		:nevada
+Coqa Pred	:Las Vegas, Nevada
+
+Q 557		:how many medieval warm period reconstructions were used ?
+Gold		:14
+Coqa Pred	:14
+
+Q 558		:what theorem states that the probability that a number n is prime is inversely proportional to its logarithm ?
+Gold		:the prime number theorem
+Coqa Pred	:prime number theorem
+
+Q 559		:what was there a significant minority of in warsaw ?
+Gold		:jewish
+Coqa Pred	:Jewish
+
+Q 560		:what medical appliance can be a concern for oxygen toxicity ?
+Gold		:mechanical ventilators
+Coqa Pred	:mechanical ventilators
+
+Q 561		:what happens to the gdp growth of a country if the income share of the top 20 percent increases , according to imf staff economists ?
+Gold		:declines
+Coqa Pred	:then GDP growth actually declines
+
+Q 562		:whose activities were the french able to gain knowledge of ?
+Gold		:shirley and johnson .
+Coqa Pred	:Shirley and Johnson
+
+Q 563		:what other scientist influence frank burnet when he was formulating his theory of immunity ?
+Gold		:niels jerne
+Coqa Pred	:Niels Jerne
+
+Q 564		:most antibiotics target bacteria and don 't affect what class of organisms ?
+Gold		:fungi
+Coqa Pred	:fungi
+
+Q 565		:how many different species of ctenohore are there ?
+Gold		:100 – 150 species
+Coqa Pred	:100–150
+
+Q 566		:what are the two principal asian-american groups living in the west side neighborhood of fresno ?
+Gold		:hmong or laotian
+Coqa Pred	:Mexican-American and Asian-American
+
+Q 567		:who was the chief executive officer when the service began ?
+Gold		:sam chisholm
+Coqa Pred	:Sam Chisholm
+
+Q 568		:where did the genoese traders bring the plague ?
+Gold		:sicily
+Coqa Pred	:at the port city of Kaffa
+
+Q 569		:hormones can alter the sensitivity of the immune system , so they can be referred to as what ?
+Gold		:immunomodulators
+Coqa Pred	:immunomodulators
+
+Q 570		:what is the name associated with the eight areas that make up a part of southern california ?
+Gold		:metropolitan statistical areas
+Coqa Pred	:one Combined Statistical Area
+
+Q 571		:what do the treaties generally limit ?
+Gold		:free trade
+Coqa Pred	:free trade
+
+Q 572		:construction takes place on location for who ?
+Gold		:a known client
+Coqa Pred	:known client
+
+Q 573		:what scientific field 's theory has received contributions from the steam engine ?
+Gold		:thermodynamic
+Coqa Pred	:thermodynamic theory
+
+Q 574		:what does the utilitarian principle seek for the greatest number of people ?
+Gold		:the greatest good
+Coqa Pred	:greatest good
+
+Q 575		:what is the boundary between the high and upper rhine ?
+Gold		:central bridge
+Coqa Pred	:Central Bridge
+
+Q 576		:what organization did iqbal join in london ?
+Gold		:the all india muslim league
+Coqa Pred	:All India Muslim League
+
+Q 577		:who provides the bill of quantities ?
+Gold		:a quantity surveyor
+Coqa Pred	:quantity surveyor
+
+Q 578		:which successor to henry resumed persecution of the huguenots ?
+Gold		:louis xiii
+Coqa Pred	:Louis XIII
+
+Q 579		:when did mongke khan die ?
+Gold		:1259
+Coqa Pred	:1259
+
+Q 580		:when were the public housing developments built in the neighborhood ?
+Gold		:between the 1960s and 1990s
+Coqa Pred	:between the 1960s and 1990s
+
+Q 581		:what happens as they build phase 1 ?
+Gold		:they design phase 2
+Coqa Pred	:they design phase 2
+
+Q 582		:how many avulsions have occurred in the past 6000 yeas ?
+Gold		:80
+Coqa Pred	:approximately 80
+
+Q 583		:what advise did thoreau give the tax collector when unable to perform his duty ?
+Gold		:resign
+Coqa Pred	:“Resign
+
+Q 584		:when the law is a direct target of the protest , what is this called ?
+Gold		:direct civil disobedience
+Coqa Pred	:direct civil disobedience
+
+Q 585		:in what districts are the registration numbers for cars all of the same type ?
+Gold		:kraków
+Coqa Pred	:Kraków
+
+Q 586		:where is the santa fe railroad depot located ?
+Gold		:downtown fresno
+Coqa Pred	:Fresno
+
+Q 587		:what does being an msp share with the house of commons ?
+Gold		:a number of qualifications
+Coqa Pred	:number of qualifications
+
+Q 588		:the bruins belong to which college ?
+Gold		:ucla
+Coqa Pred	:UCLA Bruins and the USC Trojans
+
+Q 589		:reduction essentially takes one problem and converts into what ?
+Gold		:another problem
+Coqa Pred	:another problem
+
+Q 590		:what was the centrifugal governor incapable of doing ?
+Gold		:hold a set speed
+Coqa Pred	:hold a set speed
+
+Q 591		:what is the highest reference hospital in all of poland ?
+Gold		:children 's memorial health institute
+Coqa Pred	:Children's Memorial Health Institute
+
+Q 592		:which is one of the park features located in north fresno ?
+Gold		:shinzen japanese gardens
+Coqa Pred	:Woodward Park
+
+Q 593		:how much larger would cicada predator populations be if cicada outbreaks occurred at 14 and 15 year intervals ?
+Gold		:up to 2 % higher
+Coqa Pred	:up to 2% higher
+
+Q 594		:in between french and british , what groups controlled land ?
+Gold		:native tribes
+Coqa Pred	:native tribes
+
+Q 595		:what house was the site of a weaving school in canterbury ?
+Gold		:the weavers
+Coqa Pred	:Weavers
+
+Q 596		:when did the huguenots secure the right to own land in the baronies ?
+Gold		:1697
+Coqa Pred	:1697
+
+Q 597		:how many provinces did the ottoman empire contain in the 17th century ?
+Gold		:32
+Coqa Pred	:32
+
+Q 598		:full size working engines on what vehicles sometimes use oscillating cylinder steam engines ?
+Gold		:ships
+Coqa Pred	:ships
+
+Q 599		:who was kaidu 's grandfather ?
+Gold		:ogedei
+Coqa Pred	:Ogedei's
+
+Q 600		:how many tons of carbon are absorbed the amazon in a typical year ?
+Gold		:1.5 gigatons
+Coqa Pred	:1.5 gigatons
+
+Q 601		:how many floors are there in the building that was completed in 1967 ?
+Gold		:28
+Coqa Pred	:28
+
+Q 602		:the yuan was the first time all of china was ruled by whom ?
+Gold		:non-native chinese people
+Coqa Pred	:non-native Chinese people
+
+Q 603		:in the process of vaccination , what is introduced in order to develop a specific immunity ?
+Gold		:an antigen from a pathogen
+Coqa Pred	:antigen from a pathogen
+
+Q 604		:taking evidence from witnesses is one of committees ' what ?
+Gold		:principal role
+Coqa Pred	:conduct inquiries and scrutinise legislation
+
+Q 605		:which group has young that are born with no tentacles and a large mouth ?
+Gold		:beroids
+Coqa Pred	:beroids
+
+Q 606		:what is the process of constructing a building or infrastructure ?
+Gold		:construction
+Coqa Pred	:Construction
+
+Q 607		:when was king george 's war ?
+Gold		:1740s
+Coqa Pred	:1740s
+
+Q 608		:who can enforce european union law ?
+Gold		:the courts of member states
+Coqa Pred	:courts of member states
+
+Q 609		:warsaw 's sidewalks and sanitation facilities are some examples of things which have what ?
+Gold		:improved markedly
+Coqa Pred	:metro, roads, sidewalks, health care facilities
+
+Q 610		:what are the agents detected by the immune system called ?
+Gold		:pathogens
+Coqa Pred	:pathogens
+
+Q 611		:who first described dynamic equilibrium ?
+Gold		:galileo
+Coqa Pred	:Galileo
+
+Q 612		:what fields have increased in influence on pharmacy in the united states ?
+Gold		:pharmaceutical care or clinical pharmacy
+Coqa Pred	:pharmaceutical care or clinical pharmacy
+
+Q 613		:how do centripetal forces act in relation to vectors of velocity ?
+Gold		:perpendicular
+Coqa Pred	:perpendicular to the velocity vector
+
+Q 614		:what is the name of the area past the border that the megaregion extends into ?
+Gold		:tijuana
+Coqa Pred	:Las Vegas, Nevada
+
+Q 615		:what was the population of the dutch republic before this emigration ?
+Gold		:ca . 2 million
+Coqa Pred	:ca. 2 million
+
+Q 616		:who discovered that magnetic and electric could self-generate ?
+Gold		:maxwell
+Coqa Pred	:Maxwell
+
+Q 617		:what are sometimes present in the boiler 's firebox crown ?
+Gold		:lead fusible plugs
+Coqa Pred	:Lead fusible plugs
+
+Q 618		:what type of impact does opportunity-based entrepreneurship tend to have on economic growth ?
+Gold		:positive
+Coqa Pred	:redistributive
+
+Q 619		:when did great britain claim australia ?
+Gold		:1788
+Coqa Pred	:1788
+
+Q 620		:when the three types of rock are re-melted what is formed ?
+Gold		:new magma
+Coqa Pred	:new magma
+
+Q 621		:what naval battles did france lose in 1759 ?
+Gold		:lagos and quiberon bay .
+Coqa Pred	:Lagos and Quiberon Bay
+
+Q 622		:what is the foundation for separation results within complexity classes ?
+Gold		:time and space hierarchy theorems
+Coqa Pred	:time and space hierarchy theorems
+
+Q 623		:what is the final effect of adding more and more idea strings to a load ?
+Gold		:conservation of mechanical energy
+Coqa Pred	:conservation of mechanical energy
+
+Q 624		:other than warships , what ships typically required high speeds ?
+Gold		:ocean liners
+Coqa Pred	:dreadnought battleships
+
+Q 625		:acessing the amazon rainforest was restricted before what era ?
+Gold		:the early 1960s
+Coqa Pred	:early 1960s
+
+Q 626		:the bend on the rhine goes from the west to what direction ?
+Gold		:north
+Coqa Pred	:North
+
+Q 627		:when was st. john 's cathedral constructed ?
+Gold		:14th century
+Coqa Pred	:14th century
+
+Q 628		:which group keep the eggs are fertilized and kept inside the parent 's body until they hatch ?
+Gold		:platyctenids
+Coqa Pred	:platyctenids
+
+Q 629		:outside of its use of automobiles , what else is southern california famous for using ?
+Gold		:highways
+Coqa Pred	:automobiles and highways
+
+Q 630		:what period did the rhine capture streams ?
+Gold		:pliocene period
+Coqa Pred	:Pliocene period
+
+Q 631		:what notion keeps it 's meaning through both netonian and schrodinger physics equations ?
+Gold		:force
+Coqa Pred	:force
+
+Q 632		:what did objects in forced motion contain according to the late medieval idea that influence aristotle ?
+Gold		:impetus
+Coqa Pred	:innate force of impetus
+
+Q 633		:which french kind issued this declaration ?
+Gold		:louis xiv
+Coqa Pred	:Huguenots
+
+Q 634		:what is the increased rates of self-employment based on ?
+Gold		:necessity
+Coqa Pred	:higher economic inequality
+
+Q 635		:what do conservative researchers fell should be a measure of inequality ?
+Gold		:consumption
+Coqa Pred	:consumption
+
+Q 636		:how many private schools existed in new zealand in april 2014 ?
+Gold		:88
+Coqa Pred	:88
+
+Q 637		:when did warsaw start to rebuild ?
+Gold		:after liberation
+Coqa Pred	:After liberation
+
+Q 638		:how are the particle forces and accelerations explained as by gauge bosons exchange ?
+Gold		:mathematical by-product
+Coqa Pred	:mathematical by-product
+
+Q 639		:who purhcased the remaining 4 pacakages available to broadcasters ?
+Gold		:sky
+Coqa Pred	:English FA
+
+Q 640		:what has successfully dealt with ozone depletion ?
+Gold		:the montreal protocol
+Coqa Pred	:IPCC
+
+Q 641		:what is the law of thermodynamics associated with closed system heat exchange ?
+Gold		:second
+Coqa Pred	:nonconservative forces
+
+Q 642		:when are the new sky q products going to be available ?
+Gold		:2016
+Coqa Pred	:2016
+
+Q 643		:what alumni was also obama 's campaign adviser ?
+Gold		:david axelrod
+Coqa Pred	:Saul Alinsky
+
+Q 644		:when did germany found their first settlement ?
+Gold		:1884
+Coqa Pred	:1883–84
+
+Q 645		:when do members proceed to vote on whether they agree to the principles of the final bill ?
+Gold		:decision time
+Coqa Pred	:at Decision Time
+
+Q 646		:what is the proto-germanic adoption of the gaulish name of the rhine ?
+Gold		:rīnaz
+Coqa Pred	:Rīnaz
+
+Q 647		:how is income inequality generally viewed by workers ?
+Gold		:unfair
+Coqa Pred	:unfair
+
+Q 648		:who was made rich and prosperous prior to world war 1
+Gold		:many imperial powers
+Coqa Pred	:many imperial powers
+
+Q 649		:what percentage of electrical power in the united states is made by steam turbines ?
+Gold		:90
+Coqa Pred	:90
+
+Q 650		:what is the largest main branch of the rhine ?
+Gold		:waal
+Coqa Pred	:Waal
+
+Q 651		:what kind of experiments of rock deformation do structural geologists perform ?
+Gold		:analog and numerical experiments
+Coqa Pred	:analog and numerical experiments
+
+Q 652		:what is the most important type of norman art preserved in churches ?
+Gold		:mosaics
+Coqa Pred	:stonework or metalwork
+
+Q 653		:what swiss city was the center of the calvinist movement ?
+Gold		:geneva
+Coqa Pred	:Geneva
+
+Q 654		:ediacaran eoandromeda can be regarded to represent what ?
+Gold		:comb jelly .
+Coqa Pred	:comb jelly
+
+Q 655		:in what treatment are nonconservative and conservative forces described ?
+Gold		:statistical mechanics
+Coqa Pred	:detailed treatment with statistical mechanics
+
+Q 656		:where is much of the work of the scottish parliament done ?
+Gold		:committee
+Coqa Pred	:in committee
+
+Q 657		:what had the yuan used to print its money before bronze plates ?
+Gold		:woodblocks
+Coqa Pred	:woodblocks
+
+Q 658		:who was the speaker of the tribal council ?
+Gold		:mohawk chief hendrick
+Coqa Pred	:Hendrick
+
+Q 659		:the west saw themselves as what compared to the east ?
+Gold		:progressive
+Coqa Pred	:irrational and backward
+
+Q 660		:what equates to a squared integer according to polynomial time reduction ?
+Gold		:multiplying two integers
+Coqa Pred	:This means that the reduction process takes polynomial time
+
+Q 661		:what does packet switching contrast with
+Gold		:circuit switching
+Coqa Pred	:circuit switching
+
+Q 662		:what army did warsaw successfully defend itself against ?
+Gold		:the red army
+Coqa Pred	:Red Army
+
+Q 663		:in what way do idea strings transmit tesion forces ?
+Gold		:action-reaction pairs
+Coqa Pred	:instantaneously in action-reaction pairs
+
+Q 664		:what advancements besides military technology did europe achieve ?
+Gold		:communication
+Coqa Pred	:communication
+
+Q 665		:in what year was the first commercial steam powered device invented ?
+Gold		:1698
+Coqa Pred	:1698
+
+Q 666		:who first wrote about the rhine 's discovery and border ?
+Gold		:maurus servius honoratus
+Coqa Pred	:Herodotus
+
+Q 667		:what country does the moselle take the rhine to ?
+Gold		:france
+Coqa Pred	:France
+
+Q 668		:what is the common coastal pleurobrachia called ?
+Gold		:sea gooseberry
+Coqa Pred	:sea gooseberry
+
+Q 669		:which areas of northern europe practiced those religions ?
+Gold		:germany and scandinavia
+Coqa Pred	:Germany and Scandinavia
+
+Q 670		:up until 1990 , saudi arabia played an important role in restraining what groups ?
+Gold		:islamist
+Coqa Pred	:many Islamist groups
+
+Q 671		:what is the name of a uniflow engine that takes in steam in hot areas and exhausts it in cold ?
+Gold		:quasiturbine
+Coqa Pred	:Quasiturbine
+
+Q 672		:what theatre was the best example of " polish monumental theatre " ?
+Gold		:wojciech bogusławski theatre
+Coqa Pred	:Wojciech Bogusławski Theatre
+
+Q 673		:what did watt add to the steam engine in 1788 ?
+Gold		:centrifugal governor
+Coqa Pred	:centrifugal governor
+
+Q 674		:what is a spark or heat to the progress of a fire ?
+Gold		:ignition event
+Coqa Pred	:ignition event
+
+Q 675		:what type of physics model did einstein fail to make ?
+Gold		:self-consistent unification
+Coqa Pred	:string theory.:212–219
+
+Q 676		:what style was the warsaw philharmony edifice built in ?
+Gold		:socialist realism
+Coqa Pred	:socialist realism style
+
+Q 677		:what does the riemann hypothesis state the source of irregularity in the distribution of points comes from ?
+Gold		:random noise
+Coqa Pred	:random noise
+
+Q 678		:what may a force on one part of an object affect ?
+Gold		:other parts
+Coqa Pred	:other parts of an object
+
+Q 679		:how much was bskyb going to pay for the primier league rights ?
+Gold		:£ 304m
+Coqa Pred	:£304m
+
+Q 680		:families with french names in south africa speak what language today ?
+Gold		:afrikaans
+Coqa Pred	:Afrikaans
+
+Q 681		:what is the central business district of san diego ?
+Gold		:downtown san diego
+Coqa Pred	:Downtown San Diego
+
+Q 682		:when did li tan lead a revolt ?
+Gold		:1262
+Coqa Pred	:1262
+
+Q 683		:thoreau argues that usually majority rules but their views collectively are sometimes ?
+Gold		:not necessarily right
+Coqa Pred	:unknown
+
+Q 684		:what was the name of the approved measure that helped cover the cost of major city projects ?
+Gold		:better jacksonville plan
+Coqa Pred	:Better Jacksonville Plan
+
+Q 685		:when economic inequality is smaller , more waste and pollution is ?
+Gold		:created
+Coqa Pred	:more waste and pollution is created
+
+Q 686		:what effect does trade with poorer countries have on the workers in richer countries ?
+Gold		:reduced wages
+Coqa Pred	:reduced wages
+
+Q 687		:which californio is located in the upper part ?
+Gold		:monterey
+Coqa Pred	:Monterey
+
+Q 688		:how is the o2 molecule referred to in its ground state ?
+Gold		:triplet oxygen
+Coqa Pred	:triplet oxygen.[b
+
+Q 689		:what institute published findings in september 2012 regarding the forbes richest 400 americans ?
+Gold		:institute for policy studies
+Coqa Pred	:Institute for Policy Studies
+
+Q 690		:when was the first sino-japanese war ?
+Gold		:1894
+Coqa Pred	:1894
+
+Q 691		:how many city officials were indicted due to corruption ?
+Gold		:11
+Coqa Pred	:11
+
+Q 692		:whose theory was the theory of continental drift ?
+Gold		:alfred wegener
+Coqa Pred	:Alfred Wegener
+
+Q 693		:what is the conventional measurement of the rhine ?
+Gold		:rhine-kilometers "
+Coqa Pred	:Rhine-kilometers
+
+Q 694		:what present-day company did bankamericard turn into ?
+Gold		:visa inc .
+Coqa Pred	:Visa Inc.
+
+Q 695		:this network influenced later models of
+Gold		:later arpanet architecture
+Coqa Pred	:yes
+
+Q 696		:what do radical islamist organizations reject entirely ?
+Gold		:democracy
+Coqa Pred	:democracy
+
+Q 697		:who do clinical pharmacists work with much of the time ?
+Gold		:physicians and other healthcare professionals
+Coqa Pred	:physicians and other healthcare professionals
+
+Q 698		:where did these uprisings take place ?
+Gold		:southwestern france
+Coqa Pred	:southwestern France
+
+Q 699		:when did the jin dynasty end ?
+Gold		:1234
+Coqa Pred	:1115–1234
+
+Q 700		:what was a popular type of variety show during the yuan ?
+Gold		:zaju
+Coqa Pred	:zaju
+
+Q 701		:how long is the upper rhine plain ?
+Gold		:300 km long
+Coqa Pred	:about 300 km
+
+Q 702		:which authority figure is designated to schedule and set the work of the eu ?
+Gold		:the commission 's president
+Coqa Pred	:Jean-Claude Juncker
+
+Q 703		:which entity focused upon the free movement of workers ?
+Gold		:the european community
+Coqa Pred	:European Community
+
+Q 704		:when did tamara marry a lawyer ?
+Gold		:1916
+Coqa Pred	:1916
+
+Q 705		:which countries became dependent on us 's security assurance to threats ?
+Gold		:saudi arabia and iran
+Coqa Pred	:Saudi Arabia and Iran
+
+Q 706		:what is set up to scrutinize private bills submitted by party outsiders ?
+Gold		:type of committee
+Coqa Pred	:further type of committee
+
+Q 707		:the oil crisis caused oil companies to increase oil supplies in which area ?
+Gold		:arctic
+Coqa Pred	:Arctic
+
+Q 708		:when less workers are required , what happens to the job market ?
+Gold		:increasing unemployment
+Coqa Pred	:increasing unemployment
+
+Q 709		:what was the second meaning of a chinese word for ' barracks ' ?
+Gold		:thanks
+Coqa Pred	:thanks
+
+Q 710		:what do professional athletes seek to boost from breathing oxygen ?
+Gold		:performance
+Coqa Pred	:oxygen masks
+
+Q 711		:what did the richest 400 americans have as children that helped them be successful adults ?
+Gold		:grew up in substantial privilege
+Coqa Pred	:substantial privilege
+
+Q 712		:what are colonial powers blamed for ?
+Gold		:ended the true islamic system
+Coqa Pred	:true Islamic system
+
+Q 713		:what is one of the supplementary sources of european union law ?
+Gold		:international law
+Coqa Pred	:case law by the Court of Justice
+
+Q 714		:how would the geographical societies in europe support certain travelers ?
+Gold		:fund
+Coqa Pred	:fund travelers who would come back with tales of their discoveries
+
+Q 715		:what are private secondary schools in germany called ?
+Gold		:ergänzungsschulen
+Coqa Pred	:Ergänzungsschulen
+
+Q 716		:large public works , dams , bridges , highways , water / wastewater and utility distribution are under what construction sector ?
+Gold		:infrastructure
+Coqa Pred	:buildings, infrastructure and industrial
+
+Q 717		:having existing utility lines marked lessens the likelihood of what ?
+Gold		:damage
+Coqa Pred	:damage
+
+Q 718		:tumors that are able to evade the body 's immune response can become what ?
+Gold		:cancers
+Coqa Pred	:cancers
+
+Q 719		:what is one result of civil rebellion ?
+Gold		:destructive
+Coqa Pred	:force and violence and refusal to submit to arrest
+
+Q 720		:after ww-ii where did russia apply its old tsarist regimes ?
+Gold		:eastern europe
+Coqa Pred	:Eastern Europe
+
+Q 721		:what country has low income inequality and high presence of unions ?
+Gold		:scandinavia
+Coqa Pred	:Scandinavia
+
+Q 722		:what property of the harmonic series 1 + 1 / 2 + 1 / 3 + 1 / 4 + ... shows that there is an infinite number of primes ?
+Gold		:diverges
+Coqa Pred	:diverges
+
+Q 723		:what shakespeare scholar is currently on the university 's faculty ?
+Gold		:david bevington
+Coqa Pred	:David Bevington
+
+Q 724		:what type of education is sometimes present at religious schools in addition to the secular curriculum ?
+Gold		:religious
+Coqa Pred	:academic subjects
+
+Q 725		:what delimits the delta of the rhine in the west ?
+Gold		:alter rhein
+Coqa Pred	:Alter Rhein
+
+Q 726		:what did s & p recommend to somewhat remedy the wealth gap ?
+Gold		:increasing access to education
+Coqa Pred	:increasing access to education
+
+Q 727		:what is another word for centripetal force ?
+Gold		:radial
+Coqa Pred	:radial
+
+Q 728		:what extinction event might have created some conditions allowing the expansion of the amazon rainforest ?
+Gold		:cretaceous – paleogene extinction event
+Coqa Pred	:extinction of the dinosaurs and the wetter climate
+
+Q 729		:the hungarians performed this civil disobedience under the direction of what person ?
+Gold		:ferenc deák
+Coqa Pred	:Ferenc Deák
+
+Q 730		:whose occupation of kuwait did the us military personal seek to put an end to ?
+Gold		:saddam hussein
+Coqa Pred	:Saddam Hussein
+
+Q 731		:the inside of a ctenophore is lined with what ?
+Gold		:epithelium
+Coqa Pred	:epithelium
+
+Q 732		:what paleontologists are currently on the university 's faculty ?
+Gold		:neil shubin and paul sereno
+Coqa Pred	:Neil Shubin and Paul Sereno
+
+Q 733		:about many students attend kunskapsskolan schools ?
+Gold		:10,000
+Coqa Pred	:nearly 10,000
+
+Q 734		:how many professional schools does the university of chicago have ?
+Gold		:seven
+Coqa Pred	:seven
+
+Q 735		:other than 7 and 13 , what other year interval do cicadas pupate ?
+Gold		:17 years
+Coqa Pred	:7, 13 or 17 years
+
+Q 736		:what theorem defines the main role of primes in number theory ?
+Gold		:the fundamental theorem of arithmetic
+Coqa Pred	:fundamental theorem of arithmetic
+
+Q 737		:in order to be considered in the top percentile , a person would need to amass how much money each year ?
+Gold		:$ 759,900
+Coqa Pred	:759,900
+
+Q 738		:which direction did the disease first move in ?
+Gold		:northwest across europe
+Coqa Pred	:northwest
+
+Q 739		:in a 4-cylinder compound engine , what degree were the individual pistons balanced at ?
+Gold		:180
+Coqa Pred	:180°
+
+Q 740		:who took command of french in spring of 1753 ?
+Gold		:paul marin de la malgue
+Coqa Pred	:Paul Marin de la Malgue
+
+Q 741		:why should someone not commit a crime when they are protesting ?
+Gold		:not being a civil disobedient
+Coqa Pred	:covertly and avoiding attribution
+
+Q 742		:what type of numbers are always multiples of 2 ?
+Gold		:even numbers
+Coqa Pred	:numbers ending in 0 or 5
+
+Q 743		:what area was kublai trying to capture by attacking xiangyang ?
+Gold		:yangzi river basin
+Coqa Pred	:Yangzi River basin
+
+Q 744		:the abolition of the ottoman caliphate is believed to have ended what system ?
+Gold		:true islamic
+Coqa Pred	:true Islamic system
+
+Q 745		:where did the discharge from glaciers go in europe in the last ice age ?
+Gold		:rhine
+Coqa Pred	:Rhine
+
+Q 746		:what is the united states busiest commercial port ?
+Gold		:port of los angeles
+Coqa Pred	:Los Angeles
+
+Q 747		:what aid is available to underprivileged students seeking to attend a private university ?
+Gold		:private education student financial assistance
+Coqa Pred	:Financial Assistance
+
+Q 748		:what comedian is also a university graduate ?
+Gold		:mike nichols
+Coqa Pred	:Roger Ebert
+
+Q 749		:what island does the cold water flow of the rhine and lake constance flow to ?
+Gold		:lindau
+Coqa Pred	:Lindau
+
+Q 750		:what guide states the univeristy of chicago is known for their heavy workload and academic difficulty ?
+Gold		:uni in the usa
+Coqa Pred	:Uni
+
+Q 751		:when was the charter for this church signed ?
+Gold		:1550
+Coqa Pred	:1550
+
+Q 752		:how many sororities belong to the national panhellenic conference ?
+Gold		:alpha phi omega
+Coqa Pred	:Four
+
+Q 753		:what did decnet originally do
+Gold		:connect two pdp-11 minicomputers
+Coqa Pred	:connect two PDP-11 minicomputers
+
+Q 754		:how do the yes / no answers of a complement problem of np appear ?
+Gold		:reversed
+Coqa Pred	:reversed
+
+Q 755		:who inspects the building periodically to ensure that the construction adheres to the approved plans and the local building code ?
+Gold		:the municipal building inspector
+Coqa Pred	:municipal building inspector
+
+Q 756		:who designed the garden for the university library ?
+Gold		:irena bajerska
+Coqa Pred	:Irena Bajerska
+
+Q 757		:what is norman art 's most well known piece ?
+Gold		:bayeux tapestry
+Coqa Pred	:Bayeux Tapestry
+
+Q 758		:who did emma marry ?
+Gold		:king ethelred ii
+Coqa Pred	:Duke Richard II of Normandy
+
+Q 759		:what was an example of a type of warship that required high speed ?
+Gold		:dreadnought battleships
+Coqa Pred	:dreadnought battleships
+
+Q 760		:how much capital did danish law require to start a company ?
+Gold		:200,000 danish krone
+Coqa Pred	:£1
+
+Q 761		:who led the mongolian borjigin clan ?
+Gold		:kublai khan
+Coqa Pred	:Kublai Khan
+
+Q 762		:what was maria curie the first female recipient of ?
+Gold		:nobel prize
+Coqa Pred	:Nobel Prize
+
+Q 763		:when was the basis for the social chapter developed ?
+Gold		:1989
+Coqa Pred	:1989
+
+Q 764		:what was the black death originally blamed on ?
+Gold		:the heavens
+Coqa Pred	:heavens
+
+Q 765		:can the president of the council vote on important matters related to the european central bank ?
+Gold		:do not have voting rights
+Coqa Pred	:no
+
+Q 766		:who is the president of egypt ?
+Gold		:anwar sadat
+Coqa Pred	:Anwar Sadat
+
+Q 767		:what lake in a german island mainau receives a fraction of the rhine 's flow ?
+Gold		:lake überlingen
+Coqa Pred	:Lake Überlingen
+
+Q 768		:what is the mortality rate of pneumonic plague ?
+Gold		:90 to 95 percent
+Coqa Pred	:90 to 95 percent
+
+Q 769		:what is terra preta called ?
+Gold		:black earth
+Coqa Pred	:black earth
+
+Q 770		:what nationality is hoesung lee ?
+Gold		:korean
+Coqa Pred	:Korean
+
+Q 771		:what percentage of private school students go to catholic schools ?
+Gold		:61
+Coqa Pred	:Over 61
+
+Q 772		:how many graduate students does harvard have ?
+Gold		:14,000
+Coqa Pred	:14,000
+
+Q 773		:after the oligocene period , under what period did the amazon rainforest begin to expand ?
+Gold		:middle miocene
+Coqa Pred	:Middle Miocene
+
+Q 774		:in 1979 , during the oil crisis , what was the highest price of oil ?
+Gold		:nearly $ 40 per barrel
+Coqa Pred	:world
+
+Q 775		:constitutional impasse is distinct from what key term ?
+Gold		:civil disobedience
+Coqa Pred	:Civil disobedience
+
+Q 776		:other than point conception , what landmark is used in the other definition of southern california ?
+Gold		:tehachapi mountains
+Coqa Pred	:Tehachapi Mountains
+
+Q 777		:who normally instructs members how to vote ?
+Gold		:political parties
+Coqa Pred	:political parties
+
+Q 778		:what is the main executive body of the eu ?
+Gold		:the european commission
+Coqa Pred	:European Commission
+
+Q 779		:what diagrams are used to simplify particle interactions on a fundamental level ?
+Gold		:feynman
+Coqa Pred	:Feynman diagrams
+
+Q 780		:when was phags-pa script invented ?
+Gold		:1269
+Coqa Pred	:1269
+
+Q 781		:where did montcalm move his heaquarter to show strategic advancement ?
+Gold		:ticonderoga
+Coqa Pred	:Ticonderoga
+
+Q 782		:what does the highest level of the vistula plateau contain ?
+Gold		:former flooded terraces
+Coqa Pred	:former flooded terraces
+
+Q 783		:who identified gravity as a force ?
+Gold		:isaac newton
+Coqa Pred	:Isaac Newton
+
+Q 784		:what was the english name of gou 's calendar ?
+Gold		:calendar for fixing the seasons
+Coqa Pred	:Shoushi Li
+
+Q 785		:how high are victoria 's alpine regions ?
+Gold		:2,000 m
+Coqa Pred	:almost 2,000 m (6,600 ft
+
+Q 786		:who were exempt from the ministry of justice ?
+Gold		:mongols and semuren
+Coqa Pred	:Mongols and Semuren
+
+Q 787		:in the most basic sense what did a turing machine emulate ?
+Gold		:a computer
+Coqa Pred	:computer
+
+Q 788		:how is the process of allocating seats repeated until all available seats have been determined ?
+Gold		:iteratively
+Coqa Pred	:iteratively
+
+Q 789		:what former administrative building was used for the msp 's offices ?
+Gold		:lothian regional council
+Coqa Pred	:on George IV Bridge
+
+Q 790		:how is worst-case time complexity written as an expression ?
+Gold		:t ( n )
+Coqa Pred	:as a function of n.
+
+Q 791		:what is the average weight of the biomass per hectare in the amazon ?
+Gold		:356 ± 47 tonnes
+Coqa Pred	:356 ± 47 tonnes
+
+Q 792		:where did many spanish catholic move after british takeover in florida ?
+Gold		:most went to cuba ,
+Coqa Pred	:Cuba
+
+Q 793		:in early pleistocene , what direction did the rhine flow ?
+Gold		:northwest
+Coqa Pred	:northwest
+
+Q 794		:long-lived memory cells can remember previous encounters with what ?
+Gold		:specific pathogen
+Coqa Pred	:pathogen
+
+Q 795		:who became king in 1643 ?
+Gold		:louis xiv
+Coqa Pred	:Louis XIV
+
+Q 796		:what factors negatively impacted jacksonville following the war ?
+Gold		:warfare and the long occupation
+Coqa Pred	:Warfare
+
+Q 797		:which district in fresno is known as the center for the heavy metal community ?
+Gold		:tower district
+Coqa Pred	:Tower District
+
+Q 798		:how many women were employed in construction in 2011 ?
+Gold		:828,000
+Coqa Pred	:828,000
+
+Q 799		:where is the home of the sunnyside country club ?
+Gold		:sunnyside
+Coqa Pred	:Fresno
+
+Q 800		:which principle is based on the appearance of fossils in sedimentary rocks ?
+Gold		:the principle of faunal succession
+Coqa Pred	:faunal succession
+
+Q 801		:what do all member states agree takes precedence over national law ?
+Gold		:eu law
+Coqa Pred	:EU law
+
+Q 802		:why is the seating of the debating chamber arranged as it is ?
+Gold		:encourage consensus amongst elected members
+Coqa Pred	:desire to encourage consensus amongst elected members
+
+Q 803		:the peruvian amazon indigienous people are one group struggling in the amazon , what is another group ?
+Gold		:urarina
+Coqa Pred	:Urarina
+
+Q 804		:electrolysis of what can be used to produce oxygen and hydrogen ?
+Gold		:water
+Coqa Pred	:water
+
+Q 805		:what kind of t cells have the purpose of modulating the immune response ?
+Gold		:regulatory t cells
+Coqa Pred	:regulatory T cells
+
+Q 806		:when did the yuan people suffer a series of natural disasters ?
+Gold		:from the late 1340s onwards
+Coqa Pred	:From the late 1340s onwards
+
+Q 807		:what causes the symptoms of inflammation ?
+Gold		:increased blood flow into tissue
+Coqa Pred	:redness, swelling, heat, and pain
+
+Q 808		:what is the name of the region that is not defined by the eight or 10 county definitions ?
+Gold		:southern california megaregion
+Coqa Pred	:greater Southern California Megaregion
+
+Q 809		:messiaen says that composition with prime numbers was inspired by what ?
+Gold		:the movements of nature
+Coqa Pred	:movements of nature
+
+Q 810		:are ctenophores predators , vegetarian or parasitic ?
+Gold		:almost all ctenophores are predators
+Coqa Pred	:parasitic
+
+Q 811		:what type of professional is a pharmacy technician considered to be ?
+Gold		:health care professional
+Coqa Pred	:health care professional
+
+Q 812		:who was the first chair of the ipcc ?
+Gold		:bert bolin
+Coqa Pred	:Hoesung Lee
+
+Q 813		:between which two streets along kearney boulevard were wealthy african-americans at one time residing ?
+Gold		:fresno street and thorne ave
+Coqa Pred	:between Fresno Street and Thorne Ave
+
+Q 814		:who were the current rights holders for the primer league ?
+Gold		:itv
+Coqa Pred	:ITV
+
+Q 815		:tumor antigens are complexed with mhc class i molecules in the same way as what antigens ?
+Gold		:viral antigens
+Coqa Pred	:viral antigens
+
+Q 816		:what car is licensed by the fso car factory and built in egypt ?
+Gold		:polonez
+Coqa Pred	:Aveo
+
+Q 817		:what part of the earth 's geological structure is larger than the crust ?
+Gold		:mantle
+Coqa Pred	:Earth's mantle
+
+Q 818		:what does a 2013 report on nigeria suggest it 's growth has done ?
+Gold		:risen with increased income inequality
+Coqa Pred	:risen with increased income inequality
+
+Q 819		:what was the name of the stadium that the teams played in ?
+Gold		:stubhub center
+Coqa Pred	:StubHub Center
+
+Q 820		:who challenged kublai khan 's right to succeed mongke khan ?
+Gold		:ariq böke
+Coqa Pred	:his brother, Ariq Böke
+
+Q 821		:what is the mineral wustite ?
+Gold		:feo
+Coqa Pred	:FeO
+
+Q 822		:which border does the rhine flow from the south ?
+Gold		:swiss-austrian border
+Coqa Pred	:Swiss-Austrian
+
+Q 823		:the taliban was so different from other moments that they could be more accurately described as being what ?
+Gold		:neofundamentalist
+Coqa Pred	:Islamic fundamentalist or neofundamentalist
+
+Q 824		:policies which try to control unemployment support economic growth because they reduce what ?
+Gold		:inequality-associated effects
+Coqa Pred	:inequality-associated effects
+
+Q 825		:what can result in more equal distribution of income ?
+Gold		:steeper tax
+Coqa Pred	:steeper tax progressivity applied to social spending
+
+Q 826		:what was ntl telewest re-branded to in 2007 ?
+Gold		:virgin media
+Coqa Pred	:Virgin Media
+
+Q 827		:what type of architecture is represented in the majestic churches ?
+Gold		:gothic
+Coqa Pred	:Gothic
+
+Q 828		:what is necessary to disobey ?
+Gold		:rules that conflict with morality
+Coqa Pred	:rules
+
+Q 829		:during what period the drainage basin of the amazon likely split ?
+Gold		:the mid-eocene
+Coqa Pred	:mid-Eocene
+
+Q 830		:what has caused oxfam 's findings to be questioned ?
+Gold		:the methodology used
+Coqa Pred	:methodology used: by using net wealth
+
+Q 831		:what is the average construction salary in the middle east ?
+Gold		:£ 42,090
+Coqa Pred	:£42,090
+
+Q 832		:in which year did the newspaper change its previous definition ?
+Gold		:1999
+Coqa Pred	:1900
+
+Q 833		:who was the first democratically elected president of egypt ?
+Gold		:mohamed morsi
+Coqa Pred	:Mohamed Morsi
+
+Q 834		:how many metric tons of carbon are believed to be stored in the amazon forest ?
+Gold		:1.1 × 1011 metric tonnes
+Coqa Pred	:1.1 × 1011
+
+Q 835		:who authored the liber servitoris ?
+Gold		:abu al-qasim al-zahrawi
+Coqa Pred	:unknown
+
+Q 836		:what are cancerous tumors of the skin known as ?
+Gold		:melanomas
+Coqa Pred	:melanomas
+
+Q 837		:who was frédéric chopin ?
+Gold		:famous musicians
+Coqa Pred	:Władysław Szpilman
+
+Q 838		:what did the amazon rainforest do during the middle miocene ?
+Gold		:it expanded
+Coqa Pred	:It expanded
+
+Q 839		:roughly how many clubs are ran at the university ?
+Gold		:over 400
+Coqa Pred	:over 400
+
+Q 840		:why does oxfam and credit suisse believe their findings are being doubted ?
+Gold		:a diversion
+Coqa Pred	:accelerating disparity could trigger a recession
+
+Q 841		:which count did the prince strike an arrangement with ?
+Gold		:count ludwig von nassau-saarbrücken
+Coqa Pred	:Count Ludwig von Nassau-Saarbrücken
+
+Q 842		:what is the oldest exhibition site in warsaw ?
+Gold		:zachęta national gallery of art
+Coqa Pred	:Zachęta National Gallery of Art
+
+Q 843		:what lake connects the rhine to lake constance ?
+Gold		:lake rhine
+Coqa Pred	:Seerhein
+
+Q 844		:which leaders did the islamic extremists attack ?
+Gold		:apostate
+Coqa Pred	:Muslim states
+
+Q 845		:who sets the agenda for the eu 's work ?
+Gold		:the commission 's president
+Coqa Pred	:Commission's President
+
+Q 846		:members of which organizations are disqualified from sitting in the sp as elected msps ?
+Gold		:police and the armed forces
+Coqa Pred	:Members of the police and the armed forces
+
+Q 847		:in what body of water is the harvard - yale regatta held ?
+Gold		:thames river
+Coqa Pred	:Thames River
+
+Q 848		:who was chairman of the house science committee ?
+Gold		:sherwood boehlert
+Coqa Pred	:Sherwood Boehlert
+
+Q 849		:how many bskyb channels were available to customers prior to october 2005 ?
+Gold		:three
+Coqa Pred	:three
+
+Q 850		:what nationality is the architect enric miralles ?
+Gold		:spanish
+Coqa Pred	:Spanish
+
+Q 851		:what is the other country the rhine separates switzerland to ?
+Gold		:austria
+Coqa Pred	:Liechtenstein
+
+Q 852		:when have humans started impacting the delta ?
+Gold		:3000 yr bp
+Coqa Pred	:Since ~3000 yr BP
+
+Q 853		:besides germany and switzerland , where else is lake constance ?
+Gold		:austria
+Coqa Pred	:Austria
+
+Q 854		:what was the naval base called ?
+Gold		:dyrrachium
+Coqa Pred	:Dyrrachium
+
+Q 855		:how much support does evidence provide for the view that labor-market flexibility improves labor-market outcomes ?
+Gold		:little
+Coqa Pred	:little
+
+Q 856		:who was robert 's son ?
+Gold		:bohemond
+Coqa Pred	:Bohemond
+
+Q 857		:why is warsaw 's flora very rich in species ?
+Gold		:location of warsaw
+Coqa Pred	:location of Warsaw within the border region of several big floral regions
+
+Q 858		:what type of fault boundary is defined by having widespread powerful earthquakes , as in the state of california ?
+Gold		:transform boundaries
+Coqa Pred	:San Andreas fault system
+
+Q 859		:who is the university accredited by ?
+Gold		:the higher learning commission
+Coqa Pred	:Higher Learning Commission
+
+Q 860		:what is the bad air theory officially known as ?
+Gold		:miasma theory
+Coqa Pred	:Miasma theory
+
+Q 861		:where do thrust faults form ?
+Gold		:in the shallow crust
+Coqa Pred	:In the shallow crust
+
+Q 862		:the two listed teams play for which ncaa group ?
+Gold		:division i
+Coqa Pred	:Pac-12 Conference
+
+Q 863		:who was louis xiv 's main rival ?
+Gold		:william iii of orange
+Coqa Pred	:William III
+
+Q 864		:how far is jacksonville from miami ?
+Gold		:340 miles
+Coqa Pred	:340 miles
+
+Q 865		:which part of china had people ranked higher in the class system ?
+Gold		:northern
+Coqa Pred	:southern China
+
+Q 866		:what was the colonia agrippina 's original name ?
+Gold		:ubiorum
+Coqa Pred	:oppidum Ubiorum
+
+Q 867		:what co-receptor recruits molecules inside the t cell that are responsible for cell activation ?
+Gold		:cd4 co-receptor
+Coqa Pred	:Lck
+
+Q 868		:who assembles the authors ' contributions ?
+Gold		:the coordinating lead authors
+Coqa Pred	:coordinating lead authors
+
+Q 869		:what change in conditions may make the amazon rainforest unsustainable ?
+Gold		:reduced rainfall and increased temperatures
+Coqa Pred	:severely reduced rainfall and increased temperatures
+
+Q 870		:when did the warsaw area enlargement take place ?
+Gold		:1951
+Coqa Pred	:1951
+
+Q 871		:what planet did astrophysisist predict to explain the problems with mercury ?
+Gold		:vulcan
+Coqa Pred	:Vulcan
+
+Q 872		:what kind of self-consistent models are physicists trying to make that would create a theory of everything ?
+Gold		:unification
+Coqa Pred	:self-consistent unification models
+
+Q 873		:in 1942 , what was north fresno previously called ?
+Gold		:pinedale
+Coqa Pred	:Pinedale
+
+Q 874		:what did the king do to regarding huguenot education ?
+Gold		:closed huguenot schools
+Coqa Pred	:closed Huguenot schools
+
+Q 875		:what word is the word pharmacy taken from ?
+Gold		:its root word pharma
+Coqa Pred	:pharma
+
+Q 876		:what is the name of the current king of thebes in the play ?
+Gold		:creon
+Coqa Pred	:Oedipus, defies Creon
+
+Q 877		:what is the name of the holding company for bskyb ?
+Gold		:sky plc
+Coqa Pred	:British Sky Broadcasting Group plc
+
+Q 878		:what researcher showed that air is a necessity for combustion ?
+Gold		:robert boyle
+Coqa Pred	:Robert Boyle
+
+Q 879		:how many people may have lived in the amazon region during ad 1500 ?
+Gold		:5 million
+Coqa Pred	:Some 5 million
+
+Q 880		:orange , san diego , riverside and san bernardino make up four of the five counties. what is the name of the last county ?
+Gold		:los angeles
+Coqa Pred	:Los Angeles
+
+Q 881		:what does the lobata have pair of ?
+Gold		:lobes
+Coqa Pred	:lobes
+
+Q 882		:when was warsaw 's stock exchange brought back to life ?
+Gold		:april 1991
+Coqa Pred	:April 1991
+
+Q 883		:what type of immune cells help to destroy abnormal cells in tumors ?
+Gold		:killer t cells
+Coqa Pred	:killer T cells
+
+Q 884		:when was there an attempt to reform the law of the eu ?
+Gold		:following the nice treaty
+Coqa Pred	:Following the Nice Treaty
+
+Q 885		:how wide is the rhine in germany ?
+Gold		:400 m wide
+Coqa Pred	:400 m
+
+Q 886		:what is the total cost of attendance in 2012-13 ?
+Gold		:$ 57,000
+Coqa Pred	:57,000
+
+Q 887		:what year was the treaty of amsterdam created ?
+Gold		:1997
+Coqa Pred	:1997
+
+Q 888		:what style were the mass constructed residential blocks designed in ?
+Gold		:typical of eastern bloc countries
+Coqa Pred	:typical of Eastern bloc countries
+
+Q 889		:what other catalysts can be used to produce oxygen ?
+Gold		:chemical
+Coqa Pred	:Chemical
+
+Q 890		:how many of warsaw 's inhabitants spoke polish in 1933 ?
+Gold		:833,500
+Coqa Pred	:833,500
+
+Q 891		:what meteorologist was also apart of the university 's faculty ?
+Gold		:ted fujita
+Coqa Pred	:James Henry Breasted
+
+Q 892		:what can significantly contribute to the continuing inequality in a society over time ?
+Gold		:wealth condensation
+Coqa Pred	:wealth condensation
+
+Q 893		:what would income differentials be if individual contributions were relevant to the social product ?
+Gold		:reflective
+Coqa Pred	:reflective
+
+Q 894		:in what year was the school formed ?
+Gold		:1636
+Coqa Pred	:1636
+
+Q 895		:what does it take a country with high inequality longer to achieve ?
+Gold		:reduction
+Coqa Pred	:same reduction
+
+Q 896		:what satellite was used when sky digital was launched ?
+Gold		:astra 2a
+Coqa Pred	:Astra 2A satellite
+
+Q 897		:what does the bathocyroe and ocyropsis do to escape danger ?
+Gold		:by clapping their lobes
+Coqa Pred	:clapping their lobes
+
+Q 898		:what did water that flowed towards the pacific have to flow across during the mid-eocene ?
+Gold		:amazonas basin
+Coqa Pred	:Amazonas Basin
+
+Q 899		:combustion is caused by an oxidant and a fuel. what role does oxygen play in combustion ?
+Gold		:oxygen is the oxidant
+Coqa Pred	:source of most of the chemical energy released in combustion
+
+Q 900		:what is the example of another problem characterized by large instances that is routinely solved by sat handlers employing efficient algorithms ?
+Gold		:np-complete boolean satisfiability problem
+Coqa Pred	:NP-complete knapsack problem
+
+Q 901		:how was the rhine gorge formed ?
+Gold		:erosion
+Coqa Pred	:erosion
+
+Q 902		:in what year did lavoisier publish his work on combustion ?
+Gold		:1777
+Coqa Pred	:1777
+
+Q 903		:how many seats does victoria have in the australian house of representatives ?
+Gold		:37
+Coqa Pred	:37
+
+Q 904		:what 's thomas piketty 's job ?
+Gold		:economist
+Coqa Pred	:Economist
+
+Q 905		:what brought the downfall of jacksonville filmmaking ?
+Gold		:hollywood
+Coqa Pred	:emergence of Hollywood
+
+Q 906		:who was the first known european to visit china and return ?
+Gold		:marco polo
+Coqa Pred	:Marco Polo
+
+Q 907		:what is missing a theory on quantum gravity ?
+Gold		:general relativity
+Coqa Pred	:General relativity
+
+Q 908		:what was the name of the first successful credit card ?
+Gold		:bankamericard
+Coqa Pred	:BankAmericard
+
+Q 909		:what type of civil war was fought between political and tribal warlords ?
+Gold		:vicious and destructive
+Coqa Pred	:vicious and destructive
+
+Q 910		:how much food does a ctenophora eat in a day ?
+Gold		:ten times their own weight
+Coqa Pred	:ten times their own weight
+
+Q 911		:which theorem can be simplified to the lasker – noether theorem ?
+Gold		:the fundamental theorem of arithmetic
+Coqa Pred	:fundamental theorem of arithmetic
+
+Q 912		:what is the income inequality gap between genders in botswana ?
+Gold		:53 %
+Coqa Pred	:53% in Botswana to -40
+
+Q 913		:how many campuses does the university of california have ?
+Gold		:5
+Coqa Pred	:5
+
+Q 914		:in what year did the first european travel the entire length of the amazon river ?
+Gold		:1542
+Coqa Pred	:1542
+
+Q 915		:who was the ruling class ahead of the normans ?
+Gold		:anglo-saxons
+Coqa Pred	:Anglo-Saxons
+
+Q 916		:what process is responsible for the planet 's oxygen content ?
+Gold		:photosynthesis
+Coqa Pred	:photosynthesis
+
+Q 917		:other than the automobile club of southern california , what other aaa auto club chose to simplify the divide ?
+Gold		:california state automobile association
+Coqa Pred	:California State Automobile Association
+
+Q 918		:in order to better understand the orientations of faults and folds , structural geologists do what with measurements of geological structures ?
+Gold		:plot and combine
+Coqa Pred	:plot and combine
+
+Q 919		:what are the two different types of immunity ?
+Gold		:humoral immunity versus cell-mediated immunity
+Coqa Pred	:humoral immunity versus cell-mediated immunity
+
+Q 920		:what researcher first used the word oxygen ?
+Gold		:antoine lavoisier
+Coqa Pred	:Antoine Lavoisier
+
+Q 921		:what time did a river system develop in the upper rhine graben ?
+Gold		:miocene
+Coqa Pred	:By the time of the Miocene
+
+Q 922		:in what compound is oxygen part of a ring arrangement ?
+Gold		:epoxides
+Coqa Pred	:Epoxides
+
+Q 923		:what was the name of the florida huguenot colony ?
+Gold		:fort caroline
+Coqa Pred	:Fort Caroline
+
+Q 924		:where is the airport located ?
+Gold		:the west side
+Coqa Pred	:West Side
+
+Q 925		:what is the annual construction industry revenue in 2014 ?
+Gold		:$ 960 billion
+Coqa Pred	:around $960 billion
+
+Q 926		:how much damage does breathing oxygen in space conditions cause ?
+Gold		:no damage
+Coqa Pred	:no
+
+Q 927		:in what century did the history of the steam engine begin ?
+Gold		:first
+Coqa Pred	:first century AD
+
+Q 928		:which us president visited jacksonville in 1888 ?
+Gold		:grover cleveland
+Coqa Pred	:Grover Cleveland
+
+Q 929		:what limits the rankine cycle 's efficiency ?
+Gold		:working fluid
+Coqa Pred	:working fluid
+
+Q 930		:what percentage of total financial aid for undergraduates from harvard was in the form of grants ?
+Gold		:88 %
+Coqa Pred	:88
+
+Q 931		:how much higher was the rate of deforestation in 2000 , to 2005 compared to 1995 to 2000 ?
+Gold		:18 % higher
+Coqa Pred	:18
+
+Q 932		:what modern city is located on the original huguenot colony ?
+Gold		:cape town
+Coqa Pred	:Cape of Good Hope
+
+Q 933		:the mark of anarchy was written to protest against what ?
+Gold		:unjust forms of authority
+Coqa Pred	:unjust forms of authority
+
+Q 934		:in what year did william maclure begin the process of creating the first geological map of the u.s. ?
+Gold		:1807
+Coqa Pred	:1809
+
+Q 935		:what is the legal boundary behind the high and upper rind ?
+Gold		:central bridge
+Coqa Pred	:Central Bridge
+
+Q 936		:which tefu article states that no quantitative restrictions can be placed on trade ?
+Gold		:article 30
+Coqa Pred	:article 30
+
+Q 937		:what southern city did the huguenots settle near ?
+Gold		:charleston , south carolina
+Coqa Pred	:Charleston
+
+Q 938		:what is the most important problem in the united states and elsewhere ?
+Gold		:rising inequality
+Coqa Pred	:rising inequality
+
+Q 939		:who dates rocks , precisely , within the stratigraphic section ?
+Gold		:geochronologists
+Coqa Pred	:Geochronologists
+
+Q 940		:the brotherhood was the only opposition group in egypt able to do what during elections ?
+Gold		:field candidates
+Coqa Pred	:field candidates
+
+Q 941		:when was the rhine measurement corrected back to the original ?
+Gold		:2010
+Coqa Pred	:1932
+
+Q 942		:what is resposible for speeding up or slowing down an object ?
+Gold		:tangential force
+Coqa Pred	:tangential force
+
+Q 943		:what genus has self-fertilization been seen ?
+Gold		:mnemiopsis
+Coqa Pred	:Mnemiopsis
+
+Q 944		:what prestigious legal scholars are faculty members at harvard ?
+Gold		:alan dershowitz and lawrence lessig
+Coqa Pred	:Alan Dershowitz and Lawrence Lessig
+
+Q 945		:how many metropolitan areas does southern california 's population encompass ?
+Gold		:seven
+Coqa Pred	:seven
+
+Q 946		:during glacial times , where was the mouth of the rhine located ?
+Gold		:brest
+Coqa Pred	:offshore of Brest, France
+
+Q 947		:what generally does not allow citizens to sue other citizens ?
+Gold		:directives
+Coqa Pred	:Directives
+
+Q 948		:what is the current status of the haensch study ?
+Gold		:confirmed and amended
+Coqa Pred	:confirmed and amended
+
+Q 949		:who provided a philosophical discussion of force ?
+Gold		:aristotle
+Coqa Pred	:Aristotle
+
+Q 950		:when did warsaw become the capital of the kingdom of poland ?
+Gold		:1596
+Coqa Pred	:1596
+
+Q 951		:what was the the movement called that brought baltic countries independence from the soviet union ?
+Gold		:singing revolution
+Coqa Pred	:Singing Revolution
+
+Q 952		:when did galor and zeria show new information about inequality ?
+Gold		:1993
+Coqa Pred	:In 1993
+
+Q 953		:how many homes had bskyb 's direct-to-home satellite service available to them in 2010 ?
+Gold		:10 million
+Coqa Pred	:10 million
+
+Q 954		:in which months does fresno experience increased wind coming from the southeastern direction ?
+Gold		:december , january and february
+Coqa Pred	:December, January and February
+
+Q 955		:what type of forested areas can be found on the highest terrace ?
+Gold		:pine
+Coqa Pred	:pine forest
+
+Q 956		:what is the typical annual cost for an irish private school ?
+Gold		:€ 5,000
+Coqa Pred	:around €5,000
+
+Q 957		:what is the area called where one plate subducts under another ?
+Gold		:convergent boundaries
+Coqa Pred	:convergent boundaries
+
+Q 958		:who did warsaw serve as the seat for in 1529 ?
+Gold		:general sejm
+Coqa Pred	:General Sejm
+
+Q 959		:after what battle did union forces return to and occupy jacksonville for the rest of the war ?
+Gold		:battle of olustee
+Coqa Pred	:Battle of Olustee
+
+Q 960		:what will a society with more equality have ?
+Gold		:higher aggregate utility
+Coqa Pred	:higher aggregate utility
+
+Q 961		:what is featured on the city of fresno 's city flag ?
+Gold		:ash leaf
+Coqa Pred	:ash leaf
+
+Q 962		:what needs to be larger to get the same work out of lower pressure steam ?
+Gold		:cylinder volume
+Coqa Pred	:cylinder volume
+
+Q 963		:who introduced plague to europe ?
+Gold		:genoese traders
+Coqa Pred	:Genoese traders
+
+Q 964		:the kronenberg palace had been an exceptional example of what type of architecture ?
+Gold		:bourgeois
+Coqa Pred	:bourgeois
+
+Q 965		:the function of long-lived memory cells is an example of what kind of immune response ?
+Gold		:adaptive
+Coqa Pred	:immune system for future challenges
+
+Q 966		:as a result of a compromise , about how many chinese schools became national type schools ?
+Gold		:60
+Coqa Pred	:Over 60
+
+Q 967		:when did the series of strikes happen ?
+Gold		:winter of 1973 – 74
+Coqa Pred	:over the winter of 1973–74
+
+Q 968		:setting speed limits was one of the further devolutions which was conferred by what act ?
+Gold		:2012 act
+Coqa Pred	:2012
+
+Q 969		:what do some encrypted broadcasts require to view ?
+Gold		:monthly subscription
+Coqa Pred	:monthly subscription
+
+Q 970		:which famous indian took a plea and put himself at the mercy of the courts ?
+Gold		:mohandas gandhi
+Coqa Pred	:Mohandas Gandhi
+
+Q 971		:who claims that public companies can also be part of civil disobedience ?
+Gold		:brownlee
+Coqa Pred	:Brownlee
+
+Q 972		:what rituals did kublai follow to help his image ?
+Gold		:confucian propriety and ancestor veneration
+Coqa Pred	:Confucian propriety and ancestor veneration
+
+Q 973		:where is the asian influence strongest in victoria ?
+Gold		:bendigo
+Coqa Pred	:Bendigo
+
+Q 974		:what other business district does orange county envelop outside of downtown santa ana and newport center ?
+Gold		:south coast metro
+Coqa Pred	:South Coast Metro
+
+Q 975		:what did alec shelbrooke propose payments of benefits to be made on ?
+Gold		:welfare cash card
+Coqa Pred	:Welfare Cash Card
+
+Q 976		:whose first law of motion says that unless acted upon be forces , objects would continue to move at a constant velocity ?
+Gold		:newton
+Coqa Pred	:Newton
+
+Q 977		:along with admission , exhaust and compression , what is an event in the engine cycle ?
+Gold		:expansion
+Coqa Pred	:steam
+
+Q 978		:along with marine engines and industrial units , in what machines was compounding popular ?
+Gold		:road engines
+Coqa Pred	:road engines
+
+Q 979		:what is another term for shortening the admission event ?
+Gold		:shortening the cutoff
+Coqa Pred	:shortening the cutoff
+
+Q 980		:which country did japan force into an alliance ?
+Gold		:thailand
+Coqa Pred	:Thailand
+
+Q 981		:what did mitsubishi rename its forte to ?
+Gold		:dodge d-50
+Coqa Pred	:Dodge D-50
+
+Q 982		:who designed the scottish parliament building ?
+Gold		:enric miralles
+Coqa Pred	:Enric Miralles
+
+Q 983		:what did article 65 of the ecsc ban ?
+Gold		:cartels
+Coqa Pred	:cartels
+
+Q 984		:le grand concludes that an author 's words offer only what they intended for them to imply regarding this type of terminology ?
+Gold		:specific
+Coqa Pred	:no more (or no less) meaning
+
+Q 985		:to what body are certain powers explicitly specified as being reserved for ?
+Gold		:parliament of the united kingdom
+Coqa Pred	:Parliament of the United Kingdom
+
+Q 986		:what does high levels of inequality do to growth in poor countries ?
+Gold		:reduce
+Coqa Pred	:reduce growth
+
+Q 987		:finding what helps to determine if a fault is a normal fault or a thrust fault ?
+Gold		:the key bed
+Coqa Pred	:key bed
+
+Q 988		:matter particles are shown as what kind of lines in a feynman diagram ?
+Gold		:straight
+Coqa Pred	:straight line
+
+Q 989		:what is formed when a phagosome fuses with a lysosome ?
+Gold		:phagolysosome
+Coqa Pred	:phagolysosome
+
+Q 990		:what does civil disobedience relate to ?
+Gold		:the state and its laws
+Coqa Pred	:citizen's relation to the state and its laws
+
+Q 991		:what does the presiding officer try to achieve a balance of between speakers ?
+Gold		:different viewpoints
+Coqa Pred	:different viewpoints and political parties
+
+Q 992		:how many people died of plague in paris in 1466 ?
+Gold		:40,000
+Coqa Pred	:40,000
+
+Q 993		:at what wavelength do the spectrophotometric bands peak ?
+Gold		:687 and 760 nm
+Coqa Pred	:687 and 760 nm
+
+Q 994		:who recorded " walking in fresno ? "
+Gold		:bob gallion
+Coqa Pred	:Bill Aken
+
+Q 995		:what is the mayor of warsaw called ?
+Gold		:president
+Coqa Pred	:President
+
+Q 996		:when did western governments support fledgling islamists ?
+Gold		:during the 1970s
+Coqa Pred	:During the 1970s and sometimes later
+
+Q 997		:what pope as a native of poland ?
+Gold		:john paul ii
+Coqa Pred	:John Paul II
+
+Q 998		:where is polonia 's home venue located ?
+Gold		:at konwiktorska street
+Coqa Pred	:Konwiktorska Street
+
+Q 999		:in what month and year was the revised manual of regulations for private schools released ?
+Gold		:august 1992
+Coqa Pred	:August 1992
+
+Q 1000		:when was the russian policy " indigenization " defunded ?
+Gold		:1932
+Coqa Pred	:1923
+

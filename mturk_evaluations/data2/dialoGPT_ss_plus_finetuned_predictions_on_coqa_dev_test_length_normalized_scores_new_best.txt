@@ -1,0 +1,3369 @@
+0:what is its population ? ||| 476,015
+0	:-0.0174:	its population is 476,015
+1	:-0.3645:	it is 476,015
+2	:-0.5411:	Its population is 476,015
+3	:-0.8056:	`476,015 is its population
+4	:-0.8089:	the population is 476,015
+5	:-0.9073:	is its population 476,015
+6	:-0.9430:	has its population 476,015
+7	:-0.9436:	 its population is 476,015
+8	:-0.9552:	his population is 476,015
+9	:-1.0264:	476,015 is its population
+10	:-1.4912:	`476,015 is Its population
+11	:-1.8098:	`476,015 is it
+12	:-1.8483:	476,015 is its population?
+13	:-1.9007:	476,015 is its population.
+14	:-1.9371:	`476,015 is its populace
+15	:-1.9561:	476,015 is its population ||
+16	:-2.0980:	`476,015 is its
+17	:-2.2657:	`476,015 is`
+
+1:when will giordano go to court ? ||| monday
+0	:-0.0461:	giordano will go to court monday
+1	:-0.2401:	gmordano will go to court monday
+2	:-0.2697:	giordano will go to court on monday
+3	:-0.3411:	giordano will go to court in monday
+4	:-0.4188:	giordano will go to court to monday
+5	:-0.4271:	giordano go to court monday
+6	:-0.4508:	gmordano will go to court on monday
+7	:-0.4684:	giordano will go to court for monday
+8	:-0.4713:	giordano will go monday
+9	:-0.4811:	giordano will go to court at monday
+10	:-0.5145:	gmordano will go to court in monday
+11	:-0.5528:	giordano, will go to court monday
+12	:-0.5687:	giordano will go in court monday
+13	:-0.5762:	gmondano will go to court monday
+14	:-0.5854:	giordano go to court on monday
+15	:-0.5954:	it will go to court monday
+16	:-0.6036:	giordano will go to monday
+17	:-0.6157:	giordano will go monday to court
+18	:-0.6223:	gmordano go to court monday
+19	:-0.6636:	gmonday, will go to court
+20	:-0.6703:	giordano will go in monday
+21	:-0.6965:	he will go to court monday
+22	:-0.8832:	gmonday, will giordano go
+23	:-1.0262:	giordano will go to court monday (
+24	:-1.0312:	giordano will go to court monday.
+25	:-1.0394:	it will go monday
+26	:-1.0899:	giordano will go to court monday,
+
+2:how did he feel ? ||| he was interested
+0	:-0.0049:	he felt he was interested
+1	:-0.9589:	he felt a he was interested
+2	:-0.9652:	he felt in he was interested
+3	:-0.9790:	he felt at he was interested
+4	:-1.0002:	he felt the he was interested
+5	:-1.0162:	he felt that he was interested
+6	:-1.0711:	he was interested, he felt
+7	:-1.1231:	he felt for he was interested
+8	:-1.1532:	he felt about he was interested
+9	:-1.2246:	it felt he was interested
+10	:-1.3965:	he felt he was interested.
+11	:-1.5309:	he felt he was interested (
+12	:-1.6495:	he was interested, he said
+13	:-1.7432:	he felt he was interested,
+14	:-1.7451:	he felt he was interested in
+15	:-1.7775:	he felt he was interested and
+16	:-1.8197:	he felt he was interested too
+17	:-2.0011:	he was interested, he
+18	:-2.0813:	he was interested, he was
+19	:-2.2888:	he felt he was interested he
+
+3:what time ? ||| 3pm
+0	:-0.0509:	3pm time
+1	:-0.6004:	3pm is 3pm
+2	:-0.6732:	3pm
+3	:-1.0641:	3pm is the time
+4	:-1.1540:	3pm is a time
+5	:-1.3265:	3pm is time
+6	:-1.3693:	it is 3pm
+7	:-1.3977:	3pm is 3 pm
+8	:-1.4452:	3pm is it time
+9	:-1.4579:	3pm time,
+10	:-1.4681:	it is 3pm time
+11	:-1.5166:	3pm, time
+12	:-1.5282:	3pm is at home
+13	:-1.5990:	3pm time?
+14	:-1.6625:	3pm is on
+15	:-1.6921:	3pm is in town
+16	:-1.7323:	3pm time is
+17	:-1.7427:	3pm has it
+18	:-1.7489:	the 3pm time
+19	:-1.7493:	a 3pm time
+20	:-1.7633:	3pm time :
+21	:-1.7702:	3pm,
+22	:-1.7882:	3pm time |
+23	:-1.8082:	3pm is at at
+24	:-1.8176:	3pm is in
+25	:-1.8231:	3pm Time
+26	:-1.8617:	the 3pm time is
+27	:-1.8779:	3pm times
+28	:-2.0246:	3pm means
+29	:-2.0722:	3pm hour
+30	:-2.0955:	3pm time (
+31	:-2.0984:	3pm TIME
+32	:-2.1148:	3pm occurs
+33	:-2.1726:	3pm is
+34	:-2.1861:	3pm happens
+35	:-2.1886:	3pm -
+
+4:who was it ? ||| a little girl
+0	:-0.0046:	it was a little girl
+1	:-0.7985:	a little girl was it
+2	:-0.8639:	it was the a little girl
+3	:-0.9450:	it was an a little girl
+4	:-0.9603:	the a little girl was it
+5	:-1.1158:	it was for a little girl
+6	:-1.1796:	an a little girl was it
+7	:-1.2084:	it was to a little girl
+8	:-1.2533:	it was in a little girl
+9	:-1.2620:	its was a little girl
+10	:-1.3637:	it was of a little girl
+11	:-1.3695:	herit was a little girl
+12	:-1.3786:	it was as a little girl
+13	:-1.4666:	he was a little girl
+14	:-1.5022:	ital was a little girl
+15	:-1.5533:	was it a little girl
+16	:-1.7458:	it was a little girl.
+17	:-1.7887:	it was a little girl (
+18	:-1.9374:	it was a little girl and
+19	:-1.9441:	it was a little girl,
+20	:-1.9876:	a little girl was it.
+21	:-2.0397:	a little girl was it?
+22	:-2.0953:	a little girl was it was
+
+5:what did archie receive after his arrival at camp ? ||| orders
+0	:-0.1691:	archie received orders
+1	:-0.3384:	he received orders
+2	:-0.5101:	archie received orders after his arrival
+3	:-0.5734:	archie received orders after his arrival at camp
+4	:-0.7455:	archie received orders after his arrival in camp
+5	:-0.7518:	arian received orders
+6	:-0.7570:	he received orders after his arrival
+7	:-0.8070:	airey received orders
+8	:-0.8278:	he received orders after his arrival at camp
+9	:-0.8826:	arpie received orders
+10	:-0.8917:	archie received orders for his arrival at camp
+11	:-0.8974:	archie received orders before his arrival at camp
+12	:-0.9088:	archie received orders for his arrival
+13	:-0.9170:	airey received orders after his arrival at camp
+14	:-0.9276:	arian received orders after his arrival at camp
+15	:-0.9470:	archie received orders before his arrival
+16	:-0.9480:	airey received orders after his arrival
+17	:-0.9492:	arpie received orders after his arrival at camp
+18	:-0.9615:	arian received orders after his arrival
+19	:-0.9650:	archie received the orders after his arrival
+20	:-0.9788:	he received orders after his arrival in camp
+21	:-1.0039:	arpie received orders after his arrival
+22	:-1.0566:	archie received orders of his arrival
+23	:-1.0616:	artchie received orders after his arrival at camp
+24	:-1.0736:	artchie received orders
+25	:-1.0824:	acchie received orders
+26	:-1.0858:	archie received orders from his arrival at camp
+27	:-1.0918:	airey received orders after his arrival in camp
+28	:-1.0972:	archie received orders and archie received
+29	:-1.0992:	archie received orders in camp
+30	:-1.1031:	archie received orders before his arrival in camp
+31	:-1.1076:	archie received orders after his arrival.
+32	:-1.1097:	artchie received orders after his arrival
+33	:-1.1152:	archie received orders in his arrival
+34	:-1.1181:	archie received orders from camp
+35	:-1.1194:	arian received orders after his arrival in camp
+36	:-1.1366:	archie received the orders
+37	:-1.1383:	arkchie received orders
+38	:-1.1631:	airec received orders
+39	:-1.1783:	archie received orders from his arrival
+40	:-1.1903:	archie received orders and archie received orders
+41	:-1.1965:	airece received orders
+42	:-1.1995:	arrchie received orders
+43	:-1.2065:	archie received orders at camp
+44	:-1.2166:	arschie received orders
+45	:-1.2253:	aristie received orders
+46	:-1.2275:	archie received a orders order
+47	:-1.2409:	adrchie received orders
+48	:-1.2627:	airchie received orders
+49	:-1.2940:	asper received orders
+50	:-1.3410:	archie received orders to receive
+51	:-1.3849:	he received orders after his arrival at camp.
+52	:-1.4077:	arian received orders after his arrival at camp.
+53	:-1.4260:	arse received orders
+54	:-1.4473:	arson received orders
+55	:-1.4836:	archie received order orders
+56	:-1.4927:	acer received orders
+
+6:who got the next item for him ? ||| the landlady
+0	:-0.0043:	the landlady got the next item
+1	:-0.3586:	the landlady got the next item for him
+2	:-0.3970:	thomas the landlady got the next item
+3	:-0.6397:	thomas the landlady got the next item for him
+4	:-0.9154:	they got the next item for him by the landlady
+5	:-0.9303:	they got the next item for him the landlady
+6	:-0.9369:	the landlady gotten the next item
+7	:-0.9457:	the landlady got it
+8	:-0.9847:	the landlady get the next item
+9	:-1.0172:	the landlady got the next item of him
+10	:-1.0176:	the landlady got the next item from him
+11	:-1.0215:	the landlady got the next item with him
+12	:-1.0399:	thomas the landlady got the next item for himself
+13	:-1.0482:	they got the next item the landlady
+14	:-1.0607:	the landlady got the next item to him
+15	:-1.0707:	the landlady got the next item in him
+16	:-1.0773:	the landlady got the next item for himself
+17	:-1.0784:	thomas the landlady got it
+18	:-1.0972:	the landlady got it for him
+19	:-1.0993:	the landlady got the next item in
+20	:-1.1023:	the landlady got the next item.
+21	:-1.1155:	the landlady gets the next item
+22	:-1.1663:	the landlady got the next item for him.
+23	:-1.1674:	the landlady gotten the next item for him
+24	:-1.1745:	thomas the landlady got the next item from him
+25	:-1.1861:	the landlady got the next item for he
+26	:-1.1932:	the landlady got the next item in the
+27	:-1.1942:	thomas the landlady got the next item with him
+28	:-1.1966:	the landlady got the next item for man
+29	:-1.1988:	thomas the landlady got the next item of him
+30	:-1.2048:	the landlady got
+31	:-1.2062:	the landlady got the next item and
+32	:-1.2274:	the landlady got the next item on him
+33	:-1.2351:	thomas the landlady got the next item for he
+34	:-1.2404:	thomas the landlady got the next item to him
+35	:-1.2444:	thomas the landlady got the next item in
+36	:-1.2482:	the landlady got the next item (
+37	:-1.2596:	the landlady got the next item for him (
+38	:-1.2731:	the landlady got the next item on
+39	:-1.2786:	thomas the landlady got the next item.
+40	:-1.2801:	the landlady got the next item,
+41	:-1.2942:	the landlady got the first item
+42	:-1.3215:	thomas the landlady got the next item for man
+43	:-1.3227:	the landlady got the next
+44	:-1.3385:	thomas the landlady got the next item to get
+45	:-1.3505:	thomas the landlady got
+46	:-1.3588:	thomas the landlady got the next item for his
+47	:-1.3640:	thomas the landlady got the next item in him
+48	:-1.3660:	thomas the landlady got the next item in the
+49	:-1.3713:	thomas the landlady got the next item and
+50	:-1.3775:	thomas the landlady got the next item (
+51	:-1.3834:	thomas the landlady got the next item in his
+52	:-1.3948:	thomas the landlady got the next item on
+53	:-1.4277:	thomas the landlady got the next item for
+
+7:what battle was fought in 675 ? ||| the battle of bedwyn
+0	:-0.0099:	the battle of bedwyn was fought
+1	:-0.2508:	the battle of bedwyn was fought in 675
+2	:-0.6126:	the battle was fought in the battle of bedwyn
+3	:-0.6467:	it was the battle of bedwyn
+4	:-0.7130:	thomas the battle of bedwyn was fought
+5	:-0.7964:	the battle of bedwyn was waged in 675
+6	:-0.8617:	it was fought in the battle of bedwyn
+7	:-0.8745:	the battle of bedwyn was foughtin 675
+8	:-0.8771:	the battle of bedwyn was waged
+9	:-1.0065:	the battle of bedwyn was fought in
+10	:-1.0488:	in the battle of bedwyn was fought
+11	:-1.0537:	at the battle of bedwyn was fought
+12	:-1.0555:	the battle of bedwyn was fought in six75
+13	:-1.0599:	the battle of bedwyn was fought (
+14	:-1.0723:	the battle of bedwyn was fought.
+15	:-1.1238:	the battle of bedwyn is fought
+16	:-1.1255:	it was the battle of bedwyn battle
+17	:-1.1349:	the battle of bedwyn battle was fought
+18	:-1.1588:	the battle of bedwyn was fought in 575
+19	:-1.1671:	there was the battle of bedwyn
+20	:-1.1839:	the battle of bedwyn was fought |
+21	:-1.2184:	the battle of bedwyn was fought [
+22	:-1.2315:	they was the battle of bedwyn
+23	:-1.2497:	the battle of bedwyn was fought ||
+24	:-1.2541:	the battle of bedwyn was fought in 600
+25	:-1.2632:	the battle of bedwyn was fought in 66
+26	:-1.2763:	the battle of bedwyn was won
+27	:-1.2770:	the battle of bedwyn was fought in 666
+28	:-1.2877:	the battle of bedwyn was fought in 676
+29	:-1.3016:	the battle of bedwyn had it
+30	:-1.3089:	the battle of bedwyn was fought in 5
+31	:-1.3165:	the battle of bedwynwas fought
+32	:-1.3252:	the battle of bedwyn was fought in the battle
+33	:-1.4006:	the battle of bedwyn was fought against
+34	:-1.5498:	the battle of bedwyn was fought in six
+35	:-1.7308:	the battle of bedwyn
+
+8:who asks him about it ? ||| sam
+0	:-0.1128:	sam asks him
+1	:-0.1787:	sam asks him about it
+2	:-1.0326:	saman asks him about it
+3	:-1.1499:	sam askes him about it
+4	:-1.1593:	samm asks him about it
+5	:-1.2206:	sams asks him about it
+6	:-1.2425:	sam, asks him about it
+7	:-1.2611:	sam asks him about it.
+8	:-1.2694:	samo asks him about it
+9	:-1.2719:	saman asks him
+10	:-1.3485:	sam asks him for it
+11	:-1.3599:	sam asks him regarding it
+12	:-1.3861:	sam ask him about it
+13	:-1.3906:	sam is asking him about it
+14	:-1.4329:	sam asks him to sam
+15	:-1.4459:	sam askses him about it
+16	:-1.4771:	sami asks him about it
+17	:-1.4773:	sam asks him of it
+18	:-1.4888:	samm asks him
+19	:-1.4896:	sam askes him
+20	:-1.4906:	sams asks him
+21	:-1.4936:	sam asks him over it
+22	:-1.5489:	sam, asks him
+23	:-1.5525:	sam asks me about it
+24	:-1.5744:	sam asks him on it
+25	:-1.5802:	sam asks him about it too
+26	:-1.6097:	sam asks him aboutit
+27	:-1.6524:	samo asks him
+28	:-1.7413:	sam asks him about
+29	:-1.7552:	sam asks him to him
+30	:-1.7622:	sam asks
+31	:-1.7839:	sam is asking him
+32	:-1.8208:	sam askses him
+33	:-1.8378:	sam asks him about it,
+34	:-1.8453:	sam asks him about it?
+35	:-1.8532:	sam asks him,
+36	:-1.8746:	sam asks him about it (
+37	:-1.8873:	sam asks him in
+38	:-1.9014:	sami asks him
+39	:-1.9047:	sam asks him about it [
+40	:-1.9288:	sam asks him about it and
+41	:-1.9541:	sam ask him
+42	:-2.0212:	sam asks him about it in
+43	:-2.0322:	sam questions him
+44	:-2.0965:	sam asks him to
+45	:-2.1780:	sam asks me
+46	:-2.2747:	sam asks it
+47	:-2.2768:	sam asks he
+48	:-2.2777:	sam says
+49	:-2.2907:	sam wants him
+50	:-3.8046:	sam
+
+9:who does she mention in her reply ? ||| jimmy
+0	:-0.0113:	she mentions jimmy
+1	:-0.5434:	she mentions jimmy in her reply
+2	:-0.7809:	she references jimmy
+3	:-0.8407:	says jimmy
+4	:-0.9526:	she talks about jimmy
+5	:-0.9540:	jimmy, she mentions
+6	:-0.9718:	singer mentions jimmy
+7	:-0.9824:	hillary mentions jimmy
+8	:-0.9920:	she refers to jimmy
+9	:-1.0402:	it mentions jimmy
+10	:-1.0433:	she references jimmy in her reply
+11	:-1.0666:	she refers jimmy
+12	:-1.0910:	sims mentions jimmy
+13	:-1.1480:	he mentions jimmy
+14	:-1.1564:	hillary mentions jimmy in her reply
+15	:-1.1904:	her mentions jimmy
+16	:-1.2012:	she refers jimmy in her reply
+17	:-1.2127:	she cites jimmy
+18	:-1.2159:	she discusses jimmy
+19	:-1.2819:	her mentions jimmy in her reply
+20	:-1.3603:	she refers jimmy to she mention
+21	:-1.3924:	she refers jimmy to her reply
+22	:-1.4442:	she mentions jimmy in her response
+23	:-1.5030:	she mentions jimmy in her replies
+24	:-1.5425:	she refers jimmy to she mentions
+25	:-1.5735:	she mentions jimmy,
+26	:-1.5757:	jimmy, she references
+27	:-1.7983:	she mentions jimmy (
+28	:-1.9639:	she refers jimmy to
+
+10:what connect childhood and adulthood ? ||| adolescence
+0	:-0.0075:	adolescence connect childhood and adulthood
+1	:-0.7471:	adolescence connects childhood and adulthood
+2	:-0.7855:	adolescence connect childhood
+3	:-0.8235:	interadolescence connect childhood and adulthood
+4	:-0.8870:	arousal adolescence connect childhood and adulthood
+5	:-0.9111:	adolescence are connect childhood and adulthood
+6	:-0.9384:	adolescence is connect childhood and adulthood
+7	:-1.0240:	adolescence connect childhood and adolescence
+8	:-1.1076:	in adolescence connect childhood and adulthood
+9	:-1.2030:	adolescence connect childhood & adulthood
+10	:-1.2528:	adolescence connect
+11	:-1.2576:	adolescence connect childhood and adult
+12	:-1.2869:	adolescence connect childhood and adulthood.
+13	:-1.3146:	adolescence connect childhood and adulthood?
+14	:-1.3539:	adolescence connect childhood and adulthood |
+15	:-1.3701:	adolescence connect childhood and adulthood (
+16	:-1.3804:	adolescence connect childhood and adulthood and
+17	:-1.4056:	adolescence connect childhood and adulthood ||
+18	:-1.4078:	adolescence connect childhood and adult adulthood
+19	:-1.4298:	adolescence connections
+20	:-1.4329:	adolescence connect children
+21	:-1.4409:	adolescence connect childhood and adulthood than
+22	:-1.4425:	adolescence connect childhood and adults
+23	:-1.4498:	adolescence connect childhood and adulthood [
+24	:-1.4522:	adolescence connect childhood and adulthood,
+25	:-1.4796:	adolescence connect childhood and adulthood -
+26	:-1.4867:	adolescence connects childhood
+27	:-1.5202:	adolescence is connect childhood
+28	:-1.5574:	adolescence are connect childhood
+29	:-1.5683:	adulthood connect childhood and adolescence
+30	:-1.5788:	adolescence connect childhood and
+31	:-1.5791:	adolescence connect childhood and maturity
+32	:-1.6422:	adolescence connect childhood and childhood
+33	:-1.7724:	adolescence connect childhood and adulthood with
+34	:-1.7862:	interadolescence connect childhood
+35	:-1.8143:	adolescence connect childhood and adulthood in
+36	:-1.8235:	arousal adolescence connect childhood
+37	:-1.9830:	interview adolescence
+
+11:how many men were coming for them ? ||| 50 .
+0	:-0.1494:	50. were coming for them
+1	:-0.2171:	50. were coming
+2	:-0.7272:	50. men were coming for them
+3	:-0.8794:	50. men were coming
+4	:-0.9123:	the 50. were coming for them
+5	:-0.9300:	they were coming 50.
+6	:-0.9358:	they were 50.
+7	:-1.0737:	50. were coming for them.
+8	:-1.0807:	they were coming for them 50.
+9	:-1.1019:	they were coming for 50.
+10	:-1.1160:	50. were coming to them
+11	:-1.1355:	50. were coming for it
+12	:-1.1658:	the 50. were coming
+13	:-1.2260:	50. were coming in them
+14	:-1.2332:	50. women were coming for them
+15	:-1.2945:	50. were coming for men
+16	:-1.3030:	50. were coming for us
+17	:-1.3406:	50. were coming for them?
+18	:-1.3427:	50. came for them
+19	:-1.4002:	50. were coming for they
+20	:-1.4175:	50. were coming for them (
+21	:-1.4294:	50. were coming for them ||
+22	:-1.4326:	50. were coming for them and
+23	:-1.4484:	50. were coming.
+24	:-1.4504:	50. were coming for them than
+25	:-1.4719:	they were 50. men
+26	:-1.4792:	50. were coming for them,
+27	:-1.4945:	they were coming for 50. men
+28	:-1.4966:	50. men were coming for it
+29	:-1.5154:	50. women were coming
+30	:-1.5459:	50. were coming in
+31	:-1.6272:	50. were coming for them to
+32	:-1.6425:	it were 50.
+33	:-1.6506:	50. came
+34	:-1.7020:	50. had it
+35	:-1.8641:	50. were coming for them in
+36	:-2.6427:	50.
+
+12:starting from what age ? ||| three
+0	:-0.2261:	three
+1	:-0.4840:	three is from age three
+2	:-0.7120:	three was from age three
+3	:-0.7297:	three is from
+4	:-0.8133:	three is from what age
+5	:-0.8289:	three was from what age
+6	:-0.8414:	three is from three
+7	:-0.9263:	three was from from
+8	:-0.9426:	three was from
+9	:-0.9570:	three was from from from
+10	:-0.9848:	three is from from from
+11	:-0.9915:	three is from from
+12	:-1.0050:	three are from age three
+13	:-1.0692:	three is from whence
+14	:-1.0970:	three is from which age
+15	:-1.1005:	three was from whence
+16	:-1.1063:	three age
+17	:-1.1111:	three is from age
+18	:-1.1131:	three are from from from
+19	:-1.1566:	three is from age four
+20	:-1.1873:	three are from from
+21	:-1.2012:	three from what age
+22	:-1.2424:	three are from
+23	:-1.2566:	three is from age six
+24	:-1.2774:	three was from age four
+25	:-1.2837:	three was from three
+26	:-1.3380:	three were from from from
+27	:-1.3783:	three is from birth
+28	:-1.4073:	three were from from
+29	:-1.4179:	three was from age
+30	:-1.4197:	three is from where
+31	:-1.4297:	three were from
+32	:-1.4508:	three was the age
+33	:-1.4558:	three is from the age
+34	:-1.4637:	three was from from age
+35	:-1.5246:	three was the age of
+36	:-1.5341:	three from from
+37	:-1.5402:	three was from the age
+38	:-1.6014:	three is from from age
+39	:-1.6074:	three from whence
+40	:-1.6509:	three was the age from
+41	:-1.7475:	three from
+42	:-2.0948:	three years
+43	:-2.1736:	three was
+44	:-2.2295:	from three
+45	:-2.4398:	three are
+46	:-2.5114:	three were
+47	:-2.5939:	three lived
+48	:-2.6074:	three means
+
+13:who came in with fred ? ||| the miners
+0	:-0.0749:	the miners came in
+1	:-0.1847:	the miners came in with fred
+2	:-0.6546:	the miners came
+3	:-0.7811:	thomas the miners came in with fred
+4	:-0.8985:	the miners came in in with fred
+5	:-1.0217:	thomas the miners came in
+6	:-1.1023:	the miners came in w/ fred
+7	:-1.1300:	the miners came to in with fred
+8	:-1.1571:	the miners came into with fred
+9	:-1.1581:	the miners came in from fred
+10	:-1.2060:	the miners came in with the miners
+11	:-1.2063:	the miners came in without fred
+12	:-1.2072:	they came in with fred the miners
+13	:-1.2239:	the miners came in at fred
+14	:-1.2264:	the miners came in for fred
+15	:-1.2315:	the miners came in with
+16	:-1.2391:	the miners came in to fred
+17	:-1.2419:	the miners came with fred
+18	:-1.2713:	the miners came in as fred
+19	:-1.3206:	the miners came in to the miners
+20	:-1.3212:	the miners came in with fred?
+21	:-1.3226:	the miners came in in
+22	:-1.3239:	the miners came in with fred and
+23	:-1.3432:	the miners came in and fred
+24	:-1.3818:	they came in with the miners
+25	:-1.3960:	the miners came in with fred,
+26	:-1.3988:	the miners came from fred
+27	:-1.4193:	the miners came in with fred ||
+28	:-1.4221:	the miners came in with fred (
+29	:-1.4270:	the miners came in with fred.
+30	:-1.4525:	the miners came in with fred ;
+31	:-1.4618:	the miners came in,
+32	:-1.4627:	the miners came in w/fred
+33	:-1.4634:	the miners came in with fred...
+34	:-1.4687:	the miners came in with fred and came
+35	:-1.4822:	the miners came in with fred in
+36	:-1.4997:	the miners came in with fred than
+37	:-1.5375:	thomas the miners came
+38	:-1.5467:	the miners came in and
+39	:-1.6543:	the miners came into
+40	:-1.6685:	the miners came in (
+41	:-1.6721:	the miners came in with fred |
+42	:-1.6730:	the miners came to in
+43	:-1.6882:	the miners brought in
+44	:-1.7168:	the miners came in with fred than came
+45	:-1.7199:	the miners come in
+46	:-1.7456:	the miners came in w
+47	:-1.7597:	the miners came in with fred and were
+48	:-1.7775:	the miners were in
+49	:-1.7778:	the miners came in with fred and joined
+50	:-1.9046:	the miners went in
+51	:-1.9243:	the miners came out
+52	:-1.9544:	the miners camein
+53	:-2.6300:	the miners
+
+14:what building was struck ? ||| hamas naval building
+0	:-0.0004:	hamas naval building was struck
+1	:-0.9806:	the hamas naval building was struck
+2	:-1.1752:	hamas naval building was struck by struck
+3	:-1.1805:	it was hamas naval building
+4	:-1.2897:	hamas naval building was struck by strike
+5	:-1.3227:	it was struck hamas naval building
+6	:-1.3601:	hamas naval building was struck was struck
+7	:-1.3974:	hamas naval building was struck.
+8	:-1.4022:	hamas naval building was struck and struck
+9	:-1.4028:	hamas naval building was struck?
+10	:-1.4264:	hamas naval building was struck (
+11	:-1.4989:	hamas naval building was struck by
+12	:-1.5225:	hamas naval building was struck or struck
+13	:-1.5248:	hamas naval building was struck ||
+14	:-1.5286:	hamas naval building was struck by striking
+15	:-1.5322:	hamas naval building was struck in
+16	:-1.5946:	hamas naval building was struck [
+17	:-1.6047:	hamas naval building was struck in strike
+18	:-1.6415:	hamas naval building was struck by strikes
+19	:-1.6645:	hamas naval building was struck at strike
+20	:-1.6820:	hamas naval building was struck,
+21	:-1.6917:	hamas naval building was struck...
+22	:-1.6919:	hamas naval building was struck |
+23	:-1.6948:	hamas naval building was struck on
+24	:-1.7040:	hamas naval building was struck -
+25	:-1.7262:	hamas naval building was struck at
+26	:-1.7275:	hamas naval building was struck at it
+27	:-1.7362:	hamas naval building was struck at struck
+28	:-1.7707:	hamas naval building was struck in struck
+29	:-1.7909:	hamas naval building was striking
+30	:-1.8055:	hamas naval building was struck at the
+31	:-1.8336:	hamas naval building was struck and
+32	:-1.8780:	hamas naval building was hit
+33	:-1.8883:	hamas naval building was struck |||
+34	:-1.9923:	it was hamas naval building building
+35	:-2.0690:	hamas naval building
+
+15:what did they do ? ||| treasonable secret covenant
+0	:-0.0317:	they did treasonable secret covenant
+1	:-0.2600:	they did a treasonable secret covenant
+2	:-0.3638:	they did the treasonable secret covenant
+3	:-0.6902:	they did an act of treasonable secret covenant
+4	:-0.8771:	the treasonable secret covenant, they did
+5	:-0.8781:	they dided treasonable secret covenant
+6	:-0.8942:	they dided the treasonable secret covenant
+7	:-0.9337:	they dided a treasonable secret covenant
+8	:-1.0349:	it did treasonable secret covenant
+9	:-1.0680:	they did their treasonable secret covenant
+10	:-1.1002:	they did in treasonable secret covenant
+11	:-1.1079:	they doed treasonable secret covenant
+12	:-1.3740:	the treasonable secret covenant, they dided
+13	:-1.4454:	the treasonable secret covenant,they did
+14	:-1.4966:	they did treasonable secret covenant,
+15	:-1.5039:	they did a treasonable secret covenant.
+16	:-1.5083:	they did a treasonable secret covenant,
+17	:-1.5416:	they did treasonable secret covenant.
+18	:-1.5605:	they did the treasonable secret covenant.
+19	:-1.5934:	they did the treasonable secret covenant,
+20	:-1.6163:	they did treasonable secret covenant (
+21	:-1.6295:	they did treasonable secret covenant with them
+22	:-1.6353:	they did a treasonable secret covenant?
+23	:-1.6437:	they did a treasonable secret covenant too
+24	:-1.6660:	they did a treasonable secret covenant (
+25	:-1.6790:	they did the treasonable secret covenant?
+26	:-1.6864:	they did treasonable secret covenant?
+27	:-1.6985:	they did treasonable secret covenant too
+28	:-1.7019:	the treasonable secret covenant, they did,
+29	:-1.7131:	they did a treasonable secret covenant with them
+30	:-1.7435:	they did treasonable secret covenant...
+31	:-1.7548:	they did treasonable secret covenant and
+32	:-1.8246:	the treasonable secret covenant, they did.
+33	:-1.8352:	the treasonable secret covenant, they did?
+34	:-1.8470:	the treasonable secret covenant,they dided
+35	:-1.8496:	the treasonable secret covenant, they did did
+36	:-1.8622:	they dided the treasonable secret covenant.
+37	:-1.8899:	they dided the treasonable secret covenant,
+
+16:to what ? ||| kittens
+0	:-0.1096:	kittens
+1	:-0.9679:	lots are kittens
+2	:-1.1076:	lots is to kittens
+3	:-1.3757:	lucas are kittens
+4	:-1.4287:	lots are to kittens
+5	:-1.4330:	lots of kittens
+6	:-1.5148:	lunas are kittens
+7	:-1.5245:	lots is for kittens
+8	:-1.5456:	lucid kittens
+9	:-1.6137:	kittens,
+10	:-1.6477:	lots is kittens
+11	:-1.7329:	kittens, to what
+12	:-1.7645:	lunches are kittens
+13	:-1.8329:	loubes are kittens
+14	:-1.8660:	the kittens
+15	:-1.8853:	knows how to kittens
+16	:-2.1472:	kittens, to
+
+17:what was their interaction ? ||| they shook hands
+0	:-0.0134:	their interaction was they shook hands
+1	:-0.6351:	their interaction was with they shook hands
+2	:-0.6573:	it was they shook hands
+3	:-0.7488:	they was they shook hands
+4	:-0.7489:	they shook hands was their interaction
+5	:-0.8009:	its interaction was they shook hands
+6	:-0.8122:	their interaction was it they shook hands
+7	:-0.8653:	his interaction was they shook hands
+8	:-0.9013:	our interaction was they shook hands
+9	:-0.9063:	their interaction was the they shook hands
+10	:-0.9234:	the interaction was they shook hands
+11	:-0.9363:	her interaction was they shook hands
+12	:-1.4395:	their interaction was they shook hands.
+13	:-1.5500:	they shook hands was their interaction.
+14	:-1.6705:	their interaction was they shook hands (
+
+18:who did they meet ? ||| editing for the front page
+0	:-0.0955:	they met editing for the front page
+1	:-0.2449:	they meted editing for the front page
+2	:-0.2499:	they met with editing for the front page
+3	:-0.2957:	they meted with editing for the front page
+4	:-0.3379:	they met at editing for the front page
+5	:-0.3851:	they meted to editing for the front page
+6	:-0.3951:	they met in editing for the front page
+7	:-0.4119:	they met to editing for the front page
+8	:-0.4154:	they met for editing for the front page
+9	:-0.4573:	they meted in editing for the front page
+10	:-0.4863:	they met to edit editing for the front page
+11	:-0.4943:	they meted for editing for the front page
+12	:-0.5590:	they met by editing for the front page
+13	:-0.5592:	they meted at editing for the front page
+14	:-0.5643:	they meting with editing for the front page
+15	:-1.1911:	they met editing for the front pages
+16	:-1.1941:	they meted with editing for the front pages
+17	:-1.2346:	they met with editing for the front pages
+18	:-1.2409:	they meted editing for the front pages
+19	:-1.2986:	they meted to editing for the front pages
+20	:-1.3297:	they met at editing for the front pages
+21	:-1.3468:	they meted in editing for the front pages
+22	:-1.3691:	they met in editing for the front pages
+23	:-1.4028:	they meted for editing for the front pages
+24	:-1.4167:	they met for editing for the front pages
+25	:-1.4179:	they met to edit editing for the front pages
+26	:-1.4473:	they meting with editing for the front pages
+27	:-1.4606:	they meted at editing for the front pages
+28	:-1.5514:	they meted editing for the front page.
+29	:-1.6043:	they meted editing for the front page,
+
+19:on what ? ||| the naked back of martin
+0	:-0.0135:	the naked back of martin
+1	:-0.3412:	on the naked back of martin
+2	:-0.5340:	it is on the naked back of martin
+3	:-0.6768:	it on the naked back of martin
+4	:-0.6879:	the naked back of martin,
+5	:-0.8361:	there is on the naked back of martin
+6	:-0.8547:	it is the naked back of martin
+7	:-0.8939:	to the naked back of martin
+8	:-0.9304:	trying to the naked back of martin
+9	:-0.9312:	on on the naked back of martin
+10	:-0.9466:	where is the naked back of martin?
+11	:-0.9652:	on the naked back of martin,
+12	:-0.9815:	at the naked back of martin
+13	:-0.9818:	they on the naked back of martin
+14	:-1.0385:	on the naked back of martin, you
+15	:-1.0956:	where is the naked back of martin
+16	:-1.1289:	under the naked back of martin
+17	:-1.2428:	the naked back of martin, on what
+18	:-1.2686:	to the naked back of martin, you
+19	:-1.2927:	on the naked back of martin, on
+20	:-1.3690:	where is the naked back of martin located
+21	:-1.3730:	under the naked back of martin,
+22	:-1.3815:	at the naked back of martin,
+23	:-1.4803:	to the naked back of martin,
+
+20:meyer grew up where ? ||| universal parks & resorts .
+0	:-0.1135:	universal parks & resorts. grew up
+1	:-0.1447:	universal parks & resorts. grew up where
+2	:-0.5085:	universal parks & resorts. grew up in universal parks & resorts
+3	:-0.6134:	universal parks & resorts. growed up where
+4	:-0.6379:	universal parks & resorts. grown up where
+5	:-0.7338:	universal parks & resorts. grown up
+6	:-0.7497:	universal parks & resorts. grew up in universal parks and resorts
+7	:-0.7497:	universal parks & resorts. growed up
+8	:-0.7675:	universal parks & resorts. grew up on
+9	:-0.8197:	universal parks & resorts. grew up there
+10	:-0.8232:	universal parks & resorts. grow up where
+11	:-0.8243:	universal parks & resorts. grew up in
+12	:-0.8271:	universal parks & resorts. grew up at
+13	:-0.8958:	universal parks & resorts. grow up
+14	:-0.9009:	universal parks & resorts. grew up in universal parks
+15	:-0.9474:	universal parks & resorts. grew up here
+16	:-0.9491:	universal parks & resorts. grew up Where
+17	:-0.9550:	universal parks & resorts. grew
+18	:-0.9653:	universal parks & resorts. became
+19	:-0.9751:	universal parks & resorts. grew up in a universal park
+20	:-0.9968:	universal parks & resorts. grew up where to
+21	:-1.0096:	universal parks & resorts. grew up on the island
+22	:-1.0213:	universal parks & resorts.
+23	:-1.0330:	universal parks & resorts. grew up where it was
+24	:-1.0491:	universal parks & resorts. grows up
+25	:-1.0591:	universal parks & resorts. grew up in universals
+26	:-1.0643:	universal parks & resorts. grew up where.
+27	:-1.0752:	universal parks & resorts. grew up on the battlefield
+28	:-1.0909:	universal parks & resorts. grew up in univers parks & resorts
+29	:-1.1280:	universal parks & resorts. grew up at home
+30	:-1.1343:	universal parks & resorts. grew up in the
+31	:-1.1513:	universal parks & resorts. developed
+32	:-1.1656:	universal parks & resorts. grew up in a universal park and
+33	:-1.1748:	universal parks & resorts. grew up on the
+34	:-1.2474:	universal parks & resorts. grew up where it is
+35	:-1.2634:	universal parks & resorts. grew up on the island of
+36	:-1.3517:	universal parks & resorts. grew up where it
+37	:-1.3744:	universal parks & resorts. grew up where in universal parks
+38	:-1.3890:	universal parks & resorts. grew up in a
+39	:-1.3945:	universal parks & resorts. grew up where to universal parks
+
+21:why did dick want to lower it ? ||| he is not so tall
+0	:-0.1228:	dick wanted to lower it by he is not so tall
+1	:-0.1576:	dick wanted to lower it he is not so tall
+2	:-0.1947:	dick wanted he is not so tall to lower it
+3	:-0.2038:	dick wanted to lower it because he is not so tall
+4	:-0.2290:	he wanted to lower it by he is not so tall
+5	:-0.2773:	he wanted to lower it he is not so tall
+6	:-0.2825:	dick wanted to lower he is not so tall
+7	:-0.3087:	he wanted to lower it because he is not so tall
+8	:-0.3929:	dick wanted to lower it for he is not so tall
+9	:-0.4134:	he wanted he is not so tall to lower it
+10	:-0.4201:	dick wanted to lower it in he is not so tall
+11	:-0.4317:	dick wanted he is not so tall
+12	:-0.4498:	dick wanted the he is not so tall to lower it
+13	:-0.4589:	dick wanted to lower the he is not so tall
+14	:-0.4665:	it wanted to lower it by he is not so tall
+15	:-0.4677:	he wanted to lower he is not so tall
+16	:-0.5490:	dick wanted he is not so tall to lower it.
+17	:-0.6688:	dick wanted he is not so tall to lower
+
+22:where did the tribes branch out to in the migration period ? ||| southward .
+0	:-0.2116:	they branched out to southward.
+1	:-0.2899:	they boughted out to southward.
+2	:-0.3183:	they branched out southward.
+3	:-0.3327:	they boughted out southward.
+4	:-0.3579:	they branched out in southward.
+5	:-0.4257:	they bordered out to southward.
+6	:-0.4605:	they boughted out in southward.
+7	:-0.4857:	they branch out to southward.
+8	:-0.5041:	they bordered out southward.
+9	:-0.5193:	they branched out to in southward.
+10	:-0.5617:	they bordered out in southward.
+11	:-0.5647:	they bared out to southward.
+12	:-0.5723:	they founded out to southward.
+13	:-0.6595:	they branch out in southward.
+14	:-0.6787:	they bared out southward.
+15	:-0.7301:	they branch out southward.
+16	:-1.0179:	they boughted out southward. out
+17	:-1.1380:	they boughted out southward. to
+
+23:when did pope john paul ii visit ? ||| 1982
+0	:-0.0799:	he visited in 1982
+1	:-0.4067:	he visited 1982
+2	:-0.4806:	he pauled ii visit in 1982
+3	:-0.5286:	pope john paul ii visited in 1982
+4	:-0.5948:	pope john pauled ii visit in 1982
+5	:-0.7443:	the pope john paul ii visited in 1982
+6	:-0.7477:	in 1982, pope john paul ii visited
+7	:-0.7882:	pope john paul ii visited 1982
+8	:-0.8096:	pope john johned ii visit in 1982
+9	:-0.8106:	it visited in 1982
+10	:-0.8143:	he pauled ii to visit in 1982
+11	:-0.8382:	pope john pauled ii visit 1982
+12	:-0.8391:	pope johned ii visit in 1982
+13	:-0.8414:	pope johned paul ii visit in 1982
+14	:-0.8569:	pope john pauled ii visited in 1982
+15	:-0.8607:	pope john john paul ii visited in 1982
+16	:-0.8615:	he pauled ii visited in 1982
+17	:-0.8642:	pope john pauled ii visit to 1982
+18	:-0.8743:	he pauled ii visit 1982
+19	:-0.8948:	he pauled ii in 1982
+20	:-0.9203:	he ii visited in 1982
+21	:-0.9215:	pope john paulii visited in 1982
+22	:-0.9297:	he pauled ii visit to 1982
+23	:-0.9320:	pope john john ii visited in 1982
+24	:-1.0115:	they visited in 1982
+25	:-1.0606:	pope john johned ii visit 1982
+26	:-1.0715:	pope johned paul ii visit 1982
+27	:-1.0792:	pope johned paul ii visit to 1982
+28	:-1.1038:	he pauled iii visit in 1982
+29	:-1.1048:	the pope john paul ii visited 1982
+30	:-1.1061:	he visited ii in 1982
+31	:-1.1376:	pope john pauled ii to visit 1982
+32	:-1.1482:	pope john pauled ii visited 1982
+33	:-1.1505:	pope john john paul ii visited 1982
+34	:-1.1904:	pope johned ii visit 1982
+35	:-1.2085:	he pauled visit in 1982
+36	:-1.2173:	he dined in 1982
+37	:-1.2175:	he pauled ii visited 1982
+38	:-1.2249:	he pauled in 1982
+39	:-1.2424:	he visitinged in 1982
+40	:-1.2685:	in 1982, he visited
+41	:-1.2792:	it visited 1982
+42	:-1.2904:	he toured in 1982
+43	:-1.3809:	he visited the 1982
+44	:-1.4263:	he ii visited 1982
+45	:-1.4503:	he attended in 1982
+46	:-1.6068:	he pauled 1982
+47	:-1.7695:	they visited 1982
+48	:-1.8003:	he attended 1982
+
+24:when did the overthrow occur ? ||| 1917,
+0	:-0.0140:	it occured in 1917,
+1	:-0.4511:	it occured 1917,
+2	:-0.5958:	in 1917, it occured
+3	:-0.7364:	the overthrow occured in 1917,
+4	:-0.9628:	they occured in 1917,
+5	:-1.0246:	in 1917, the overthrow occured
+6	:-1.0976:	it occured from 1917,
+7	:-1.1124:	in 1917,, it occured
+8	:-1.1248:	it occured during 1917,
+9	:-1.1800:	during 1917, it occured
+10	:-1.2818:	it occurred in 1917,
+11	:-1.3169:	the overthrow occured 1917,
+12	:-1.3190:	it occured at 1917,
+13	:-1.3789:	it occured on 1917,
+14	:-1.5388:	it occured in 1917,...
+15	:-1.5468:	it occured in 1917, and
+16	:-1.5877:	in 1917, it occured.
+17	:-1.5951:	in 1917, the overthrow occurred
+18	:-1.6077:	in 1917, it occurred
+19	:-1.6140:	1917, occured
+20	:-1.7435:	it occurred 1917,
+21	:-1.7491:	it occured in 1917, but
+22	:-1.7773:	the overthrow occured in 1917,...
+23	:-1.7917:	in 1917, it occured and
+24	:-1.8492:	it occured in 1917,,
+25	:-1.9094:	in 1917, it occured,
+26	:-1.9829:	in 1917, it occured?
+27	:-1.9848:	it occured in 1917, too
+28	:-1.9904:	in 1917, it occured (
+
+25:what time was it ? ||| about five o 'clock
+0	:-0.0084:	it was about five o 'clock
+1	:-0.3398:	it was about five o 'clock time
+2	:-0.6557:	about five o 'clock was it
+3	:-0.7190:	it was from about five o 'clock
+4	:-0.7599:	it was on about five o 'clock
+5	:-0.8070:	it was in about five o 'clock
+6	:-0.9114:	the time was about five o 'clock
+7	:-0.9794:	it was a about five o 'clock
+8	:-1.0304:	about five o 'clock time was it
+9	:-1.0404:	the about five o 'clock was it
+10	:-1.0462:	it was after about five o 'clock
+11	:-1.1600:	it was about five o 'clock Time
+12	:-1.1950:	it wasabout five o 'clock
+13	:-1.2159:	it was about five o 'clock times
+14	:-1.2697:	it was about five o 'clock period
+15	:-1.2892:	it was about five o 'clock hour
+16	:-1.5286:	it was about five o 'clock and
+17	:-1.5776:	it was about five o 'clock (
+
+26:which city is first ? ||| bridgeport
+0	:-0.0134:	bridgeport is first
+1	:-0.7809:	bridgeport city is first
+2	:-0.9169:	it is bridgeport
+3	:-1.1475:	bridgeport is first city
+4	:-1.1649:	it is bridgeport city
+5	:-1.1985:	it is in bridgeport
+6	:-1.2021:	the bridgeport is first
+7	:-1.2894:	bridgeport is the first
+8	:-1.3145:	bridgeport is first.
+9	:-1.3409:	boston is bridgeport
+10	:-1.3899:	bridgeport is city first
+11	:-1.4518:	bridgeport is second
+12	:-1.4993:	bridgeport is first first
+13	:-1.6814:	bridgeport is first?
+14	:-1.6878:	bridgeport is last
+15	:-1.7046:	bridgeport is city
+16	:-1.7293:	bridgeport is first (
+17	:-1.9980:	bridgeport city is
+18	:-2.0123:	bridgeport is first and
+
+27:why did he make the trip ? ||| to deliver the diary .
+0	:-0.0133:	he made the trip to deliver the diary.
+1	:-0.3207:	he maded the trip to deliver the diary.
+2	:-0.4599:	he made the trip in order to deliver the diary.
+3	:-0.5699:	he made the trip of to deliver the diary.
+4	:-0.6297:	he taughted the trip to deliver the diary.
+5	:-0.6481:	he made the trip because to deliver the diary.
+6	:-0.6519:	he made the trip for to deliver the diary.
+7	:-0.6605:	he made the trip by to deliver the diary.
+8	:-0.6910:	it made the trip to deliver the diary.
+9	:-0.8130:	he maded to deliver the diary.
+10	:-0.9307:	he made the trip to deliver the diary.,
+11	:-0.9936:	he maded the trip to deliver the diary.,
+12	:-1.3962:	he made the trip to deliver the diary. he made
+
+28:what 'd they do so they were allowed to go ? ||| their chores
+0	:-0.0210:	they do so they were allowed to go their chores
+1	:-0.3457:	they do so they were allowed to go by their chores
+2	:-0.3989:	their chores, they do so they were allowed to go
+3	:-0.4060:	their chores do so they were allowed to go
+4	:-0.4622:	they do so they were allowed to go to their chores
+5	:-0.4664:	they do so they were allowed to go for their chores
+6	:-0.5117:	they do so they were allowed to go in their chores
+7	:-0.5229:	they do so they were permitted to go their chores
+8	:-0.5244:	they do so they were allowed to go with their chores
+9	:-0.5368:	they do so they were allowed to go on their chores
+10	:-0.5444:	they doed so they were allowed to go their chores
+11	:-0.5498:	their chores, they did so they were allowed to go
+12	:-0.5588:	they do so they were allowed to go the their chores
+13	:-0.5682:	they do sothey were allowed to go their chores
+14	:-0.5758:	they do so they were allowed their chores
+15	:-0.5847:	they doso they were allowed to go their chores
+16	:-0.5910:	they do so they was allowed to go their chores
+17	:-0.5936:	they did so they were allowed to go their chores
+18	:-0.8014:	they do so their chores
+19	:-0.8489:	their chores do so they were allowed
+20	:-0.8557:	they do so they were allowed to go their chores.
+21	:-0.9228:	they do so they were allowed to go their chores?
+22	:-0.9430:	they do so they were allowed to go their chores!
+23	:-0.9528:	they do so they were allowed to go their chores,
+24	:-0.9627:	they do so they were allowed to go their chores (
+25	:-1.0014:	they do so they were allowed to go their chores and
+26	:-1.0401:	they do so they were allowed to go their chores so
+27	:-1.0696:	they do their chores
+28	:-1.0810:	their chores, they do so
+29	:-1.0853:	they do so they were allowed to go their chores to
+30	:-1.1330:	they do so they were allowed to go their chores they
+31	:-1.1445:	it is their chores
+32	:-1.1592:	their chores, they do
+33	:-1.4517:	their chores do so
+
+29:what does he think of her as ? ||| a sister
+0	:-0.1182:	he thinks of a sister
+1	:-0.1974:	he thinks of her as a sister
+2	:-0.3985:	he thinks of her a sister
+3	:-0.4712:	he thinks about a sister
+4	:-0.4863:	he thinks a sister
+5	:-0.5308:	he thinks about her as a sister
+6	:-0.6521:	he thinks about her a sister
+7	:-0.7254:	he thinks that she is a sister
+8	:-0.7461:	he thinks she is a sister
+9	:-0.8270:	he thinks of the a sister
+10	:-0.8452:	he thinks that a sister
+11	:-0.8862:	she thinks of her as a sister
+12	:-0.8960:	he thinks of her in a sister
+13	:-0.8999:	he thinks of her an a sister
+14	:-0.9283:	he thinks that of a sister
+15	:-0.9908:	he thinks of an a sister
+16	:-1.0139:	she thinks of a sister
+17	:-1.0432:	he thinks a sister of her
+18	:-1.0991:	he thinks in a sister
+19	:-1.1816:	he believes in a sister
+20	:-1.2727:	he thinks of a sister as well
+21	:-1.2857:	he thinks of a sister as
+22	:-1.3003:	he thinks a sister of her as
+23	:-1.4714:	he thinks of a sister as?
+24	:-1.4991:	he thinks of a sister as an
+
+30:how does it make him feel ? ||| surprised
+0	:-0.0475:	it makes him feel surprised
+1	:-0.5756:	he feels surprised
+2	:-0.8061:	it makes him feel as surprised
+3	:-0.8198:	it feels surprised
+4	:-0.9225:	he makes him feel surprised
+5	:-0.9969:	it makes him feel in surprised
+6	:-1.0400:	it makes him feel a surprised
+7	:-1.0950:	it makes him feel at surprised
+8	:-1.1881:	it gives him a surprised feel
+9	:-1.2167:	in surprised, he feels surprised
+10	:-1.2208:	it makes it feel surprised
+11	:-1.2217:	it gives him a surprised feeling
+12	:-1.2227:	they makes him feel surprised
+13	:-1.2676:	it makes him felt surprised
+14	:-1.3159:	it makes him feel surprised.
+15	:-1.4032:	in surprised, he feels
+16	:-1.7805:	it makes surprised
+17	:-1.7822:	it gives him a surprised
+18	:-2.0243:	he does surprised
+19	:-2.0719:	he makes surprised
+
+31:what 's a danish name for it ? ||| slesvig-holsten
+0	:-0.0018:	it is slesvig-holsten
+1	:-0.3459:	slesvig-holsten is a danish name
+2	:-0.5106:	slesvig-holsten is it a danish name
+3	:-0.5144:	slesvig-holsten is a danish name for it
+4	:-0.6583:	slesvig-holsten is it danish name
+5	:-0.6626:	slesvig-holsten is it
+6	:-0.6991:	a danish name is slesvig-holsten
+7	:-0.7099:	the slesvig-holsten name is a danish name
+8	:-0.7351:	its slesvig-holsten name is a danish name
+9	:-0.7515:	slesvig-holsten is a danish
+10	:-0.8267:	slesvig-holsten is it danish
+11	:-0.8566:	slesvig-holsten is a name for it
+12	:-0.8885:	it is sslesvig-holsten
+13	:-0.8977:	its name is slesvig-holsten
+14	:-0.9075:	it is in slesvig-holsten
+15	:-0.9313:	its is slesvig-holsten
+16	:-0.9342:	it is from slesvig-holsten
+17	:-0.9481:	slesvig-holsten is a danish name it
+18	:-0.9487:	slesvig-holsten is it a danish
+19	:-0.9499:	slesvig-holsten is a danish name of it
+20	:-0.9526:	slesvig-holsten is a danish name in it
+21	:-0.9526:	slesvig-holsten is a name
+22	:-0.9727:	slesvig-holsten is a danish name from it
+23	:-0.9739:	slesvig-holsten is it danish name for it
+24	:-0.9744:	slesvig-holsten is it a danish name?
+25	:-0.9797:	it is slesvig-holsten name
+26	:-0.9995:	slesvig-holsten is it for it
+27	:-1.0040:	slesvig-holsten is it it
+28	:-1.0052:	it's slesvig-holsten
+29	:-1.0119:	slesvig-holsten is it a name
+30	:-1.0211:	slesvig-holsten is a danish name.
+31	:-1.0312:	slesvig-holsten is a danish names
+32	:-1.0339:	its slesvig-holsten name is it
+33	:-1.0377:	slesvig-holsten is a danish word
+34	:-1.0380:	slesvig-holsten is it it it it it it
+35	:-1.0381:	slesvig-holsten is a danish naming it
+36	:-1.0386:	the slesvig-holsten name is it
+37	:-1.0564:	slesvig-holsten is a danish named
+38	:-1.0651:	slesvig-holsten is it it it it it
+39	:-1.0667:	it is slesvig-holsten.
+40	:-1.0684:	its slesvig-holsten name is a danish
+41	:-1.0728:	slesvig-holsten is a danish name is it
+42	:-1.0762:	slesvig-holsten is a danish name it is
+43	:-1.0763:	slesvig-holsten is it it it
+44	:-1.0827:	slesvig-holsten is it it it it
+45	:-1.0879:	slesvig-holsten is a danish Name
+46	:-1.0879:	the slesvig-holsten name is a danish
+47	:-1.0952:	slesvig-holsten is a danish title
+48	:-1.1084:	slesvig-holsten is it a danish name.
+49	:-1.1095:	slesvig-holsten is a danish name forit
+50	:-1.1236:	slesvig-holsten is a
+51	:-1.1332:	slesvig-holsten is a danish name and
+52	:-1.1802:	slesvig-holsten is it a danish name or
+53	:-1.2030:	slesvig-holsten is a danish name a
+54	:-1.2244:	slesvig-holsten is a danish name is a
+55	:-1.3381:	slesvig-holsten is it a
+
+32:which grip did he develop ? ||| " the overlapping grip "
+0	:-0.0421:	he developed " the overlapping grip "
+1	:-0.2127:	he developed a " the overlapping grip "
+2	:-0.3030:	he developed a " the overlapping grip " grip
+3	:-0.4979:	he developed " the overlapping grip " grip
+4	:-0.5883:	he developed an " the overlapping grip "
+5	:-0.6620:	he developed the " the overlapping grip "
+6	:-0.6940:	he developed an " the overlapping grip " grip
+7	:-0.7450:	he developed the " the overlapping grip " grip
+8	:-0.8053:	he developed of " the overlapping grip "
+9	:-0.8276:	it developed " the overlapping grip "
+10	:-0.8363:	he developed for " the overlapping grip "
+11	:-0.8641:	he developed as a " the overlapping grip "
+12	:-0.8653:	he developed with " the overlapping grip "
+13	:-0.8796:	he developed to " the overlapping grip "
+14	:-0.8822:	he developed a grip " the overlapping grip "
+15	:-0.9051:	he developed in " the overlapping grip "
+16	:-0.9610:	he developed his " the overlapping grip "
+17	:-0.9764:	he developed his " the overlapping grip " grip
+18	:-1.0591:	he developed " the overlapping grip ",
+19	:-1.0606:	he developed " the overlapping grip " grips
+20	:-1.0668:	he developed a " the overlapping grip ",
+21	:-1.1061:	he developed" the overlapping grip "
+22	:-1.1218:	he developed of " the overlapping grip " grip
+23	:-1.1781:	he developed" the overlapping grip " grip
+24	:-1.1835:	he developed for " the overlapping grip " grip
+25	:-1.1836:	he developed " the overlapping grip " ( grip
+26	:-1.2038:	he developed a " the overlapping grip ".
+27	:-1.2183:	he developed a " the overlapping grip " hand
+28	:-1.2321:	he developed " the overlapping grip ".
+29	:-1.2353:	he developed in " the overlapping grip " grip
+30	:-1.2446:	it developed " the overlapping grip " grip
+31	:-1.2660:	he developed a " the overlapping grip " grips
+32	:-1.2820:	he developed " the overlapping grip " g grip
+33	:-1.2843:	he developed with " the overlapping grip " grip
+34	:-1.2884:	he developed to " the overlapping grip " grip
+35	:-1.5333:	he developed a " the overlapping grip " g
+
+33:kids can acquire new knowledge from making what ? ||| money
+0	:-0.0767:	money can acquire new knowledge
+1	:-0.2621:	money, can acquire new knowledge
+2	:-0.2651:	money can acquire new knowledge from making what
+3	:-0.4084:	money can acquire new knowledge from making
+4	:-0.5093:	money, can acquire new knowledge from making what
+5	:-0.6006:	money, can acquire new knowledge from making
+6	:-0.6655:	money acquire new knowledge from making what
+7	:-0.6984:	they can acquire new knowledge from making money
+8	:-0.7177:	money acquire new knowledge
+9	:-0.7641:	money can acquire new knowledge by making what
+10	:-0.7648:	they can acquire new knowledge by making money
+11	:-0.8721:	money acquisition can acquire new knowledge from making what
+12	:-0.8977:	money acquire new knowledge from making
+13	:-0.8989:	they can acquire money from making what
+14	:-0.9018:	money can acquire new knowledge from making who
+15	:-0.9088:	money (can acquire new knowledge from making what
+16	:-0.9437:	money can acquire new knowledge from making how
+17	:-0.9556:	they can acquire new knowledge by money
+18	:-0.9639:	they can acquire new knowledge from money
+19	:-0.9640:	money acquisition, can acquire new knowledge
+20	:-0.9671:	money acquisition can acquire new knowledge
+21	:-0.9672:	money can acquire new knowledge from making how?
+22	:-0.9702:	money can acquire new knowledge in making what
+23	:-0.9752:	money can acquire new knowledge through making what
+24	:-0.9944:	money know how to acquire new knowledge
+25	:-0.9972:	money can acquire new knowledge from making money
+26	:-1.0365:	money can acquire new knowledge from making that
+27	:-1.0468:	money can acquire new knowledge to make what
+28	:-1.0595:	money can acquire new knowledge by making
+29	:-1.0599:	money can acquire new knowledge from making which
+30	:-1.0603:	money can acquire new knowledge from making knowledge
+31	:-1.0683:	money can acquire new knowledge from making the same
+32	:-1.0710:	money can acquire new knowledge in making
+33	:-1.0720:	money can acquire new knowledge from making it
+34	:-1.0823:	money acquire new knowledge by making what
+35	:-1.0879:	money, acquire new knowledge
+36	:-1.0904:	money acquisition can acquire new knowledge from making
+37	:-1.1078:	money acquired new knowledge from making what
+38	:-1.1083:	money can acquire new knowledge from making the
+39	:-1.1270:	money, can acquire new knowledge from making who
+40	:-1.1289:	money can acquire new knowledge from making the knowledge
+41	:-1.1426:	they can acquire new knowledge from making what money
+42	:-1.1495:	money can acquire new knowledge from making who?
+43	:-1.1605:	money can acquire new knowledge of making
+44	:-1.1627:	money can acquire new knowledge from making the what
+45	:-1.1914:	money can acquire new knowledge from making how to
+46	:-1.1914:	money (can acquire new knowledge from making
+47	:-1.1925:	money can acquire new knowledge from making what?
+48	:-1.1962:	they can acquire money from making
+49	:-1.2073:	the money can acquire new knowledge
+50	:-1.2150:	money can acquire new knowledge from making what it
+51	:-1.2153:	money people can acquire new knowledge
+52	:-1.2184:	money, can acquire new knowledge from making how
+53	:-1.2266:	money can acquire new knowledge from making what knowledge
+54	:-1.2330:	money can acquire new knowledge from making what.
+55	:-1.2345:	money are acquire new knowledge
+56	:-1.2440:	money can acquire new knowledge from making how much
+57	:-1.2534:	money are acquiring new knowledge
+58	:-1.2723:	money will acquire new knowledge
+59	:-1.3349:	money may acquire new knowledge
+60	:-1.3423:	money can acquire new knowledge from making how it
+61	:-1.3858:	money acquired new knowledge
+62	:-1.4179:	money can acquire new knowledge from making what to
+63	:-1.4585:	money possess new knowledge
+64	:-1.4704:	they can acquire money
+65	:-1.4924:	money can acquire new knowledge from making how can
+66	:-1.6435:	money have it
+67	:-1.9382:	money are acquired
+68	:-2.5316:	money acquisition
+
+34:how many were there ? ||| 675 aborigines
+0	:-0.0010:	there were 675 aborigines
+1	:-0.7337:	they were 675 aborigines
+2	:-0.9323:	there were a 675 aborigines
+3	:-0.9423:	there were in 675 aborigines
+4	:-1.0212:	there were the 675 aborigines
+5	:-1.0236:	there were at 675 aborigines
+6	:-1.0500:	there were also 675 aborigines
+7	:-1.0589:	there were from 675 aborigines
+8	:-1.0792:	there were of 675 aborigines
+9	:-1.1503:	there were 6675 aborigines
+10	:-1.4215:	there were 675 aborigines and
+11	:-1.4530:	there were 675 aborigines (
+12	:-1.4758:	there were 675 aborigines.
+13	:-1.5318:	there were 675 aborigines too
+14	:-1.6270:	there were 675 aborigines people
+15	:-1.6431:	there were 675 aborigines [
+16	:-1.7083:	there were 675 aborigines of
+17	:-1.7169:	there were 675 aborigines,
+18	:-1.7273:	there were 675 aborigines --
+19	:-2.0190:	there were 675 aborigines were
+20	:-2.2528:	there were 675 aborigines are
+
+35:what revolt did he lead after that ? ||| the autumn harvest uprising
+0	:-0.0089:	he led the autumn harvest uprising
+1	:-0.5661:	he led to the autumn harvest uprising
+2	:-0.5968:	he led a the autumn harvest uprising
+3	:-0.6999:	he led in the autumn harvest uprising
+4	:-0.7460:	the autumn harvest uprising, he led
+5	:-0.7847:	he led the autumn harvest uprising revolt
+6	:-0.8006:	he led for the autumn harvest uprising
+7	:-0.8512:	it led to the autumn harvest uprising
+8	:-0.8767:	he led after the autumn harvest uprising
+9	:-0.9019:	he led by the autumn harvest uprising
+10	:-0.9139:	it led the autumn harvest uprising
+11	:-0.9329:	he led because the autumn harvest uprising
+12	:-1.0103:	he led during the autumn harvest uprising
+13	:-1.0176:	he led on the autumn harvest uprising
+14	:-1.1042:	he led the autumn harvest uprising rebellion
+
+36:what does she feel made her a victim ? ||| race-conscious admission policies
+0	:-0.0271:	she feels race-conscious admission policies made her a victim
+1	:-0.2853:	she feels race-conscious admission policies
+2	:-0.2896:	she feels made race-conscious admission policies made her a victim
+3	:-0.4075:	she feels made her a victim race-conscious admission policies
+4	:-0.4236:	hillary feels race-conscious admission policies made her a victim
+5	:-0.4507:	she feels made race-conscious admission policies
+6	:-0.4673:	she feels a race-conscious admission policies made her a victim
+7	:-0.4741:	she feels race-conscious admission policies made
+8	:-0.4749:	she feels the race-conscious admission policies made her a victim
+9	:-0.4785:	she feels that race-conscious admission policies made her a victim
+10	:-0.4879:	she feels to race-conscious admission policies made her a victim
+11	:-0.4970:	she feels that made her a victim race-conscious admission policies
+12	:-0.5108:	she feels in race-conscious admission policies made her a victim
+13	:-0.5128:	she feels made her a victim of race-conscious admission policies
+14	:-0.5404:	he feels race-conscious admission policies made her a victim
+15	:-0.5460:	she feels makes race-conscious admission policies made her a victim
+16	:-0.5462:	she feels race-conscious admission policies made she a victim
+17	:-0.5495:	says race-conscious admission policies made her a victim
+18	:-0.5541:	hes feels race-conscious admission policies made her a victim
+19	:-0.5576:	it feels race-conscious admission policies made her a victim
+20	:-0.5594:	she feels race-conscious admission policiesmade her a victim
+21	:-0.5918:	she feels race-conscious admission policies made her
+22	:-0.6620:	she feels race-conscious admission policies made her a victim.
+23	:-0.6663:	she feels race-conscious admission policies made her a victim,
+24	:-0.6708:	she feels race-conscious admission policies made her a victim?
+25	:-0.6887:	she feels made her a victim race-conscious admission policies made
+26	:-0.6929:	it feels made race-conscious admission policies
+27	:-0.7249:	she feels made race-conscious admission policies made
+28	:-0.7352:	she feels race-conscious admission policies made her a victim made
+29	:-0.8029:	she feels race-conscious admission policies made her a victim (
+30	:-0.8198:	hillary feels race-conscious admission policies
+31	:-0.8558:	she feels race-conscious admission policies made her a victim and
+32	:-0.8678:	she feels race-conscious admission policies made her a victims
+33	:-0.8742:	she feels made race-conscious admission policies made her
+34	:-0.9034:	she feels race-conscious admission policies made her a victim of
+35	:-0.9387:	she feels makes race-conscious admission policies made
+36	:-0.9719:	she feels race-conscious admission policies made her a victim because
+
+37:its clever " who did he tell that to ? ||| honors colloquium
+0	:-0.0126:	he told honors colloquium
+1	:-0.4004:	he told honors colloquium that he told
+2	:-0.5314:	he told honors colloquium who did he tell
+3	:-0.5564:	he told that to honors colloquium
+4	:-0.6008:	he told honors colloquium who did he tell that to
+5	:-0.6489:	he told the honors colloquium
+6	:-0.6625:	he told honors colloquium that he told that to
+7	:-0.6782:	he told honors colloquium that he told to
+8	:-0.6834:	he told honors colloquium how did he tell
+9	:-0.6895:	he told honors colloquium that
+10	:-0.6958:	he told honors colloquium how did he tell it
+11	:-0.7060:	he told honors colloquium what did he tell
+12	:-0.7277:	he told honors colloquium to
+13	:-0.7659:	honors colloquium, he told
+14	:-0.7686:	he told honors colloquium why did he tell it
+15	:-0.7688:	he told honors colloquium who did he tell that
+16	:-0.7927:	he told honors colloquium how did he tell it to
+17	:-0.8066:	he told honors colloquium how did he tell that to
+18	:-0.8125:	he told honors colloquium how did he tell that
+19	:-0.8178:	he told honors colloquium why did he tell it to
+20	:-0.8293:	he told honors colloquium what did he tell that to
+21	:-0.8376:	he told the honors colloquium that he told
+22	:-0.8440:	he told honors colloquium why did he tell
+23	:-0.8524:	he told honors colloquium he told
+24	:-0.8574:	he told honors colloquium to who did he tell
+25	:-0.8639:	he told of honors colloquium
+26	:-0.8671:	it told honors colloquium
+27	:-0.8820:	he told honors colloquium who did he tell it
+28	:-0.8860:	he told honors colloquium who did he tell it to
+29	:-0.8887:	he told honors colloquium who did he tell?
+30	:-0.9003:	he told honors colloquium to whom did he tell
+31	:-0.9012:	he told honors colloquium how did he tell?
+32	:-0.9030:	he told it to honors colloquium
+33	:-0.9066:	he told honors colloquium to he tell
+34	:-0.9070:	he told honors colloquium why did he tell that to
+35	:-0.9145:	honors colloquium, he told that to
+36	:-0.9150:	he told honors colloquium how did he tell it?
+37	:-0.9156:	he told to honors colloquium
+38	:-0.9223:	he told honors colloquium that he told that
+39	:-0.9231:	he told honors colloquium that he told that to?
+40	:-0.9336:	he told honors colloquium how did he tell him
+41	:-0.9359:	he told honors colloquium why did he tell that
+42	:-0.9389:	he told honors colloquium that he told he told
+43	:-0.9401:	he told honors colloquium how did he tell that?
+44	:-0.9411:	he told honors colloquium to him
+45	:-0.9414:	he told honors colloquium that he wanted to tell
+46	:-0.9418:	he told honors colloquium he
+47	:-0.9438:	he told honors colloquium that he telled
+48	:-0.9490:	he told honors colloquium that he told it to
+49	:-0.9534:	he told honors colloquium that he told he to tell
+50	:-0.9553:	he told honors colloquium to whom did he tell it
+51	:-0.9579:	he told honors colloquium why did he tell it?
+52	:-0.9601:	he told honors colloquium that he told him
+53	:-0.9681:	he told honors colloquium why did he tell?
+54	:-0.9705:	he told honors colloquium that he told of
+55	:-0.9750:	he tolds honors colloquium
+56	:-0.9793:	he told honors colloquium to who did he tell that
+57	:-0.9813:	he told honors colloquium why did he tell him
+58	:-0.9814:	he lied about honors colloquium
+59	:-0.9815:	he told honors colloquium,
+60	:-0.9963:	he told honors colloquium that he
+61	:-0.9976:	he told honors colloquium how did he tell how?
+62	:-1.0045:	he telled honors colloquium
+63	:-1.0046:	he told honors colloquium of he
+64	:-1.0053:	he told honors colloquium who did he tell that?
+65	:-1.0141:	he told honors colloquium that he would tell
+66	:-1.0153:	he told honors colloquium that he lied to
+67	:-1.0157:	he told honors colloquium to he tell that
+68	:-1.0237:	he told honors colloquium to he told
+69	:-1.0265:	they told honors colloquium
+70	:-1.0291:	he told honors colloquium that to
+71	:-1.0301:	he told those honors colloquium
+72	:-1.0309:	he told honors colloquium that he told in
+73	:-1.0348:	he told honors colloquium why did he tell that?
+74	:-1.0368:	he told honors colloquium how did he tell how to
+75	:-1.0374:	he told honors colloquium that he told he
+76	:-1.0408:	he told honors colloquium how did he tell how
+77	:-1.0475:	honors colloquium, he told that
+78	:-1.0563:	he told honors colloquium who did he tell that from
+79	:-1.0571:	he told honors colloquium that he did
+80	:-1.0578:	he told honors colloquium who told him
+81	:-1.0590:	he said honors colloquium
+82	:-1.0593:	he told honors colloquium that he told he to
+83	:-1.0617:	he told honors colloquium to whom did he tell that
+84	:-1.0824:	he told honors colloquium who did
+85	:-1.0843:	he told honors colloquium that did
+86	:-1.0849:	he told honors colloquium to whom
+87	:-1.0972:	he told honors colloquium to he
+88	:-1.1042:	he told honors colloquium who
+89	:-1.1044:	he told honors colloquium what did he tell that
+90	:-1.1104:	he told honors colloquium that he said
+91	:-1.1160:	he told honors colloquium that,
+92	:-1.1160:	he lied honors colloquium
+93	:-1.1303:	he told honors colloquium who told
+94	:-1.1486:	he told honors colloquium of
+95	:-1.1698:	he told honors colloquium he was
+96	:-1.2088:	he told honors colloquium how
+97	:-1.2564:	he told honors colloquium to who
+
+38:who gave them ? ||| mr. coningsby
+0	:-0.0037:	mr. coningsby gave them
+1	:-0.5681:	mr. coningsby gave
+2	:-0.6609:	mr. coningsby gave mr. coningsby
+3	:-0.7114:	mr. coningsby gave the mr. coningsby
+4	:-0.7274:	mr. coningsby gave them to mr. coningsby
+5	:-0.8422:	mr. coningsby given them
+6	:-0.8514:	mr. coningsby gave it
+7	:-0.9099:	mr. coningsby gave the mr.
+8	:-0.9575:	mmr. coningsby gave them
+9	:-1.0063:	mr. coningsby gave us
+10	:-1.0193:	mr. coningsby gave 'em
+11	:-1.0310:	mr. coningsby gave they
+12	:-1.0312:	mr. coningsby gave their
+13	:-1.0352:	mr. coningsby gave the mr. coningsby give
+14	:-1.0433:	mr. coningsby gave the mr. coningsby gave
+15	:-1.0516:	mr. coningsby gave mr. coningsby gave them
+16	:-1.0568:	mr. coningsby giveed them
+17	:-1.0706:	mr. coningsby gave them.
+18	:-1.0740:	mr. coningsby gave `em
+19	:-1.0837:	mr. coningsby gave the
+20	:-1.0906:	mr. coningsby gave the mr. coningsby giving
+21	:-1.0910:	mr. coningsby gave them and gave them
+22	:-1.0926:	mr. coningsby gave them ( mr. coningsby
+23	:-1.0983:	mr. coningsby gave the mr. coningsby gives
+24	:-1.1015:	mr. coningsby gave mr. coningsby gave
+25	:-1.1062:	mr. coningsby gave these
+26	:-1.1476:	mr. coningsby gave mr. coningsby giving them
+27	:-1.1517:	mr. coningsby gave the mr. coningsby gifts
+28	:-1.1552:	mr. coningsby gave the nth nth nth
+29	:-1.1556:	mr. coningsby gave them (
+30	:-1.1561:	mr. coningsby gave the mr. coningsby given
+31	:-1.1735:	mr. coningsby gave the mr. coningsby gift
+32	:-1.1740:	mr. coningsby gave the nudes
+33	:-1.1835:	mr. coningsby gives them
+34	:-1.1911:	mr. coningsby gave mr. coningsby give
+35	:-1.1924:	mr. coningsby gave the them
+36	:-1.2027:	mr. coningsby gave them and gave
+37	:-1.2069:	mr. coningsby gave the gifts
+38	:-1.2167:	mr. coningsby gave the nomenclature
+39	:-1.2175:	mr. coningsby gave mr. coningsby give them
+40	:-1.2186:	mr. coningsby gave mr. coningsby gives
+41	:-1.2207:	mr. coningsby gave ` `
+42	:-1.2221:	mr. coningsby gave them [
+43	:-1.2314:	mr. coningsby gave mr. coningsby giving
+44	:-1.2333:	mr. coningsby gave the n-word
+45	:-1.2361:	mr. coningsby gave the mr. coningsby f
+46	:-1.2487:	mr. coningsby gave the people
+47	:-1.2487:	mr. coningsby gave the mr. cingsby
+48	:-1.2499:	mr. coningsby gave ` '
+49	:-1.2634:	mr. coningsby gave''
+50	:-1.2653:	mr. coningsby gave them and gave it
+51	:-1.2988:	mr. coningsby gave mr. coningsby given
+52	:-1.2989:	mr. coningsby gave the nth nth nnd
+53	:-1.3025:	mr. coningsby gave the mr. coningsby ones
+54	:-1.3027:	mr. coningsby gave mr. coningsby giveings
+55	:-1.3159:	mr. coningsby gave mr. coningsby their
+56	:-1.3181:	mr. coningsby gave the nth nth nth n
+57	:-1.3248:	mr. coningsby gave the naughts
+58	:-1.3270:	mr. coningsby gave the nth nth nthn
+59	:-1.3315:	mr. coningsby gave the mn.
+60	:-1.3315:	mr. coningsby gave n
+61	:-1.3422:	mr. coningsby gave mr. coningsby gifts
+62	:-1.3433:	mr. coningsby gave the mr. coingsby
+63	:-1.3459:	mr. coningsby gave the mr
+64	:-1.3484:	mr. coningsby gave mr.
+65	:-1.3531:	mr. coningsby gave `'them
+66	:-1.3552:	mr. coningsby gave the nth nth
+67	:-1.3564:	mr. coningsby gave mr. coningsby the
+68	:-1.3565:	mr. coningsby gave the mr.'s
+69	:-1.3580:	mr. coningsby gave the mr. crows
+70	:-1.3674:	mr. coningsby gave the n.
+71	:-1.3715:	mr. coningsby gave the mr. consingsby
+72	:-1.3762:	mr. coningsby gave them to mr.
+73	:-1.3796:	mr. coningsby gave the nd
+74	:-1.3838:	mr. coningsby gave the n00b
+75	:-1.3937:	mr. coningsby gave the n00b n00b
+76	:-1.3977:	mr. coningsby gave the n
+77	:-1.4055:	mr. coningsby gave the nines
+78	:-1.4136:	mr. coningsby gave the ndns
+79	:-1.4140:	mr. coningsby gave'' them
+80	:-1.4264:	mr. coningsby gave the nuggets
+81	:-1.4374:	mr. coningsby gave the nnn
+82	:-1.4388:	mr. coningsby gave them and
+83	:-1.4406:	mr. coningsby gave the nn
+84	:-1.4408:	mr. coningsby gave the nth nthn
+85	:-1.4613:	mr. coningsby gave the mr. c.
+86	:-1.4636:	mr. coningsby gave the mnemonic
+87	:-1.4699:	mr. coningsby gave the mr. c
+88	:-1.4841:	mr. coningsby gave the nth nth n
+89	:-1.4903:	mr. coningsby gave the nnns
+90	:-1.5028:	mr. coningsby gave the nth
+91	:-1.5034:	mr. coningsby gave the n -
+92	:-1.5050:	mr. coningsby gave the mr.-
+93	:-1.5096:	mr. coningsby gave the ndn
+94	:-1.5280:	mr. coningsby gave the mr. ca
+95	:-1.5348:	mr. coningsby gave the n00t
+96	:-1.5370:	mr. coningsby gave the mn
+97	:-1.5834:	mr. coningsby gave the mr. na
+98	:-1.6122:	mr. coningsby gave the nomenclatures
+99	:-1.6163:	mr. coningsby gave the nth nnd
+100	:-1.6167:	mr. coningsby gave the mr. cone
+101	:-1.6184:	mr. coningsby gave them to mr
+102	:-1.6277:	mr. coningsby gave the mr.'
+103	:-1.6473:	mr. coningsby gave them ( mr.
+104	:-1.6516:	mr. coningsby gave the nth n
+
+39:what did she do then ? ||| scream
+0	:-0.1492:	she did scream then
+1	:-0.2141:	she did scream
+2	:-0.9321:	she did then scream
+3	:-1.0894:	she did screamed then
+4	:-1.2443:	she did scream now
+5	:-1.3158:	it did scream then
+6	:-1.3673:	she did screaming then
+7	:-1.3866:	it did then scream
+8	:-1.4279:	she did to scream
+9	:-1.4458:	he did scream then
+10	:-1.4642:	she did scream Then
+11	:-1.4966:	she doed scream
+12	:-1.5082:	it did scream
+13	:-1.5127:	she did screamed
+14	:-1.5143:	she dided scream
+15	:-1.6173:	she did a scream
+16	:-1.6629:	she did screaming
+17	:-2.2986:	she screamed
+
+40:who hosts it ? ||| liu zaishi
+0	:-0.0029:	liu zaishi hosts it
+1	:-0.9428:	liu zaishi hosts
+2	:-0.9583:	liu zaishi hosts it.
+3	:-0.9812:	liu zaishi hostsit
+4	:-1.0604:	liu zaishi hosts the it
+5	:-1.1042:	liu zaishi host it
+6	:-1.3222:	liu zaishi hosts it?
+7	:-1.3342:	liu zaishi hosts it!
+8	:-1.3429:	liu zaishi hosts it in
+9	:-1.3478:	liu zaishi hosts this
+10	:-1.3506:	liu zaishi hosts it too
+11	:-1.4100:	iliu zaishi hosts it
+12	:-1.4137:	liu zaishi hosts it;
+13	:-1.4216:	liu zaishi hosts the site
+14	:-1.4260:	liu zaishi hosts its
+15	:-1.4330:	liu zaishi hosts it,
+16	:-1.4358:	liu zaishi hosts it [
+17	:-1.4622:	liu zaishi hosts it but
+18	:-1.5447:	liu zaishi is it it
+19	:-1.5610:	liu zaishi hosts it on
+20	:-1.5800:	liu zaishi hosts it (
+21	:-1.6387:	liu zaishi hosts it |
+22	:-1.7477:	liu zaishi hosts it as
+
+41:what are they ? ||| an international news organization
+0	:-0.0012:	they are an international news organization
+1	:-0.6848:	they are a an international news organization
+2	:-0.8801:	they are the an international news organization
+3	:-1.0463:	they are in an international news organization
+4	:-1.1081:	the an international news organization are they
+5	:-1.1682:	they are from an international news organization
+6	:-1.1690:	they are for an international news organization
+7	:-1.1866:	he are an international news organization
+8	:-1.2056:	they are to an international news organization
+9	:-1.2058:	they are on an international news organization
+10	:-1.2110:	they are at an international news organization
+11	:-1.3654:	these are an international news organization
+12	:-1.4225:	she are an international news organization
+13	:-1.4280:	it are an international news organization
+14	:-2.1792:	they are an international news organization.
+15	:-2.2160:	the an international news organization are them
+16	:-2.2682:	they are an international news organization and
+17	:-2.3839:	they are an international news organization,
+18	:-2.3907:	they are an international news organization (
+19	:-2.7107:	the an international news organization are
+
+42:who 's the editor ? ||| mark sappenfield
+0	:-0.0016:	it is mark sappenfield
+1	:-0.5804:	mark sappenfield is the editor
+2	:-0.7185:	the editor is mark sappenfield
+3	:-0.8671:	it is the mark sappenfield
+4	:-0.9720:	it is in mark sappenfield
+5	:-0.9783:	mark sappenfield is it
+6	:-1.0839:	he is mark sappenfield
+7	:-1.1000:	it is to mark sappenfield
+8	:-1.1145:	it is for mark sappenfield
+9	:-1.1882:	it is by mark sappenfield
+10	:-1.1907:	it is of mark sappenfield
+11	:-1.2097:	it ismark sappenfield
+12	:-1.2194:	mark sappenfield is it editor
+13	:-1.2857:	mark sappenfield is it?
+14	:-1.4616:	mark sappenfield is it it
+15	:-1.5234:	mark sappenfield is it for
+16	:-1.5873:	mark sappenfield is it is
+
+43:what kind of society did mark see these classes in ? ||| modern capitalist society
+0	:-0.0255:	mark saw these classes in modern capitalist society
+1	:-0.2792:	he saw these classes in modern capitalist society
+2	:-0.4717:	mark saw this classes in modern capitalist society
+3	:-0.5380:	they saw these classes in modern capitalist society
+4	:-0.5423:	mark saw modern capitalist society
+5	:-0.5954:	marks saw these classes in modern capitalist society
+6	:-0.6525:	it saw these classes in modern capitalist society
+7	:-0.7104:	mark saw those classes in modern capitalist society
+8	:-0.7161:	mark saw these classes as modern capitalist society
+9	:-0.7205:	mark saw them in modern capitalist society
+10	:-0.7744:	mark saw this class in modern capitalist society
+11	:-0.7858:	he saw this classes in modern capitalist society
+12	:-0.8416:	mark saw the modern capitalist society
+13	:-0.8625:	mark saw the modern capitalist society classes
+14	:-0.8956:	he saw them in modern capitalist society
+15	:-0.8965:	mark saw modern capitalist society these classes
+16	:-0.9453:	mark saw the modern capitalist society class
+17	:-0.9590:	he saw modern capitalist society
+18	:-1.0032:	mark saw the modern capitalist society classes in
+19	:-1.1434:	mark saw modern capitalist society these classes in
+20	:-1.2920:	mark saw the modern capitalist society class in
+21	:-1.7033:	mark saw the modern capitalist society class of
+22	:-1.7724:	mark saw the modern capitalist society class these
+
+44:for whose benefit ? ||| musicares foundation
+0	:-0.1657:	the musicares foundation benefit
+1	:-0.1808:	the musicares foundation
+2	:-0.3388:	the musicares foundation is for whose benefit
+3	:-0.3680:	the musicares foundation is for your benefit
+4	:-0.6305:	the musicares foundation is for
+5	:-0.6344:	the musicares foundation is
+6	:-0.7120:	the musicares foundation is musicares foundation
+7	:-0.7445:	the musicares foundation is the benefit
+8	:-0.7475:	the musicares foundation is foodares foundation
+9	:-0.7812:	the musicares foundation is for which benefit
+10	:-0.7931:	the musicares foundation for whose benefit
+11	:-0.7984:	the musicares foundation benefits
+12	:-0.8370:	musicares foundation
+13	:-0.8495:	the musicares foundation,
+14	:-0.8554:	the musicares foundation is the
+15	:-0.8682:	the musicares foundation is for its benefit
+16	:-0.8809:	the musicares foundation is for our benefit
+17	:-0.8878:	it for its benefit is musicares foundation
+18	:-0.8929:	the musicares foundation is for for
+19	:-0.9150:	the musicares foundation is a benefit
+20	:-0.9203:	the musicares foundation is your
+21	:-0.9366:	it for whose benefit is musicares foundation
+22	:-0.9497:	the musicares foundation is benefit
+23	:-0.9546:	the musicares foundation is forwhose benefit
+24	:-0.9616:	the musicares foundation is for whom benefit
+25	:-0.9699:	the musicares foundation is for thy benefit
+26	:-0.9825:	musicares foundation is for whose benefit
+27	:-0.9862:	the musicares foundation has it
+28	:-0.9867:	the musicares foundation is for your protection
+29	:-1.0025:	the musicares foundation is for your
+30	:-1.0175:	the musicares foundation is for behalf
+31	:-1.0293:	the musicares foundation is your benefit
+32	:-1.0478:	the musicares foundation for your benefit
+33	:-1.0686:	the musicares foundation for whose benefit?
+34	:-1.1098:	the musicares foundation provides
+35	:-1.1148:	the musicares foundation should be
+36	:-1.1150:	musicares foundation benefit
+37	:-1.1303:	musicares foundation,
+38	:-1.1388:	the musicares foundation is for whom
+39	:-1.1423:	the musicares foundation is in
+40	:-1.1507:	musicares foundation for whose benefit
+41	:-1.1536:	the musicares foundation serves
+42	:-1.1589:	the musicares foundation benefited
+43	:-1.1901:	the musicares foundation for whose benefit is
+44	:-1.1933:	the musicares foundation is the benefit for
+45	:-1.1966:	it is musicares foundation
+46	:-1.1968:	the musicares foundation is it
+47	:-1.2240:	the musicares foundation need
+48	:-1.2671:	the musicares foundation is musicares
+49	:-1.2979:	the musicares foundation is a benefit for
+50	:-1.3470:	the musicares foundation needs
+51	:-1.3808:	a musicares foundation benefit
+52	:-1.4928:	the musicares foundation is for your own
+53	:-1.5153:	musicares foundation is
+
+45:who loves singing ? ||| jenny .
+0	:-0.0840:	jenny. loves singing
+1	:-1.1071:	jenny. loved singing
+2	:-1.1590:	jenny. likes singing
+3	:-1.2100:	jenny. love singing
+4	:-1.3032:	jenny. is singing
+5	:-1.3043:	jenny. loves
+6	:-1.3060:	jenny. hates singing
+7	:-1.4473:	jenny. sings
+8	:-1.4797:	jenny. sings singing
+9	:-1.6863:	jenny. loves sing
+
+46:what were they ? ||| puppies and kitties
+0	:-0.0028:	they were puppies and kitties
+1	:-0.6083:	puppies and kitties were they
+2	:-0.7839:	they were the puppies and kitties
+3	:-0.9029:	they were in puppies and kitties
+4	:-0.9424:	they were for puppies and kitties
+5	:-0.9944:	the puppies and kitties were they
+6	:-1.0748:	these were puppies and kitties
+7	:-1.0816:	he were puppies and kitties
+8	:-1.1722:	they were puppies and kitties and
+9	:-1.2784:	were puppies and kitties
+10	:-1.3188:	puppies and kitties were them
+11	:-1.4033:	puppies and kitties
+12	:-1.4201:	they were puppies and kitties.
+13	:-1.4242:	they were puppies and kitties and puppies
+14	:-1.4975:	puppies and kitties werethey
+15	:-1.5021:	they were puppies and kitties (
+16	:-1.5716:	puppies and kitties was they
+17	:-1.5806:	they were puppies and kitties and they
+18	:-1.5935:	they were puppies and kitties and were
+19	:-1.6463:	they were puppies and kitties and their
+20	:-1.6683:	they were puppies and kitties and kittens
+21	:-1.6716:	they were puppies and kitties,
+22	:-1.6807:	the puppies and kitties were them
+23	:-1.6861:	they were puppies and kitties and dogs
+24	:-1.6921:	puppies and kitties were They
+25	:-1.7282:	puppies and kitties were
+26	:-1.7395:	they were puppies and kitties too
+27	:-1.7416:	they were puppies and kitties [
+
+47:how long are area codes ? ||| from two to 5 digits
+0	:-0.0620:	they are from two to 5 digits
+1	:-0.3400:	from two to 5 digits are area codes
+2	:-0.4743:	area codes are from two to 5 digits
+3	:-0.5771:	areas are from two to 5 digits
+4	:-0.8198:	they are on from two to 5 digits
+5	:-0.8253:	they are in from two to 5 digits
+6	:-1.0111:	from two to 5 digits are they
+7	:-1.0840:	they are from two to 5 digits long
+8	:-1.1766:	from two to 5 digits are area code
+9	:-1.3329:	from two to 5 digits are area
+10	:-1.4623:	from two to 5 digits are area Codes
+11	:-1.4922:	they are from two to 5 digits.
+
+48:what color fish ? ||| red .
+0	:-0.0664:	red. fish
+1	:-0.7693:	the red. fish
+2	:-1.2046:	it is red.
+3	:-1.2237:	red. color fish
+4	:-1.2573:	red. fish fish
+5	:-1.3507:	red. red fish
+6	:-1.4855:	red. fish.
+7	:-1.5353:	red. fish color
+8	:-1.5865:	red is red.
+9	:-1.6156:	red. salmon fish
+10	:-1.6704:	the red.
+11	:-1.6718:	red. is fish
+12	:-1.6912:	red. are fish
+13	:-1.7094:	red., fish
+14	:-1.7201:	they fish red.
+15	:-1.7973:	red.
+16	:-1.8930:	red. salmon
+17	:-1.9442:	red. fish red
+18	:-2.0979:	red. water
+19	:-2.1128:	the red. color
+20	:-2.1409:	red. fish are
+21	:-2.1602:	red. fish is
+
+49:when should he supposed to have left ? ||| an hour ago
+0	:-0.0744:	he should supposed to have left an hour ago
+1	:-0.2594:	he should have left an hour ago
+2	:-0.4127:	he should had left an hour ago
+3	:-0.4155:	he supposed to have left an hour ago
+4	:-0.4236:	he should should have left an hour ago
+5	:-0.4731:	he shoulded to have left an hour ago
+6	:-0.4815:	he should left an hour ago
+7	:-0.4995:	he ought to have left an hour ago
+8	:-0.5092:	he should supposed to had left an hour ago
+9	:-0.5347:	he shoulded an hour ago to have left
+10	:-0.5589:	he should supposed have left an hour ago
+11	:-0.5641:	he should said to have left an hour ago
+12	:-0.5765:	he should expected to have left an hour ago
+13	:-0.6230:	he should ought to have left an hour ago
+14	:-0.6371:	he should not have left an hour ago
+15	:-0.6800:	he should should had left an hour ago
+16	:-0.6914:	he should have lefted an hour ago
+17	:-0.7556:	he should've left an hour ago
+18	:-0.7979:	he should have left an hour ago left
+19	:-0.9371:	he supposed to have left an hour ago,
+20	:-0.9738:	he should have left an hour ago, left
+21	:-0.9760:	he should have left an hour ago,
+22	:-0.9930:	he should should have left an hour ago,
+23	:-0.9948:	he ought to have left an hour ago,
+24	:-0.9976:	he should should have left an hour ago left
+
+50:who reported this story ? ||| cnn
+0	:-0.0149:	cnn reported this story
+1	:-0.6888:	the cnn reported this story
+2	:-1.2027:	cnnreported this story
+3	:-1.3926:	cnn reports this story
+4	:-1.4086:	cnnews reported this story
+5	:-1.4500:	cnn reported
+6	:-1.6108:	 cnn reported this story
+7	:-1.6547:	cnn reported this story.
+8	:-1.6911:	cnn reported it
+9	:-1.7111:	cnn reported this tale
+10	:-1.8091:	cnn reported this story?
+11	:-1.8430:	cnn reported this stories
+12	:-1.9173:	cnn reported this story (
+13	:-1.9385:	cnn reported this story,
+14	:-1.9398:	cnn reported this story [
+15	:-1.9454:	cnn reported this story reported
+16	:-1.9509:	cnn reported this story ;
+17	:-2.0007:	cnn reported this article
+18	:-2.0167:	cnn reported this story report
+19	:-2.0399:	cnn reported this story or
+20	:-2.0476:	the cnn reported
+21	:-2.0493:	cnn reported this story too
+22	:-2.1113:	cnn reported this story;
+23	:-2.1347:	cnn reported this story and
+24	:-2.1831:	cnn reported this story in
+25	:-2.1925:	the cnn reported it
+26	:-2.2434:	cnn reported this story |
+27	:-2.2806:	cnn reported this
+28	:-2.3057:	cnn reported this story of
+29	:-2.3260:	cnn reported this story on
+30	:-2.3530:	cnn reports
+31	:-2.4186:	cnn reported this story but
+
+51:who created the immunity plan ? ||| the gulf cooperation council
+0	:-0.0002:	the gulf cooperation council created the immunity plan
+1	:-0.7318:	thomas the gulf cooperation council created the immunity plan
+2	:-0.9448:	it is the gulf cooperation council created the immunity plan
+3	:-0.9930:	they created the immunity plan by the gulf cooperation council
+4	:-1.0176:	it created the immunity plan by the gulf cooperation council
+5	:-1.1231:	the gulf cooperation council invented the immunity plan
+6	:-1.1332:	the gulf cooperation council creates the immunity plan
+7	:-1.1444:	the gulf cooperation council created the immunity plan.
+8	:-1.1501:	the gulf cooperation council created the immunity bill
+9	:-1.1568:	the gulf cooperation council formed the immunity plan
+10	:-1.1597:	the gulf cooperation council created the immunity plan?
+11	:-1.1756:	the gulf cooperation council generated the immunity plan
+12	:-1.1866:	the gulf cooperation council produced the immunity plan
+13	:-1.2170:	the gulf cooperation council created the immunity project
+14	:-1.3039:	the gulf cooperation council created the immunity
+15	:-1.3081:	the gulf cooperation council created the immunity strategy
+16	:-1.3666:	the gulf cooperation council created the immunity plan and
+17	:-1.3881:	the gulf cooperation council created the immunity plan [
+18	:-1.3932:	the gulf cooperation council created the immunity plan (
+19	:-1.4312:	the gulf cooperation council created the immunity plan ||
+20	:-1.4547:	the gulf cooperation council created the immunity plan...
+21	:-1.4591:	the gulf cooperation council created the immunity plan in the
+22	:-1.4951:	the gulf cooperation council created the immunity plan of immunity
+23	:-1.4956:	the gulf cooperation council created the immunity plan to create
+24	:-1.5368:	it is the gulf cooperation council
+25	:-1.5835:	the gulf cooperation council created it
+26	:-1.6050:	the gulf cooperation council created the immunity plan (it
+27	:-1.7240:	the gulf cooperation council created the immunity plan of
+28	:-1.7335:	thomas the gulf cooperation council created the immunity
+
+52:what are police looking for ? ||| other suspects
+0	:-0.0313:	they are looking for other suspects
+1	:-0.2947:	police are looking for other suspects
+2	:-0.6175:	they looking for are other suspects
+3	:-0.7533:	police looking for are other suspects
+4	:-0.7846:	they are searching for other suspects
+5	:-0.7949:	they looking for other suspects
+6	:-1.0439:	police looking for other suspects
+7	:-1.0440:	police are searching for other suspects
+8	:-1.0901:	other suspects are police looking for
+9	:-1.0947:	they are other suspects
+10	:-1.1156:	it are looking for other suspects
+11	:-1.1278:	they're looking for other suspects
+12	:-1.1486:	they are looking to other suspects
+13	:-1.2070:	they looking are other suspects
+14	:-1.2219:	police look for other suspects
+15	:-1.3072:	other suspects are police
+16	:-1.7328:	other suspects are police looking
+17	:-1.7956:	police looking for other suspects are
+18	:-1.8195:	they looking for other suspects are
+
+53:what did he have to do 12 months after becoming unemployed ? ||| moving in with his mother
+0	:-0.0356:	he had to do 12 months moving in with his mother
+1	:-0.2233:	he had to do 12 months in moving in with his mother
+2	:-0.2546:	he had to did 12 months moving in with his mother
+3	:-0.2934:	he had to do 12 months by moving in with his mother
+4	:-0.3128:	he had moving in with his mother to do 12 months
+5	:-0.3246:	he had to do 12 months from moving in with his mother
+6	:-0.3617:	he had to do moving in with his mother
+7	:-0.3914:	he had to do 12 months of moving in with his mother
+8	:-0.4183:	he had to did 12 months in moving in with his mother
+9	:-0.4227:	he had to do 12 months to moving in with his mother
+10	:-0.4473:	he had to do 12 months as moving in with his mother
+11	:-0.4513:	he had to do 12 months because moving in with his mother
+12	:-0.4738:	he had the moving in with his mother to do 12 months
+13	:-0.4870:	he had to do 12 months for moving in with his mother
+14	:-0.4955:	he had a moving in with his mother to do 12 months
+15	:-0.5237:	he had to do moving in with his mother 12 months
+16	:-0.5269:	he had to done 12 months moving in with his mother
+17	:-0.5981:	he had moving in with his mother
+18	:-0.6826:	he had moving in with his mother to do 12 months.
+19	:-0.8281:	he had to do 12 months moving in with his mother,
+20	:-0.9181:	he had moving in with his mother to do 12 months in
+
+54:where will they visit next time ? ||| the beach
+0	:-0.1229:	they will visit the beach next time
+1	:-0.2559:	they will visit next time in the beach
+2	:-0.2844:	they will visit next time on the beach
+3	:-0.2890:	they will visit the beach
+4	:-0.2897:	they will visit next time to the beach
+5	:-0.4162:	they will visit to the beach next time
+6	:-0.4786:	they will visit next time at the beach
+7	:-0.4835:	they will visit in the beach
+8	:-0.4996:	they will visit to the beach
+9	:-0.6000:	they will visit the beach in next time
+10	:-0.6116:	they will visit on the beach
+11	:-0.6298:	they will visit next time the beach
+12	:-0.6719:	they will visit in the beach next time
+13	:-0.6736:	they will visit on the beach next time
+14	:-0.6781:	they will visit at the beach next time
+15	:-0.7083:	they will visit next time by the beach
+16	:-0.7782:	they will visit at the beach
+17	:-0.7851:	they will visit last time on the beach
+18	:-0.7875:	they will visit the beach to next time
+19	:-0.8116:	they will visit the beach next time,
+20	:-0.8127:	they will visit the beach, next time
+21	:-0.8623:	they will visit the beach to the beach
+22	:-0.8651:	they will visit the beach next time.
+23	:-1.0356:	they will visit the beach tomorrow
+24	:-1.0500:	they will visit the beach,
+25	:-1.0708:	they will visit the beach next
+26	:-1.1227:	they will visit the beach next time in
+
+55:what had he been drinking ? ||| coors beer
+0	:-0.0912:	he had been drinking coors beer
+1	:-0.1103:	he had been coors beer
+2	:-0.5679:	he had been drinking in coors beer
+3	:-0.6448:	he had been drinking of coors beer
+4	:-0.6788:	he had been drinking from coors beer
+5	:-0.7354:	he had been drinking a coors beer
+6	:-0.7663:	he had been drinking the coors beer
+7	:-0.7673:	it had been coors beer
+8	:-0.8103:	he had been drinking with coors beer
+9	:-0.8272:	he had been drinking for coors beer
+10	:-0.8854:	he had been using coors beer
+11	:-0.9048:	it had been drinking coors beer
+12	:-0.9052:	houghty had been coors beer
+13	:-0.9234:	he had been in coors beer
+14	:-0.9514:	he was coors beer
+15	:-0.9523:	had he been drinking coors beer
+16	:-0.9642:	he was drinking coors beer
+17	:-1.1867:	he had coors beer
+18	:-1.2770:	he had been drinking coors beer.
+19	:-1.3332:	he had been drinking coors beer (
+20	:-1.4021:	he had been coors beer.
+21	:-1.4649:	he had been drinking coors beer too
+22	:-1.5053:	he had been drinking coors beer than
+23	:-1.5077:	he had been drinking coors beer,
+24	:-1.5191:	he had been coors beer drinking
+25	:-1.5296:	he had been coors beer (
+26	:-1.5307:	he had been drinking coors beer and
+27	:-1.5517:	he had been drinking coors beer?
+
+56:who helped coach him throughout his career ? ||| donald rumsfeld
+0	:-0.0208:	donald rumsfeld helped coach him
+1	:-0.2027:	donald rumsfeld helped coach him throughout his career
+2	:-0.5731:	donald rumsfeld helped coach him during his career
+3	:-0.5899:	donald rumsfeld helped coach him through his career
+4	:-0.6462:	donald rumsfeld helped coach
+5	:-0.6740:	doris donald rumsfeld helped coach him
+6	:-0.6822:	donald rumsfeld helped coach coach
+7	:-0.7335:	donald rumsfeld helped coach him in his career
+8	:-0.7352:	donald rumsfeld helped coach him across his career
+9	:-0.7503:	donald rumsfeld helped coach him over his career
+10	:-0.7984:	donald rumsfeld helped coach he throughout his career
+11	:-0.8193:	donald rumsfeld helped coach coach him
+12	:-0.8346:	donald rumsfeld helped coaching coach
+13	:-0.8501:	donald rumsfeld helped coach him,
+14	:-0.8848:	donald rumsfeld helped coach him along his career
+15	:-0.8943:	donald rumsfeld helped coaches coach
+16	:-0.9269:	donald rumsfeld helped coach him.
+17	:-0.9287:	donald rumsfeld helped coach he
+18	:-0.9340:	donald rumsfeld helped coaching him
+19	:-0.9407:	donald rumsfeld helped coach him throughout its career
+20	:-0.9586:	donald rumsfeld helped coach man
+21	:-0.9926:	donald rumsfeld helped coaches
+22	:-1.0235:	donald rumsfeld helped coaching coach him
+23	:-1.0559:	donald rumsfeld help coach him
+24	:-1.0629:	donald rumsfeld helped coaches him
+25	:-1.0640:	donald rumsfeld assisted coach him
+26	:-1.0747:	donald rumsfeld helped coach him throughout their career
+27	:-1.0999:	donald rumsfeld helped football coach
+28	:-1.1098:	donald rumsfeld helped Coach him
+29	:-1.1327:	donald rumsfeld helped coach his
+30	:-1.1577:	donald rumsfeld helped him
+31	:-1.2428:	donald rumsfeld helped
+32	:-1.2824:	donald rumsfeld helped coach him throughout
+
+57:how many miles is it west-south-west of london ? ||| 190
+0	:-0.1548:	it is 190 miles
+1	:-0.2546:	it is 190
+2	:-0.3037:	190 is it west-south-west of london
+3	:-0.3251:	190 is it west-south-west
+4	:-0.4242:	190 miles is it west-south-west of london
+5	:-0.4831:	190 miles is it west-south-west
+6	:-0.5704:	it is south-south-west 190 miles
+7	:-0.5832:	it west-south-west of london is 190
+8	:-0.5896:	it west-south-west is 190
+9	:-0.6018:	it west-south-west is 190 miles
+10	:-0.6161:	it is west-south-west 190 miles
+11	:-0.6184:	it is south-south-west 190
+12	:-0.6254:	it west-south-west of london is 190 miles
+13	:-0.6369:	it is 190 miles west-south-west of london
+14	:-0.6593:	it is west-south-west 190
+15	:-0.6696:	it is 190 miles west-south-west
+16	:-0.6832:	it is 190 miles of london
+17	:-0.7089:	190 is it east-south-west of london
+18	:-0.7526:	it is 190 miles of west-south-west
+19	:-0.7621:	it is 190 miles of it west-south-west
+20	:-0.7638:	it is 190 miles from london
+21	:-0.7865:	it is south-south-west of 190
+22	:-0.7909:	it is south-south-west of 190 miles
+23	:-0.7979:	190 miles is it east-south-west of london
+24	:-0.8016:	it is 190 miles east-south-west of london
+25	:-0.8246:	it west-south-wests is 190
+26	:-0.8304:	it is 190 mile west-south-west of london
+27	:-0.8372:	it is 190 miles east-south-west
+28	:-0.8393:	it is east-south-west 190 miles
+29	:-0.8556:	190 is it east-south-west
+30	:-0.8814:	it west-south-wests is 190 miles
+31	:-0.8865:	it is west-south-west of 190
+32	:-0.8961:	it is west-south-west of 190 miles
+33	:-0.9049:	it is east-south-west 190
+34	:-0.9255:	it west-south-west is 190 miles from london
+35	:-0.9285:	it is 190 mile west-south-west
+36	:-0.9521:	190 miles is it east-south-west
+37	:-0.9558:	it west-south-wests 190
+38	:-0.9792:	it west-south-wests 190 miles
+39	:-0.9863:	190 miles is it west-south-west london
+40	:-1.0088:	190 is it west-south-west of london.
+41	:-1.0142:	it west-south-west of 190 is it
+42	:-1.0325:	it west-south-west of london is 190 mile
+43	:-1.0500:	it west-south-west of london is 190 yards
+44	:-1.0608:	190 miles is it west-south-west-west
+45	:-1.0776:	190 miles is it west-south-west.
+46	:-1.0841:	190 is it west-south-west of london?
+47	:-1.0962:	it west-south-west of london is 190 Miles
+48	:-1.0975:	it is 190 miles of west-south-west london
+49	:-1.0980:	it west-south-west of london is 190 feet
+50	:-1.1009:	it is south-west of 190
+51	:-1.1278:	190 miles is it west-south-west west
+52	:-1.1463:	190 miles is it west-south-west west-south
+53	:-1.1599:	it is 190 mile
+54	:-1.2302:	it is in 190 miles
+55	:-1.2321:	it is 190 miles of it
+56	:-1.2720:	it is in 190
+57	:-1.3215:	190 miles is it west-south-west-
+58	:-1.3808:	190 is it
+59	:-1.4025:	it is 190 yards
+60	:-1.4063:	it is 190 miles away
+61	:-1.4084:	it is 190 kilometers
+62	:-1.4484:	it is 190 miles.
+63	:-1.4498:	it is 190 km
+64	:-1.5258:	190 miles is it
+65	:-1.5383:	it is 190 mph
+66	:-1.6006:	it is 190 m
+
+58:who did he pass the bell to ? ||| alice
+0	:-0.0053:	he passed the bell to alice
+1	:-0.4850:	she passed the bell to alice
+2	:-0.6504:	he passed alice the bell to
+3	:-0.7577:	he passed the bell to the alice
+4	:-0.8226:	he passed the bell for alice
+5	:-0.8718:	it passed the bell to alice
+6	:-0.8826:	he passed alice the bell
+7	:-0.9891:	he passed the bell to analice
+8	:-0.9921:	he passed the bell to aalice
+9	:-0.9929:	he passed alice the bell to?
+10	:-1.0242:	hesie passed the bell to alice
+11	:-1.0907:	he passed the bell of alice
+12	:-1.1040:	he passed the bell in alice
+13	:-1.1205:	hess passed the bell to alice
+14	:-1.1409:	he passed the bell alice
+15	:-1.1436:	he passed the bell by alice
+16	:-1.1504:	he passed the bell with alice
+17	:-1.1770:	she passed alice the bell to
+18	:-1.1987:	he passed it to alice
+19	:-1.2509:	he passed alice the bell to him
+20	:-1.4003:	he passed the bell of alice to
+21	:-1.4760:	she passed alice the bell
+22	:-1.4819:	she passed alice the bell to?
+23	:-1.5014:	he passed alice the bell to he
+24	:-1.5232:	he passed alice the bell to do
+25	:-1.5233:	he passed alice the bell to please
+26	:-1.5256:	he passed alice the bell to be
+27	:-1.5392:	he passed alice the bell to,
+28	:-1.5430:	he passed alice the bell to his
+29	:-1.5973:	he passed alice the bell to the
+30	:-1.6169:	he passed alice the bell to.
+31	:-1.7195:	he passed alice
+
+59:what 'd they use ? ||| a melon
+0	:-0.0153:	they use a melon
+1	:-0.7294:	a melon, they use
+2	:-0.7510:	they use the a melon
+3	:-0.8413:	a melon use
+4	:-0.8589:	they used a melon
+5	:-0.9083:	it uses a melon
+6	:-0.9716:	they use an a melon
+7	:-0.9892:	they use to a melon
+8	:-1.0056:	they use at a melon
+9	:-1.0134:	the a melon use
+10	:-1.0424:	they use in a melon
+11	:-1.0475:	they uses a melon
+12	:-1.0489:	they use it a melon
+13	:-1.0660:	they use for a melon
+14	:-1.1799:	it is a melon
+15	:-1.1893:	thomas a melon use
+16	:-1.2329:	it use a melon
+17	:-1.3432:	thomas a melon uses
+18	:-1.4565:	a melon, they used
+19	:-1.5415:	thomas a melon used
+20	:-1.5689:	a melon, they uses
+21	:-1.6308:	the a melon, use
+22	:-1.6359:	they use a melon?
+23	:-1.6657:	they use a melon '
+24	:-1.6910:	thomas a melon
+25	:-1.7259:	thomas a melon,
+26	:-1.7960:	they use a melon `
+27	:-1.8336:	a melon, they
+28	:-1.9594:	the a melon, they
+
+60:how did dave leave ? ||| he left on an ice-boat
+0	:-0.0528:	dave left he left on an ice-boat
+1	:-0.1888:	he lefted he left on an ice-boat
+2	:-0.2166:	dave lefted he left on an ice-boat
+3	:-0.3843:	dave left he left he left on an ice-boat
+4	:-0.3885:	dave left to he left on an ice-boat
+5	:-0.4496:	he left he left on an ice-boat
+6	:-0.4618:	dave left in he left on an ice-boat
+7	:-0.5046:	he lefted in he left on an ice-boat
+8	:-0.5119:	duke lefted he left on an ice-boat
+9	:-0.7445:	he left on an ice-boat
+10	:-0.9624:	dave left he left on an ice-boat,
+11	:-0.9897:	dave left he left on an ice-boat to leave
+12	:-1.0311:	dave left he left on an ice-boat in
+13	:-1.1096:	dave lefted he left on an ice-boat,
+14	:-1.1297:	dave left he left on an ice-boat in he
+15	:-1.1339:	dave lefted he left on an ice-boat.
+16	:-1.1566:	dave lefted he left on an ice-boat in
+
+61:how far from outen was he ? ||| about 280 miles away
+0	:-0.0609:	he was about 280 miles away
+1	:-0.2289:	about 280 miles away was he
+2	:-0.3628:	it was about 280 miles away
+3	:-0.5497:	the about 280 miles away was he
+4	:-0.6758:	he was from about 280 miles away
+5	:-0.7398:	the he was about 280 miles away
+6	:-0.7539:	theabout 280 miles away was he
+7	:-0.7572:	he was in about 280 miles away
+8	:-0.9067:	in about 280 miles away was he
+9	:-0.9077:	they was about 280 miles away
+10	:-0.9211:	he was on about 280 miles away
+11	:-0.9433:	the guy was about 280 miles away
+12	:-0.9480:	the man was about 280 miles away
+13	:-1.0487:	him was about 280 miles away
+14	:-1.0861:	she was about 280 miles away
+15	:-1.2902:	the about 280 miles away was him
+16	:-1.3318:	he was about 280 miles away from
+17	:-1.4154:	about 280 miles away was he.
+18	:-1.4831:	about 280 miles away was he was
+19	:-1.4948:	theabout 280 miles away was him
+20	:-1.5244:	about 280 miles away was he (
+21	:-1.5436:	about 280 miles away was he |
+22	:-1.6643:	about 280 miles away was he in
+23	:-1.6947:	it was about 280 miles away from
+
+62:when did it have a name change ? ||| 1989
+0	:-0.0055:	it had a name change in 1989
+1	:-0.4512:	in 1989, it had a name change
+2	:-0.6186:	they had a name change in 1989
+3	:-0.7989:	it had a name changed in 1989
+4	:-0.7998:	it haded a name change in 1989
+5	:-0.8860:	it had changed in 1989
+6	:-0.9080:	it had a name change 1989
+7	:-0.9508:	it had a new name change in 1989
+8	:-0.9739:	it had an name change in 1989
+9	:-1.0237:	it had been a name change in 1989
+10	:-1.0369:	in 1989, it had a name changed
+11	:-1.0875:	it has a name change in 1989
+12	:-1.1074:	it had a name change of 1989
+13	:-1.1144:	its had a name change in 1989
+14	:-1.1956:	it had a change in 1989
+15	:-1.2304:	it had a name changes in 1989
+16	:-1.2509:	it had the 1989 name change
+17	:-1.2608:	it had 1989 a name change
+18	:-1.2770:	it had a name change from 1989
+19	:-1.3277:	it had a name change for 1989
+20	:-1.3315:	it had been a 1989 name change
+21	:-1.4175:	it had a name change in the 1989
+22	:-1.4345:	it had one in 1989
+23	:-1.4929:	in 1989, it had a name changes
+24	:-1.5159:	it had been in 1989
+25	:-1.5275:	it had a name change in 1989.
+26	:-1.5428:	it had a name change in 1989,
+27	:-1.5846:	it had changed from 1989
+28	:-1.5923:	it had changed 1989
+29	:-1.6228:	it had a name change in 1989 (
+30	:-1.6472:	in 1989, it had a namechange
+31	:-1.6599:	in 1989, it had a name
+32	:-1.6891:	it had a name change in 1989?
+33	:-1.7270:	in 1989, it had a name chang
+34	:-1.7289:	in 1989, it had a name changing
+35	:-1.7592:	it had a name change in 1989 [
+36	:-1.8095:	it had a name change in 1989 --
+37	:-1.8321:	it changed in 1989
+38	:-1.8354:	it had in 1989
+39	:-1.8539:	it had a name change in 1989 and
+40	:-1.8765:	the 1989 name changed
+41	:-2.1397:	it had 1989
+
+63:what kingdom was this area in ? ||| the kingdom of elmet
+0	:-0.0165:	it in was the kingdom of elmet
+1	:-0.3365:	this area was the kingdom of elmet
+2	:-0.3943:	this area was in the kingdom of elmet
+3	:-0.4061:	this area in was the kingdom of elmet
+4	:-0.4574:	the kingdom of elmet was this area in
+5	:-0.4990:	it was the kingdom of elmet
+6	:-0.5155:	the kingdom of elmet was this area
+7	:-0.6666:	it was in the kingdom of elmet
+8	:-0.6720:	it in was the kingdom of elmet kingdom
+9	:-0.7374:	This area was in the kingdom of elmet
+10	:-0.7715:	This area in was the kingdom of elmet
+11	:-0.8093:	it in is the kingdom of elmet
+12	:-0.8350:	it in wasthe kingdom of elmet
+13	:-0.8480:	it inwas the kingdom of elmet
+14	:-0.8768:	This area was the kingdom of elmet
+15	:-0.8786:	it in were the kingdom of elmet
+16	:-0.8813:	it in was in the kingdom of elmet
+17	:-0.8990:	in the kingdom of elmet was this area
+18	:-0.9172:	this area was on the kingdom of elmet
+19	:-1.0977:	it was the kingdom of elmet kingdom
+20	:-1.1738:	this area was the kingdom of elmet kingdom
+21	:-1.2512:	it in was the kingdom of elmet king
+22	:-1.2554:	it inwas the kingdom of elmet kingdom
+23	:-1.2583:	it was in the kingdom of elmet kingdom
+24	:-1.3686:	it was the kingdom of elmet kingdom in
+25	:-1.3689:	it in was the kingdom of elmet castle
+26	:-1.3913:	it in was the kingdom of elmet country
+27	:-1.4464:	the kingdom of elmet was this area of
+28	:-1.5811:	it in the kingdom of elmet was this
+
+64:how was it originally spelled ? ||| dacca
+0	:-0.0319:	it was originally spelled dacca
+1	:-0.3526:	dacca was it originally spelled
+2	:-0.4821:	it was originally spelled in dacca
+3	:-0.5099:	it originally was spelled dacca
+4	:-0.7145:	it was originally spelled as dacca
+5	:-0.7888:	it was originally spelled by dacca
+6	:-0.8283:	it originally was dacca
+7	:-0.8942:	it was originally spelled for dacca
+8	:-0.9107:	it originally was spelled in dacca
+9	:-0.9122:	it was first spelled dacca
+10	:-0.9297:	it was dacca
+11	:-0.9501:	it is originally spelled dacca
+12	:-0.9575:	it was initially spelled dacca
+13	:-0.9753:	it was originally pronounced dacca
+14	:-0.9884:	it was originally spelling dacca
+15	:-1.0034:	it was in dacca
+16	:-1.1023:	it was actually spelled dacca
+17	:-1.2060:	it was originally dacca
+18	:-1.2826:	dacca was it originally spelled?
+19	:-1.4610:	it was originally spelled dacca.
+20	:-1.5030:	dacca was it originally spelled.
+21	:-1.5206:	it is dacca
+22	:-1.5480:	it was originally spelled dacca (
+23	:-1.6299:	dacca was it originally spelled (
+24	:-2.0258:	dacca was it originally spelled in
+
+65:what did ellen do when she grew up ? ||| she became queen
+0	:-0.3942:	ellen did she became queen
+1	:-0.5527:	she became queen, ellen did
+2	:-0.7774:	ellen did she became queen when she grew up
+3	:-1.0108:	ellen did she become queen and she became queen
+4	:-1.0145:	she became queen, she became
+5	:-1.0169:	ellen did she become queen ( she became queen
+6	:-1.0199:	she became queen, she did
+7	:-1.0219:	ellen did she become queen, she became queen
+8	:-1.0346:	ellen did she become queen in she became queen
+9	:-1.0362:	elleen did she became queen
+10	:-1.0838:	ellena did she became queen
+11	:-1.0941:	ennen did she became queen
+12	:-1.1200:	ellen doed she became queen
+13	:-1.2394:	ellen did she became queen,
+14	:-1.5372:	she became queen, she
+
+66:who felt there was a silence before the storm ? ||| even saton
+0	:-0.0546:	even saton felt there was a silence
+1	:-0.1955:	even saton felt there was a silence before the storm
+2	:-0.3393:	even saton felt
+3	:-0.5359:	even saton felt there was a silence in the storm
+4	:-0.5672:	even saton felt there was a silence after the storm
+5	:-0.6201:	even saton felt there
+6	:-0.6572:	even saton felt there is a silence
+7	:-0.6654:	even saton felt there is a silence before the storm
+8	:-0.6751:	even saton felt there was a silence by the storm
+9	:-0.6810:	even saton felt it was a silence
+10	:-0.6854:	even saton felt there was a silence for the storm
+11	:-0.6917:	even saton felt there was a silence to the storm
+12	:-0.7007:	even saton felt it was a silence before the storm
+13	:-0.7007:	even saton felt there was a silence at the storm
+14	:-0.7085:	even saton felt that there was a silence
+15	:-0.7198:	even saton felt there was a silence on the storm
+16	:-0.7578:	even saton felt there was a silence between the storm
+17	:-0.7610:	even saton felt the silence before the storm
+18	:-0.7617:	even saton felt there was a silence.
+19	:-0.8198:	even saton felt a silence before the storm
+20	:-0.8202:	even saton felt there was a silence and
+21	:-0.8274:	even saton felt he was a silence
+22	:-0.8293:	even saton felt there were a silence
+23	:-0.8471:	even saton felt there was a silence and a silence
+24	:-0.8579:	even saton feltthere was a silence
+25	:-0.8641:	even saton felt the silence
+26	:-0.8766:	even saton felt there was a silence of the storm
+27	:-0.8793:	even saton felt there was a silence of a silence
+28	:-0.8819:	even saton felt there had a silence
+29	:-0.9040:	even saton felt that it was a silence
+30	:-0.9107:	even saton felt they was a silence
+31	:-0.9117:	even saton felt there was a silence in the silence
+32	:-0.9275:	even saton felt there was a silence of silence
+33	:-0.9281:	even saton felt there was a silence of
+34	:-0.9343:	even saton felt there was a silence in
+35	:-0.9583:	even saton felt in a silence
+36	:-0.9621:	even saton felt there was a silence in the
+37	:-0.9716:	even saton felt at a silence
+38	:-0.9863:	even saton felt there was a silence before
+39	:-1.0025:	even saton felt a silence
+40	:-1.0467:	even saton felt no silence
+41	:-1.0692:	even saton felt it
+42	:-1.0707:	even saton felt that a silence
+43	:-1.0877:	even saton felt that silence
+44	:-1.1353:	even saton felt it was
+45	:-1.1363:	even saton was a silence
+46	:-1.3282:	even saton felt there was
+47	:-1.3729:	even saton felt on
+48	:-1.3914:	even saton felt so
+49	:-1.5645:	even saton feel
+50	:-1.6963:	even saton said
+
+67:who says it 's getting cold ? ||| dick
+0	:-0.1027:	dick says
+1	:-0.1479:	dick says it's getting cold
+2	:-0.6396:	dick says it's got cold
+3	:-0.6623:	dick says it's getting
+4	:-0.6721:	dick says it ` s getting cold
+5	:-0.7882:	dick says it ``s getting cold
+6	:-0.8340:	dick say it's getting cold
+7	:-0.8379:	dick says it's getting hot
+8	:-0.8399:	dick says it's get cold
+9	:-0.8421:	dick saysit's getting cold
+10	:-0.9141:	dick says it's gets cold
+11	:-0.9175:	dick says it is getting cold
+12	:-0.9185:	dick says it'is getting cold
+13	:-0.9377:	dick means it's getting cold
+14	:-0.9385:	dick says getting cold
+15	:-0.9523:	dick says it's gotten cold
+16	:-0.9542:	dick says it` s getting cold
+17	:-0.9568:	dick says it `s getting cold
+18	:-0.9722:	dick is getting cold
+19	:-0.9762:	dick says it's got
+20	:-1.0134:	dick says it
+21	:-1.0274:	dick says it's got it
+22	:-1.0397:	dick says it s getting cold
+23	:-1.1507:	it's getting cold dick
+24	:-1.2005:	dick says its getting cold
+25	:-1.2009:	dick says `` getting cold
+26	:-1.2098:	dick says the getting cold
+27	:-1.2163:	dick says it's
+28	:-1.2450:	dick says it''s getting
+29	:-1.3195:	dick says that it's getting
+30	:-1.3685:	dick says it'' s getting
+31	:-1.3803:	dick says getting
+32	:-1.4325:	it's dick saying
+33	:-1.4809:	dick says that
+34	:-1.6197:	dick is getting
+35	:-1.6271:	it's dick
+36	:-1.6980:	dick says cock
+37	:-1.7319:	dick says the
+38	:-1.8651:	dick say
+39	:-2.0241:	dick thinks
+40	:-2.0408:	the dick says
+41	:-2.0523:	it is dick
+42	:-2.1412:	dick saying
+43	:-2.1593:	dick said
+44	:-2.4884:	dick
+
+68:who was at the wattchtower ? ||| the duke and alberic
+0	:-0.0024:	the duke and alberic was at the wattchtower
+1	:-0.3075:	at the wattchtower was the duke and alberic
+2	:-0.4389:	thomas the duke and alberic was at the wattchtower
+3	:-0.4947:	the duke and alberic was at the watttchower
+4	:-0.5251:	the duke and alberic was at at the wattchtower
+5	:-0.5398:	at the duke and alberic was at the wattchtower
+6	:-0.5565:	to the duke and alberic was at the wattchtower
+7	:-0.5920:	the duke and alberic was at the wattachtower
+8	:-0.6066:	the duke and alberic was at the watttdower
+9	:-0.6110:	the duke and alberic was at the wattchtower.
+10	:-0.6200:	the duke and alberic was at the wattacht
+11	:-0.6289:	it was the duke and alberic
+12	:-0.6366:	the duke and alberic was at the Wattchtower
+13	:-0.6390:	the duke and alberic was
+14	:-0.6395:	the duke and alberic was at the watthewower
+15	:-0.6544:	the duke and alberic was at the watttchow
+16	:-0.6814:	the duke and alberic was at the watt
+17	:-0.6967:	the duke and alberic was at
+18	:-0.7036:	the duke and alberic was at the watttdow
+19	:-0.7054:	the duke and alberic was at the watttecower
+20	:-0.7086:	at the watttchower was the duke and alberic
+21	:-0.7123:	the duke and alberic was at the wattchtowers
+22	:-0.7160:	the duke and alberic was at the winker
+23	:-0.7179:	the duke and alberic was at the wattchtower?
+24	:-0.7297:	the duke and alberic was at the watts
+25	:-0.7367:	the duke and alberic was at the wattchow
+26	:-0.7383:	the duke and alberic was at the watttchowower
+27	:-0.7395:	the duke and alberic was at the watttdewith
+28	:-0.7462:	the duke and alberic was at the watttch
+29	:-0.7565:	the duke and alberic was at the watttec
+30	:-0.7679:	the duke and alberic was at the wattwald
+31	:-0.7682:	the duke and alberic was at the wattchtower (
+32	:-0.7744:	the duke and alberic was at it
+33	:-0.7837:	the duke and alberic was at the watttdowith
+34	:-0.7862:	the duke and alberic was at the wattchtower and
+35	:-0.7879:	the duke and alberic was at the wattchtower,
+36	:-0.7959:	the duke and alberic was at the wattchtower ;
+37	:-0.8125:	the duke and alberic was at the watttdewithower
+38	:-0.8151:	the duke and alberic was at the watttdew
+39	:-0.8166:	he was the duke and alberic
+40	:-0.8170:	tottenham was at the duke and alberic
+41	:-0.8269:	the duke and alberic was at the wattchtower ||
+42	:-0.8381:	the duke and alberic was at the watttdowower
+43	:-0.8390:	the duke and alberic was at the wattchtower;
+44	:-0.8574:	the duke and alberic was at the wattchtower but
+45	:-0.8582:	the duke and alberic was at at
+46	:-0.8840:	tottenham was the duke and alberic
+47	:-0.9040:	the duke and alberic was at the
+48	:-0.9056:	they was the duke and alberic
+49	:-0.9748:	the duke and alberic was at the watttdewithow
+50	:-0.9828:	the duke and alberic was at the wattchtower but not
+51	:-0.9945:	the duke and alberic was at the watttdewithhe
+52	:-0.9958:	there was the duke and alberic
+53	:-1.0334:	the duke and alberic
+54	:-1.0434:	the duke and alberic was at the watttdewithumber
+55	:-1.0436:	the duke and alberic was at the watttdewithther
+56	:-1.0506:	the duke and alberic was at the wattchtower butted
+57	:-1.0547:	the duke and alberic was at the wattchtower of
+58	:-1.0632:	the duke and alberic was at the watttdewith watt
+59	:-1.0657:	the duke and alberic was at the wattchtower and was
+60	:-1.1260:	the duke and alberic was at the wattchtower but was
+
+69:who is the author ? ||| james
+0	:-0.0014:	it is james
+1	:-0.8403:	james is the author
+2	:-1.5959:	the author is james
+3	:-1.7925:	it is the james
+4	:-1.8067:	he is james
+5	:-1.9473:	it is in james
+6	:-2.1915:	it is james.
+7	:-2.3871:	james is it
+8	:-2.4371:	it is james (
+9	:-2.4631:	james is the editor
+10	:-2.5036:	it isjames
+11	:-2.5191:	him is james
+12	:-2.5843:	james is the creator
+13	:-2.5861:	james is the Author
+14	:-2.5948:	james is the authors
+15	:-2.6029:	it is james and
+16	:-2.6129:	james is the book
+17	:-2.6382:	it is james b
+18	:-2.6676:	it is james car
+19	:-2.7369:	it is james g
+
+70:and his face is now what ? ||| graver
+0	:-0.2464:	graver is now
+1	:-0.4163:	graver is now what
+2	:-0.6413:	it is graver
+3	:-0.7656:	graham is now the graver
+4	:-0.8482:	graham graver is now
+5	:-0.8922:	the graver face is now
+6	:-0.9675:	the graver is now
+7	:-1.0154:	graham graver is now what
+8	:-1.0694:	graver is now what?
+9	:-1.1135:	the graver face is now what
+10	:-1.1358:	the graver is now what
+11	:-1.1680:	graham is now what graver
+12	:-1.2175:	graver has it
+13	:-1.2236:	he is graver
+14	:-1.2557:	graham is now how graver
+15	:-1.2798:	graham graver
+16	:-1.3522:	graham graver is
+17	:-1.4582:	the graver face is
+18	:-1.6475:	graham graver is now how
+19	:-1.6599:	graham graver is now it
+20	:-1.6759:	graham graver is now that
+21	:-1.6813:	the graver face is now that
+22	:-1.7213:	the graver is now what?
+23	:-1.7295:	the graver face is now the
+24	:-1.7473:	graham graver is now is
+25	:-1.8134:	graham graver is now the
+
+71:where had he missed seeing smith ? ||| at the news
+0	:-0.0868:	he had missed seeing smith at the news
+1	:-0.2183:	he missed seeing smith at the news
+2	:-0.4226:	he had missed at the news
+3	:-0.4227:	he had missed seeing smith seeing at the news
+4	:-0.4632:	he had missed seeing smith in at the news
+5	:-0.4761:	he had missed at the news seeing smith
+6	:-0.5056:	he misseded seeing smith at the news
+7	:-0.5071:	he had missed seeing smith by at the news
+8	:-0.5258:	he missed at the news seeing smith
+9	:-0.5526:	he missed at the news
+10	:-0.5665:	he missed seeing smithed at the news
+11	:-0.6190:	he missed saw smith at the news
+12	:-0.8740:	he had missed seeing smith at the news,
+13	:-0.9603:	he had missed seeing smith at the news.
+14	:-1.0158:	he missed seeing smith at the news,
+15	:-1.0201:	he had missed seeing smith at the news because
+
+72:what would be another example ? ||| cotton
+0	:-0.0125:	cotton, would be another example
+1	:-0.5724:	coat cotton, would be another example
+2	:-0.6392:	cornel cotton, would be another example
+3	:-0.7482:	cotton, would be another example?
+4	:-0.8274:	cotton, would be another examples
+5	:-0.8472:	 cotton, would be another example
+6	:-0.8480:	cotton, might be another example
+7	:-0.8763:	cotton, would be another example.
+8	:-0.9729:	cotton, would be another instance
+9	:-1.0743:	cotton, would be another example of
+10	:-1.1579:	cotton, would be another example (
+11	:-1.1600:	cotton, would be another example!
+12	:-1.1752:	cease and desist cotton
+13	:-1.1753:	cotton, would be another example than
+14	:-1.1844:	cotton, would be another example,
+15	:-1.2090:	cotton, would be another example ||
+16	:-1.2119:	cotton, would be another example ;
+17	:-1.2584:	cotton, would be another example in
+18	:-1.2626:	cotton, would be another example :
+19	:-1.2891:	cease and desist would be cotton
+20	:-1.3007:	cotton, would be another example [
+21	:-1.3143:	cotton, would be another case
+22	:-1.3348:	cotton, would be another
+23	:-1.3548:	cotton, would be another example to
+24	:-1.3771:	coat would be another example cotton
+25	:-1.4259:	cotton, would be another one
+
+73:if i were irish in the 1800s and going to america , what port would i likely leave from ? ||| liverpool
+0	:-0.2058:	liverpool, would i likely leave from
+1	:-0.2485:	liverpool, i were irish in the 1800s and going to america,
+2	:-0.2672:	liverpool were irish in the 1800s and going to america,
+3	:-0.2859:	liverpool, i were irish
+4	:-0.3008:	liverpool, would i likely leave from america,
+5	:-0.3320:	liverpool, would i likely leave
+6	:-0.3442:	liverpool, were irish in the 1800s and going to america,
+7	:-0.3503:	liverpool, i were irish from the 1800s and going to america,
+8	:-0.3616:	liverpool i were irish in the 1800s and going to america,
+9	:-0.4248:	liverpool would i likely leave from america,
+10	:-0.4473:	liverpool, were irish from the 1800s and going to america,
+11	:-0.4592:	liverpool would i likely leave from
+12	:-0.4687:	liverpool were irish
+13	:-0.5059:	liverpool, would i likely leave from america
+14	:-0.5167:	liverpool were irish in the 1800s and going to america, what port
+15	:-0.5260:	liverpool, were irish
+16	:-0.5349:	liverpool would i likely leave from america, what port would i likely leave from
+17	:-0.5442:	liverpool, i were irish and going to america,
+18	:-0.5467:	liverpool, i were irish in the 1800s and going to america
+19	:-0.5476:	liverpool, would i likely leave from america, what port would i likely leave
+20	:-0.5530:	liverpool would i likely leave from america, what port would i likely leave
+21	:-0.5616:	liverpool port, would i likely leave from
+22	:-0.5624:	liverpool, i were irish from
+23	:-0.5643:	liverpool, i were irish to america, what port would i likely leave
+24	:-0.5788:	i would likely leave liverpool
+25	:-0.5850:	in liverpool, i were irish
+26	:-0.5923:	liverpool, i would likely leave from
+27	:-0.5974:	liverpool port, would i likely leave
+28	:-0.6048:	liverpool were irish in the 1800s and going to america
+29	:-0.6200:	liverpool, i were irish to america,
+30	:-0.6327:	liverpool, i were irish from the 1800s and going to america
+31	:-0.6341:	liverpool, i were irish from america,
+32	:-0.6462:	liverpool, i likely would leave from
+33	:-0.6476:	liverpool i were irish
+34	:-0.6496:	liverpool, i would likely leave from america,
+35	:-0.6506:	in liverpool, i likely would leave from
+36	:-0.6570:	liverpool port, would i likely leave from america,
+37	:-0.6580:	liverpool, i were irish in the 1800s and going
+38	:-0.6621:	liverpool, would i likely leave from were irish
+39	:-0.6664:	liverpool, i were irish from america
+40	:-0.6760:	liverpool, i likely would leave from america,
+41	:-0.6794:	liverpool would i likely leave
+42	:-0.6805:	i likely would leave liverpool
+43	:-0.6829:	liverpool port would i likely leave from
+44	:-0.6850:	liverpool i were irish in the 1800s and going to america
+45	:-0.6852:	liverpool would i likely leave from america
+46	:-0.6862:	liverpool, were irish in the 1800s and going to america
+47	:-0.6954:	liverpool, would i
+48	:-0.7164:	liverpool, i was irish
+49	:-0.7208:	liverpool, would irish from
+50	:-0.7211:	liverpool, would i likely leave from liverpool
+51	:-0.7262:	liverpool, would i likely leave from from america,
+52	:-0.7278:	liverpool, were irish from america,
+53	:-0.7286:	liverpool, i likely left from
+54	:-0.7375:	i would likely leave liverpool port
+55	:-0.7381:	liverpool, i were irish from the 1800s and going
+56	:-0.7394:	liverpool would i likely leave from liverpool
+57	:-0.7535:	i would likely leave liverpool from
+58	:-0.7547:	liverpool port would i likely leave
+59	:-0.7560:	liverpool, i were irish in the 1800s
+60	:-0.7693:	liverpool were irish in the 1800s and going
+61	:-0.7704:	liverpool was irish
+62	:-0.7722:	in liverpool, i likely would leave
+63	:-0.7785:	in liverpool, i likely left from
+64	:-0.7816:	liverpool, would i likely leave from america, what port
+65	:-0.7942:	liverpool, would i likely left from
+66	:-0.7944:	liverpool, was irish
+67	:-0.7969:	liverpool, i would likely leave
+68	:-0.8019:	in liverpool, i likely would leave from america,
+69	:-0.8036:	liverpool, i likely would leave
+70	:-0.8081:	liverpool, were irish from america
+71	:-0.8091:	liverpool, i were irish from the 1800s
+72	:-0.8103:	liverpool, would i likely leave from from
+73	:-0.8106:	liverpool, were irish in the 1800s and going
+74	:-0.8225:	i likely left liverpool
+75	:-0.8302:	liverpool, i were irish to america
+76	:-0.8380:	liverpool port, would i likely leave from america
+77	:-0.8395:	in liverpool, i likely left
+78	:-0.8396:	liverpool, i likely left
+79	:-0.8435:	liverpool would i likely leave from america, what port
+80	:-0.8443:	liverpool, i were irish to
+81	:-0.8483:	liverpool would irish from
+82	:-0.8611:	liverpool, i were irish in the 1800s and
+83	:-0.8715:	liverpool i were irish in the 1800s and going
+84	:-0.8753:	liverpool, i would likely leave from america
+85	:-0.8827:	liverpool, i were irish and going to america
+86	:-0.8848:	liverpool, were irish from the 1800s and going
+87	:-0.8863:	liverpool, would i likely leave from from america
+88	:-0.8954:	liverpool, would i likely left
+89	:-0.9003:	liverpool, i likely would leave from america
+90	:-0.9006:	liverpool, would irish
+91	:-0.9124:	liverpool, were irish from
+92	:-0.9361:	liverpool were irish in the 1800s
+93	:-0.9848:	liverpool were irish in the 1800s and
+94	:-0.9932:	liverpool, were irish in the 1800s
+95	:-1.1022:	liverpool, would i likely leave from were
+96	:-1.9087:	liverpool
+
+74:how much of it is service ? ||| 82.8 %
+0	:-0.1084:	it is 82.8 %
+1	:-0.1237:	82.8 % is service
+2	:-0.3448:	service is 82.8 %
+3	:-0.8174:	the 82.8 % is service
+4	:-0.9305:	army is 82.8 %
+5	:-1.0037:	servant is 82.8 %
+6	:-1.0294:	service 82.8 % is service
+7	:-1.0929:	82.8 % is it
+8	:-1.0984:	82.8 % it is service
+9	:-1.1075:	services is 82.8 %
+10	:-1.3184:	82.8 % is service.
+11	:-1.3803:	82.8 % it is
+12	:-1.3984:	82.8 % is service?
+13	:-1.4699:	82.8 % is service (
+14	:-1.5453:	82.8 % is it service
+15	:-1.5786:	it is 82.8 % service
+16	:-1.6340:	82.8 % is service it
+17	:-1.6504:	it is 82.8 % and
+18	:-1.8598:	army 82.8 %
+19	:-1.8887:	army 82.8 % is
+20	:-2.0563:	82.8 % is service is
+
+75:how did people in the stadium react ? ||| boos
+0	:-0.1115:	people reacted boos
+1	:-0.2872:	they reacted boos
+2	:-0.5735:	people reacted with boos
+3	:-0.5879:	people reacted to boos
+4	:-0.6917:	they reacted to boos
+5	:-0.7215:	they reacted with boos
+6	:-0.7874:	it reacted boos
+7	:-0.9622:	people responded boos
+8	:-1.0243:	people reacted for boos
+9	:-1.0531:	people reacted in boos
+10	:-1.0803:	people responded to boos
+11	:-1.0943:	they reacted for boos
+12	:-1.1158:	people reacted by boos
+13	:-1.1363:	they reacted in boos
+14	:-1.1629:	people react boos
+15	:-1.1694:	they reacted by boos
+16	:-1.2130:	they responded boos
+17	:-2.0069:	people reacted boos.
+
+76:who is right ? ||| jim
+0	:-0.0047:	jim is right
+1	:-1.2046:	jimm is right
+2	:-1.2411:	jimmer is right
+3	:-1.2676:	it is jim
+4	:-1.2681:	jim is wrong
+5	:-1.4441:	jims is right
+6	:-1.4738:	jim is left
+7	:-1.4890:	jimal is right
+8	:-1.5368:	jimon is right
+9	:-1.5696:	jim is correct
+10	:-1.6179:	jim is
+11	:-1.6764:	jim is RIGHT
+12	:-1.7591:	jim is Right
+13	:-2.9143:	jim
+
+77:what was made to honor the occasion ? ||| the hanoi ceramic mosaic mural
+0	:-0.0157:	the hanoi ceramic mosaic mural was made to honor the occasion
+1	:-0.1830:	the hanoi ceramic mosaic mural was made
+2	:-0.5027:	thomas the hanoi ceramic mosaic mural was made to honor the occasion
+3	:-0.5908:	the hanoi ceramic mosaic mural was made to honor
+4	:-0.6533:	the hanoi ceramic mosaic mural was made to honor the occasion of the occasion
+5	:-0.7024:	the hanoi ceramic mosaic mural was made to honour the occasion
+6	:-0.7252:	the hanoi ceramic mosaic mural was madeto honor the occasion
+7	:-0.7293:	it was made to honor the occasion the hanoi ceramic mosaic mural
+8	:-0.7447:	the hanoi ceramic mosaic mural was made to honor the event
+9	:-0.7535:	the hanoi ceramic mosaic mural was made to honor the occasion in honor
+10	:-0.7627:	the hanoi ceramic mosaic mural was made to honor the occasion.
+11	:-0.7647:	the hanoi ceramic mosaic mural was made to honors the occasion
+12	:-0.7812:	the hanoi ceramic mosaic mural was made for honor the occasion
+13	:-0.7832:	the hanoi ceramic mosaic mural was made not to honor the occasion
+14	:-0.7840:	the hanoi ceramic mosaic mural was made to honor the occasion for the occasion
+15	:-0.7847:	the hanoi ceramic mosaic mural was made made to honor the occasion
+16	:-0.7869:	the hanoi ceramic mosaic mural was made to honor the occasion (
+17	:-0.7890:	the hanoi ceramic mosaic mural was made to honor the occasion and
+18	:-0.8039:	thomas the hanoi ceramic mosaic mural was made
+19	:-0.8069:	the hanoi ceramic mosaic mural was made to Honor the occasion
+20	:-0.8074:	the hanoi ceramic mosaic mural was made to honor the occasion than
+21	:-0.8222:	the hanoi ceramic mosaic mural was made to honor a occasion
+22	:-0.8240:	the hanoi ceramic mosaic mural was made to honor the occasion ||
+23	:-0.8275:	the hanoi ceramic mosaic mural was made of honor the occasion
+24	:-0.8292:	the hanoi ceramic mosaic mural was made to honor the occasion to honor
+25	:-0.8348:	the hanoi ceramic mosaic mural was made for honor
+26	:-0.8353:	the hanoi ceramic mosaic mural was made to honored the occasion
+27	:-0.8399:	the hanoi ceramic mosaic mural was made to honor the occasion for
+28	:-0.8415:	the hanoi ceramic mosaic mural was made at honor the occasion
+29	:-0.8427:	the hanoi ceramic mosaic mural was made to honor the occasion?
+30	:-0.8446:	the hanoi ceramic mosaic mural was made in honor the occasion
+31	:-0.8463:	the hanoi ceramic mosaic mural was made to honorthe occasion
+32	:-0.8495:	it was the hanoi ceramic mosaic mural
+33	:-0.8553:	the hanoi ceramic mosaic mural was made to honor the occasion or the occasion
+34	:-0.8787:	the hanoi ceramic mosaic mural was made to honor the occasion and to honor
+35	:-0.8893:	the hanoi ceramic mosaic mural was made to honor the occasion than than
+36	:-0.8949:	the hanoi ceramic mosaic mural was made to honor the occasion [
+37	:-0.8954:	the hanoi ceramic mosaic mural was made to honor the occasions
+38	:-0.8990:	the hanoi ceramic mosaic mural was made to honor the occasion of honor
+39	:-0.9036:	the hanoi ceramic mosaic mural was made to honor the occasion or
+40	:-0.9047:	the hanoi ceramic mosaic mural was made in honor
+41	:-0.9068:	the hanoi ceramic mosaic mural was made to honor the occasion of
+42	:-0.9206:	the hanoi ceramic mosaic mural was made to honor the occasion than the occasion
+43	:-0.9351:	the hanoi ceramic mosaic mural was made to honor the occasion |
+44	:-0.9381:	the hanoi ceramic mosaic mural was made to honor the occasion or to honor
+45	:-0.9392:	the hanoi ceramic mosaic mural was made to honor the
+46	:-0.9454:	the hanoi ceramic mosaic mural was made to honor the occasion of the event
+47	:-0.9560:	the hanoi ceramic mosaic mural was made made
+48	:-0.9593:	the hanoi ceramic mosaic mural was made to honor the occasion because it was
+49	:-0.9836:	the hanoi ceramic mosaic mural was made of honor
+50	:-1.0023:	the hanoi ceramic mosaic mural was made a honor
+51	:-1.0057:	the hanoi ceramic mosaic mural was made to honor the occasion or honor
+52	:-1.0293:	the hanoi ceramic mosaic mural was made to honor the occasion (to honor
+53	:-1.0651:	the hanoi ceramic mosaic mural was made to
+54	:-1.1583:	they was the hanoi ceramic mosaic mural
+
+78:what is that ? ||| a mayan temple
+0	:-0.0904:	that is a mayan temple
+1	:-0.1403:	it is a mayan temple
+2	:-0.4386:	the a mayan temple is that
+3	:-0.5896:	a mayan temple is that
+4	:-0.6219:	that is that a mayan temple
+5	:-0.7068:	that is the a mayan temple
+6	:-0.7128:	it is the a mayan temple
+7	:-0.7523:	thea mayan temple is that
+8	:-0.7579:	it is in a mayan temple
+9	:-0.7926:	that is in a mayan temple
+10	:-0.8094:	the that is a mayan temple
+11	:-0.9212:	that is it a mayan temple
+12	:-0.9259:	that is an a mayan temple
+13	:-0.9371:	an a mayan temple is that
+14	:-0.9683:	that is is a mayan temple
+15	:-0.9727:	it is an a mayan temple
+16	:-1.0169:	this is a mayan temple
+17	:-1.0419:	the a mayan temple is
+18	:-1.2408:	thea mayan temple is
+19	:-1.2624:	the a mayan temple is it
+20	:-1.2940:	the a mayan temple
+21	:-1.3677:	the a mayan temple is this
+22	:-1.4201:	the a mayan temple is the
+23	:-1.4297:	an a mayan temple is
+
+79:what was the sun doing ? ||| rising
+0	:-0.1826:	it was rising
+1	:-0.3165:	it was doing rising
+2	:-0.3228:	the sun was rising
+3	:-0.4823:	the sun was doing rising
+4	:-0.9148:	he was doing rising
+5	:-1.1934:	he was rising
+6	:-1.2666:	the sun was in rising
+7	:-1.2734:	sun was doing rising
+8	:-1.2969:	it was doing a rising
+9	:-1.3024:	it was in rising
+10	:-1.3737:	the sun was on rising
+11	:-1.4789:	it was happening rising
+12	:-1.4846:	it was on rising
+13	:-1.5319:	it was putting rising
+14	:-1.5886:	it was going rising
+15	:-1.5901:	it was getting rising
+16	:-1.6813:	sun was rising
+17	:-1.9478:	it was doing rising.
+
+80:how many students ar named ? ||| four
+0	:-0.0573:	four ar named
+1	:-0.7106:	four students ar named
+2	:-0.7257:	four named
+3	:-1.0410:	four arnamed
+4	:-1.0789:	four ar named named
+5	:-1.4291:	four student ar named
+6	:-1.4911:	four named ar named
+7	:-1.4960:	four students named
+8	:-1.5655:	four teachers ar named
+9	:-1.5705:	four ar named.
+10	:-1.5778:	four children ar named
+11	:-1.6643:	they ar named four
+12	:-1.7392:	four ar named ar
+13	:-1.7672:	four ar named?
+14	:-1.7954:	four ar named students
+15	:-1.7958:	four arns named
+16	:-1.8055:	four named ar
+17	:-1.8076:	four was named
+18	:-1.8319:	four were named
+19	:-1.8552:	four ar Named
+20	:-1.9043:	four students arnamed
+21	:-1.9044:	four ar named ``
+22	:-1.9205:	four ar named names
+23	:-1.9293:	four arnamed students
+24	:-1.9304:	four ar named four
+25	:-1.9336:	four ar named for
+26	:-1.9379:	four ar called
+27	:-1.9627:	four ar
+28	:-1.9814:	four ar numbered
+29	:-2.0469:	four ar names
+30	:-2.0620:	four arted
+31	:-2.1150:	four, named
+32	:-2.1292:	four called
+33	:-2.1476:	four arnies
+34	:-2.1503:	four names
+35	:-2.1751:	four aramed
+36	:-2.4629:	four students
+37	:-2.4653:	four identified
+38	:-2.5519:	four ar named the
+39	:-2.5710:	four referred
+40	:-2.6597:	four described
+41	:-2.6940:	four student
+42	:-2.7464:	four said
+43	:-2.7525:	four gave
+44	:-3.8954:	four
+
+81:who spoke first to the messenger ? ||| dick
+0	:-0.0607:	dick spoke first
+1	:-0.2577:	dick spoke first to the messenger
+2	:-0.5676:	dick spoke
+3	:-0.8549:	dick spoke to the messenger
+4	:-0.9246:	dick spoken first to the messenger
+5	:-0.9721:	dick was first to the messenger
+6	:-1.0179:	dick spoke last to the messenger
+7	:-1.0322:	dick spoke second to the messenger
+8	:-1.0613:	dick spoken first
+9	:-1.1033:	dick spoke first in the messenger
+10	:-1.1403:	dick spoke first of the messenger
+11	:-1.1483:	dick talked first to the messenger
+12	:-1.1593:	dick said first to the messenger
+13	:-1.1628:	dick spoke the first
+14	:-1.1947:	dick spoke first for the messenger
+15	:-1.2676:	dick spoke last
+16	:-1.3235:	dick was first spoken first
+17	:-1.3454:	dick said first
+18	:-1.3464:	dick was first spoke first
+19	:-1.3572:	dick spoke second
+20	:-1.3682:	dick was first spoken
+21	:-1.3740:	dick spoke first.
+22	:-1.4344:	dick spoke in first
+23	:-1.4367:	dick spoke first and spoke first
+24	:-1.4402:	dick, spoke first
+25	:-1.4538:	dick talked first
+26	:-1.4859:	dick spoke first and the messenger
+27	:-1.5446:	dick speak first
+28	:-1.5499:	dick speaks first
+29	:-1.5515:	dick was first
+30	:-1.5747:	dick spoke first first
+31	:-1.5951:	dick spoke first and
+32	:-1.5973:	dick spoke first,
+33	:-1.6177:	dick spoke first in
+34	:-1.6401:	dick was first spoke
+35	:-1.6521:	dick spokefirst
+36	:-1.6574:	dick addressed first
+37	:-1.6718:	dick acted first
+38	:-1.6822:	dick called first
+39	:-1.6857:	dick speaking first
+40	:-1.7175:	dick spoke to the messenger first
+41	:-1.7276:	dick spoke first in first
+42	:-1.7412:	dick made first
+43	:-1.7516:	dick spoke first to
+44	:-1.7581:	dick spoke first and first
+45	:-1.7687:	dick used first
+46	:-1.7793:	dick said
+47	:-1.8735:	dick spoke first and spoke
+48	:-1.9696:	dick spoken
+49	:-1.9726:	dick was first spoken to
+50	:-2.8148:	dick
+
+82:how many prisoners did jordan kill ? ||| two prisoners
+0	:-0.0067:	jordan killed two prisoners
+1	:-0.7425:	he killed two prisoners
+2	:-1.1944:	jjordan killed two prisoners
+3	:-1.2012:	jordan killed the two prisoners
+4	:-1.2478:	jordan killed two prisoners prisoners
+5	:-1.2621:	jordan kill two prisoners
+6	:-1.2649:	jordan killed at two prisoners
+7	:-1.3268:	jordan killed a two prisoners
+8	:-1.3898:	jordan killed two prisoners.
+9	:-1.4375:	jeran killed two prisoners
+10	:-1.5098:	jonathan killed two prisoners
+11	:-1.5443:	jersey killed two prisoners
+12	:-1.6039:	jordan killed two prisoners inmates
+13	:-1.6634:	jordan killed two prisoners,
+14	:-1.6680:	jordan killed two prisoners too
+15	:-1.7679:	jordan killed two prisoners (
+16	:-1.9332:	jordan killed two prisoners --
+
+83:who were they searching for ? ||| nell
+0	:-0.0077:	they were searching for nell
+1	:-0.7434:	they were looking for nell
+2	:-0.8224:	they were nell
+3	:-0.9227:	they were seeking for nell
+4	:-1.0098:	they were hunting for nell
+5	:-1.0639:	they were searching nell
+6	:-1.1187:	they were searching in nell
+7	:-1.1424:	they were search for nell
+8	:-1.1751:	they were in nell
+9	:-1.2276:	they were seeking nell
+10	:-1.2581:	they were using nell
+11	:-1.2631:	nell were they searching for
+12	:-1.3811:	they were searching for nelly
+13	:-1.4466:	nell were they searching for?
+14	:-1.4926:	nell were they searching
+15	:-1.5940:	the nell were they searching
+16	:-1.6129:	they were using nell for
+
+84:how old is the brave lady ? ||| 30
+0	:-0.0216:	it is 30
+1	:-0.6789:	she is 30
+2	:-0.7611:	the brave lady is 30
+3	:-1.1275:	30 is the brave lady
+4	:-1.5499:	her brave lady is 30
+5	:-1.5515:	he is 30
+6	:-1.7590:	it is in 30
+7	:-1.9263:	it is a 30
+8	:-2.0172:	it is the 30
+9	:-2.0403:	it is by 30
+10	:-2.1059:	it is 30 years old
+11	:-2.2325:	it's 30
+12	:-2.2536:	it is 30 year old
+13	:-2.2777:	it is 30 old
+14	:-2.3072:	she is 30 years old
+15	:-2.3700:	it is 30.
+16	:-2.4436:	it is 30 age
+17	:-2.4545:	it is 30 years
+18	:-2.4570:	it is 30 days old
+19	:-2.4756:	it is30
+20	:-2.5342:	it is 30 and she
+21	:-2.5640:	30 is the brave woman
+22	:-2.5645:	it is 30 days
+23	:-2.5679:	it was 30
+24	:-2.6505:	it is 30!
+25	:-2.6958:	it is 30 (
+26	:-2.7144:	it is 30 people
+27	:-2.7441:	it is 30 and
+28	:-2.8905:	she is 30 years
+29	:-2.9728:	it is 30 and it
+
+85:how long ago was it inhabited ? ||| 2000 years
+0	:-0.0413:	it was inhabited 2000 years
+1	:-0.2661:	it was inhabited in 2000 years
+2	:-0.5817:	it was inhabited for 2000 years
+3	:-0.7246:	it was inhabited from 2000 years
+4	:-0.7323:	it was inhabited by 2000 years
+5	:-0.9552:	it was in 2000 years
+6	:-0.9557:	it was occupied 2000 years
+7	:-0.9888:	it was inhabited at 2000 years
+8	:-1.0777:	it was inhabited since 2000 years
+9	:-1.0905:	2000 years was it inhabited
+10	:-1.1043:	it was inhabited between 2000 years
+11	:-1.1129:	it was lived 2000 years
+12	:-1.1445:	it was inhabited 2000 years ago
+13	:-1.3353:	it was 2000 years
+14	:-1.5658:	it was inhabited 2000 years long
+15	:-1.5970:	it was inhabited 2000 years time
+16	:-1.7652:	it was lived 2000 years ago
+17	:-1.8312:	it was inhabited 2000 years.
+
+86:when did he visit her grave ? ||| friday
+0	:-0.0356:	he visited her grave friday
+1	:-0.2836:	he visited her grave in friday
+2	:-0.3749:	he visited her grave on friday
+3	:-0.5526:	he visited friday her grave
+4	:-0.6790:	he visited her grave for friday
+5	:-0.8151:	he visited her grave of friday
+6	:-0.8308:	he visited her grave at friday
+7	:-0.8583:	he visited his grave friday
+8	:-0.8604:	he visited her grave from friday
+9	:-0.8620:	he visited friday
+10	:-0.8854:	he visited her grave to friday
+11	:-0.8880:	he visited her grave with friday
+12	:-0.9388:	he visited his grave in friday
+13	:-0.9463:	he visited her grave by friday
+14	:-0.9608:	he visited friday grave
+15	:-0.9666:	he visited the grave friday
+16	:-1.0675:	he visited she grave friday
+17	:-1.0763:	he visited hers grave friday
+
+87:where did it hide ? ||| in the bathroom
+0	:-0.0113:	it hid in the bathroom
+1	:-0.7243:	it hideted in the bathroom
+2	:-0.7877:	it hideed in the bathroom
+3	:-0.8439:	in the bathroom, it hid
+4	:-0.8638:	it hide in the bathroom
+5	:-0.8863:	it hidden in the bathroom
+6	:-0.9354:	it hideded in the bathroom
+7	:-0.9641:	they hid in the bathroom
+8	:-0.9791:	it hid the in the bathroom
+9	:-0.9852:	it hidened in the bathroom
+10	:-1.0750:	it hideged in the bathroom
+11	:-1.1156:	it hid out in the bathroom
+12	:-1.1330:	it hid with in the bathroom
+13	:-1.2207:	it concealed in the bathroom
+14	:-1.5948:	it hid in the bathroom.
+15	:-1.6415:	in the bathroom, it hide
+16	:-1.6530:	in the bathroom, it hidden
+17	:-1.7608:	it hid in the bathroom,
+18	:-1.7963:	in the bathroom, it concealed
+19	:-1.8760:	it hid in the bathroom --
+20	:-2.1714:	it hid in the bathroom (
+21	:-2.2292:	it hid in the bathroom of
+
+88:who is the president of the ncaa ? ||| mark emmert
+0	:-0.0013:	it is mark emmert
+1	:-0.5246:	mark emmert is the president of the ncaa
+2	:-0.7104:	mark emmert is the president
+3	:-0.9218:	he is mark emmert
+4	:-0.9771:	the president is mark emmert
+5	:-1.0463:	it is to mark emmert
+6	:-1.1839:	it is the mark emmert
+7	:-1.2891:	it is in mark emmert
+8	:-1.3134:	it is for mark emmert
+9	:-1.3394:	mark emmert is the president of the naa
+10	:-1.3523:	he is to mark emmert
+11	:-1.3736:	mark emmert is the president of the n caa
+12	:-1.3782:	meredith is the president of mark emmert
+13	:-1.3941:	mark emmert is the president in the ncaa
+14	:-1.4256:	mark emmert is the presidency of the ncaa
+15	:-1.4326:	mark emmert is the president of the n ca
+16	:-1.4442:	mark emmert is the president of the mcaa
+17	:-1.4466:	mark emmert is the president for the ncaa
+18	:-1.4522:	mark emmert is the president at the ncaa
+19	:-1.4871:	mark emmert is the president of the na ca
+20	:-1.4910:	it ismark emmert
+21	:-1.4922:	mark emmert is the president of the nca
+22	:-1.5062:	mark emmert is the chairman of the ncaa
+23	:-1.5072:	mark emmert is the president of the n cai
+24	:-1.5365:	mark emmert is the president of the naia
+25	:-1.5593:	mark emmert is the president of the necaa
+26	:-1.5857:	him is mark emmert
+27	:-1.5927:	mark emmert is the president of the naan
+28	:-1.5998:	mark emmert is the president of the na
+29	:-1.6041:	mark emmert is the president of the ncaan
+30	:-1.6109:	mark emmert is the president of the n ca ca
+31	:-1.6395:	mark emmert is the president of the n caan
+32	:-1.6583:	mark emmert is the president of the na caa
+33	:-1.6916:	mark emmert is the president of the n ca n
+34	:-1.7035:	mark emmert is the president of the nusa
+35	:-1.7076:	mark emmert is the president is the president
+36	:-1.7845:	mark emmert is it
+37	:-1.7944:	it is mark emmert is the president
+38	:-1.8258:	mark emmert is the president.
+39	:-1.8934:	mark emmert is the president?
+40	:-1.9017:	it is mark emmert.
+41	:-1.9813:	mark emmert is the president is it
+42	:-1.9821:	mark emmert is the presidency
+43	:-2.0018:	mark emmert is the president of the
+44	:-2.0144:	mark emmert is the vice president
+45	:-2.1142:	mark emmert is the president is he
+46	:-2.1586:	the president is mark emmert.
+47	:-2.1761:	mark emmert is the president!
+48	:-2.1938:	mark emmert is the leader
+49	:-2.2067:	mark emmert is the president and
+50	:-2.2292:	mark emmert is the chairman
+51	:-2.2424:	mark emmert is the president of
+52	:-2.2702:	mark emmert is the executive
+
+89:what was she doing when they got there ? ||| cooking
+0	:-0.0647:	she was cooking
+1	:-0.3358:	she was doing cooking
+2	:-1.1371:	she was in cooking
+3	:-1.2750:	her was doing cooking
+4	:-1.2993:	it was cooking
+5	:-1.4878:	she was making cooking
+6	:-1.5342:	he was doing cooking
+7	:-1.5727:	her doing was cooking
+8	:-1.5965:	she was using cooking
+9	:-1.6150:	she was going cooking
+10	:-1.6251:	she was trying cooking
+11	:-1.6286:	he was cooking
+12	:-1.6647:	she was putting cooking
+13	:-1.6658:	she was talking cooking
+14	:-1.7400:	her was cooking
+15	:-1.7408:	hes cooking was she
+
+90:what held her attention on the meal ? ||| the toughness of the beefsteaks
+0	:-0.0048:	the toughness of the beefsteaks held her attention
+1	:-0.2718:	the toughness of the beefsteaks held her attention on the meal
+2	:-0.4816:	therapeutic the toughness of the beefsteaks held her attention
+3	:-0.5291:	thomas the toughness of the beefsteaks held her attention
+4	:-0.5628:	thrall the toughness of the beefsteaks held her attention
+5	:-0.5904:	throwing the toughness of the beefsteaks held her attention
+6	:-0.5926:	she helded her attention on the toughness of the beefsteaks
+7	:-0.6279:	thera the toughness of the beefsteaks held her attention
+8	:-0.6295:	therapy held her attention on the toughness of the beefsteaks
+9	:-0.6409:	the toughness of the beefsteaks held her attention in the meal
+10	:-0.6628:	thorn the toughness of the beefsteaks held her attention
+11	:-0.6642:	the toughness of the beefsteaks held
+12	:-0.7017:	the toughness of the beefsteaks held she attention
+13	:-0.7057:	the toughness of the beefsteaks held the attention
+14	:-0.7112:	the toughness of the beefsteaks held her attention in the
+15	:-0.7220:	the toughness of the beefsteaks held her attention upon the meal
+16	:-0.7394:	the toughness of the beefsteaks held her attention for the meal
+17	:-0.7513:	the toughness of the beefsteaks held her attention.
+18	:-0.7959:	she helded the toughness of the beefsteaks
+19	:-0.8107:	the toughness of the beefsteaks held hers attention
+20	:-0.8728:	she helded the toughness of the beefsteaks attention
+21	:-0.8750:	the toughness of the beefsteaks held her attention on the feast
+22	:-0.8784:	the toughness of the beefsteaks held her attention on the dinner
+23	:-0.8907:	the toughness of the beefsteaks held her attention and
+24	:-0.9764:	the toughness of the beefsteaks held her attention in the toughness
+25	:-1.0107:	the toughness of the beefsteaks held her attention for
+
+91:when did he record the message ? ||| shortly before he was killed
+0	:-0.0115:	he recorded the message shortly before he was killed
+1	:-0.3091:	he recorded the message in shortly before he was killed
+2	:-0.5511:	he recorded shortly before he was killed
+3	:-0.5653:	he recorded the message on shortly before he was killed
+4	:-0.5742:	he recorded the message about shortly before he was killed
+5	:-0.5832:	he recorded the message at shortly before he was killed
+6	:-0.6046:	he recorded the message of shortly before he was killed
+7	:-0.6776:	he recorded the message from shortly before he was killed
+8	:-0.7158:	he taped the message shortly before he was killed
+9	:-0.7262:	it recorded the message shortly before he was killed
+10	:-0.7385:	he recorded his message shortly before he was killed
+11	:-0.8252:	he recorded the message shortly before he was killed,
+12	:-1.2253:	he recorded the message shortly before he was killed and
+13	:-1.2417:	he recorded the message shortly before he was killed.
+14	:-1.3074:	he recorded the message shortly before he was killed he
+15	:-1.3238:	in shortly before he was killed, he recorded
+16	:-1.3643:	he recorded the message shortly before he was killed (
+
+92:how did he plead ? ||| guilty
+0	:-0.0080:	he pleaded guilty
+1	:-0.9676:	he pleaded for guilty
+2	:-1.2555:	he pleaded not guilty
+3	:-1.2845:	he pleaded with guilty
+4	:-1.4153:	he pleaded in guilty
+5	:-1.4277:	he pleaded to guilty
+6	:-1.4419:	he plead guilty
+7	:-1.5436:	he pled guilty
+8	:-1.5762:	he brained guilty
+9	:-1.5766:	he pleaded a guilty
+10	:-1.5942:	he brined guilty
+11	:-1.6547:	he pleaded of guilty
+12	:-1.6586:	he bringed guilty
+13	:-1.6628:	he feuded guilty
+14	:-1.6769:	he pleaded by guilty
+15	:-1.6776:	he pleaded guilty.
+16	:-1.6842:	he pleaded no guilty
+17	:-1.7330:	he braced guilty
+
+93:what continent is buenos aires found on ? ||| south america
+0	:-0.0852:	it is found on south america
+1	:-0.2762:	it is found in south america
+2	:-0.2917:	it is south america
+3	:-0.3416:	buenos aires is found on south america
+4	:-0.4386:	buenos is found on south america
+5	:-0.4640:	buenos aires is found in south america
+6	:-0.5030:	it is located on south america
+7	:-0.5185:	it is found on south america continent
+8	:-0.5244:	it is located in south america
+9	:-0.5320:	buenos is aires found on south america
+10	:-0.5451:	it is found on the south america continent
+11	:-0.5809:	it is in south america
+12	:-0.6084:	buenos aires is located on south america
+13	:-0.6506:	it is on south america
+14	:-0.6525:	it on is south america
+15	:-0.6568:	buenos aires is south america
+16	:-0.6655:	buenos aires is located in south america
+17	:-0.6717:	buenos is found in south america
+18	:-0.7373:	buenos is aires found in south america
+19	:-0.7588:	buenos is on south america
+20	:-0.7616:	it is located south america
+21	:-0.8151:	buenos aires is found south america
+22	:-0.8161:	it is discovered on south america
+23	:-0.8280:	buenos is found on south america continent
+24	:-0.8401:	it is south america continent
+25	:-0.8467:	it is found south america
+26	:-0.8499:	buenos is south america
+27	:-0.8681:	it is located on south america continent
+28	:-0.8758:	buenos aires is located south america
+29	:-0.9695:	it is found in south america continent
+30	:-0.9980:	it is found on the south america
+31	:-1.0462:	buenos aires is south america continent
+32	:-1.0467:	buenos is on south america continent
+33	:-1.0749:	it is on south america continent
+34	:-1.1662:	it is located south america continent
+35	:-1.1700:	buenos aires is found south america continent
+36	:-1.2017:	buenos aires is located south america continent
+37	:-1.2117:	it is discovered on south america continent
+38	:-1.2280:	buenos aires is south america continent found
+39	:-1.2774:	buenos is found in south america continent
+40	:-1.4013:	buenos is found on south america.
+41	:-1.4569:	buenos aires is south america found on
+42	:-1.4954:	it is found on the south america coast
+43	:-1.5201:	it is found on the south america region
+44	:-1.6279:	buenos aires is south america found
+
+94:what is another part he supplies ? ||| break-pads
+0	:-0.0257:	it is break-pads
+1	:-0.3077:	another part is break-pads
+2	:-0.4067:	another part he supplies is break-pads
+3	:-0.4953:	another part is he supplies break-pads
+4	:-0.5408:	break-pads is another part he supplies
+5	:-0.5426:	it is he supplies break-pads
+6	:-0.5778:	it is to break-pads
+7	:-0.7964:	another part is to break-pads
+8	:-0.8468:	it is for break-pads
+9	:-0.9130:	it is by break-pads
+10	:-0.9159:	break-pads is another part
+11	:-0.9317:	it is the break-pads
+12	:-0.9423:	it is in break-pads
+13	:-0.9466:	it is a break-pads
+14	:-0.9663:	the break-pads is another part
+15	:-1.0053:	one part is break-pads
+16	:-1.1421:	one is break-pads
+17	:-1.2656:	break-pads is another parthe supplies
+18	:-1.2802:	break-pads is another part it supplies
+19	:-1.2925:	break-pads is another part him supplies
+20	:-1.3328:	break-pads is another part his supplies
+21	:-1.3827:	break-pads is another part she supplies
+22	:-1.3869:	break-pads is another part He supplies
+23	:-1.3882:	break-pads is another part he supply
+24	:-1.4013:	it is break-pads he supplies
+25	:-1.4689:	break-pads is another part he provides
+26	:-1.5277:	the break-pads is another part supply
+27	:-1.5486:	break-pads is another part supply
+28	:-1.5820:	it is break-pads.
+29	:-1.5836:	break-pads is another part provided
+30	:-1.5991:	break-pads is another part.
+31	:-1.6748:	it is break-pads (
+32	:-1.7010:	it is break-pads and
+33	:-1.7201:	break-pads is another part he
+
+95:how many times was he observed ? ||| several times
+0	:-0.0169:	he was observed several times
+1	:-0.8070:	it was observed several times
+2	:-0.8294:	he was observed at several times
+3	:-0.9002:	he was observed in several times
+4	:-1.0242:	he was observed by several times
+5	:-1.1103:	he was observed approximately several times
+6	:-1.1656:	he was observed several times times
+7	:-1.2231:	he was noted several times
+8	:-1.2570:	him was observed several times
+9	:-1.3524:	he was observed several times.
+10	:-1.4350:	he was observed a number several times
+11	:-1.4698:	he observed several times
+12	:-1.6326:	he was observed at several times times
+13	:-1.6437:	he was observed several times time
+14	:-1.7506:	he was observed by several times times
+15	:-1.8084:	he was observed in several times times
+16	:-1.8366:	he was observed at several times.
+17	:-1.8884:	he was observed several times and
+18	:-1.9296:	he was observed several times (
+
+96:what award was it ? ||| nobel prize in medicine
+0	:-0.0773:	it was the nobel prize in medicine
+1	:-0.1058:	it was nobel prize in medicine
+2	:-0.3908:	it was a nobel prize in medicine
+3	:-0.5349:	it was the nobel prize in medicine award
+4	:-0.6644:	the nobel prize in medicine was it
+5	:-0.6837:	it was nobel prize in medicine award
+6	:-0.7067:	it was an nobel prize in medicine
+7	:-0.7245:	it was for the nobel prize in medicine
+8	:-0.7359:	nobel prize in medicine was it
+9	:-0.7545:	it was a nobel prize in medicine award
+10	:-0.8070:	it was on the nobel prize in medicine
+11	:-0.8176:	it was in nobel prize in medicine
+12	:-0.8400:	it was for nobel prize in medicine
+13	:-0.9815:	it was by nobel prize in medicine
+14	:-0.9857:	it was to nobel prize in medicine
+15	:-1.0096:	it was the nobel prize in medicine awards
+16	:-1.0096:	it was of nobel prize in medicine
+17	:-1.0642:	it was the nobel prize in medicine Award
+18	:-1.0797:	it was the nobel prize in medicine awarded
+19	:-1.0826:	it was an nobel prize in medicine award
+20	:-1.1315:	it was nobel prize in medicine awards
+21	:-1.2217:	it was a nobel prize in medicine awards
+22	:-1.2325:	it was nobel prize in medicine awarded
+23	:-1.2368:	it was in nobel prize in medicine award
+24	:-1.2482:	it was nobel prize in medicine Award
+25	:-1.2486:	it was the nobel prize in medicine.
+26	:-1.2682:	it was nobel prize in medicine ( award
+27	:-1.2809:	it was a nobel prize in medicine Award
+28	:-1.2883:	it was for nobel prize in medicine award
+29	:-1.3053:	it was a nobel prize in medicine awarded
+30	:-1.3197:	it was the nobel prize in medicine achievement
+31	:-1.3273:	it was the nobel prize in medicine medal
+32	:-1.3281:	it was the nobel prize in medicine trophy
+33	:-1.3410:	it was nobel prize in medicine.
+34	:-1.4472:	it was the nobel prize in medicine and
+35	:-1.4792:	it was nobel prize in medicine and
+36	:-1.6244:	it was the nobel prize in medicine (
+
+97:how many activities is there to do there ? ||| three
+0	:-0.1531:	there is to do three
+1	:-0.3269:	there is three
+2	:-0.3988:	it is three
+3	:-0.3990:	there is to do there three
+4	:-0.7252:	there is to do three activities
+5	:-0.7490:	it is to do three
+6	:-0.8838:	it is to do there three
+7	:-0.9310:	there is to do it three
+8	:-0.9419:	it is three activities
+9	:-0.9870:	there is three activities
+10	:-1.0027:	there is three to do there
+11	:-1.0973:	there is to do threes
+12	:-1.1155:	there is to do three there
+13	:-1.1214:	there is to do at three
+14	:-1.2103:	there is there to do three
+15	:-1.2118:	there is to do in three
+16	:-1.2273:	it is to do three activities
+17	:-1.2526:	there is to do three activity
+18	:-1.2924:	there is three activities to do
+19	:-1.3704:	there is three to do
+20	:-1.3820:	there are to do three
+21	:-1.3831:	there is three activities there
+22	:-1.4133:	has there to do three
+23	:-1.6020:	there is in three
+24	:-1.6091:	it is in three
+25	:-1.7778:	there are three
+
+98:why only four days ? ||| a farmer died
+0	:-0.0995:	a farmer died
+1	:-0.3311:	a farmer died only four days
+2	:-0.8362:	a farmer died four days
+3	:-1.0261:	thomas a farmer died
+4	:-1.1455:	a farmer died days
+5	:-1.2847:	brought a farmer died
+6	:-1.2858:	an a farmer died
+7	:-1.2869:	a farmer died only eight days
+8	:-1.3452:	achieve a farmer died
+9	:-1.3718:	a farmer died only four
+10	:-1.3822:	a farmer died day
+11	:-1.3919:	a farmer died only six days
+12	:-1.7066:	a farmer died only
+13	:-1.7798:	a farmer died four days.
+14	:-1.9184:	a farmer died four
+15	:-2.0228:	a farmer died only eight
+
+99:what did scheibler invent ? ||| the tonometer
+0	:-0.0845:	scheibler invented the tonometer
+1	:-0.1686:	he invented the tonometer
+2	:-0.4576:	schemibler invented the tonometer
+3	:-0.5959:	schwibler invented the tonometer
+4	:-0.6198:	scheribler invented the tonometer
+5	:-0.6505:	sheribler invented the tonometer
+6	:-0.6799:	shemibler invented the tonometer
+7	:-0.6950:	schwerbler invented the tonometer
+8	:-0.7005:	scheibler inventoried the tonometer
+9	:-0.7192:	schweribler invented the tonometer
+10	:-0.7631:	schedibler invented the tonometer
+11	:-0.7698:	scheibler founded the tonometer
+12	:-0.8558:	scheibler created the tonometer
+13	:-0.9840:	invented the tonometer
+14	:-1.0664:	he founded the tonometer
+15	:-1.0836:	it invented the tonometer
+16	:-1.1336:	he created the tonometer
+17	:-1.1565:	she invented the tonometer
+18	:-1.2959:	scheibler invented the tonometer,
+19	:-1.3222:	scheibler invented the tonometer.
+20	:-1.3981:	scheibler invented the tonometer (
+21	:-1.6152:	scheibler invented the tonometer and
+

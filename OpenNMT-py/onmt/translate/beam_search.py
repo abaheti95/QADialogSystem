@@ -266,13 +266,16 @@ class BeamSearch(DecodeStrategy):
             # Store finished hypotheses for this batch.
             for j in finished_hyp:
                 ## Only rerank with the LM probabilities if lm_model is given
-
+                answer_not_in_hyp = False
                 if self.lm_model or self.alternate_scorer:
                     word_hyp = [self._tgt_vocab.itos[id] if id < len(self._tgt_vocab.itos) else self._src_vocabs.itos[id - len(self._tgt_vocab.itos)] for id in predictions[i, j, 1:-1]]
+                    if len(word_hyp) == 0:
+                        continue
                     s = 0.0
                     if self.answer_text not in ' '.join(word_hyp) or "|||" in word_hyp:
                         # give a terrible score to this response
-                        s += -1e10
+                        answer_not_in_hyp = True
+                        s += -1e5
                     if self.lm_model:
                         # print("LM model")
                         str_hyp = ' '.join(word_hyp)
@@ -299,11 +302,21 @@ class BeamSearch(DecodeStrategy):
                         # the main score has been counted twice. Remove the score_demultiplier part from LM model. We can manipulate the other two from alternate model scorer
                         s -= score_demultiplier * self.topk_scores[i, j] / float(step + 1)
                 else:
+                    # print(len(self._tgt_vocab.itos))
+                    # print(self.source_text)
+                    # print(len(self._src_vocabs.itos))
+                    # print(predictions.shape)
+                    # print(i)
+                    # print(j)
+                    # print([id for id in predictions[i, j, 1:-1]])
                     word_hyp = [self._tgt_vocab.itos[id] if id < len(self._tgt_vocab.itos) else self._src_vocabs.itos[id - len(self._tgt_vocab.itos)] for id in predictions[i, j, 1:-1]]
+                    if len(word_hyp) == 0:
+                        continue
                     s = 0.0
                     if self.answer_text not in ' '.join(word_hyp) or "|||" in word_hyp:
                         # give a terrible score to this response
-                        s += -1e10
+                        answer_not_in_hyp = True
+                        s += -1e5
                     else:
                         s = self.topk_scores[i, j] / (step + 1)
 
@@ -314,9 +327,18 @@ class BeamSearch(DecodeStrategy):
                         self.best_scores[b] = s
 
                 if not self.lm_model and not self.alternate_scorer:
-                    s = self.topk_scores[i, j]
+                    flag = False
+                    if not answer_not_in_hyp:
+                        # if answer not in hyp then s is already -1e10
+                        # So we will simply add the current score to it so that the ordering is still preserved after this penalty
+                        s = 0.0
+                    # else:
+                    #     print(self.answer_text, "::", ' '.join(word_hyp), "::", s)
+                    #     flag = True
+                    s += self.topk_scores[i, j]
+                    # if flag:
+                    #     print("new s:", s, self.topk_scores[i, j], self.topk_scores[i, j]-1e5)
 
-                
                 
                 
                 self.hypotheses[b].append((

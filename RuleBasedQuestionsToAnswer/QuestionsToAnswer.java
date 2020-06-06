@@ -1137,9 +1137,9 @@ public class QuestionsToAnswer{
 						shift_answer_start = true;
 					}
 				} else if(answer_start_pos > 0) {
-					// System.out.println(answer_start_pos + " : " + temp_split.length);
-					// System.out.println(tagged_response_without_missing_prep_and_answer_brackets);
-					// System.out.println(response);
+					System.out.println(answer_start_pos + " : " + temp_split.length);
+					System.out.println(tagged_response_without_missing_prep_and_answer_brackets);
+					System.out.println(response);
 					String check_pos_tag_1 = temp_split[answer_start_pos].split("_")[1].trim();
 					String check_word_1 = temp_split[answer_start_pos].split("_")[0].trim();
 					String check_pos_tag_2 = temp_split[answer_start_pos - 1].split("_")[1].trim();
@@ -1343,7 +1343,7 @@ public class QuestionsToAnswer{
 		if(!gen_responses_and_rules.isEmpty()) {
 			System.out.println("Full Question:" + tree_to_leaves_string(question));
 			System.out.println("Full Question Tree:" + question);
-			print_all_responses(gen_responses_and_rules);
+			// print_all_responses(gen_responses_and_rules);
 			System.out.println(answer + "\n");
 		} else {
 			System.out.println("System failed for question:" + question);
@@ -1425,12 +1425,38 @@ public class QuestionsToAnswer{
 		// String generated_rules_file = "squad_train_sample/rule_based_system_squad_train_sample_case_sensitive_responses_generated_answer_rules.txt";
 
 		// // SQUAD 6000 sample case sensitive questions debug
-		String questions_tree_file = "squad_train_sample/squad_train_questions_6000_sample_case_sensitive_lexparsed_inline.txt";
-		String questions_file = "squad_train_sample/squad_train_questions_6000_sample_case_sensitive.txt";
-		String answers_file = "squad_train_sample/squad_train_data_6000_sample_case_sensitive_answers.txt";
-		String questions_save_file = "squad_train_sample/rule_based_system_squad_train_sample_case_sensitive_responses_saved_questions.txt";
-		String generated_responses_file = "squad_train_sample/rule_based_system_squad_train_sample_case_sensitive_responses_generated_answers.txt";
-		String generated_rules_file = "squad_train_sample/rule_based_system_squad_train_sample_case_sensitive_responses_generated_answer_rules.txt";
+		// String questions_tree_file = "squad_train_sample/squad_train_questions_6000_sample_case_sensitive_lexparsed_inline.txt";
+		// String questions_file = "squad_train_sample/squad_train_questions_6000_sample_case_sensitive.txt";
+		// String answers_file = "squad_train_sample/squad_train_data_6000_sample_case_sensitive_answers.txt";
+		// String questions_save_file = "squad_train_sample/rule_based_system_squad_train_sample_case_sensitive_responses_saved_questions.txt";
+		// String generated_responses_file = "squad_train_sample/rule_based_system_squad_train_sample_case_sensitive_responses_generated_answers.txt";
+		// String generated_rules_file = "squad_train_sample/rule_based_system_squad_train_sample_case_sensitive_responses_generated_answer_rules.txt";
+		
+		// Natural Questions simplified train set case in-sensitive questions
+		// String questions_tree_file = "natural_questions/natural_questions_simplified_train_question_lexparsed_inline.txt";
+		// String questions_file = "natural_questions/natural_questions_simplified_train_question.txt";
+		// String answers_file = "natural_questions/natural_questions_simplified_train_short_answers.txt";
+		// String questions_save_file = "natural_questions/rule_based_system_natural_questions_train_short_answers_case_insensitive_responses_saved_questions.txt";
+		// String generated_responses_file = "natural_questions/rule_based_system_natural_questions_train_short_answers_case_sensitive_responses_generated_answers.txt";
+		// String generated_rules_file = "natural_questions/rule_based_system_natural_questions_train_short_answers_case_sensitive_responses_generated_answer_rules.txt";
+		if (args.length < 6) {
+			System.out.println("Insufficient commandline arguments: need quesiton_tree_file, questions_file, answers_file, questions_save_file, responses_save_file and rules_save_file in those order");
+			System.exit(1);
+		}
+		// Print args
+		System.out.println("Questions Tree File:" + args[0]);
+		System.out.println("Questions File:" + args[1]);
+		System.out.println("Answers File:" + args[2]);
+		System.out.println("Questions Save File:" + args[3]);
+		System.out.println("Responses Save File:" + args[4]);
+		System.out.println("Rules Save File File:" + args[5]);
+		// Initialize stuff from args
+		String questions_tree_file = args[0];
+		String questions_file = args[1];
+		String answers_file = args[2];
+		String questions_save_file = args[3];
+		String generated_responses_file = args[4];
+		String generated_rules_file = args[5];
 
 		// String questions_tree_file = "natural_questions/natural_questions_dev_lexparsed_inline.txt";
 		// String questions_file = "natural_questions/natural_questions_dev_questions.txt";
@@ -1485,7 +1511,7 @@ public class QuestionsToAnswer{
 				// After reading the line which is a questions compute the answer
 
 				// if answer str length is more than 5 words then we ignore it
-				if(answer_str.split("\\s+").length > 6) {
+				if(answer_str.split("\\s+").length > 6 || answer_str.split("\\s+").length == 0 || answer_str.isEmpty()) {
 					question_tree = br_q_tree.readLine();
 					question_tree = lowercase_tree_string(question_tree);
 					question_str = br_q.readLine();

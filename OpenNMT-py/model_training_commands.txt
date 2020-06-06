@@ -256,7 +256,7 @@ python translate.py -model models/pretrained_on_opensub_qa/squad_predicted_respo
 ## Experiments with pretrained Glove embeddings on Pretrained on moses tokenzied Opensub_QA dataset
 ########################################################
 ########################################################
-python embeddings_to_torch.py -emb_file_both "/home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/data/glove/glove.840B.300d.txt" \
+python embeddings_to_torch.py -emb_file_both "../RuleBasedQuestionsToAnswer/data/glove/glove.840B.300d.txt" \
 -dict_file "data/opensub_qa_moses_try1.vocab.pt" \
 -output_file "data/opensub_qa_moses_try1_embeddings"
 

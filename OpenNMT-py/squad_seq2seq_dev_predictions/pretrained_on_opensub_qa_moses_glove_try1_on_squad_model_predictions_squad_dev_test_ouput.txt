@@ -1,0 +1,330 @@
+
+SENT 1: ['how', 'much', 'of', 'the', 'greenhouse', 'effect', 'is', 'due', 'to', 'carbon', 'dioxide', '?', '|||', 'over', 'half']
+PRED 1: over half is due
+PRED SCORE: -0.9823
+
+BEST HYP:
+[-0.9823] ['over', 'half', 'is', 'due']
+[-2.3867] ['over', 'half', 'is', 'due', 'to', 'carbon', 'dioxide']
+[-3.0121] ['over', 'half', 'much', 'is', 'due']
+[-3.1460] ['in', 'half', 'is', 'due']
+[-4.1336] ['due', 'to', 'carbon', 'dioxide', 'is', 'due']
+
+SENT 2: ['the', 'average', 'contractor', 'hired', 'how', 'many', 'employees', '?', '|||', 'fewer', 'than', '10']
+PRED 2: fewer than 10 employees hired
+PRED SCORE: -1.6882
+
+BEST HYP:
+[-1.6882] ['fewer', 'than', '10', 'employees', 'hired']
+[-2.2074] ['fewer', 'than', '10', 'many', 'employees', 'hired']
+[-2.7205] ['fewer', 'than', '10', 'employees', 'the', 'average', 'contractor', 'hired']
+[-3.2221] ['fewer', 'than', '10', 'employees', ',', 'the', 'average', 'contractor', 'hired']
+[-3.4836] ['fewer', 'than', '10', 'the', 'average', 'contractor', 'hired']
+
+SENT 3: ['what', 'is', 'the', 'turbine', 'entry', 'temperature', 'of', 'a', 'steam', 'turbine', ',', 'in', 'degrees', 'celsius', '?', '|||', '565', '°', 'c']
+PRED 3: it is 565 ° c
+PRED SCORE: -0.3346
+
+BEST HYP:
+[-0.3346] ['it', 'is', '565', '°', 'c']
+[-3.9762] ['it', 'is', 'in', '565', '°', 'c']
+[-4.2785] ['they', 'is', '565', '°', 'c']
+[-10.9979] ['565', '°', 'c', 'is', 'the', 'turbine', 'entry']
+[-11.3493] ['565', '°', 'c', 'is', 'the', 'turbine']
+
+SENT 4: ['who', 'was', 'appointed', 'as', 'second', 'in', 'command', 'to', 'lor', 'loudoun', 'in', '1756', '?', '|||', 'major', 'general', 'james', 'abercrombie']
+PRED 4: major general james abercrombie was appointed as second in command to lor loudoun
+PRED SCORE: -0.3605
+
+BEST HYP:
+[-0.3605] ['major', 'general', 'james', 'abercrombie', 'was', 'appointed', 'as', 'second', 'in', 'command', 'to', 'lor', 'loudoun']
+[-2.2984] ['major', 'general', 'james', 'abercrombie', 'was', 'appointed', 'as', 'second', 'in', 'command']
+[-3.4820] ['major', 'general', 'james', 'abercrombie', 'was', 'appointed', 'as', 'second', 'in', 'command', 'to', 'lor']
+[-3.6971] ['major', 'general', 'james', 'abercrombie', 'was', 'appointed']
+[-4.0357] ['major', 'general', 'james', 'abercrombie', 'was', 'appointed', 'as', 'second', 'in', 'command', 'in', '1756']
+
+SENT 5: ['what', 'do', 'oxygen', 'tanks', ',', 'cryogenics', ',', 'and', 'chemical', 'compounds', 'serve', 'as', 'for', 'oxygen', '?', '|||', 'oxygen', 'storage', 'methods']
+PRED 5: they serve as oxygen storage methods
+PRED SCORE: -0.8908
+
+BEST HYP:
+[-0.8908] ['they', 'serve', 'as', 'oxygen', 'storage', 'methods']
+[-1.8442] ['they', 'serve', 'as', 'oxygen', 'storage', 'methods', 'as']
+[-3.0154] ['they', 'serve', 'as', 'a', 'oxygen', 'storage', 'methods']
+[-3.0606] ['it', 'serve', 'as', 'oxygen', 'storage', 'methods']
+[-5.4282] ['oxygen', 'storage', 'methods', ',', 'oxygen', 'tanks', ',', 'and']
+
+SENT 6: ['how', 'many', 'khitan', 'tumens', 'were', 'there', '?', '|||', '3']
+PRED 6: there were 3
+PRED SCORE: -0.1764
+
+BEST HYP:
+[-0.1764] ['there', 'were', '3']
+[-2.3887] ['there', 'were', '3', 'khitan']
+[-3.9902] ['there', 'were', '3', 'tumens']
+[-4.4538] ['there', 'were', 'a', '3']
+[-5.5759] ['there', 'were', 'over', '3']
+
+SENT 7: ['which', 'sea', 'was', 'oil', 'discovered', 'in', '?', '|||', 'north', 'sea']
+PRED 7: oil was discovered in north sea
+PRED SCORE: -1.0312
+
+BEST HYP:
+[-1.0312] ['oil', 'was', 'discovered', 'in', 'north', 'sea']
+[-1.6983] ['it', 'was', 'discovered', 'in', 'north', 'sea']
+[-2.1173] ['oil', 'was', 'discovered', 'in', 'a', 'north', 'sea']
+[-2.1207] ['oil', 'was', 'discovered', 'in', 'north', 'sea', 'sea']
+[-2.7842] ['it', 'was', 'discovered', 'in', 'north', 'sea', 'sea']
+
+SENT 8: ['what', 'are', 'internet', 'pharmacies', 'also', 'called', '?', '|||', 'online', 'pharmacies']
+PRED 8: they are also called online pharmacies
+PRED SCORE: -0.7272
+
+BEST HYP:
+[-0.7272] ['they', 'are', 'also', 'called', 'online', 'pharmacies']
+[-1.3042] ['it', 'are', 'also', 'called', 'online', 'pharmacies']
+[-3.3361] ['they', 'are', 'also', 'called', 'the', 'online', 'pharmacies']
+[-3.8474] ['it', 'are', 'also', 'called', 'the', 'online', 'pharmacies']
+[-4.0889] ['internet', 'pharmacies', 'are', 'also', 'called', 'online', 'pharmacies']
+
+SENT 9: ['which', 'florida', 'city', 'has', 'the', 'biggest', 'population', '?', '|||', 'jacksonville']
+PRED 9: it has jacksonville
+PRED SCORE: -0.9167
+
+BEST HYP:
+[-0.9167] ['it', 'has', 'jacksonville']
+[-1.0866] ['jacksonville', 'has', 'it']
+[-3.7171] ['it', 'has', 'jacksonville', 'florida']
+[-4.1935] ['jacksonville', 'florida', 'has', 'it']
+[-9.7277] ['jacksonville', 'has', 'the', 'biggest']
+
+SENT 10: ['who', 'opened', 'the', 'new', 'parliament', 'building', 'on', 'october', '9', ',', '2004', '?', '|||', 'queen', 'elizabeth', 'ii']
+PRED 10: queen elizabeth ii opened the new parliament building
+PRED SCORE: -0.2139
+
+BEST HYP:
+[-0.2139] ['queen', 'elizabeth', 'ii', 'opened', 'the', 'new', 'parliament', 'building']
+[-2.5817] ['the', 'queen', 'elizabeth', 'ii', 'opened', 'the', 'new', 'parliament', 'building']
+[-2.9894] ['a', 'queen', 'elizabeth', 'ii', 'opened', 'the', 'new', 'parliament', 'building']
+[-4.3594] ['for', 'queen', 'elizabeth', 'ii', 'opened', 'the', 'new', 'parliament', 'building']
+[-9.0277] ['queen', 'elizabeth', 'ii', 'opened', 'the', 'new', 'parliament', 'building', 'on', 'october']
+
+SENT 11: ['where', 'did', 'kublai', 'move', 'the', 'mongol', 'capital', 'to', '?', '|||', 'khanbaliq']
+PRED 11: kublai moved the mongol capital to khanbaliq
+PRED SCORE: -0.4314
+
+BEST HYP:
+[-0.4314] ['kublai', 'moved', 'the', 'mongol', 'capital', 'to', 'khanbaliq']
+[-1.8711] ['it', 'moved', 'the', 'mongol', 'capital', 'to', 'khanbaliq']
+[-2.9658] ['they', 'moved', 'the', 'mongol', 'capital', 'to', 'khanbaliq']
+[-3.1398] ['he', 'moved', 'the', 'mongol', 'capital', 'to', 'khanbaliq']
+[-3.4702] ['khanbaliq', 'moved', 'the', 'mongol', 'capital', 'to', 'khanbaliq']
+
+SENT 12: ['semen', 'contains', 'what', 'in', 'order', 'to', 'kill', 'pathogens', '?', '|||', 'defensins', 'and', 'zinc']
+PRED 12: defensins and zinc contains
+PRED SCORE: -0.2135
+
+BEST HYP:
+[-0.2135] ['defensins', 'and', 'zinc', 'contains']
+[-2.8354] ['defensins', 'and', 'zinc', 'contains', 'what', 'semen', 'contains']
+[-4.6820] ['semen', 'contains']
+[-5.2993] ['defensins', 'and', 'zinc', 'contains', 'what']
+[-5.3545] ['in', 'defensins', 'and', 'zinc', 'contains']
+
+SENT 13: ['what', 'city', 'has', 'the', 'largest', 'inland', 'port', 'in', 'europe', '?', '|||', 'duisburg']
+PRED 13: it has duisburg
+PRED SCORE: -1.0801
+
+BEST HYP:
+[-1.0801] ['it', 'has', 'duisburg']
+[-1.4055] ['duisburg', 'has', 'it']
+[-1.5821] ['duisburg', 'has', 'the', 'largest', 'inland', 'port']
+[-3.0546] ['it', 'has', 'duisburg', 'city']
+[-3.6806] ['the', 'largest', 'inland', 'port', 'has', 'duisburg']
+
+SENT 14: ['what', 'did', 'electromagnetic', 'theory', 'finally', 'lead', 'to', '?', '|||', 'quantum', 'electrodynamics']
+PRED 14: electromagnetic theory finally led to quantum electrodynamics
+PRED SCORE: -0.4227
+
+BEST HYP:
+[-0.4227] ['electromagnetic', 'theory', 'finally', 'led', 'to', 'quantum', 'electrodynamics']
+[-2.0824] ['it', 'finally', 'led', 'to', 'quantum', 'electrodynamics']
+[-2.6110] ['electromagnetic', 'theory', 'finally', 'led', 'to', 'a', 'quantum', 'electrodynamics']
+[-3.2490] ['electromagnetic', 'theory', 'finally', 'led', 'to', 'the', 'quantum', 'electrodynamics']
+[-4.0269] ['electromagnetic', 'theory', 'finally', 'led', 'to', 'an', 'quantum', 'electrodynamics']
+
+SENT 15: ['how', 'many', 'companies', 'were', 'listed', 'on', 'the', 'wse', 'on', 'august', '2009', '?', '|||', '374']
+PRED 15: 374 were listed on the wse
+PRED SCORE: -0.8180
+
+BEST HYP:
+[-0.8180] ['374', 'were', 'listed', 'on', 'the', 'wse']
+[-1.3106] ['374', 'companies', 'were', 'listed', 'on', 'the', 'wse']
+[-1.7855] ['374', 'were', 'listed']
+[-2.7437] ['374', 'companies', 'were', 'listed']
+[-6.2234] ['about', '374', 'were', 'listed', 'on', 'the', 'wse']
+
+SENT 16: ['how', 'many', 'representatives', 'does', 'each', 'electorate', 'have', '?', '|||', 'five']
+PRED 16: each electorate has five
+PRED SCORE: -0.4719
+
+BEST HYP:
+[-0.4719] ['each', 'electorate', 'has', 'five']
+[-1.7563] ['it', 'has', 'five']
+[-2.3291] ['each', 'electorate', 'has', 'five', 'representatives']
+[-3.2765] ['it', 'has', 'five', 'representatives']
+[-3.6127] ['each', 'electorate', 'has', 'a', 'five']
+
+SENT 17: ['who', 'did', 'the', 'snp', 'obtain', '16', 'seats', 'from', '?', '|||', 'labour']
+PRED 17: it obtained 16 seats from labour
+PRED SCORE: -0.7067
+
+BEST HYP:
+[-0.7067] ['it', 'obtained', '16', 'seats', 'from', 'labour']
+[-1.7701] ['they', 'obtained', '16', 'seats', 'from', 'labour']
+[-2.6261] ['he', 'obtained', '16', 'seats', 'from', 'labour']
+[-2.8631] ['it', 'obtained', '16', 'seats', 'from', 'the', 'labour']
+[-3.1399] ['the', 'snp', 'obtained', '16', 'seats', 'from', 'labour']
+
+SENT 18: ['what', 'nationality', 'was', 'arthur', 'woolf', '?', '|||', 'british']
+PRED 18: british was arthur woolf
+PRED SCORE: -1.1115
+
+BEST HYP:
+[-1.1115] ['british', 'was', 'arthur', 'woolf']
+[-1.6169] ['it', 'was', 'british']
+[-1.9641] ['it', 'was', 'british', 'nationality']
+[-2.7931] ['british', 'nationality', 'was', 'arthur', 'woolf']
+[-3.0171] ['he', 'was', 'british']
+
+SENT 19: ['what', 'is', 'an', 'example', 'of', 'an', 'article', 'of', 'uniform', 'clothing', 'typically', 'present', 'in', 'australian', 'private', 'schools', '?', '|||', 'compulsory', 'blazer']
+PRED 19: it is compulsory blazer
+PRED SCORE: -0.7910
+
+BEST HYP:
+[-0.7910] ['it', 'is', 'compulsory', 'blazer']
+[-1.7907] ['an', 'article', 'is', 'typically', 'present', 'compulsory', 'blazer']
+[-3.0400] ['it', 'is', 'typically', 'present', 'compulsory', 'blazer']
+[-3.1727] ['an', 'article', 'is', 'compulsory', 'blazer']
+[-3.6788] ['compulsory', 'blazer', 'is', 'an', 'article']
+
+SENT 20: ['what', 'is', 'the', 'name', 'of', 'the', 'student', 'improvisational', 'theater', 'troupe', '?', '|||', 'off-off', 'campus']
+PRED 20: it is off-off campus
+PRED SCORE: -0.3779
+
+BEST HYP:
+[-0.3779] ['it', 'is', 'off-off', 'campus']
+[-2.2133] ['the', 'name', 'is', 'off-off', 'campus']
+[-2.7508] ['off-off', 'campus', 'is', 'the', 'name']
+[-3.3690] ['the', 'name', 'is', 'in', 'off-off', 'campus']
+[-3.7880] ['it', 'is', 'in', 'off-off', 'campus']
+
+SENT 21: ['what', 'is', 'the', 'escape', 'of', 'the', 'steam', 'unlikely', 'to', 'accomplish', 'in', 'all', 'but', 'the', 'smallest', 'boilers', '?', '|||', 'dampening', 'the', 'fire']
+PRED 21: it is dampening the fire
+PRED SCORE: -1.0485
+
+BEST HYP:
+[-1.0485] ['it', 'is', 'dampening', 'the', 'fire']
+[-2.5023] ['the', 'escape', 'of', 'the', 'steam', 'unlikely', 'is', 'to', 'accomplish', 'dampening', 'the', 'fire']
+[-2.8985] ['the', 'escape', 'of', 'the', 'steam', 'unlikely', 'is', 'dampening', 'the', 'fire']
+[-3.1805] ['the', 'escape', 'is', 'to', 'dampening', 'the', 'fire']
+[-3.2167] ['the', 'escape', 'of', 'the', 'steam', 'unlikely', 'is', 'in', 'dampening', 'the', 'fire']
+
+SENT 22: ['what', 'is', 'raghuram', 'rajan', "'s", 'career', '?', '|||', 'central', 'banking', 'economist']
+PRED 22: central banking economist is raghuram rajan ' s career
+PRED SCORE: -0.9329
+
+BEST HYP:
+[-0.9329] ['central', 'banking', 'economist', 'is', 'raghuram', 'rajan', "'", 's', 'career']
+[-1.1541] ['a', 'central', 'banking', 'economist', 'is', 'raghuram', 'rajan', "'", 's', 'career']
+[-2.2015] ['the', 'central', 'banking', 'economist', 'is', 'raghuram', 'rajan', "'", 's', 'career']
+[-2.8239] ['an', 'central', 'banking', 'economist', 'is', 'raghuram', 'rajan', "'", 's', 'career']
+[-3.2196] ['it', 'is', 'central', 'banking', 'economist']
+
+SENT 23: ['what', 'is', 'the', 'kilogram-force', 'sometimes', 'reffered', 'to', 'as', '?', '|||', 'kilopond']
+PRED 23: it is kilopond
+PRED SCORE: -0.9209
+
+BEST HYP:
+[-0.9209] ['it', 'is', 'kilopond']
+[-1.7897] ['it', 'is', 'sometimes', 'reffered', 'kilopond']
+[-3.3020] ['it', 'is', 'sometimes', 'reffered', 'by', 'kilopond']
+[-3.6495] ['it', 'is', 'sometimes', 'reffered', 'in', 'kilopond']
+[-4.3765] ['it', 'is', 'sometimes', 'reffered', 'to', 'kilopond']
+
+SENT 24: ['what', 'german', 'poet', 'was', 'descended', 'from', 'huguenots', '?', '|||', 'theodor', 'fontane']
+PRED 24: theodor fontane was descended
+PRED SCORE: -0.7015
+
+BEST HYP:
+[-0.7015] ['theodor', 'fontane', 'was', 'descended']
+[-2.2169] ['a', 'theodor', 'fontane', 'was', 'descended']
+[-2.8731] ['in', 'theodor', 'fontane', 'was', 'descended']
+[-3.0870] ['the', 'theodor', 'fontane', 'was', 'descended']
+[-3.2159] ['in', 'a', 'theodor', 'fontane', 'was', 'descended']
+
+SENT 25: ['what', 'fixed', 'set', 'of', 'factors', 'determine', 'the', 'actions', 'of', 'a', 'deterministic', 'turing', 'machine', '|||', 'fixed', 'set', 'of', 'rules']
+PRED 25: fixed fixed of rules determine the actions
+PRED SCORE: -3.0461
+
+BEST HYP:
+[-3.0461] ['fixed', 'fixed', 'of', 'rules', 'determine', 'the', 'actions']
+[-4.1531] ['fixed', 'fixed', 'of', 'rules', 'determine', 'the', 'actions', 'of', 'rules']
+[-4.2252] ['fixed', 'the', 'actions', 'of', 'rules', 'determine', 'the', 'actions']
+[-4.4782] ['fixed', 'fixed', 'of', 'rules', 'determine', 'the', 'actions', 'of', 'rules', 'determine', 'the', 'actions']
+[-5.3874] ['fixed', 'the', 'actions', 'of', 'rules', 'determine', 'the', 'actions', 'of', 'rules', 'determine', 'the', 'actions']
+
+SENT 26: ['what', 'virus', 'did', 'walter', 'reed', 'discover', '?', '|||', 'yellow', 'fever', 'virus']
+PRED 26: he discovered yellow fever virus
+PRED SCORE: -1.5454
+
+BEST HYP:
+[-1.5454] ['he', 'discovered', 'yellow', 'fever', 'virus']
+[-1.5965] ['they', 'discovered', 'yellow', 'fever', 'virus']
+[-1.7538] ['it', 'discovered', 'yellow', 'fever', 'virus']
+[-2.9228] ['walter', 'reed', 'discovered', 'yellow', 'fever', 'virus']
+[-2.9777] ['yellow', 'fever', 'virus', ',', 'walter', 'reed', 'discovered']
+
+SENT 27: ['what', 'did', 'smedley', 'butler', 'call', 'us', 'foreign', 'policy', '?', '|||', 'racket']
+PRED 27: it called us us foreign policy
+PRED SCORE: -1.7869
+
+BEST HYP:
+[-1.7869] ['it', 'called', 'us', 'us', 'foreign', 'policy']
+[-1.9241] ['they', 'called', 'us', 'us', 'foreign', 'policy']
+[-2.7907] ['he', 'called', 'us', 'us', 'foreign', 'policy']
+[-2.8670] ['they', 'called', 'racket', 'us', 'foreign', 'policy']
+[-3.1369] ['smedley', 'butler', 'called', 'us', 'us', 'foreign', 'policy']
+
+SENT 28: ['what', 'did', 'the', 'zuider', 'zee', 'brackish', 'lagoon', 'change', 'into', '?', '|||', 'ijsselmeer']
+PRED 28: it changed into ijsselmeer
+PRED SCORE: -0.5493
+
+BEST HYP:
+[-0.5493] ['it', 'changed', 'into', 'ijsselmeer']
+[-2.1415] ['it', 'changed', 'ijsselmeer', 'into']
+[-3.1411] ['they', 'changed', 'into', 'ijsselmeer']
+[-3.1641] ['he', 'changed', 'into', 'ijsselmeer']
+[-3.5749] ['it', 'changed', 'ijsselmeer']
+
+SENT 29: ['where', 'was', 'friedrich', 'ratzel', 'born', '?', '|||', 'germany']
+PRED 29: it was born germany
+PRED SCORE: -1.2258
+
+BEST HYP:
+[-1.2258] ['it', 'was', 'born', 'germany']
+[-1.6981] ['it', 'was', 'born', 'in', 'germany']
+[-2.4743] ['germany', 'was', 'friedrich', 'ratzel', 'born']
+[-2.4820] ['he', 'was', 'born', 'germany']
+[-3.3091] ['friedrich', 'ratzel', 'was', 'born', 'in', 'germany']
+
+SENT 30: ['who', 'receives', 'higher', 'salaries', 'at', 'private', 'schools', 'that', 'charge', 'higher', 'tuition', '?', '|||', 'the', 'best', 'teachers']
+PRED 30: the best teachers receives higher salaries
+PRED SCORE: -0.2858
+
+BEST HYP:
+[-0.2858] ['the', 'best', 'teachers', 'receives', 'higher', 'salaries']
+[-2.1355] ['the', 'best', 'teachers', 'receives', 'higher', 'salaries', 'at', 'private', 'schools']
+[-2.5314] ['in', 'the', 'best', 'teachers', 'receives', 'higher', 'salaries']
+[-5.5305] ['for', 'the', 'best', 'teachers', 'receives', 'higher', 'salaries']
+[-9.9856] ['the', 'best', 'teachers', 'receives', 'higher', 'salaries', 'that', 'charge']

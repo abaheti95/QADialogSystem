@@ -521,20 +521,19 @@ with open(all_results_save_file, "w") as all_writer:
 					current_labels.append(label)
 				# Predict the last batch
 				if len(current_responses) > 1:
-					if len(current_responses) > 1:
-						example_no += 1
-						start_time = time.time()
-						predictions = predictor.predict(current_qa[0], current_responses)
-						end_time = time.time()
-						print("time taken for {}th example is {} secs".format(example_no, end_time - start_time))
+					example_no += 1
+					start_time = time.time()
+					predictions = predictor.predict(current_qa[0], current_responses)
+					end_time = time.time()
+					print("time taken for {}th example is {} secs".format(example_no, end_time - start_time))
 
-						label_probs = predictions["label_probs"]
-						gold.extend(current_labels)
-						probs.extend(label_probs)
-						current_predictions = [0]*len(current_labels)
-						label_probs = np.array(label_probs)
-						current_predictions[np.argmax(label_probs)] = 1
-						predicted_labels.extend(current_predictions)
+					label_probs = predictions["label_probs"]
+					gold.extend(current_labels)
+					probs.extend(label_probs)
+					current_predictions = [0]*len(current_labels)
+					label_probs = np.array(label_probs)
+					current_predictions[np.argmax(label_probs)] = 1
+					predicted_labels.extend(current_predictions)
 					current_qa = None
 					current_responses = list()
 					current_labels = list()

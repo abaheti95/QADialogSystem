@@ -23,7 +23,7 @@ python translate.py -model models/squad_predicted_responses_moses_try1/squad_pre
 ########################################################################################################################################################################
 
 ########################################################
-## Experiments with pretrained Glove embeddings
+## Experiments with pretrained Glove embeddings on PGN
 ########################################################
 export PYTHONPATH="${PYTHONPATH}:/home/baheti/QADialogueSystem/OpenNMT-py/:"
 python embeddings_to_torch.py -emb_file_both "/home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/data/glove/glove.840B.300d.txt" \
@@ -44,7 +44,7 @@ python translate.py -model models/squad_predicted_responses_moses_try1/squad_pre
 ########################################################################################################################################################################
 
 ########################################################
-## Experiments with pretrained Glove embeddings on Pretrained on moses tokenzied Opensub_QA dataset
+## Experiments with pretrained Glove embeddings on PGN pretrained on moses tokenzied Opensub_QA dataset
 ########################################################
 python embeddings_to_torch.py -emb_file_both "/home/baheti/QADialogueSystem/RuleBasedQuestionsToAnswer/data/glove/glove.840B.300d.txt" \
 -dict_file "data/opensub_qa_moses_try1.vocab.pt" \
@@ -105,10 +105,14 @@ python prepro.py --corpus data/ss_train_dialogpt.tsv --max_seq_len 128
 python LSP_train.py --model_name_or_path ./models/small --init_checkpoint None --init_weights true --train_input_file ./data/ss_train_dialogpt.128len.db --eval_input_file ./data/ss_val.tsv --output_dir ./models/ss/ --seed 42 --max_seq_length 128 --train_batch_size 512 --gradient_accumulation_steps 16 --eval_batch_size 32 --learning_rate 5e-5 --num_optim_steps 3000 --valid_step 60 --warmup_steps 600 --normalize_data true --fp16 false --lr_schedule noam --loss_scale 0.0 --no_token_id true --pbar true
 
 ##########################################################
-############# Testing DialoGPT small on SS ##########
+############# Testing GPT-2 on SS ##########
 ##########################################################
 export CUDA_VISIBLE_DEVICES=6
 python LSP_test2.py --model_type gpt2 --model_name_or_path ./models/small --state_dict ./models/ss/GPT2.5e-05.32.1gpu.2019-11-09173601/GP2-pretrain-step-2220.pkl --test_file ./data/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt --length 25 --n_best 5 --beam_size 20 --stop_token "<|endoftext|>" --out_file predictions/ss/dialoGPT_ss_scratch_predictions_on_squad_dev_test_with_squad_model_length_normalized.txt
+
+########################################################################################################################################################################
+
+# TODO: GPT-2 pretrained on Opensub_qa dataset and finetuned on SS
 
 ########################################################################################################################################################################
 
@@ -118,9 +122,94 @@ python LSP_test2.py --model_type gpt2 --model_name_or_path ./models/small --stat
 python LSP_train.py --model_name_or_path ./models/small --init_checkpoint ./models/small/pytorch_model.bin --train_input_file ./data/ss_train_dialogpt.128len.db --eval_input_file ./data/ss_val.tsv --output_dir ./models/ss_finetune/ --seed 42 --max_seq_length 128 --train_batch_size 512 --gradient_accumulation_steps 16 --eval_batch_size 32 --learning_rate 1e-5 --num_optim_steps 2000 --valid_step 60 --warmup_steps 600 --normalize_data true --fp16 false --lr_schedule noam --loss_scale 0.0 --no_token_id true --pbar true
 
 ##########################################################
-############# Testing DialoGPT small on SS finetuned #####
+############# Testing DialoGPT small finetuned on SS #####
 ##########################################################
 export CUDA_VISIBLE_DEVICES=3
 python LSP_test2.py --model_type gpt2 --model_name_or_path ./models/small --state_dict ./models/ss_finetune/GPT2.1e-05.32.1gpu.2019-11-08165243/GP2-pretrain-step-420.pkl --test_file ./data/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt --length 25 --n_best 5 --beam_size 20 --stop_token "<|endoftext|>" --out_file predictions/ss_finetuned/dialoGPT_ss_finetuned_predictions_on_squad_dev_test_with_squad_model_length_normalized.txt
 
 ########################################################################################################################################################################
+
+##########################################################
+#################### SS+ experiments #####################
+##########################################################
+
+##########################################################
+############# Preprocess the data ########################
+##########################################################
+less data/ss_plus_train.tsv| awk -F '\t' '{print "0.0 "$1"\t1.0 "$2}' > data/ss_plus_train_dialogpt.tsv
+python prepro.py --corpus data/ss_plus_train_dialogpt.tsv --max_seq_len 128
+# data_path = data/ss_plus_train_dialogpt.129len.db
+
+##########################################################
+############# DialoGPT small on SS+ from scratch: Essentially GPT-2 #########
+##########################################################
+python LSP_train.py --model_name_or_path ./models/small --init_checkpoint None --init_weights true --train_input_file ./data/ss_plus_train_dialogpt.128len.db --eval_input_file ./data/ss_plus_val.tsv --output_dir ./models/ss_plus/ --seed 42 --max_seq_length 128 --train_batch_size 512 --gradient_accumulation_steps 32 --eval_batch_size 16 --learning_rate 5e-5 --num_optim_steps 20500 --valid_step 1025 --warmup_steps 10250 --normalize_data true --fp16 false --lr_schedule noam --loss_scale 0.0 --no_token_id true --pbar true
+
+##########################################################
+############# Testing GPT-2 on SS+ ##########
+##########################################################
+export CUDA_VISIBLE_DEVICES=1
+python LSP_test2.py --model_type gpt2 --model_name_or_path ./models/small --state_dict ./models/ss_plus/GPT2.5e-05.16.1gpu.2019-11-09230759/GP2-pretrain-step-12300.pkl --test_file ./data/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt --length 25 --n_best 5 --beam_size 20 --stop_token "<|endoftext|>" --out_file predictions/ss_plus/dialoGPT_ss_plus_scratch_predictions_on_squad_dev_test_with_squad_model_length_normalized.txt
+
+########################################################################################################################################################################
+
+##########################################################
+############# Fine-tune DialoGPT small on SS+ ############
+##########################################################
+python LSP_train.py --model_name_or_path ./models/small --init_checkpoint ./models/small/pytorch_model.bin --train_input_file ./data/ss_plus_train_dialogpt.128len.db --eval_input_file ./data/ss_plus_val.tsv --output_dir ./models/ss_plus_finetune/ --seed 42 --max_seq_length 128 --train_batch_size 512 --gradient_accumulation_steps 32 --eval_batch_size 16 --learning_rate 1e-5 --num_optim_steps 20500 --valid_step 1025 --warmup_steps 10250 --normalize_data true --fp16 false --lr_schedule noam --loss_scale 0.0 --no_token_id true --pbar true
+
+
+##########################################################
+############# Testing DialoGPT small finetuned on SS+ ####
+##########################################################
+python LSP_test2.py --model_type gpt2 --model_name_or_path ./models/small --state_dict ./models/ss_plus_finetune/GPT2.1e-05.16.1gpu.2019-11-08181917/GP2-pretrain-step-6150.pkl --test_file ./data/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt --length 25 --n_best 5 --beam_size 20 --stop_token "<|endoftext|>" --out_file predictions/ss_plus_finetuned/dialoGPT_ss_plus_finetuned_predictions_on_squad_dev_test_with_squad_model_length_normalized_scores_new_best.txt
+
+##########################################################
+############# Testing DialoGPT small finetuned on SS+ with oracle answers: DGPT (o) ####
+##########################################################
+python LSP_test2.py --model_type gpt2 --model_name_or_path ./models/small --state_dict ./models/ss_plus_finetune/GPT2.1e-05.16.1gpu.2019-11-08181917/GP2-pretrain-step-6150.pkl --test_file ./data/src_squad_seq2seq_dev_moses_test.txt --length 25 --n_best 5 --beam_size 20 --stop_token "<|endoftext|>" --out_file predictions/ss_plus_finetuned/dialoGPT_ss_plus_finetuned_predictions_on_squad_dev_test_length_normalized_scores_new_best.txt
+
+########################################################################################################################################################################
+########################################################################################################################################################################
+########################################################################################################################################################################
+
+##########################################################
+######## Opensub_qa pretraining for GPT-2 ################
+##########################################################
+
+##########################################################
+############# Preprocess the data ########################
+##########################################################
+less data/train_opensub_qa.tsv| awk -F '\t' '{print "0.0 "$1"\t1.0 "$2}' > data/train_opensub_qa_dialogpt.tsv
+python prepro.py --corpus data/train_opensub_qa_dialogpt.tsv --max_seq_len 128
+# data_path = data/train_opensub_qa_dialogpt.129len.db
+
+##########################################################
+############# DialoGPT small on opensub_qa: Essentially pretraining GPT-2 on Opensub_qa ###############
+##########################################################
+export CUDA_VISIBLE_DEVICES=7
+python LSP_train.py --model_name_or_path ./models/small --init_checkpoint None --init_weights true --train_input_file ./data/train_opensub_qa_dialogpt.128len.db --eval_input_file ./data/val_opensub_qa.tsv --output_dir ./models/opensub_qa/ --seed 42 --max_seq_length 128 --train_batch_size 512 --gradient_accumulation_steps 32 --eval_batch_size 16 --learning_rate 5e-5 --num_optim_steps 275000 --valid_step 6875 --warmup_steps 137500 --normalize_data true --fp16 false --lr_schedule noam --loss_scale 0.0 --no_token_id true --pbar true
+
+##########################################################
+######## Fine-tune GPT-2 opensub_qa small on SS #######
+##########################################################
+export CUDA_VISIBLE_DEVICES=0
+python LSP_train.py --model_name_or_path ./models/small --init_checkpoint ./models/opensub_qa/GPT2.5e-05.16.1gpu.2019-11-10215551/GP2-pretrain-step-240625.pkl --train_input_file ./data/ss_train_dialogpt.128len.db --eval_input_file ./data/ss_val.tsv --output_dir ./models/ss_finetune_opensub_qa/ --seed 42 --max_seq_length 128 --train_batch_size 512 --gradient_accumulation_steps 16 --eval_batch_size 32 --learning_rate 1e-5 --num_optim_steps 2000 --valid_step 60 --warmup_steps 600 --normalize_data true --fp16 false --lr_schedule noam --loss_scale 0.0 --no_token_id true --pbar true
+
+##########################################################
+###### Testing GPT-2 opensub_qa finetuned on SS #######
+##########################################################
+python LSP_test2.py --model_type gpt2 --model_name_or_path ./models/small --state_dict ./models/ss_finetune_opensub_qa/GPT2.1e-05.32.1gpu.2019-11-15124331/GP2-pretrain-step-900.pkl --test_file ./data/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt --length 25 --n_best 5 --beam_size 20 --stop_token "<|endoftext|>" --out_file predictions/ss_finetuned_opensub_qa/dialoGPT_ss_finetuned_opensub_qa_predictions_on_squad_dev_test_with_squad_model_length_normalized_scores_new_best.txt
+
+########################################################################################################################################################################
+
+##########################################################
+####### Fine-tune GPT-2 opensub_qa small on SS+ #######
+##########################################################
+export CUDA_VISIBLE_DEVICES=5
+python LSP_train.py --model_name_or_path ./models/small --init_checkpoint ./models/opensub_qa/GPT2.5e-05.16.1gpu.2019-11-10215551/GP2-pretrain-step-240625.pkl --train_input_file ./data/ss_plus_train_dialogpt.128len.db --eval_input_file ./data/ss_plus_val.tsv --output_dir ./models/ss_plus_finetune_opensub_qa/ --seed 42 --max_seq_length 128 --train_batch_size 512 --gradient_accumulation_steps 32 --eval_batch_size 16 --learning_rate 1e-5 --num_optim_steps 20500 --valid_step 1025 --warmup_steps 10250 --normalize_data true --fp16 false --lr_schedule noam --loss_scale 0.0 --no_token_id true --pbar true
+
+##########################################################
+###### Testing GPT-2 opensub_qa finetuned on SS+ ######
+##########################################################
+python LSP_test2.py --model_type gpt2 --model_name_or_path ./models/small --state_dict ./models/ss_plus_finetune_opensub_qa/GPT2.1e-05.16.1gpu.2019-11-15123950/GP2-pretrain-step-9225.pkl --test_file ./data/src_squad_seq2seq_dev_moses_test_squad_model_predictions.txt --length 25 --n_best 5 --beam_size 20 --stop_token "<|endoftext|>" --out_file predictions/ss_plus_finetuned_opensub_qa/dialoGPT_ss_plus_finetuned_opensub_qa_predictions_on_squad_dev_test_with_squad_model_length_normalized_scores_new_best.txt

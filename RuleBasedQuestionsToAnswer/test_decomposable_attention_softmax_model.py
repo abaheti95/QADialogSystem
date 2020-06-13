@@ -74,6 +74,13 @@ from collections import Counter
 import matplotlib.pyplot as plt 
 plt.rc("font", size=14)
 
+import argparse
+parser = argparse.ArgumentParser()
+
+parser.add_argument("-e", "--elmo", help="Flag to indicate if we want to use elmo embedding", action="store_true")
+args = parser.parse_args()
+
+
 def evaluate(scores, predictions, gold, gold_bucket_indices):
 	acc = metrics.accuracy_score(gold, predictions)
 	roc_auc = metrics.roc_auc_score(gold, scores)
@@ -313,14 +320,20 @@ LOSS_TYPE = "_nll"				# NLL
 # LOSS_TYPE = "_mse"			# MSE
 # EMBEDDING_TYPE = ""
 # EMBEDDING_TYPE = "_glove"
-EMBEDDING_TYPE = "_bert"
+# EMBEDDING_TYPE = "_bert"
 # EMBEDDING_TYPE = "_elmo"
 # EMBEDDING_TYPE = "_elmo_retrained"
 # EMBEDDING_TYPE = "_elmo_retrained_2"
+
+if args.elmo:
+	EMBEDDING_TYPE = "_elmo"
+else:
+	EMBEDDING_TYPE = ""
+
 token_indexers = None
 if EMBEDDING_TYPE == "_elmo" or EMBEDDING_TYPE == "_elmo_retrained" or EMBEDDING_TYPE == "_elmo_retrained_2":
 	token_indexers = {"tokens": ELMoTokenCharactersIndexer()}
-MAX_BATCH_SIZE = 0
+MAX_BATCH_SIZE = 0	# Means all of the responses will be in one batch. Must run on CPU!
 # MAX_BATCH_SIZE = 150 # for bert and elmo
 reader = QuestionResponseSoftmaxReader(token_indexers=token_indexers, max_batch_size=MAX_BATCH_SIZE)
 glove_embeddings_file = os.path.join("data", "glove", "glove.840B.300d.txt")

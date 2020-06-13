@@ -60,6 +60,12 @@ from allennlp.data.token_indexers.elmo_indexer import ELMoTokenCharactersIndexer
 
 import random
 
+import argparse
+parser = argparse.ArgumentParser()
+
+parser.add_argument("-e", "--elmo", help="Flag to indicate if we want to use elmo embedding", action="store_true")
+args = parser.parse_args()
+
 import logging
 logger = logging.getLogger(__name__)  # pylint: disable=invalid-name
 
@@ -237,12 +243,18 @@ LOSS_TYPE = "_nll"
 NEGATIVE_PERCENTAGE = 10
 # EMBEDDING_TYPE = ""
 # EMBEDDING_TYPE = "_glove"
-EMBEDDING_TYPE = "_bert"
+# EMBEDDING_TYPE = "_bert"
 # EMBEDDING_TYPE = "_elmo"
 # EMBEDDING_TYPE = "_elmo_retrained"
 # EMBEDDING_TYPE = "_elmo_retrained_2"
 # MAX_BATCH_SIZE = 0
 MAX_BATCH_SIZE = 150 # for bert and elmo
+
+if args.elmo:
+	EMBEDDING_TYPE = "_elmo"
+else:
+	EMBEDDING_TYPE = ""
+
 token_indexers = None
 if EMBEDDING_TYPE == "_elmo" or EMBEDDING_TYPE == "_elmo_retrained" or EMBEDDING_TYPE == "_elmo_retrained_2":
 	token_indexers = {"tokens": ELMoTokenCharactersIndexer()}

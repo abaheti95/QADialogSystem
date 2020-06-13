@@ -73,6 +73,13 @@ from collections import Counter
 import matplotlib.pyplot as plt 
 plt.rc("font", size=14)
 
+import argparse
+parser = argparse.ArgumentParser()
+
+parser.add_argument("-e", "--elmo", help="Flag to indicate if we want to use elmo embedding", action="store_true")
+args = parser.parse_args()
+
+
 def evaluate(scores, predictions, gold, gold_bucket_indices):
 	acc = metrics.accuracy_score(gold, predictions)
 	roc_auc = metrics.roc_auc_score(gold, scores)
@@ -213,12 +220,13 @@ class QuestionResponseReader(DatasetReader):
 DATA_FOLDER = "train_data"
 SAVED_MODEL_DIR = "saved_models"
 LOSS_TYPE = ""
-# LOSS_TYPE = "_mse"
 NEGATIVE_PERCENTAGE = 10
-EMBEDDING_TYPE = ""
-# EMBEDDING_TYPE = "_glove"
-# EMBEDDING_TYPE = "_bert"
-EMBEDDING_TYPE = "_elmo"
+
+if args.elmo:
+	EMBEDDING_TYPE = "_elmo"
+else:
+	EMBEDDING_TYPE = ""
+
 token_indexers = None
 if EMBEDDING_TYPE == "_elmo":
 	token_indexers = {"tokens": ELMoTokenCharactersIndexer()}

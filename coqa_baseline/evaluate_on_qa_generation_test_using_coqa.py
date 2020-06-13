@@ -35,7 +35,7 @@ else:
 # predictions_save_file = "coqa_predictions_on_squad_seq2seq_predicted_responses_test.txt"
 
 # SQUAD seq2seq dev moses tokenized
-DATA_DIR = os.path.join("/", "home", "baheti", "QADialogueSystem", "RuleBasedQuestionsToAnswer", "squad_seq2seq_dev_moses_tokenized")
+DATA_DIR = os.path.join("..", "RuleBasedQuestionsToAnswer", "squad_seq2seq_dev_moses_tokenized")
 coqa_format_test_save_file = os.path.join(DATA_DIR, "squad_seq2seq_dev_moses_test_coqa_format.json")
 src_squad_seq2seq_predicted_responses_file = os.path.join(DATA_DIR, "src_squad_seq2seq_dev_moses_test.txt")
 predictions_save_file = "coqa_predictions_on_squad_seq2seq_dev_moses_test.txt"

@@ -40,8 +40,8 @@ test_file = os.path.join(DATA_DIR, "test_shortest_count2_squad_final_train_data_
 # 									output_hidden_states=True)
 # tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 # load finetuned model here
-model = BertForSequenceClassification.from_pretrained(os.path.join("/", "home", "baheti", "QADialogueSystem", "pytorch-transformers", "examples", "output"), output_hidden_states=True)
-tokenizer = BertTokenizer.from_pretrained(os.path.join("/", "home", "baheti", "QADialogueSystem", "pytorch-transformers", "examples", "output"))
+model = BertForSequenceClassification.from_pretrained(os.path.join("transformers", "examples", "output"), output_hidden_states=True)
+tokenizer = BertTokenizer.from_pretrained(os.path.join("transformers", "examples", "output"))
 # print("model loaded")
 device = torch.device('cuda')
 model.to(device)

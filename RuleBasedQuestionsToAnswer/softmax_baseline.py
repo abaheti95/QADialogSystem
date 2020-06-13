@@ -442,7 +442,8 @@ def evaluate_and_save_results(best_iteration, theta, data, bucket_indices, score
 
 	return acc, cm, roc_auc, pr_auc, ap, f1_max, p_max, r_max, precision, recall, thresholds, MRR, precision_at_1, counter_all_pos, classification_report, classification_report_str 
 
-for NEGATIVE_PERCENT in [1,5,10,20,50,100]:
+# for NEGATIVE_PERCENT in [1,5,10,20,50,100]:
+for NEGATIVE_PERCENT in [100]:
 	train_file = os.path.join(DATA_DIR, "train_count2_squad_final_train_data_features_{}_negative.tsv".format(NEGATIVE_PERCENT))
 
 	train_data = pd.read_csv(train_file, sep='\t', header=None)

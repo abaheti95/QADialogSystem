@@ -55,10 +55,20 @@ from allennlp.modules.token_embedders.bert_token_embedder import BertEmbedder, P
 from allennlp.modules.token_embedders.elmo_token_embedder import ElmoTokenEmbedder
 from allennlp.data.token_indexers.elmo_indexer import ELMoTokenCharactersIndexer
 
+import argparse
+parser = argparse.ArgumentParser()
+
+parser.add_argument("-e", "--elmo", help="Flag to indicate if we want to use elmo embedding", action="store_true")
+args = parser.parse_args()
+
 import logging
 logger = logging.getLogger(__name__)  # pylint: disable=invalid-name
 
 torch.manual_seed(1)
+
+def make_dir_if_not_exists(directory):
+	if not os.path.exists(directory):
+		os.makedirs(directory)
 
 # we want to ouptut Fields similar to the SNLI reader
 class QuestionResponseReader(DatasetReader):
@@ -123,12 +133,12 @@ class QuestionResponseReader(DatasetReader):
 
 DATA_FOLDER = "train_data"
 LOSS_TYPE = ""
-# LOSS_TYPE = "_mse"
-NEGATIVE_PERCENTAGE = 10
-# EMBEDDING_TYPE = ""
-# EMBEDDING_TYPE = "_glove"
-EMBEDDING_TYPE = "_bert"
-# EMBEDDING_TYPE = "_elmo"
+
+if args.elmo:
+	EMBEDDING_TYPE = "_elmo"
+else:
+	EMBEDDING_TYPE = ""
+
 token_indexers = None
 if EMBEDDING_TYPE == "_elmo":
 	token_indexers = {"tokens": ELMoTokenCharactersIndexer()}
@@ -136,6 +146,8 @@ reader = QuestionResponseReader(token_indexers=token_indexers)
 glove_embeddings_file = os.path.join("data", "glove", "glove.840B.300d.txt")
 # model_save_filename = os.path.join("saved_models", "decomposable_attention_model_{}.th")
 # vocab_save_filepath = os.path.join("saved_models","vocabulary_{}")
+
+make_dir_if_not_exists("saved_models")
 model_save_filename = os.path.join("saved_models", "decomposable_attention{}_model_{}.th")
 vocab_save_filepath = os.path.join("saved_models","vocabulary{}_{}")
 # for NEGATIVE_PERCENTAGE in [1,5,10,20,50,100]:

@@ -665,7 +665,6 @@ def main():
 		torch.distributed.init_process_group(backend='nccl')
 		args.n_gpu = 1
 	args.device = device
-
 	# Setup logging
 	logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
 						datefmt = '%m/%d/%Y %H:%M:%S',
@@ -755,7 +754,7 @@ def main():
 			test_file = os.path.join(DATA_FOLDER, "test_shortest_count2_squad_final_train_data_features_with_new_info.tsv")
 			test_data = pd.read_csv(test_file, sep='\t', header=None)
 			test_bucket_indices = verify_and_generate_bucket_indices(test_data, last_column_index=104)
-			EVAL_FOLDER = os.path.join(DATA_FOLDER, "bert_sfotmax_classifier_results")
+			EVAL_FOLDER = os.path.join(DATA_FOLDER, "bert_softmax_classifier_results")
 			with open(test_file,"r") as in_csv:
 				reader = csv.reader(in_csv, delimiter='\t')
 				result = evaluate(args, processor, model, tokenizer, EVAL_FOLDER, reader, test_bucket_indices, "test")

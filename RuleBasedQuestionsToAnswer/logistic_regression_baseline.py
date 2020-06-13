@@ -293,8 +293,8 @@ def verify_if_bucket_indices_have_one_shortest_response(bucket_indices, shortest
 	return True
 
 
-for NEGATIVE_PERCENT in [1,5,10,20,50,100]:
-# for NEGATIVE_PERCENT in [100]:
+# for NEGATIVE_PERCENT in [1,5,10,20,50,100]:
+for NEGATIVE_PERCENT in [100]:
 	train_file = os.path.join(DATA_DIR, "train_count2_squad_final_train_data_features_{}_negative.tsv".format(NEGATIVE_PERCENT))
 
 	results_image = os.path.join(RESULTS_DIR, "logistic_train_count2_val_count1_{}_negative_squad_final_class_weight{}.png")

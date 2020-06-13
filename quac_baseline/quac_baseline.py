@@ -17,10 +17,10 @@ QUAC_val_file = os.path.join("data", "val_v0.2.json")
 # 	print(instance["metadata"]["answer_texts_list"])
 # 	break
 
-DATA_DIR = os.path.join("/", "home", "baheti", "QADialogueSystem", "RuleBasedQuestionsToAnswer", "squad_seq2seq_train_moses_tokenized")
-quac_format_test_save_file = os.path.join(DATA_DIR, "squad_seq2seq_predicted_responses_test_quac_format.txt")
+# DATA_DIR = os.path.join("..", "RuleBasedQuestionsToAnswer", "squad_seq2seq_train_moses_tokenized")
+# quac_format_test_save_file = os.path.join(DATA_DIR, "squad_seq2seq_predicted_responses_test_quac_format.txt")
 
-DATA_DIR = os.path.join("/", "home", "baheti", "QADialogueSystem", "RuleBasedQuestionsToAnswer", "squad_seq2seq_dev_moses_tokenized")
+DATA_DIR = os.path.join("..", "RuleBasedQuestionsToAnswer", "squad_seq2seq_dev_moses_tokenized")
 quac_format_test_save_file = os.path.join(DATA_DIR, "squad_dev_test_quac_format.txt")
 output_file = "quac_answers_on_squad_dev_test.txt"
 

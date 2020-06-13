@@ -25,7 +25,7 @@ def make_dir_if_not_exists(dir):
 		os.makedirs(dir)
 
 DATA_DIR = "train_data"
-RESULTS_DIR = os.path.join(DATA_DIR, "bert_softmax_final_results")
+# RESULTS_DIR = os.path.join(DATA_DIR, "bert_softmax_final_results")
 RESULTS_DIR = os.path.join(DATA_DIR, "bert_finetuned_softmax_final_results")
 make_dir_if_not_exists(RESULTS_DIR)
 

@@ -33,11 +33,20 @@ To re-train the models
 ## DialoGPT, GPT-2
 Download and extract saved GPT-2, GPT-2-Pre and DGPT models in `"DialoGPT"` folder as follows:
 - `cd DialoGPT`
-- Download [zip file containing saved GPT-2, GPT-2-Pre and DGPT model checkpoints fine-tuned on SS and SS+ data]()
-- `unzip gpt_and_dgpt_models.zip`
+- Download [zip file containing saved GPT-2, GPT-2-Pre and DGPT model checkpoints fine-tuned on SS and SS+ data](https://mega.nz/file/gcpFgJJB#7ArfQapJNZ6jU0GEUU0NutJM677i1xb0vuTKbD8Tf1E)
+- `unzip gpt_and_dgpt_models.zip`  
+   
 For instructions on how to run the models refer to `all_final_model_training_and_testing_commands.txt`
 
+## Citation
+```
+@article{baheti2020fluent,
+  title={Fluent Response Generation for Conversational Question Answering},
+  author={Baheti, Ashutosh and Ritter, Alan and Small, Kevin},
+  journal={arXiv preprint arXiv:2005.10464},
+  year={2020}
+}
+```
+
 ### TODO
-- Add citation
-- Add the link to the gpt-2 and dgpt checkpoints
 - Add the instructions on how to generate STs + BERT baseline predictions on SQuAD Dev Test set
